@@ -3,10 +3,11 @@
 ## Basic Information
 
 - **Name:** Sergio
-- **Title:** Founder & Chief Executive Officer (solo founder — no
-  other employees yet)
+- **Title:** Founder & Chief Executive Officer
 - **Company:** *(working name — TBD)*
-- **Stage:** Pre-product, pre-revenue. Day one.
+- **Stage:** Pre-product, pre-revenue. Team of 2.
+- **Team:** Sergio (CEO) + Maya Delgado (Founding Curriculum
+  Designer — see `team/founding-curriculum-designer.md`)
 
 ## Company Overview
 
@@ -56,33 +57,32 @@ Initial product direction (to be validated):
 - **Bias to action.** Would rather fix a bad decision in week two than
   debate it for a month.
 
-## Current Priorities (Right Now, Solo)
+## Current Priorities (Right Now)
 
-1. **Sharpen the wedge.** Pick the first CTE pathway to attack — the
-   one where legacy content is weakest and a better product is easiest
-   to prove (candidates: IT, Business, Health Science).
-2. **Talk to teachers.** 30+ conversations with active CTE teachers to
-   ground the product in real classroom pain.
-3. **Ship a v0.** A narrow, end-to-end prototype a teacher can actually
-   use for a unit — not a demo.
-4. **Design the hiring plan.** Identify the first 3–5 hires needed to
-   go from prototype to shippable product.
+1. **Sharpen the wedge, with Maya.** Decide the first CTE pathway to
+   attack (IT vs. Business vs. Health Science) using her classroom
+   experience and current teacher demand signals.
+2. **Teacher discovery.** Maya is running 30+ teacher conversations;
+   Sergio sits in on as many as he can stomach.
+3. **Ship a v0.** A narrow, end-to-end prototype a real teacher can
+   use for a real unit — not a demo.
+4. **Recruit the Founding Engineer.** Next critical hire; the
+   prototype can only go so far without full-stack + AI muscle.
 
-## Planned Hiring (Next Wave)
+## Hiring Plan
 
-The first hires will be tightly scoped to build, not manage. Likely
-shape of the early team:
+### Made
+
+- **Founding Curriculum Designer** — Maya Delgado. Hired week 1.
+
+### Next Up
 
 - **Founding Engineer** (full-stack, AI-comfortable) — owns the
   platform.
-- **Founding Curriculum Designer** (former CTE teacher or department
-  lead) — owns content quality and teacher credibility.
 - **Founding Designer** (product + instructional design sensibilities)
   — owns the teacher and student experience.
 - Later: a second engineer, a second curriculum designer per pathway,
   and a go-to-market hire once there's a product worth selling.
-
-*(Specific people to be recruited; no hires made yet.)*
 
 ## What "Done" Looks Like (Long-Term)
 
