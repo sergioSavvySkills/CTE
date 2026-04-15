@@ -5,9 +5,13 @@
 - **Name:** Sergio
 - **Title:** Founder & Chief Executive Officer
 - **Company:** *(working name — TBD)*
-- **Stage:** Pre-product, pre-revenue. Team of 2.
-- **Team:** Sergio (CEO) + Maya Delgado (Founding Curriculum
-  Designer — see `team/founding-curriculum-designer.md`)
+- **Stage:** Pre-product, pre-revenue. Team of 3.
+- **Team:**
+  - Sergio — CEO
+  - Maya Delgado — Founding Curriculum Designer
+    (`team/founding-curriculum-designer.md`)
+  - Daniel Okonkwo — Founding Engineer
+    (`team/founding-engineer.md`)
 
 ## Company Overview
 
@@ -59,28 +63,29 @@ Initial product direction (to be validated):
 
 ## Current Priorities (Right Now)
 
-1. **Sharpen the wedge, with Maya.** Decide the first CTE pathway to
-   attack (IT vs. Business vs. Health Science) using her classroom
-   experience and current teacher demand signals.
-2. **Teacher discovery.** Maya is running 30+ teacher conversations;
-   Sergio sits in on as many as he can stomach.
-3. **Ship a v0.** A narrow, end-to-end prototype a real teacher can
-   use for a real unit — not a demo.
-4. **Recruit the Founding Engineer.** Next critical hire; the
-   prototype can only go so far without full-stack + AI muscle.
+1. **Lock the wedge pathway.** Finalize the IT vs. Business vs.
+   Health Science call off Maya's teacher discovery findings.
+2. **Ship v0.** Maya + Daniel on the first end-to-end unit: authoring
+   tool, learner experience, teacher view. Target: one real CTE
+   teacher running a real unit with real students by Daniel's day 90.
+3. **Teacher Advisory Panel.** Stand up the standing 8–12 teacher
+   panel Maya is recruiting.
+4. **Watch the burn.** Three people, pre-revenue — every dollar buys
+   leverage or it doesn't get spent.
 
 ## Hiring Plan
 
 ### Made
 
 - **Founding Curriculum Designer** — Maya Delgado. Hired week 1.
+- **Founding Engineer** — Daniel Okonkwo. Hired week 6.
 
 ### Next Up
 
-- **Founding Engineer** (full-stack, AI-comfortable) — owns the
-  platform.
 - **Founding Designer** (product + instructional design sensibilities)
-  — owns the teacher and student experience.
+  — owns the teacher and student experience. Hired once v0 is in
+  teachers' hands and we have real signal on what the product should
+  feel like.
 - Later: a second engineer, a second curriculum designer per pathway,
   and a go-to-market hire once there's a product worth selling.
 
