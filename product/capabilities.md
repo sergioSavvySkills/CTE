@@ -83,8 +83,7 @@ the instructional arc (intro, content, checks for understanding,
 close) rather than a bare set of bullet slides.
 
 ### Classwork Generator
-Produces in-class activities — **assessment FOR learning** (practice,
-not measurement). Output spans structured exercises, worksheets,
+Produces in-class activities: structured exercises, worksheets,
 discussion prompts, and applied tasks tied to a lesson's objectives.
 
 Supported sub-types (specified via prompt today, eventually surfaced
@@ -101,7 +100,7 @@ as presets in *More settings...*):
   yet decided.
 
 ### Quiz Generator
-Produces quizzes — **assessment OF learning**. Output is delivered
+Produces quizzes with multiple question types. Output is delivered
 as an auto-gradable assignment inside the LMS Layer.
 
 Supported sub-types (specified via prompt today, eventually surfaced
@@ -124,13 +123,13 @@ check.
 
 ### Design note: Quiz vs. Classwork kept separate
 
-The two generators map to a real pedagogical distinction —
-**assessment OF learning** (Quiz) vs. **assessment FOR learning**
-(Classwork). Keeping them separate preserves conceptual clarity for
-teachers and keeps LMS-sync behavior clean (Quiz flows to the
-gradebook; Classwork does not by default). Merging them into a
-single "question generator" would optimize UI simplicity at the cost
-of a distinction teachers actively use.
+The two generators are deliberately kept as distinct products rather
+than merged into one "question generator." They serve different
+pedagogical purposes (measuring learning vs. practicing toward it),
+they have different LMS-sync behavior (Quiz flows to the gradebook;
+Classwork does not by default), and teachers mentally separate them.
+Merging them would optimize UI simplicity at the cost of a
+distinction teachers actively use.
 
 ### Video Explainer Generator
 Produces explainer videos tied to a lesson topic or learning
