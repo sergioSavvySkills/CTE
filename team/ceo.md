@@ -5,7 +5,8 @@
 - **Name:** Sergio
 - **Title:** Founder & Chief Executive Officer
 - **Company:** *(working name — TBD)*
-- **Stage:** Pre-product, pre-revenue. Team of 2.
+- **Stage:** Pre-revenue. Team of 2. Product in design-partner /
+  private-alpha stage.
 - **Team:** Sergio (CEO) + Maya Delgado (Founding Curriculum
   Designer — see `founding-curriculum-designer.md`)
 
