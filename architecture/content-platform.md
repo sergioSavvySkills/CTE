@@ -144,6 +144,68 @@ recomputed live. If the teacher skips an atom that was the primary
 carrier for a state standard, the report flags that standard as
 at-risk and surfaces alternative atoms that could cover it.
 
+## Content Discovery — How We Know What Atoms to Build
+
+A natural objection to this architecture: if atoms are authored in an
+industry-neutral vocabulary and state standards are only a projection
+on top, how do we know we're building the right atoms? How do we avoid
+shipping a library that a state then tells us is incomplete?
+
+The answer is that atom creation has two drivers, in priority order.
+State standards absolutely do drive what atoms exist — they just do
+not drive what atoms *look like*.
+
+### Primary driver — industry credentials
+
+Each pathway is anchored to one or more national industry credentials
+that publish granular, detailed objective lists. For the IT pathway
+these are, roughly: CompTIA ITF+ / A+ / Network+ / Security+, Cisco
+CCST, Google IT Support. For a Health Science pathway they'd be
+NHA-style certifications; for Culinary, ServSafe and ProStart; for
+Construction, NCCER.
+
+**Rule:** every objective in an anchor credential must have at least
+one atom covering it. This gives us a starting library whose
+completeness is measured against an unambiguous external standard — if
+a student masters every atom tagged to CompTIA A+, that student can
+sit the A+ exam. That is a real outcome, not a standards-compliance
+exercise.
+
+### Secondary driver — state-standards gap detection
+
+When we ingest a new state's framework, the AI crosswalk pipeline
+produces not just a mapping but a **coverage report**: a list of every
+state standard that has no primary-strength atom behind it.
+
+Each uncovered standard becomes an **atom request** in the curriculum
+designer's queue. The designer handles each request by asking *"what
+is the real industry skill behind this standard?"* — never by copying
+the state's language into a lesson title. The resulting atom is
+authored in the shared industry-neutral vocabulary, joins the shared
+library, and benefits every state that later maps to it.
+
+This closes the loop: the atom library is always at least as complete
+as the union of anchor credentials plus every state we have ingested.
+
+### The coverage report is a first-class artifact
+
+Not a side effect of the crosswalk, not a report generated on request
+— a tracked artifact per state, per framework version. When a state
+revises its framework, the coverage report diffs and surfaces newly
+uncovered standards. Stale coverage (standard wording updated after
+the atom was last reviewed) is flagged the same way credential
+updates are.
+
+### Explicit anti-pattern
+
+Writing atoms *from* state standards is forbidden even when it would
+be fastest. Two states' standards that read nearly identically in
+English can have subtly different intents; the moment an atom is
+authored to a state's phrasing, it inherits that state's phrasing
+forever and we have quietly forked content. The industry skill behind
+the standard is the authoring input. The standard's wording is input
+to the crosswalk, nothing more.
+
 ## What Crosses Layer Boundaries (and What Doesn't)
 
 - A course template **references** atoms — never copies them.
