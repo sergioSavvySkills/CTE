@@ -7,7 +7,7 @@
 - **Company:** *(working name — TBD)*
 - **Stage:** Pre-product, pre-revenue. Team of 2.
 - **Team:** Sergio (CEO) + Maya Delgado (Founding Curriculum
-  Designer — see `team/founding-curriculum-designer.md`)
+  Designer — see `founding-curriculum-designer.md`)
 
 ## Company Overview
 
@@ -32,7 +32,7 @@ Initial product direction (to be validated):
   contract lock-in.
 
 The content platform that makes the above possible has a defined
-strategic shape — see `architecture/content-platform.md`.
+strategic shape — see `../foundations/content-platform.md`.
 
 ## Founding Thesis
 
