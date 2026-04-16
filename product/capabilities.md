@@ -19,7 +19,8 @@ The product has two halves that fit together:
 2. **LMS Layer** — the class-execution environment where students
    consume generated content, submit work, and get graded. The LMS
    Layer is interoperable with the teacher's existing LMS (Canvas,
-   Schoology) via roster import and grade sync.
+   Schoology today) through Edlink; students launch into our content
+   via LTI 1.1.
 
 Generators produce artifacts. The LMS Layer delivers those artifacts
 to students and captures the resulting work. Both halves are digital-
@@ -47,17 +48,23 @@ as an auto-gradable assignment inside the LMS Layer.
 
 ### Video Explainer Generator
 Produces explainer videos tied to a lesson topic or learning
-objective. *(Format, length, and generation pipeline: to confirm.)*
+objective. Pipeline: AI-generated images + AI-generated voice-over
+bundled together into a video artifact.
 
 ### Simulation Generator
-Produces interactive simulations students can run inside the
-Presentator. *(Scope of supported simulation types: to confirm —
-useful to document whether this is generic interactive content or
-CTE-specific sims like network labs, OS install flows, etc.)*
+Produces CTE-domain-specific virtual labs tied to a lesson's topic.
+Examples: a Packet-Tracer-style network-routing sim for a lesson on
+how packets are delivered across the internet; a TensorFlow.js-based
+neural-network sim for a lesson on how artificial neural networks
+work. Each generated simulation is a single self-contained HTML file
+that runs entirely client-side — no server-side runtime dependency,
+ships anywhere a browser does.
 
 ### Game Generator
-Produces educational games students can play inside the Presentator.
-*(Format, genre, and generation pipeline: to confirm.)*
+Produces classroom engagement games in formats teachers already run
+in class — Jeopardy, Bingo, and similar. Distinct from simulations:
+these are lightweight, teacher-facilitated activities used to break
+up a lesson or review content, not hands-on labs.
 
 ### Textbook Generator
 Produces textbook chapters. **Current scope: chapter-level only** —
@@ -69,17 +76,38 @@ classroom in natural language; the generator produces a printable
 artifact. Used for anything that doesn't fit a narrower generator
 above.
 
+### Cross-Cutting Generator Capabilities
+
+These apply to every generator above:
+
+- **Multilingual output.** Default generation language is English,
+  but any generator can produce content in a different language at
+  the teacher's request — designed for multilingual classrooms and
+  English-language-learner support.
+- **Accessibility-aware generation.** Generators can adapt output
+  for specific accessibility needs (e.g., dyslexia-friendly
+  formatting). The goal is to make accommodations a generation
+  parameter, not a manual retrofit after the fact.
+
 ## LMS Layer
 
-### Source LMS Integration — Roster & Class Import
-Teachers can import classes and rosters from their existing LMS.
+All integration with external LMSs flows through **Edlink**, a
+consolidated LMS-integration API that abstracts over Canvas,
+Schoology, Google Classroom, ClassLink, Blackboard, D2L Brightspace,
+PowerSchool, and others. We integrate with Edlink once; Edlink
+handles the per-LMS specifics.
 
-- **Supported source LMSs:** Canvas, Schoology.
+- **Currently live:** Canvas, Schoology.
+- **Student content access:** students launch into our content from
+  the source LMS via **LTI 1.1**.
+- **Everything else** — roster import, assignment posting, submission
+  posting, grade passback — goes through the Edlink API.
+
+### Roster & Class Import
+Classes and student rosters are pulled from the source LMS.
+
+- **Direction:** one-way *in* (source LMS → our platform).
 - **Imported data:** classes, student rosters.
-- **Direction:** one-way *in* (source LMS → our platform) for roster
-  and class setup.
-- **Protocol / mechanism:** to confirm (OneRoster, LTI, direct API —
-  document whichever is in use).
 
 ### Presentator (Content Delivery Surface)
 The classroom delivery component where students see generated
@@ -90,22 +118,22 @@ delivery tools.
 
 ### Assignments & Submissions
 Teachers assign generated artifacts (classwork, quizzes, projects)
-to classes. Students complete and submit inside the LMS Layer.
-Submissions are captured and stored on our side.
+to classes. The assignment is posted to the source LMS via Edlink so
+it appears in the teacher's native gradebook. Students launch into
+the assignment via LTI 1.1, complete the work inside our Presentator,
+and submit inside our LMS Layer. Submissions are captured on our
+side and posted back to the source LMS via Edlink.
 
 ### Gradebook
 Student work is graded inside our LMS Layer — auto-graded where
 possible (quizzes) and teacher-graded for open-ended submissions.
 
 ### Grade Sync — Back to Source LMS
-Grades computed on our side are synced back to the teacher's source
-LMS (Canvas, Schoology) so the district-of-record gradebook stays
-the single source of truth for district reporting.
+Grades computed on our side are posted back to the source LMS via
+Edlink so the district-of-record gradebook in Canvas or Schoology
+stays the single source of truth for district reporting.
 
-- **Direction:** one-way *out* (our platform → source LMS) for grades.
-- **Protocol / mechanism:** to confirm (LTI Assignment and Grade
-  Services / OneRoster Gradebook / direct API — document whichever is
-  in use).
+- **Direction:** one-way *out* (our platform → source LMS).
 
 ## What This Enables (End-to-End Teacher Flow)
 
@@ -125,9 +153,9 @@ or report on a unit.
 
 - **Full textbook assembly** — the textbook generator produces
   chapters, not full books.
-- **Deep source-LMS parity** — only roster import (in) and grade
-  sync (out). Assignment round-tripping, announcements, and calendar
-  integration are not in scope yet.
+- **Deeper source-LMS parity** — rostering, assignments, submissions,
+  and grades round-trip via Edlink today; announcements and calendar
+  integration are not yet in scope.
 - **Adaptive delivery / personalization** — content is generated, not
   yet adaptively re-sequenced per learner.
 - **Analytics & reporting beyond the gradebook** — e.g., Perkins V
@@ -138,8 +166,11 @@ or report on a unit.
   content; the atom library + crosswalk + template layers that tie
   content to state standards and course shells are the next
   architectural build-out.
-- **Additional source LMSs** — Google Classroom, PowerSchool, and
-  others are not yet integrated.
+- **Additional source LMSs beyond Canvas and Schoology.** Edlink
+  supports many more (Google Classroom, ClassLink, Blackboard, D2L
+  Brightspace, PowerSchool, etc.) — these are reachable via our
+  existing Edlink integration but are not yet surfaced in product
+  UI or onboarding.
 
 ## Open Questions / To Confirm
 
@@ -147,18 +178,11 @@ These are items in the inventory above where the description is
 accurate at a capability level but the underlying detail is unspecified
 in this doc. Fill in as we have answers.
 
-1. Video Explainer Generator — generation pipeline (AI-generated
-   footage vs. AI voice-over on stock/scripted visuals vs. other),
-   typical output length, delivery format.
-2. Simulation Generator — supported simulation types, whether output
-   is CTE-domain-specific or general-purpose interactive content.
-3. Game Generator — supported game formats / genres, generation
-   pipeline.
-4. Roster import protocol (Canvas and Schoology specifically).
-5. Grade sync protocol (Canvas and Schoology specifically).
-6. Underlying tech stack — languages, frameworks, model providers,
-   hosting. Not captured here yet; document as the Founding Engineer
-   lands and we formalize the stack.
+1. **Underlying tech stack** — languages, frameworks, model providers
+   (image generation, voice generation, text generation — which
+   vendors?), database, hosting, CDN / media pipeline, auth system.
+   Not captured here yet; document as we formalize the stack and the
+   Founding Engineer lands.
 
 ## Relationship to the Content Platform Architecture
 
