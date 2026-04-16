@@ -110,11 +110,13 @@ how packets are delivered across the internet; a TensorFlow.js-based
 neural-network sim for a lesson on how artificial neural networks
 work. Each generated simulation is a single self-contained HTML file
 that runs entirely client-side — no server-side runtime dependency,
-ships anywhere a browser does.
+ships anywhere a browser does. The underlying pipeline is fully
+operational: any generated HTML artifact runs in the Presentator.
 
-*Status: shown as "SOON" in the Generate-With-AI surface — confirm
-whether the simulation generator is operational end-to-end, gated
-behind a feature flag, or still in development.*
+*Open orchestration question (not a generator gap): whether the
+upstream lesson / course generation logic reliably decides **when** a
+lesson actually warrants a simulation. The sim generator works; the
+"should I invoke it?" decision is the fuzzy part.*
 
 ### Game Generator
 Produces classroom engagement games in formats teachers already run
