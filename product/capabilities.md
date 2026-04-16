@@ -12,26 +12,70 @@ Keep this file updated as capabilities ship, mature, or get cut.
 
 ## Architecture at a Glance
 
-The product has two halves that fit together:
+The product is three stages a teacher moves through: **generate →
+edit → deliver**.
 
 1. **Generator Suite** — AI-powered tools that produce digital
-   classroom artifacts from teacher inputs.
-2. **LMS Layer** — the class-execution environment where students
+   classroom artifacts from teacher inputs. Includes a **Course
+   Builder** that produces a full course scope-and-sequence and
+   per-artifact generators for lessons, quizzes, classwork, videos,
+   simulations, games, textbook chapters, and printable material.
+2. **Editor Surface** — in-house editors tailored to each artifact
+   type (slide editor for slide decks, etc.) where teachers edit
+   generated output before delivery — both section-level
+   regeneration and manual editing.
+3. **LMS Layer** — the class-execution environment where students
    consume generated content, submit work, and get graded. The LMS
    Layer is interoperable with the teacher's existing LMS (Canvas,
    Schoology today) through Edlink; students launch into our content
    via LTI 1.1.
 
-Generators produce artifacts. The LMS Layer delivers those artifacts
-to students and captures the resulting work. Both halves are digital-
-first; nothing ships as a static PDF by default.
+Generators produce first drafts. The Editor Surface turns those
+drafts into teacher-owned content. The LMS Layer delivers the
+finished content to students and captures the resulting work. All
+three stages are digital-first; nothing ships as a static PDF by
+default.
 
 ## Generator Suite
 
-Every generator below is operational and produces shippable output.
-Each one takes teacher-provided inputs (topic, learning objective,
-constraints, style preferences) and returns a digital artifact
-consumable in the LMS Layer.
+Most of the generators below are operational today and produce
+shippable output; one is surfaced as "coming soon" (noted in-place).
+Each generator takes teacher-provided inputs and returns a digital
+artifact consumable in the LMS Layer.
+
+### Generation Flow
+
+Every generator follows the same front-end flow:
+
+1. Teacher enters a free-form prompt and picks a state.
+2. The system surfaces relevant state / national standards for the
+   prompt (e.g., for a Maryland Health Science prompt about medical
+   terminology, NCHSE Standard 2.2.1 *"Use common roots, prefixes,
+   and suffixes"* appears).
+3. Each standard item is pre-unpacked into 3–5 concrete learning
+   objectives the teacher can opt into or out of individually.
+4. Teacher selects the standards + LOs to target.
+5. The generator produces the artifact against that selection.
+6. If the generator is invoked with a lesson as context (e.g., the
+   quiz is being generated for a specific lesson), the LOs already
+   attached to the lesson carry through without re-selection —
+   coherence-by-reference across generators.
+
+This is the shared front-end the Course Builder and per-artifact
+generators below all use.
+
+### Course Builder
+
+Produces a full course scope-and-sequence from a high-level input —
+the course topic and the state / pathway context. The Course Builder
+emits a unit-structured course: units, lessons within each unit, and
+the general semester arc. Per-artifact generators (below) then
+produce the actual content inside each slot.
+
+This is the planner tier — it gives a teacher a ready-to-teach
+semester outline rather than a single artifact. *(Exact scope — eager
+vs. lazy generation, editability of unit structure and sequencing,
+whether assessments are built per unit — to confirm.)*
 
 ### Lesson / Slide Deck Generator
 Produces a lesson as a slide deck rendered in the Presentator. Covers
@@ -46,6 +90,14 @@ discussion prompts, and applied tasks tied to a lesson's objectives.
 Produces quizzes with multiple question types. Output is delivered
 as an auto-gradable assignment inside the LMS Layer.
 
+Assessment type (formative check-for-understanding, summative unit
+assessment, credential-prep practice set, etc.) is specified via the
+teacher's prompt — it's a prompt parameter, not a preset option in
+the current UI. *(Open concerns, flagged but not blocking:
+discoverability for teachers who don't use formative/summative
+vocabulary, and output-consistency validation that different
+prompted types produce meaningfully different item shapes.)*
+
 ### Video Explainer Generator
 Produces explainer videos tied to a lesson topic or learning
 objective. Pipeline: AI-generated images + AI-generated voice-over
@@ -59,6 +111,10 @@ neural-network sim for a lesson on how artificial neural networks
 work. Each generated simulation is a single self-contained HTML file
 that runs entirely client-side — no server-side runtime dependency,
 ships anywhere a browser does.
+
+*Status: shown as "SOON" in the Generate-With-AI surface — confirm
+whether the simulation generator is operational end-to-end, gated
+behind a feature flag, or still in development.*
 
 ### Game Generator
 Produces classroom engagement games in formats teachers already run
@@ -88,6 +144,25 @@ These apply to every generator above:
   for specific accessibility needs (e.g., dyslexia-friendly
   formatting). The goal is to make accommodations a generation
   parameter, not a manual retrofit after the fact.
+
+## Editor Surface (Post-Generation)
+
+Every generated artifact opens in a custom-built editor tailored to
+the artifact type — e.g., slide decks open in a slide editor built
+in-house for our slide format (similar in spirit to PowerPoint, but
+specific to our content model). Other artifacts open in their own
+type-appropriate editors.
+
+Inside an editor the teacher can:
+
+- **Regenerate** specific sections — regenerate this slide, regenerate
+  the last three quiz questions, re-voice a segment of an explainer.
+- **Manually edit** any content — text, ordering, structure — the way
+  a teacher would in a conventional editor.
+
+This is the stage that turns an AI-generated draft into teacher-owned
+content. Without it, the generators would be a demo; with it, they're
+a workflow.
 
 ## LMS Layer
 
@@ -138,16 +213,22 @@ stays the single source of truth for district reporting.
 ## What This Enables (End-to-End Teacher Flow)
 
 1. Teacher imports their class + roster from Canvas or Schoology.
-2. Teacher uses the Generator Suite to produce a lesson (slides,
-   classwork, quiz, optional video / simulation / game, optional
-   printable support material, optional textbook chapter).
-3. Teacher runs class through the Presentator; students consume
+2. *(Optional)* Teacher uses the **Course Builder** to produce a
+   full course scope-and-sequence at the start of a semester.
+3. Teacher uses per-artifact generators to produce individual
+   classroom artifacts — lessons, classwork, quizzes, videos,
+   simulations, games, printables, textbook chapters — either inside
+   a Course-Builder-produced course or standalone.
+4. Teacher opens each generated artifact in its **Editor Surface**
+   to regenerate sections, tweak wording, reorder content — making
+   the draft classroom-ready.
+5. Teacher runs class through the **Presentator**; students consume
    content on our platform.
-4. Students complete assignments and submit inside our LMS Layer.
-5. Grades flow back into the teacher's source LMS.
+6. Students complete assignments and submit inside our LMS Layer.
+7. Grades flow back into the teacher's source LMS via Edlink.
 
-The teacher never has to leave this loop to build, deliver, assess,
-or report on a unit.
+The teacher never has to leave this loop to plan, build, customize,
+deliver, assess, or report on a unit.
 
 ## What's Not Built Yet (Explicit Gaps)
 
@@ -161,11 +242,12 @@ or report on a unit.
 - **Analytics & reporting beyond the gradebook** — e.g., Perkins V
   accountability reports, credential-readiness dashboards, district-
   level standards coverage.
-- **State-standards crosswalk and course templates** as described in
-  `../foundations/content-platform.md`. The generators produce
-  content; the atom library + crosswalk + template layers that tie
-  content to state standards and course shells are the next
-  architectural build-out.
+- **State-standards crosswalk and atom library** as described in
+  `../foundations/content-platform.md`. The Course Builder and the
+  standards-surfacing + LO-unpacking flow are the v0 shapes of the
+  architecture's Course Template and atom tiers, but the durable
+  shared atom library, cross-state crosswalk layer, and full
+  atom-based template model are the next architectural build-out.
 - **Additional source LMSs beyond Canvas and Schoology.** Edlink
   supports many more (Google Classroom, ClassLink, Blackboard, D2L
   Brightspace, PowerSchool, etc.) — these are reachable via our
@@ -197,3 +279,16 @@ library and are tagged to industry credentials and state standards.
 Bridging the two — i.e., making the generators produce (or wrap)
 atoms rather than one-off artifacts — is future work and is the most
 important architectural decision the Founding Engineer will face.
+
+Two existing capabilities map cleanly to architecture concepts and
+will be the natural anchor points for that migration:
+
+- The **Course Builder** is the v0 precursor to the architecture's
+  **Course Templates**. Today it emits units + lessons directly;
+  architecturally it should emit a template that composes atoms per
+  slot and tags them to the target state's standards via the
+  crosswalk.
+- The **standards-surfacing + LO-unpacking** step in the Generation
+  Flow already treats learning objectives as the atomic unit of
+  instruction. An LO in the current product is the same competency
+  statement that would anchor an atom in the architecture.
