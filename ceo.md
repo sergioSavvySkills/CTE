@@ -31,6 +31,9 @@ Initial product direction (to be validated):
 - **Distribution model** that undercuts legacy publisher pricing and
   contract lock-in.
 
+The content platform that makes the above possible has a defined
+strategic shape — see `architecture/content-platform.md`.
+
 ## Founding Thesis
 
 1. CTE is the highest-leverage, most under-served segment of K-12 and
