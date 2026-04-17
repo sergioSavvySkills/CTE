@@ -2,7 +2,7 @@
 template_id: ga-ai-applications-2025
 state: GA
 course_name: Artificial Intelligence Applications
-course_code: 11.44500
+course_code: "11.44500"
 subcluster: data-science-ai
 grade_band: HS
 credit_hours: 1
@@ -89,9 +89,9 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: agile-and-github-for-ai-projects
-      - slot: 2
         atom_id: professional-programming-practices
+      - slot: 2
+        atom_id: agile-and-github-for-ai-projects
       - slot: 3
         atom_id: researching-an-ai-problem
       - slot: 4
@@ -127,9 +127,9 @@ units:
     weeks: 3
     slots:
       - slot: 1
-        atom_id: identify-real-world-ai-problem
-      - slot: 2
         atom_id: design-thinking-process
+      - slot: 2
+        atom_id: identify-real-world-ai-problem
       - slot: 3
         atom_id: collaborative-ai-solution-design
       - slot: 4

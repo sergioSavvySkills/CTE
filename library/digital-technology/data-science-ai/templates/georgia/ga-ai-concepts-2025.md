@@ -2,7 +2,7 @@
 template_id: ga-ai-concepts-2025
 state: GA
 course_name: Artificial Intelligence Concepts
-course_code: 11.44400
+course_code: "11.44400"
 subcluster: data-science-ai
 grade_band: HS
 credit_hours: 1
@@ -184,11 +184,11 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: identify-real-world-ai-problem
-      - slot: 2
         atom_id: design-thinking-process
-      - slot: 3
+      - slot: 2
         atom_id: researching-an-ai-problem
+      - slot: 3
+        atom_id: identify-real-world-ai-problem
       - slot: 4
         atom_id: end-to-end-ai-project
     unit_generate:

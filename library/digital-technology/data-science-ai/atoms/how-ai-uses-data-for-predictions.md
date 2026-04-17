@@ -10,7 +10,7 @@ grade_band: HS
 estimated_minutes: 45
 difficulty: 2
 prerequisites:
-  - big-data-and-ai
+  - data-vs-information
 status: draft
 reviewer:
 review_date:

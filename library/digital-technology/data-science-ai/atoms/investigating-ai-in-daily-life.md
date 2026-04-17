@@ -10,7 +10,6 @@ estimated_minutes: 45
 difficulty: 2
 prerequisites:
   - ai-in-everyday-life
-  - supervised-unsupervised-reinforcement-learning
 status: draft
 reviewer:
 review_date:
