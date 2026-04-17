@@ -177,6 +177,10 @@ units:
         atom_id: macos-features
       - slot: 6
         atom_id: linux-features
+      - slot: 7
+        atom_id: process-management
+      - slot: 8
+        atom_id: troubleshoot-windows
     unit_generate:
       game: true
       summative_quiz: true
