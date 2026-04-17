@@ -9,7 +9,7 @@ subject to Maya's review like any ai-draft entry.
 import csv
 import os
 
-CROSSWALK = "/home/user/CTE/library/credentials/clusters/digital-technology/it-support-services/crosswalks/texas/crosswalk.csv"
+CROSSWALK = "/home/user/CTE/library/digital-technology/it-support-services/crosswalks/texas/crosswalk.csv"
 FV = "2015 Adopted"
 
 # (atom_id, standard_code, alignment, rationale)

@@ -14,10 +14,11 @@ import re
 from collections import defaultdict
 
 BASE = "/home/user/CTE"
-ATOM_DIR = f"{BASE}/library/atoms/it-support-services"
-FRAMEWORK = f"{BASE}/library/credentials/clusters/digital-technology/it-support-services/crosswalks/texas/state-framework.csv"
-CROSSWALK = f"{BASE}/library/credentials/clusters/digital-technology/it-support-services/crosswalks/texas/crosswalk.csv"
-TPL_DIR = f"{BASE}/templates/texas/it-support-services"
+SUB = f"{BASE}/library/digital-technology/it-support-services"
+ATOM_DIR = f"{SUB}/atoms"
+FRAMEWORK = f"{SUB}/crosswalks/texas/state-framework.csv"
+CROSSWALK = f"{SUB}/crosswalks/texas/crosswalk.csv"
+TPL_DIR = f"{SUB}/templates/texas"
 
 TEMPLATES = [
     ("130.302", "tx-principles-of-it-2025.md", "Principles of IT"),

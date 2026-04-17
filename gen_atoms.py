@@ -2,7 +2,7 @@
 """Reusable atom generator — reads JSON data file, writes .md files"""
 import json, os, sys
 
-BASE = "/home/user/CTE/library/atoms/it-support-services"
+BASE = "/home/user/CTE/library/digital-technology/it-support-services/atoms"
 os.makedirs(BASE, exist_ok=True)
 
 T = """\
