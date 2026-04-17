@@ -1,0 +1,209 @@
+[
+  {
+    "id": "professional-communication-skills",
+    "title": "Professional Communication Skills",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": [],
+    "obj": "Students will be able to demonstrate effective written, verbal, and listening communication skills appropriate for the technology workplace.",
+    "content": [
+      ["Written communication", "email etiquette, ticket and incident documentation, technical memos, and chat/Slack tone; matching formality to audience (peer, manager, client); clarity, brevity, and correct grammar as professionalism markers"],
+      ["Verbal communication", "structuring a status update, explaining technical concepts to non-technical stakeholders, giving and receiving instructions, handling phone and video calls with clients"],
+      ["Active listening", "paraphrasing to confirm understanding, taking notes during user interviews, avoiding interruption, asking clarifying questions before responding"],
+      ["Nonverbal cues", "eye contact, posture, camera-on expectations on video calls, and reading body language to gauge whether a message is landing"],
+      ["Audience and purpose", "adjusting vocabulary and depth for executives vs. engineers vs. end-users; deciding when an email, a meeting, or a quick message is the right channel"],
+      ["Common pitfalls", "jargon overload, burying the lede, reply-all misuse, defensive tone in written responses, and the difference between urgency and importance"]
+    ],
+    "assess": [
+      "Students rewrite a poorly worded support email into a professional version and justify each edit",
+      "Role-play: one student explains a technical issue verbally while another paraphrases back what they heard; partner scores accuracy",
+      "Short-response: list three clarifying questions to ask when a user reports 'the system is broken' and explain what each reveals"
+    ]
+  },
+  {
+    "id": "creativity-and-innovation-workplace",
+    "title": "Creativity and Innovation in the Workplace",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": [],
+    "obj": "Students will be able to demonstrate creativity and innovation by asking meaningful questions and exploring new methods for completing workplace tasks.",
+    "content": [
+      ["Curiosity as a skill", "asking 'why does this process exist?' and 'what would we do if we started from scratch?'; treating questions as contributions rather than challenges"],
+      ["Divergent vs. convergent thinking", "brainstorming broadly before narrowing; deferring judgment during idea generation; using techniques like mind maps and 'five whys'"],
+      ["Innovative work methods", "identifying repetitive tasks that could be automated, streamlined, or redesigned; suggesting small process improvements without waiting for permission"],
+      ["Idea pitching", "framing an idea with the problem it solves, the proposed change, and the expected benefit; anticipating objections and costs"],
+      ["Learning from failure", "treating experiments that don't work as data, documenting what was learned, and iterating rather than abandoning"],
+      ["Innovation and ethics", "considering who is affected by a change, whether new methods introduce bias or risk, and balancing novelty with reliability"]
+    ],
+    "assess": [
+      "Idea journal: over one week, students log three workplace or classroom processes they would change and why",
+      "Brainstorm exercise: in small groups, generate ten ways to improve a familiar task in three minutes, then pick the most promising and explain the choice",
+      "One-minute pitch: students present an innovative idea following problem/proposal/benefit structure to the class"
+    ]
+  },
+  {
+    "id": "critical-thinking-for-career-planning",
+    "title": "Critical Thinking for Career Planning",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 2,
+    "prereqs": [],
+    "obj": "Students will be able to apply critical-thinking and problem-solving strategies to locate, analyze, and evaluate career and postsecondary information.",
+    "content": [
+      ["Structured problem solving", "defining the decision, identifying options, gathering evidence, weighing trade-offs, and committing to a next step rather than a forever choice"],
+      ["Locating reliable career information", "O*NET, Bureau of Labor Statistics, state labor market data, GeorgiaBEST and GAfutures, professional association sites; distinguishing primary data from marketing copy"],
+      ["Analyzing job postings", "reading required vs. preferred qualifications, decoding salary ranges, identifying repeated skills across postings in a target role"],
+      ["Evaluating postsecondary options", "cost vs. outcome comparisons for technical college, four-year degree, apprenticeship, and certification paths; total cost including time and opportunity cost"],
+      ["Avoiding reasoning traps", "anchoring on the first job seen, confirmation bias, survivorship stories ('my cousin skipped college'), and making long-term decisions from small samples"],
+      ["Decision frameworks", "pros-cons lists, weighted criteria matrices, and setting review checkpoints so a plan can be revisited with new information"]
+    ],
+    "assess": [
+      "Career comparison matrix: students analyze three roles in the AI/data pathway across pay, education, growth, and day-to-day tasks using cited sources",
+      "Job-posting teardown: given two real postings for the same title, students list what is identical, what differs, and what to infer about each employer",
+      "Decision write-up: students draft a one-page plan for their next 24 months with at least two alternative paths and the conditions under which they would switch"
+    ]
+  },
+  {
+    "id": "work-readiness-and-professional-traits",
+    "title": "Work Readiness and Professional Traits",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": [],
+    "obj": "Students will be able to exhibit work-readiness skills including integrity, punctuality, time management, and respect for diversity in professional settings.",
+    "content": [
+      ["Integrity and ethics", "honesty in reporting progress, admitting mistakes, following licensing and data-privacy rules, and the long-term cost of shortcuts"],
+      ["Punctuality and attendance", "arriving prepared for meetings and shifts, communicating early when delays are unavoidable, and understanding how reliability compounds into trust"],
+      ["Time management", "prioritizing with urgent/important framing, breaking work into estimable chunks, using calendars and task lists, and protecting focus time"],
+      ["Respect for diversity", "working effectively with colleagues of different backgrounds, perspectives, abilities, and communication styles; inclusive language; recognizing bias"],
+      ["Accountability", "owning outcomes of your work, following through on commitments, and escalating early when you cannot deliver"],
+      ["Workplace policies", "dress code, acceptable-use, harassment and equal-opportunity policies; knowing how to report concerns and who the trusted channels are"]
+    ],
+    "assess": [
+      "Scenario analysis: for five short workplace scenarios (missed deadline, dishonest peer, exclusionary comment), students describe a professional response",
+      "Time-log exercise: students track one school day in 30-minute blocks and identify two time-management improvements",
+      "Self-assessment rubric: students rate themselves on eight professional traits and set one measurable goal for the semester"
+    ]
+  },
+  {
+    "id": "teamwork-in-technology-workplace",
+    "title": "Teamwork in the Technology Workplace",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": [],
+    "obj": "Students will be able to work both independently and collaboratively as a team member in technology settings, applying skills that contribute to shared deliverables.",
+    "content": [
+      ["Independent work skills", "self-direction on assigned tasks, knowing when to proceed and when to ask; managing your own blockers; producing work that does not require rework"],
+      ["Team roles", "typical tech-team roles including leads, individual contributors, product, design, QA; how responsibilities overlap on small teams"],
+      ["Collaboration tools", "shared documents, version control, issue trackers, stand-ups and retrospectives; async vs. synchronous communication norms"],
+      ["Constructive conflict", "separating ideas from people, disagreeing without personal attacks, committing to a decision once made even if you argued against it"],
+      ["Giving and receiving feedback", "specific and actionable feedback, code and design reviews, receiving critique without defensiveness"],
+      ["Shared accountability", "celebrating wins together, sharing credit, addressing failures as a team rather than seeking individual blame"]
+    ],
+    "assess": [
+      "Group project rubric: students complete a two-session team task and rate their own and peers' contributions against a shared rubric",
+      "Role-play: mediate a disagreement between two teammates about which technical approach to use; document the resolution process",
+      "Reflection: describe one situation where independent work was appropriate and one where teamwork was essential, with reasoning"
+    ]
+  },
+  {
+    "id": "professional-image-presentation",
+    "title": "Professional Image and Presentation",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": [],
+    "obj": "Students will be able to present a professional image through appropriate appearance, behavior, and language in workplace and interview contexts.",
+    "content": [
+      ["Appearance and dress", "industry norms across tech roles (startup casual, business casual, client-facing formal); grooming basics; dressing one level above the daily norm for interviews and presentations"],
+      ["Professional behavior", "handshakes and greetings, meeting etiquette, being on time and prepared, phone and device etiquette during meetings"],
+      ["Professional language", "avoiding slang and profanity in workplace settings, using precise technical vocabulary, code-switching between peer banter and client conversations"],
+      ["Digital presence", "LinkedIn profile basics, GitHub and portfolio hygiene, keeping personal social media content compatible with professional goals"],
+      ["Email and messaging etiquette", "subject lines that summarize, signatures, response-time expectations, and how tone reads differently in text than in person"],
+      ["Representing the organization", "understanding that once on the job you speak for the employer in emails, posts, and public events; brand and confidentiality awareness"]
+    ],
+    "assess": [
+      "Interview-ready self-check: students submit a photo or description of interview attire with a short explanation of why it fits the role",
+      "Digital-footprint audit: review own public social profiles against a professional-image checklist and list three changes",
+      "Email rewrite: given an overly casual email to a manager, students rewrite it for tone, clarity, and professionalism"
+    ]
+  },
+  {
+    "id": "career-technical-student-organizations-overview",
+    "title": "Career and Technical Student Organizations Overview",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": [],
+    "obj": "Students will be able to explain the purpose, mission, and goals of Career and Technical Student Organizations (CTSOs) and identify those aligned with the Information Technology pathway.",
+    "content": [
+      ["What a CTSO is", "a co-curricular student organization that extends CTE classroom learning through competitions, leadership, and service; recognized at local, state, and national levels"],
+      ["Mission and goals", "developing technical skills, leadership, citizenship, and career readiness; integrating CTSO activities into course content rather than treating them as extracurriculars"],
+      ["CTSOs for IT and computer science", "FBLA (Future Business Leaders of America) and TSA (Technology Student Association) are the primary CTSOs for the Georgia IT pathway; both run technology- and computer-science-focused events"],
+      ["Membership structure", "chapter-level officers and advisors, state associations, and national organization; dues, meetings, and typical yearly calendar"],
+      ["Benefits to students", "scholarships, recognition, networking with industry and postsecondary partners, resume and college-application credentials"],
+      ["Integration with coursework", "CTSO projects that align with class standards, teachers as advisors, and how participation reinforces employability skills covered throughout the course"]
+    ],
+    "assess": [
+      "Compare-and-contrast: students build a table of FBLA and TSA showing mission, relevant IT/CS events, membership cost, and typical activities",
+      "Short response: explain in 150 words why a CTSO is considered co-curricular rather than extracurricular",
+      "Interest inventory: students rank five CTSO activity types (competition, leadership, service, travel, networking) and justify their top choice"
+    ]
+  },
+  {
+    "id": "ctso-participation-and-competitions",
+    "title": "CTSO Participation, Competitions, and Leadership",
+    "creds": [],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": ["career-technical-student-organizations-overview"],
+    "obj": "Students will be able to describe CTSO competitive events, leadership development opportunities, and community-service activities, and plan their own participation.",
+    "content": [
+      ["Levels of competition", "region or district, state conferences, and national conferences; how students qualify to advance and typical timelines across the school year"],
+      ["IT and CS competitive events", "coding, cybersecurity, networking, website design, mobile app development, IT fundamentals, and presentation or business-plan events that use technology"],
+      ["Preparing for competition", "studying event guidelines, practicing under time, reviewing rubrics, and iterating on a submission with advisor and peer feedback"],
+      ["Leadership development", "chapter officer roles, running meetings, parliamentary procedure basics, and leadership academies or institutes offered by state and national organizations"],
+      ["Community service and civic engagement", "chapter service projects, partnering with local nonprofits, tech-for-good initiatives such as device refurbishing or digital-literacy tutoring"],
+      ["Planning your year", "mapping competitive events, leadership roles, and service hours onto the school calendar; setting goals and tracking progress with your advisor"]
+    ],
+    "assess": [
+      "Event plan: students pick one IT-focused CTSO competitive event, read its guidelines, and outline a preparation timeline with milestones",
+      "Leadership reflection: describe an officer role or leadership activity of interest and the three skills it would build",
+      "Service proposal: draft a one-page chapter community-service project including goal, audience, tasks, and success measure"
+    ]
+  },
+  {
+    "id": "ai-careers-and-pathway-overview",
+    "title": "AI Careers and Pathway Overview",
+    "creds": ["ms-ai-900::1.1"],
+    "skill": "knowledge",
+    "mins": 45,
+    "diff": 1,
+    "prereqs": [],
+    "obj": "Students will be able to identify career roles across the AI, machine-learning, and data-science pathway, describe salary ranges and educational requirements, and map postsecondary options that support each role.",
+    "content": [
+      ["Core AI/ML/DS roles", "data analyst, data scientist, machine-learning engineer, AI engineer, MLOps engineer, AI product manager, prompt engineer, and applied-research roles; how responsibilities differ across the stack"],
+      ["Adjacent and supporting roles", "data engineer, business intelligence analyst, AI ethicist and policy analyst, annotation and evaluation specialists, and domain experts partnering with AI teams"],
+      ["Salary and market outlook", "typical entry, mid, and senior salary bands in the United States and Georgia metro areas; BLS growth projections; regional clusters including Atlanta tech employers"],
+      ["Educational pathways", "high-school CTE pathway completion, industry certifications (Microsoft AI-900, AWS AI Practitioner, Google), associate and bachelor degrees in CS/data science/statistics, bootcamps, and graduate study for research roles"],
+      ["Postsecondary options in Georgia", "Technical College System of Georgia programs, University System of Georgia institutions with AI/DS programs, dual-enrollment pathways, and registered apprenticeships"],
+      ["Self-alignment", "mapping personal interests (math, coding, communication, design, ethics) to roles; building a multi-year portfolio of coursework, projects, certifications, and CTSO accomplishments that signal readiness"]
+    ],
+    "assess": [
+      "Role research: students document three AI/ML/DS roles including duties, required skills, education, certifications, and Georgia salary range with cited sources",
+      "Pathway map: students draft a visual map from current grade through first full-time role, listing courses, certifications, CTSO events, and postsecondary steps",
+      "Informational interview plan: identify a local professional in a target role and prepare five questions aligned to career decision making"
+    ]
+  }
+]
