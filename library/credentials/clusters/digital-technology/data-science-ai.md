@@ -30,7 +30,7 @@ Analytics.
   is decentralized (no single state list). TX and FL lists require
   manual Excel download to confirm individual credentials.
 
-## Quick reference — 33 credentials
+## Quick reference — 35 credentials
 
 ### Anchor candidates (yes)
 
@@ -52,6 +52,8 @@ Analytics.
 | PCEP Python Programmer | Python Institute | HS | Entry Python. $59. OH yes (3 pt). Cross-cuts with Software Solutions. |
 | PCAP Python Programmer | Python Institute | Both | Intermediate Python w/ OOP. More advanced than PCEP. |
 | Google Data Analytics Certificate | Google/Coursera | Both | ACE-recommended. No proctored exam. ~$49/mo. |
+| CompTIA AI Essentials | CompTIA | HS | Self-paced CompCert (~6 hrs). AI basics, GenAI tools, prompting, ethics. $99. Non-proctored — same IBC eligibility caveat as Google AI Essentials. Launched Jan 2025. |
+| CompTIA AI Prompting Essentials | CompTIA | HS | Self-paced CompCert (6–8 hrs). Prompt crafting, bias evaluation, task automation, ethical AI. $99. Pairs with AI Essentials. Launched Aug 2025. |
 | Google AI Essentials | Google/Coursera | HS | Under 10 hours. GenAI/prompting focus. Very accessible. |
 | Google AI Professional Certificate | Google/Coursera | Both | Launched 2025. 7 modules. Very new. |
 | IBM SkillsBuild: AI Fundamentals | IBM SkillsBuild | HS | FREE. Credly badge. OH yes (1 pt). |
@@ -160,3 +162,8 @@ adoption over the next 12 months.
    count course-completion credentials.
 8. **Ohio point values for newer credentials** — verify whether AWS AI
    Practitioner, CompTIA Data+ V2, and PCED have been added for 2026–27.
+9. **CompTIA CompCert IBC eligibility** — CompTIA AI Essentials and AI
+   Prompting Essentials are self-paced CompCerts (non-proctored). Confirm
+   whether any of the 7 states count CompCert-style credentials for IBC
+   credit, and watch for CompTIA to release a proctored AI exam that would
+   change this calculus.
