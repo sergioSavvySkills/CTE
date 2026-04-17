@@ -10,7 +10,7 @@ grade_band: HS
 estimated_minutes: 45
 difficulty: 2
 prerequisites:
-  - ai-for-real-world-problems-and-future-of-work
+  - future-of-work-with-ai
 status: draft
 reviewer:
 review_date:

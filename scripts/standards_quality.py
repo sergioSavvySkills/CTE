@@ -1,56 +1,44 @@
 #!/usr/bin/env python3
 """Standards-match quality report.
 
-Goes beyond "is every TEKS covered" to ask "how well is it covered":
+Goes beyond "is every standard covered" to ask "how well is it covered":
 - Primary vs supporting alignment ratio per course
 - ai-draft vs reviewed source ratio per course
-- Alignment depth: atoms per TEKS (1 = thin, 3+ = strong)
-- Orphan atoms: atoms in template that hit zero TEKS (scope creep signal)
-- Weak TEKS: standards covered only by supporting-strength rows
+- Alignment depth: atoms per standard (1 = thin, 3+ = strong)
+- Orphan atoms: atoms in template that hit zero standards (scope creep)
+- Weak standards: covered only by supporting-strength rows
+
+Usage:
+    python3 scripts/standards_quality.py                          # defaults: IT-Support/Texas
+    python3 scripts/standards_quality.py --sub data-science-ai --state georgia
 """
+import argparse
 import csv
 import os
 import re
+import yaml
 from collections import defaultdict
 
 BASE = "/home/user/CTE"
-SUB = f"{BASE}/library/digital-technology/it-support-services"
-ATOM_DIR = f"{SUB}/atoms"
-FRAMEWORK = f"{SUB}/crosswalks/texas/state-framework.csv"
-CROSSWALK = f"{SUB}/crosswalks/texas/crosswalk.csv"
-TPL_DIR = f"{SUB}/templates/texas"
 
-TEMPLATES = [
-    ("130.302", "tx-principles-of-it-2025.md", "Principles of IT"),
-    ("130.303", "tx-computer-maintenance-2025.md", "Computer Maintenance"),
-    ("130.304", "tx-computer-maintenance-lab-2025.md", "CM Lab"),
-]
+CLUSTER_OF = {
+    "it-support-services": "digital-technology",
+    "data-science-ai": "digital-technology",
+    "network-systems-cybersecurity": "digital-technology",
+    "software-solutions": "digital-technology",
+    "web-cloud": "digital-technology",
+    "unmanned-vehicle-technology": "digital-technology",
+}
 
 
-def load_crosswalk():
-    rows = []
-    with open(CROSSWALK) as f:
-        for r in csv.DictReader(f):
-            rows.append(r)
-    return rows
-
-
-def teks_by_course():
-    out = defaultdict(list)
-    with open(FRAMEWORK) as f:
-        for r in csv.DictReader(f):
-            out[r["course_code"]].append(r["standard_code"])
-    return out
-
-
-def atom_credentials(atom_id):
-    path = os.path.join(ATOM_DIR, atom_id + ".md")
+def atom_credentials(atom_dir, atom_id):
+    path = os.path.join(atom_dir, atom_id + ".md")
+    if not os.path.exists(path):
+        return []
     with open(path) as f:
         txt = f.read()
     m = re.search(r"credential_objectives:(.*?)(?:\nskill_type:|\Z)", txt, re.S)
-    if not m:
-        return []
-    return re.findall(r"-\s+([^\s\n]+)", m.group(1))
+    return re.findall(r"-\s+([^\s\n]+)", m.group(1)) if m else []
 
 
 def template_atoms(path):
@@ -58,63 +46,98 @@ def template_atoms(path):
         return re.findall(r"atom_id:\s+([\w-]+)", f.read())
 
 
-def main():
-    rows = load_crosswalk()
-    course_teks = teks_by_course()
+def template_meta(path):
+    with open(path) as f:
+        txt = f.read()
+    m = re.match(r"---\n(.*?)\n---", txt, re.S)
+    return yaml.safe_load(m.group(1)) if m else {}
 
-    # key -> list of (standard_code, alignment_strength, source)
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--sub", default="it-support-services")
+    p.add_argument("--state", default="texas")
+    args = p.parse_args()
+
+    cluster = CLUSTER_OF.get(args.sub)
+    if not cluster:
+        raise SystemExit(f"Unknown subcluster '{args.sub}'.")
+
+    sub_dir = f"{BASE}/library/{cluster}/{args.sub}"
+    atom_dir = f"{sub_dir}/atoms"
+    framework = f"{sub_dir}/crosswalks/{args.state}/state-framework.csv"
+    crosswalk = f"{sub_dir}/crosswalks/{args.state}/crosswalk.csv"
+    tpl_dir = f"{sub_dir}/templates/{args.state}"
+
+    standards_by_course = defaultdict(list)
+    with open(framework) as f:
+        for r in csv.DictReader(f):
+            standards_by_course[r["course_code"]].append(r["standard_code"])
+
+    rows = []
+    with open(crosswalk) as f:
+        rows = list(csv.DictReader(f))
+
     key_to_rows = defaultdict(list)
     for r in rows:
         key_to_rows[r["atom_id"]].append(
             (r["standard_code"], r["alignment_strength"], r["source"])
         )
 
-    print(f"{'Course':<34} {'TEKS':>4} {'Cov%':>5} {'Prim':>5} {'Supp':>5} {'Rev':>4} {'Drft':>4} {'Thin':>4}")
-    print("-" * 72)
+    templates = []
+    for fname in sorted(os.listdir(tpl_dir)):
+        if not fname.endswith(".md") or fname.startswith("_"):
+            continue
+        meta = template_meta(os.path.join(tpl_dir, fname))
+        templates.append((str(meta.get("course_code", "?")), fname, meta.get("course_name", "?")))
 
-    for code, fname, title in TEMPLATES:
-        atoms = template_atoms(os.path.join(TPL_DIR, fname))
-        all_teks = set(course_teks[code])
+    print(f"## {args.sub} ({args.state}) — Standards Quality Report")
+    print()
+    print(f"{'Course':<50} {'Std':>4} {'Cov%':>5} {'Prim':>5} {'Supp':>5} {'Rev':>4} {'Drft':>4} {'Thin':>4}")
+    print("-" * 86)
 
-        # teks -> list of (atom, strength, source)
-        teks_hits = defaultdict(list)
-        atom_hits_teks = defaultdict(set)
+    for code, fname, title in templates:
+        atoms = template_atoms(os.path.join(tpl_dir, fname))
+        all_std = set(standards_by_course[code])
+
+        std_hits = defaultdict(list)
+        atom_hits = defaultdict(set)
         for a in atoms:
-            keys = [a] + atom_credentials(a)
+            keys = [a] + atom_credentials(atom_dir, a)
             for k in keys:
                 for std, strength, source in key_to_rows.get(k, []):
-                    if std in all_teks:
-                        teks_hits[std].append((a, strength, source))
-                        atom_hits_teks[a].add(std)
+                    if std in all_std:
+                        std_hits[std].append((a, strength, source))
+                        atom_hits[a].add(std)
 
-        covered = set(teks_hits.keys())
-        primary_teks = {t for t, hits in teks_hits.items() if any(h[1] == "primary" for h in hits)}
-        supporting_only = {t for t in covered if t not in primary_teks}
-        reviewed_teks = {t for t, hits in teks_hits.items() if any(h[2] != "ai-draft" for h in hits)}
-        ai_draft_only = {t for t in covered if t not in reviewed_teks}
-        thin_teks = {t for t, hits in teks_hits.items() if len(hits) == 1}
-        orphan_atoms = [a for a in atoms if not atom_hits_teks[a]]
+        covered = set(std_hits.keys())
+        primary = {t for t, h in std_hits.items() if any(x[1] == "primary" for x in h)}
+        supp_only = {t for t in covered if t not in primary}
+        reviewed = {t for t, h in std_hits.items() if any(x[2] != "ai-draft" for x in h)}
+        ai_only = {t for t in covered if t not in reviewed}
+        thin = {t for t, h in std_hits.items() if len(h) == 1}
+        orphans = [a for a in atoms if not atom_hits[a]]
 
-        pct = 100 * len(covered) / len(all_teks)
+        pct = 100 * len(covered) / len(all_std) if all_std else 0
+        label = f"{code} {title}"[:48]
         print(
-            f"{code + ' ' + title:<34} {len(all_teks):>4} {pct:>4.0f}% "
-            f"{len(primary_teks):>5} {len(supporting_only):>5} "
-            f"{len(reviewed_teks):>4} {len(ai_draft_only):>4} "
-            f"{len(thin_teks):>4}"
+            f"{label:<50} {len(all_std):>4} {pct:>4.0f}% "
+            f"{len(primary):>5} {len(supp_only):>5} "
+            f"{len(reviewed):>4} {len(ai_only):>4} "
+            f"{len(thin):>4}"
         )
-
-        if orphan_atoms:
-            print(f"    orphan atoms (no TEKS hit): {len(orphan_atoms)} \u2014 {', '.join(orphan_atoms[:5])}" + (" ..." if len(orphan_atoms) > 5 else ""))
-        if supporting_only:
-            print(f"    supporting-only TEKS: {', '.join(sorted(supporting_only)[:5])}" + (" ..." if len(supporting_only) > 5 else ""))
+        if orphans:
+            print(f"    orphan atoms (no standard hit): {len(orphans)} — {', '.join(orphans[:5])}" + (" ..." if len(orphans) > 5 else ""))
+        if supp_only:
+            print(f"    supporting-only standards: {', '.join(sorted(supp_only)[:5])}" + (" ..." if len(supp_only) > 5 else ""))
 
     print()
     print("Legend:")
-    print("  Prim = TEKS with at least one primary-strength row")
-    print("  Supp = TEKS with only supporting-strength rows (weaker coverage)")
-    print("  Rev  = TEKS backed by at least one reviewed (non-ai-draft) row")
-    print("  Drft = TEKS backed only by ai-draft rows (pending SME review)")
-    print("  Thin = TEKS hit by exactly one atom (single point of failure)")
+    print("  Prim = standards with at least one primary-strength row")
+    print("  Supp = standards with only supporting-strength rows (weaker)")
+    print("  Rev  = standards backed by a reviewed (non-ai-draft) row")
+    print("  Drft = standards backed only by ai-draft rows (pending SME)")
+    print("  Thin = standards hit by exactly one atom (single point of failure)")
 
 
 if __name__ == "__main__":

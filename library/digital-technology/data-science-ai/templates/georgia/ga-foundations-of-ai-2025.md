@@ -2,7 +2,7 @@
 template_id: ga-foundations-of-ai-2025
 state: GA
 course_name: Foundations of Artificial Intelligence
-course_code: 11.44300
+course_code: "11.44300"
 subcluster: data-science-ai
 grade_band: HS
 credit_hours: 1
@@ -88,10 +88,8 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: how-ai-uses-data-for-predictions
-      - slot: 2
         atom_id: teachable-machine-introduction
-      - slot: 3
+      - slot: 2
         atom_id: supervised-unsupervised-reinforcement-learning
     unit_generate:
       game: false
@@ -142,6 +140,8 @@ units:
       - slot: 6
         atom_id: big-data-and-ai
       - slot: 7
+        atom_id: how-ai-uses-data-for-predictions
+      - slot: 8
         atom_id: boolean-logic-for-ai
     unit_generate:
       game: true

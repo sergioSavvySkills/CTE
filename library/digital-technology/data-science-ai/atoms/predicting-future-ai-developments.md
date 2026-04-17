@@ -9,7 +9,7 @@ grade_band: HS
 estimated_minutes: 45
 difficulty: 3
 prerequisites:
-  - ai-industry-trends
+  - current-ai-research-and-events
 status: draft
 reviewer:
 review_date:
