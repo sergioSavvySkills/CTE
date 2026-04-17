@@ -27,14 +27,22 @@ Prereq: Foundations of AI (11.44300). Each atom is 45 minutes.
 units:
   - unit_id: u01
     title: "Professional Foundations Review"
-    weeks: 1
+    weeks: 2
     slots:
       - slot: 1
         atom_id: professional-communication-skills
       - slot: 2
-        atom_id: work-readiness-and-professional-traits
+        atom_id: creativity-and-innovation-workplace
       - slot: 3
+        atom_id: critical-thinking-for-career-planning
+      - slot: 4
+        atom_id: work-readiness-and-professional-traits
+      - slot: 5
         atom_id: teamwork-in-technology-workplace
+      - slot: 6
+        atom_id: professional-image-presentation
+      - slot: 7
+        atom_id: career-technical-student-organizations-overview
     unit_generate:
       game: false
       summative_quiz: true
@@ -74,17 +82,25 @@ units:
 
   - unit_id: u04
     title: "OOP Foundations for AI"
-    weeks: 3
+    weeks: 4
     slots:
       - slot: 1
-        atom_id: programming-paradigms-overview
+        atom_id: computational-thinking
       - slot: 2
-        atom_id: oop-classes-objects-instances
+        atom_id: python-data-types
       - slot: 3
-        atom_id: oop-methods-and-relationships
+        atom_id: python-control-flow
       - slot: 4
-        atom_id: python-operators-and-expressions
+        atom_id: python-collections-and-data-organization
       - slot: 5
+        atom_id: programming-paradigms-overview
+      - slot: 6
+        atom_id: oop-classes-objects-instances
+      - slot: 7
+        atom_id: oop-methods-and-relationships
+      - slot: 8
+        atom_id: python-operators-and-expressions
+      - slot: 9
         atom_id: python-functions-and-returns
     unit_generate:
       game: false
@@ -173,6 +189,8 @@ units:
         atom_id: design-thinking-process
       - slot: 3
         atom_id: researching-an-ai-problem
+      - slot: 4
+        atom_id: end-to-end-ai-project
     unit_generate:
       game: false
       summative_quiz: false

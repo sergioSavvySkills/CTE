@@ -29,14 +29,24 @@ Each atom is 45 minutes.
 units:
   - unit_id: u01
     title: "Professional Foundations and Industry Context"
-    weeks: 1
+    weeks: 2
     slots:
       - slot: 1
         atom_id: professional-communication-skills
       - slot: 2
-        atom_id: work-readiness-and-professional-traits
+        atom_id: creativity-and-innovation-workplace
       - slot: 3
+        atom_id: critical-thinking-for-career-planning
+      - slot: 4
+        atom_id: work-readiness-and-professional-traits
+      - slot: 5
+        atom_id: teamwork-in-technology-workplace
+      - slot: 6
+        atom_id: professional-image-presentation
+      - slot: 7
         atom_id: productive-collaboration-and-diversity
+      - slot: 8
+        atom_id: career-technical-student-organizations-overview
     unit_generate:
       game: false
       summative_quiz: true
