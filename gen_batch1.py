@@ -2,7 +2,7 @@
 """Generate Batch 1: Foundation atoms (6 files)"""
 import os
 
-BASE = "/home/user/CTE/library/atoms/it-support-services"
+BASE = "/home/user/CTE/library/digital-technology/it-support-services/atoms"
 os.makedirs(BASE, exist_ok=True)
 
 atoms = {

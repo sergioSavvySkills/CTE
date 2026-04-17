@@ -19,9 +19,10 @@ import yaml
 from collections import defaultdict
 
 BASE = "/home/user/CTE"
-ATOM_DIR = f"{BASE}/library/atoms/it-support-services"
-TPL_DIR = f"{BASE}/templates/texas/it-support-services"
-OUT = f"{BASE}/crosswalks/texas-it-support-sme-review.md"
+SUB = f"{BASE}/library/digital-technology/it-support-services"
+ATOM_DIR = f"{SUB}/atoms"
+TPL_DIR = f"{SUB}/templates/texas"
+OUT = f"{SUB}/crosswalks/texas/sme-review.md"
 
 TEMPLATES = [
     ("130.302", "tx-principles-of-it-2025.md", "Principles of IT"),
