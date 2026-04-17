@@ -1,54 +1,57 @@
 #!/usr/bin/env python3
-"""Coverage report: template slots -> atoms -> credentials -> TEKS.
+"""Coverage report: template slots -> atoms -> credentials -> state standards.
 
-For each Texas course template, determines which TEKS are covered by at
-least one slot and which TEKS have zero coverage. A TEKS is "covered"
-if any atom in any slot maps (via its credential_objectives) to that
-TEKS in the Texas crosswalk.
+For each template, determines which state standards are covered by at
+least one slot and which are uncovered. A standard is "covered" if
+any atom in any slot maps (via its credential_objectives, or via a
+direct atom→standard crosswalk row) to that standard.
+
+Usage:
+    python3 scripts/coverage_report.py                          # defaults: IT-Support / Texas
+    python3 scripts/coverage_report.py --sub data-science-ai --state georgia
 """
+import argparse
 import csv
 import os
 import re
 from collections import defaultdict
 
 BASE = "/home/user/CTE"
-SUB = f"{BASE}/library/digital-technology/it-support-services"
-ATOM_DIR = f"{SUB}/atoms"
-FRAMEWORK = f"{SUB}/crosswalks/texas/state-framework.csv"
-CROSSWALK = f"{SUB}/crosswalks/texas/crosswalk.csv"
-TPL_DIR = f"{SUB}/templates/texas"
-OUT = f"{SUB}/crosswalks/texas/coverage-report.md"
 
-TEMPLATES = {
-    "130.302": "tx-principles-of-it-2025.md",
-    "130.303": "tx-computer-maintenance-2025.md",
-    "130.304": "tx-computer-maintenance-lab-2025.md",
+CLUSTER_OF = {
+    "it-support-services": "digital-technology",
+    "data-science-ai": "digital-technology",
+    "network-systems-cybersecurity": "digital-technology",
+    "software-solutions": "digital-technology",
+    "web-cloud": "digital-technology",
+    "unmanned-vehicle-technology": "digital-technology",
 }
 
 
-def load_teks_by_course():
+def load_standards_by_course(framework_csv):
     by_course = defaultdict(list)
     texts = {}
-    with open(FRAMEWORK) as f:
+    names = {}
+    with open(framework_csv) as f:
         for r in csv.DictReader(f):
             by_course[r["course_code"]].append(r["standard_code"])
             texts[r["standard_code"]] = r["standard_text"]
-    return by_course, texts
+            names[r["course_code"]] = r["course_name"]
+    return by_course, texts, names
 
 
-def load_credential_to_teks():
-    cred_to_teks = defaultdict(set)
-    with open(CROSSWALK) as f:
+def load_credential_to_standards(crosswalk_csv):
+    cred_to_std = defaultdict(set)
+    with open(crosswalk_csv) as f:
         for r in csv.DictReader(f):
-            cred_to_teks[r["atom_id"]].add(r["standard_code"])
-    return cred_to_teks
+            cred_to_std[r["atom_id"]].add(r["standard_code"])
+    return cred_to_std
 
 
-def atom_credentials(atom_id):
-    path = os.path.join(ATOM_DIR, atom_id + ".md")
-    if not os.path.exists(path):
+def atom_credentials(atom_path):
+    if not os.path.exists(atom_path):
         return []
-    with open(path) as f:
+    with open(atom_path) as f:
         txt = f.read()
     m = re.search(r"credential_objectives:(.*?)(?:\nskill_type:|\Z)", txt, re.S)
     if not m:
@@ -63,56 +66,87 @@ def template_atoms(template_path):
     return re.findall(r"atom_id:\s+([\w-]+)", txt)
 
 
-def main():
-    teks_by_course, teks_text = load_teks_by_course()
-    cred_to_teks = load_credential_to_teks()
+def template_course_code(template_path):
+    with open(template_path) as f:
+        txt = f.read()
+    m = re.search(r"^course_code:\s*([\w\.\-]+)", txt, re.M)
+    return m.group(1) if m else None
 
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--sub", default="it-support-services")
+    p.add_argument("--state", default="texas")
+    args = p.parse_args()
+
+    cluster = CLUSTER_OF.get(args.sub)
+    if not cluster:
+        raise SystemExit(f"Unknown subcluster '{args.sub}'.")
+
+    sub_dir = f"{BASE}/library/{cluster}/{args.sub}"
+    atom_dir = f"{sub_dir}/atoms"
+    framework = f"{sub_dir}/crosswalks/{args.state}/state-framework.csv"
+    crosswalk = f"{sub_dir}/crosswalks/{args.state}/crosswalk.csv"
+    tpl_dir = f"{sub_dir}/templates/{args.state}"
+    out = f"{sub_dir}/crosswalks/{args.state}/coverage-report.md"
+
+    standards_by_course, std_text, course_names = load_standards_by_course(framework)
+    cred_to_std = load_credential_to_standards(crosswalk)
+
+    templates = {}
+    for fname in sorted(os.listdir(tpl_dir)):
+        if not fname.endswith(".md") or fname.startswith("_"):
+            continue
+        code = template_course_code(os.path.join(tpl_dir, fname))
+        if code:
+            templates[code] = fname
+
+    header = f"# {args.sub} ({args.state}) — Standards Coverage Report"
     lines = [
-        "# Texas IT Support — TEKS Coverage Report",
+        header,
         "",
-        "Derived coverage per course via the slot \u2192 atom \u2192 credential \u2192 TEKS chain.",
+        "Derived coverage per course via the slot \u2192 atom \u2192 credential \u2192 standard chain "
+        "(plus any direct atom\u2192standard rows in crosswalk.csv).",
         "Generated by `scripts/coverage_report.py`.",
-        "",
-        "> **Interpreting low coverage:** if an atom obviously covers a TEKS yet that TEKS still shows as uncovered, the gap is in `crosswalk.csv`, not in the template. The crosswalk is still a partial AI draft pending Maya's review \u2014 many TEKS have no credential-objective mapping yet. Uncovered TEKS below fall into two buckets: (a) crosswalk rows missing (fix in crosswalk.csv), (b) atom missing from template or library (fix in template or author new atom).",
         "",
     ]
 
-    for code, fname in TEMPLATES.items():
-        tpl = os.path.join(TPL_DIR, fname)
+    for code, fname in templates.items():
+        tpl = os.path.join(tpl_dir, fname)
         atoms = template_atoms(tpl)
-        all_teks = set(teks_by_course[code])
+        all_std = set(standards_by_course.get(code, []))
         covered = set()
         for a in atoms:
-            keys = [a] + atom_credentials(a)
+            keys = [a] + atom_credentials(os.path.join(atom_dir, a + ".md"))
             for k in keys:
-                for t in cred_to_teks.get(k, ()):
-                    if t in all_teks:
+                for t in cred_to_std.get(k, ()):
+                    if t in all_std:
                         covered.add(t)
-        missing = sorted(all_teks - covered)
-        pct = 100 * len(covered) / len(all_teks) if all_teks else 0
+        missing = sorted(all_std - covered)
+        pct = 100 * len(covered) / len(all_std) if all_std else 0
 
         lines += [
-            f"## {code} \u2014 {fname}",
+            f"## {code} — {course_names.get(code, '')} ({fname})",
             "",
             f"- Atoms in template: **{len(atoms)}** ({len(set(atoms))} unique)",
-            f"- TEKS in framework: **{len(all_teks)}**",
-            f"- TEKS covered: **{len(covered)}** ({pct:.0f}%)",
-            f"- TEKS uncovered: **{len(missing)}**",
+            f"- Standards in framework: **{len(all_std)}**",
+            f"- Standards covered: **{len(covered)}** ({pct:.0f}%)",
+            f"- Standards uncovered: **{len(missing)}**",
             "",
         ]
         if missing:
-            lines.append("### Uncovered TEKS")
+            lines.append("### Uncovered standards")
             lines.append("")
             for t in missing:
-                lines.append(f"- `{t}` \u2014 {teks_text.get(t, '')[:140]}")
+                lines.append(f"- `{t}` — {std_text.get(t, '')[:140]}")
             lines.append("")
         else:
             lines.append("_Full coverage._\n")
 
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w") as f:
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w") as f:
         f.write("\n".join(lines))
-    print(f"Wrote {OUT}")
+    print(f"Wrote {out}")
 
 
 if __name__ == "__main__":
