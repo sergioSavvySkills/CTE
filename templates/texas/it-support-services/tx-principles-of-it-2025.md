@@ -38,6 +38,8 @@ units:
         atom_id: critical-thinking-problem-solving
       - slot: 6
         atom_id: it-safety-procedures
+      - slot: 7
+        atom_id: documentation-and-ticketing-systems
     unit_generate:
       game: false
       summative_quiz: true
@@ -155,6 +157,14 @@ units:
         atom_id: data-value-and-intellectual-property
       - slot: 7
         atom_id: software-licensing
+      - slot: 8
+        atom_id: malware-detection-and-removal
+        generate:
+          lesson: true
+          classwork: applied_task
+          quiz: exit_ticket
+          simulation: true
+          video: false
     unit_generate:
       game: true
       summative_quiz: true
@@ -227,6 +237,8 @@ units:
       - slot: 2
         atom_id: programming-language-categories
       - slot: 3
+        atom_id: ai-concepts-in-it
+      - slot: 4
         atom_id: algorithms-and-logic
         generate:
           lesson: true

@@ -82,8 +82,9 @@ def main():
         all_teks = set(teks_by_course[code])
         covered = set()
         for a in atoms:
-            for cred in atom_credentials(a):
-                for t in cred_to_teks.get(cred, ()):
+            keys = [a] + atom_credentials(a)
+            for k in keys:
+                for t in cred_to_teks.get(k, ()):
                     if t in all_teks:
                         covered.add(t)
         missing = sorted(all_teks - covered)

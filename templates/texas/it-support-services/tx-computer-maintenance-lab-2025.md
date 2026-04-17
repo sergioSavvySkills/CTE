@@ -62,6 +62,12 @@ units:
         atom_id: change-management
       - slot: 6
         atom_id: it-environmental-impacts
+      - slot: 7
+        atom_id: ai-concepts-in-it
+      - slot: 8
+        atom_id: leadership-and-teamwork-it
+      - slot: 9
+        atom_id: data-value-and-intellectual-property
     unit_generate:
       game: false
       summative_quiz: true
