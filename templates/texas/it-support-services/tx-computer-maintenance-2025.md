@@ -40,8 +40,6 @@ units:
         atom_id: critical-thinking-problem-solving
       - slot: 6
         atom_id: it-safety-procedures
-      - slot: 7
-        atom_id: documentation-and-ticketing-systems
     unit_generate:
       game: false
       summative_quiz: true
@@ -60,6 +58,8 @@ units:
           simulation: false
           video: true
       - slot: 2
+        atom_id: documentation-and-ticketing-systems
+      - slot: 3
         atom_id: change-management
     unit_generate:
       game: false
@@ -96,6 +96,8 @@ units:
       - slot: 1
         atom_id: internal-components
       - slot: 2
+        atom_id: ram-fundamentals
+      - slot: 3
         atom_id: motherboard-and-cpu-installation
         generate:
           lesson: true
@@ -103,8 +105,6 @@ units:
           quiz: exit_ticket
           simulation: false
           video: true
-      - slot: 3
-        atom_id: ram-fundamentals
       - slot: 4
         atom_id: troubleshoot-motherboards-ram-cpus
     unit_generate:
@@ -195,11 +195,11 @@ units:
       - slot: 2
         atom_id: software-licensing
       - slot: 3
-        atom_id: application-architecture-and-delivery-models
+        atom_id: virtualization-concepts
       - slot: 4
         atom_id: cloud-computing
       - slot: 5
-        atom_id: virtualization-concepts
+        atom_id: application-architecture-and-delivery-models
     unit_generate:
       game: false
       summative_quiz: true

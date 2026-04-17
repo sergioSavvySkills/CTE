@@ -73,9 +73,9 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: computing-devices-overview
-      - slot: 2
         atom_id: hardware-components-overview
+      - slot: 2
+        atom_id: computing-devices-overview
       - slot: 3
         atom_id: internal-components
         generate:
@@ -233,12 +233,6 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: programming-concepts
-      - slot: 2
-        atom_id: programming-language-categories
-      - slot: 3
-        atom_id: ai-concepts-in-it
-      - slot: 4
         atom_id: algorithms-and-logic
         generate:
           lesson: true
@@ -246,6 +240,12 @@ units:
           quiz: exit_ticket
           simulation: false
           video: true
+      - slot: 2
+        atom_id: programming-concepts
+      - slot: 3
+        atom_id: programming-language-categories
+      - slot: 4
+        atom_id: ai-concepts-in-it
     unit_generate:
       game: false
       summative_quiz: true
@@ -258,9 +258,9 @@ units:
       - slot: 1
         atom_id: web-design-terminology
       - slot: 2
-        atom_id: design-principles
-      - slot: 3
         atom_id: visual-design-elements
+      - slot: 3
+        atom_id: design-principles
       - slot: 4
         atom_id: html-fundamentals
       - slot: 5

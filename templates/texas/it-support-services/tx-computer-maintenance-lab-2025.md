@@ -51,22 +51,12 @@ units:
       - slot: 3
         atom_id: professional-communication-it
       - slot: 4
-        atom_id: documentation-and-ticketing-systems
-        generate:
-          lesson: true
-          classwork: applied_task
-          quiz: exit_ticket
-          simulation: true
-          video: false
-      - slot: 5
         atom_id: change-management
-      - slot: 6
-        atom_id: it-environmental-impacts
-      - slot: 7
+      - slot: 5
         atom_id: ai-concepts-in-it
-      - slot: 8
+      - slot: 6
         atom_id: leadership-and-teamwork-it
-      - slot: 9
+      - slot: 7
         atom_id: data-value-and-intellectual-property
     unit_generate:
       game: false
@@ -86,6 +76,14 @@ units:
           simulation: true
           video: false
       - slot: 2
+        atom_id: documentation-and-ticketing-systems
+        generate:
+          lesson: true
+          classwork: applied_task
+          quiz: exit_ticket
+          simulation: true
+          video: false
+      - slot: 3
         atom_id: critical-thinking-problem-solving
     unit_generate:
       game: false
@@ -113,7 +111,7 @@ units:
           simulation: true
           video: false
       - slot: 3
-        atom_id: motherboard-and-cpu-installation
+        atom_id: ram-fundamentals
         generate:
           lesson: true
           classwork: applied_task
@@ -121,7 +119,7 @@ units:
           simulation: true
           video: false
       - slot: 4
-        atom_id: ram-fundamentals
+        atom_id: motherboard-and-cpu-installation
         generate:
           lesson: true
           classwork: applied_task
@@ -178,8 +176,12 @@ units:
           simulation: true
           video: false
       - slot: 4
-        atom_id: display-components
+        atom_id: peripheral-devices
       - slot: 5
+        atom_id: cables-and-connectors
+      - slot: 6
+        atom_id: display-components
+      - slot: 7
         atom_id: troubleshoot-display
         generate:
           lesson: true
@@ -187,10 +189,6 @@ units:
           quiz: exit_ticket
           simulation: true
           video: false
-      - slot: 6
-        atom_id: peripheral-devices
-      - slot: 7
-        atom_id: cables-and-connectors
       - slot: 8
         atom_id: printers-and-maintenance
       - slot: 9
@@ -250,7 +248,7 @@ units:
       - slot: 3
         atom_id: windows-features-and-tools
       - slot: 4
-        atom_id: windows-cli
+        atom_id: file-management
         generate:
           lesson: true
           classwork: applied_task
@@ -258,7 +256,7 @@ units:
           simulation: true
           video: false
       - slot: 5
-        atom_id: process-management
+        atom_id: windows-cli
         generate:
           lesson: true
           classwork: applied_task
@@ -266,7 +264,7 @@ units:
           simulation: true
           video: false
       - slot: 6
-        atom_id: file-management
+        atom_id: process-management
         generate:
           lesson: true
           classwork: applied_task
@@ -425,6 +423,8 @@ units:
           quiz: exit_ticket
           simulation: true
           video: false
+      - slot: 4
+        atom_id: it-environmental-impacts
     unit_generate:
       game: false
       summative_quiz: true
