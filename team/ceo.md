@@ -8,7 +8,9 @@
 - **Stage:** Pre-revenue. Team of 2. Product in design-partner /
   private-alpha stage.
 - **Team:** Sergio (CEO) + Maya Delgado (Founding Curriculum
-  Designer — see `founding-curriculum-designer.md`)
+  Designer — see `founding-curriculum-designer.md`) + Jordan Ellis
+  (Director of Curriculum, AI Literacy — see
+  `director-of-curriculum-ai-literacy.md`)
 
 ## Company Overview
 
