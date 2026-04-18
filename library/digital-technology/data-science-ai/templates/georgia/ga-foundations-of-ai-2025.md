@@ -22,45 +22,43 @@ history, applications, intro programming in Python, data fundamentals,
 AI ethics, and Design Thinking. Each atom is a 45-minute period;
 block-schedule teachers combine two atoms per day.
 
+Georgia's Standard 1 (employability) and Standard 9 (CTSO) text says
+these elements should be *integrated throughout the course, not
+treated as a separate body of knowledge.* This template threads
+employability atoms across the units where students authentically
+practice the skill (communicating findings, collaborating on ML
+experiments, meeting coding deadlines, presenting a portfolio), and
+bookends CTSO atoms at course launch and capstone.
+
 ```yaml
 units:
   - unit_id: u01
-    title: "Professional Foundations and AI Careers"
-    weeks: 2
+    title: "Course Launch: Careers and AI Pathway"
+    weeks: 1
     slots:
       - slot: 1
         atom_id: ai-careers-and-pathway-overview
       - slot: 2
-        atom_id: professional-communication-skills
-      - slot: 3
-        atom_id: critical-thinking-for-career-planning
-      - slot: 4
-        atom_id: work-readiness-and-professional-traits
-      - slot: 5
-        atom_id: teamwork-in-technology-workplace
-      - slot: 6
-        atom_id: creativity-and-innovation-workplace
-      - slot: 7
-        atom_id: professional-image-presentation
-      - slot: 8
         atom_id: career-technical-student-organizations-overview
+      - slot: 3
+        atom_id: what-is-artificial-intelligence
     unit_generate:
       game: false
       summative_quiz: true
-      performance_task: true
+      performance_task: false
 
   - unit_id: u02
-    title: "What Is AI? History and Evolution"
+    title: "AI History and Domains"
     weeks: 2
     slots:
       - slot: 1
-        atom_id: what-is-artificial-intelligence
-      - slot: 2
         atom_id: history-of-ai-evolution
-      - slot: 3
+      - slot: 2
         atom_id: ai-problem-solving-across-eras
-      - slot: 4
+      - slot: 3
         atom_id: ai-domains-ml-nlp-cv
+      - slot: 4
+        atom_id: critical-thinking-for-career-planning
     unit_generate:
       game: true
       summative_quiz: true
@@ -80,6 +78,8 @@ units:
         atom_id: ai-in-art-and-creative-fields
       - slot: 5
         atom_id: future-of-work-with-ai
+      - slot: 6
+        atom_id: creativity-and-innovation-workplace
     unit_generate:
       game: false
       summative_quiz: true
@@ -97,6 +97,8 @@ units:
         atom_id: teachable-machine-introduction
       - slot: 4
         atom_id: exploring-bias-with-teachable-machine
+      - slot: 5
+        atom_id: teamwork-in-technology-workplace
     unit_generate:
       game: false
       summative_quiz: true
@@ -124,6 +126,8 @@ units:
         atom_id: comments-documentation-and-ux
       - slot: 9
         atom_id: programming-paradigms-overview
+      - slot: 10
+        atom_id: work-readiness-and-professional-traits
     unit_generate:
       game: false
       summative_quiz: true
@@ -162,6 +166,8 @@ units:
         atom_id: data-visualization-basics
       - slot: 4
         atom_id: data-analysis-for-decisions
+      - slot: 5
+        atom_id: professional-communication-skills
     unit_generate:
       game: false
       summative_quiz: true
@@ -211,8 +217,10 @@ units:
         atom_id: current-ai-research-and-events
       - slot: 3
         atom_id: ai-industry-trends
+      - slot: 4
+        atom_id: professional-image-presentation
     unit_generate:
       game: false
-      summative_quiz: false
+      summative_quiz: true
       performance_task: true
 ```
