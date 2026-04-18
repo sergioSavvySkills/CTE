@@ -15,25 +15,154 @@ start here.
 ## What "done" looks like for a lesson
 
 Every lesson ships as a slide deck rendered in the **Presentator**.
-A lesson is classroom-ready when the deck covers this arc:
+Real CTE teachers shift between three lesson shapes depending on what
+kind of atom they're teaching. Pick one of the three below *before*
+running the generator.
 
-1. **Hook** (1 slide) — a question, a case, a startling stat, a
-   short video. Makes a student want to know what comes next.
-2. **Objective** (1 slide) — "today you'll be able to…" in plain
-   English. Written for a 14-year-old, not a standards document.
-3. **Direct instruction** (4–8 slides) — the content. Terminology,
-   examples, diagrams. Short: I'd rather have 6 tight slides than 12
-   mushy ones.
-4. **Application activity** (2–6 slides) — where students *do*
-   something with the content. **This is the part that's been missing
-   from most of our stub atoms.** See the taxonomy below.
-5. **Check for understanding** (1–2 slides) — a 2-to-3-item exit
-   ticket, not a quiz. Teacher sees mastery before the bell.
-6. **Close** (1 slide) — what's next, what to bring tomorrow.
+### Selection table (pick Shape first)
 
-Budget: ~45 minutes. If the deck can't run in 45 minutes with room to
-breathe, it's too long. Generators over-produce; the editor is where
-you cut.
+| atom `skill_type` | Default Shape |
+|---|---|
+| `knowledge` | A — Gradual Release |
+| `skill` | B — Workshop Model |
+| `both` | C — 5E / Inquiry (if discoverable) else A |
+
+### Shape A — Gradual Release (default for knowledge atoms)
+
+Hook (1 slide) → Objective (1) → Direct instruction (4–8) → Guided
+application (2–4) → Check for understanding (1–2) → Close (1).
+
+The Madeline Hunter / I-Do-We-Do-You-Do arc. Use for conceptual,
+vocabulary, or framework lessons where students need the content
+*before* they can apply it.
+
+CTE examples I've taught: medical-terminology word parts, AI history,
+networking fundamentals, the Troubleshooting Methodology lesson in
+any IT pathway.
+
+### Shape B — Workshop Model (default for skill atoms)
+
+Hook (1) → Objective + quick demo (2–3) → **Work time / lab
+(20–25 min)** → Share out (2–3) → Close (1).
+
+Thinner instruction, much bigger practice block. Use for hands-on
+skill-building where the best teaching is watching the teacher do it
+once, then doing it yourself while the teacher coaches. Simulation
+atoms almost always live in Shape B.
+
+CTE examples: Teachable Machine training, router-config lab, PC
+assembly, Pandas debugging session, a knife-technique lesson in
+Culinary I.
+
+### Shape C — 5E / Inquiry (for `both` atoms when content is discoverable)
+
+Engage (1–2 slides: phenomenon or question) → Explore (hands-on or
+dataset exploration, 10–15 min, *before* vocabulary is introduced) →
+Explain (3–5: teacher names what students just observed) →
+Elaborate (1–2: extension) → Evaluate (1–2).
+
+Use when students can *see the pattern before hearing the rule*.
+The Explore phase front-loads the hands-on; the Explain phase pays
+the conceptual debt afterward. Strong for ethics lessons, bias
+discovery, data patterns, any content where the phenomenon is
+accessible without vocabulary.
+
+CTE examples: an "explore a dataset and notice what's weird about
+it" lesson, a bias-discovery lab with Teachable Machine, an ethics
+case study that opens with the facts before naming the framework.
+
+Fall back to Shape A if the `both` atom is too dense to discover
+from scratch — e.g., a lesson on Python OOP with methods vs.
+functions isn't a Shape C lesson, it's Shape A.
+
+### Budget and cuts
+
+All three shapes fit in a 45-minute period with room to breathe. If
+a deck can't run in 45 minutes, it's too long — generators
+over-produce, the editor is where you cut. Block-schedule teachers
+combine two 45-minute decks per day.
+
+## Delivery mode — voice-over slides or video-first
+
+Two modes, used interchangeably per lesson based on content fit.
+Designer records `delivery_mode: voice-over | video-first` in the
+lesson frontmatter, and adds a one-line `delivery_rationale` only
+when the choice is non-obvious.
+
+The **"slides + live teacher voice"** option is intentionally NOT a
+named mode. Both modes below ship with a deck that has narration or
+video; teachers can always mute the audio and present live over the
+visuals if they want. That's an inherent capability of the decks,
+not a third mode.
+
+### Mode 1 — Voice-over slides (the default for most lessons)
+
+Every slide ships with AI-generated narration. Teacher runs class:
+plays the deck, pauses to add context, asks the class questions
+between slides, mutes a slide and presents live where their own
+expertise adds value.
+
+**Pick this when:**
+- Content is mostly conceptual, vocabulary, or framework-driven
+  (Shape A lessons).
+- Lesson is a Shape B where narration sets up the activity and the
+  teacher coaches during work time.
+- Discovery-style Shape C where narration carries the Engage /
+  Explain / Evaluate phases and students do hands-on Explore in
+  between.
+
+**Why this is the default:**
+
+- **Teacher relief.** The deck does the heavy narration; teacher
+  pauses to add their own value rather than carrying every minute on
+  the mic. This is the single biggest teacher-product win I've
+  heard in 9 years of teacher conversations.
+- **Consistent baseline.** Every student in every cohort sees the
+  same canonical explanation, regardless of teacher.
+- **Asynchronous compatibility.** Same deck works for in-class,
+  flipped, makeup, and remote without re-authoring.
+- **ELL support.** Narration models pronunciation; captions follow
+  the audio for free.
+
+**Constraint:** every slide edit requires voice-over re-render.
+Treat voice-over decks as "freeze when ready" — iterate the textual
+deck first, then render narration once the content is stable.
+
+### Mode 2 — Video-first opening (interchangeable alternative)
+
+Lesson opens with a 3–5 minute explainer video (Video Explainer
+Generator) covering the core concept, then transitions into slides
+for application, check, and close.
+
+**Pick this when:**
+- Content is highly visual or dynamic and a still-image slide would
+  degrade it (packets routing across a WAN, mitosis, transistor
+  switching, how blood flows through the heart, how an algorithm
+  sorts a list).
+- Concept benefits from a single canonical animated explanation
+  shared across cohorts and across teachers (math-heavy or
+  diagram-heavy topics where teacher delivery varies widely).
+- Story flows better as video than as slides (lab walkthroughs,
+  field-tour openers, real-practitioner interviews).
+
+**Constraint:** respect the attention cliff. No explainer over 5
+minutes without a deliberate pause-and-interact checkpoint built
+into the deck immediately after.
+
+### Always-on constraints (regardless of mode)
+
+Both modes bind to these rules:
+
+1. **Hook videos at the start of a Mode 1 lesson are 60–90 seconds
+   max.** Mode 2's opener is the longer 3–5 minute video.
+2. **Embedded concept-explainer clips inside a slide are 90–180
+   seconds max** in either mode. They are inline, not lesson
+   replacements.
+3. **Every lesson has one application activity** (from the 12-type
+   taxonomy below).
+4. **Every lesson has a check for understanding** built into the
+   deck as a 2–3 item interactive — both modes need this in-deck so
+   the lesson stands alone for absent / async students.
 
 ## The activity taxonomy — what goes in slide set #4
 
@@ -167,20 +296,26 @@ Class-wide snap poll. Use the Presentator's live-poll slide.
 Lightweight activation, not sole application activity — pair with one
 of #1–#11.
 
-## Activity choice by atom skill_type
+## Activity choice by atom skill_type (inside the Shape)
 
-The atom's `skill_type` frontmatter (`knowledge` | `skill` | `both`)
-decides which families to pick from:
+Once you've picked the Shape from the atom's `skill_type` (see the
+Selection table above), pick the activity type that fits the slot
+the Shape defines for it:
 
-- **knowledge atoms:** comparison, sort/classify, sequencing, data
-  interpretation, decision tree, prediction.
-- **skill atoms:** simulation, diagnosis, design challenge,
-  error-spotting, role-play.
-- **both:** combine one of each kind.
+- **Shape A (knowledge atom):** the "Guided application" slot takes
+  comparison, sort/classify, sequencing, data interpretation,
+  decision tree, or prediction.
+- **Shape B (skill atom):** the "Work time / lab" block takes
+  simulation, diagnosis, design challenge, error-spotting, or
+  role-play. This is the big block; the activity *is* most of the
+  lesson.
+- **Shape C (both atom, discoverable):** the "Explore" phase takes
+  data interpretation, diagnosis, or design challenge; the
+  "Elaborate" phase takes comparison or decision tree.
 
-Do not pair a knowledge atom with a simulation. Do not teach a skill
-atom with only comparison cases. If the atom says "apply," the
-activity must require applying.
+Do not pair a knowledge atom with a simulation. Do not teach a
+skill atom with only comparison cases. If the atom says "apply,"
+the activity must require applying.
 
 ## Unit-level activity mix
 
@@ -205,8 +340,9 @@ Which product generator produces which part of a lesson:
 | Lesson part | Generator | Notes |
 |---|---|---|
 | Slide deck (hook → close) | **Lesson / Slide Deck Generator** | Produces the deck; activity slides inline |
+| Voice-over narration on the deck | **Voice-over render pipeline** (Mode 1 finishing step) | AI narration per slide; freeze when content stable |
 | Simulation embedded in deck | **Simulation Generator** | Self-contained HTML; stays inside deck |
-| Explainer video on a slide | **Video Explainer Generator** | Use sparingly — can't beat a short human demo every time |
+| Video on a slide | **Video Explainer Generator** | Three uses per delivery rules: 60–90s hook opener (Mode 1), 90–180s embedded concept-explainer (either mode), 3–5 min video-first opener (Mode 2). Never longer than 5 min without an interact checkpoint. |
 | Exit ticket | **Quiz Generator** (sub-type: exit ticket) | 3 items, end of class |
 | Take-home practice | **Classwork Generator** (sub-type: independent practice) | Homework placement |
 | Unit-end review | **Game Generator** (Jeopardy / Bingo) | Unit-close only |
@@ -246,6 +382,13 @@ atoms:
 - A unit where 4+ lessons use the same activity type.
 - A skill-type atom paired with a knowledge-type activity (comparison
   when the atom requires doing).
+- A Shape that doesn't match the atom's `skill_type` — e.g., a Shape
+  A lesson on a skill atom, or a Shape C on a dense atom that can't
+  be discovered from scratch.
+- `delivery_mode` missing from the lesson frontmatter, or set to
+  `video-first` without a `delivery_rationale` that cites a Mode 2
+  condition (dynamic/visual content, canonical-explanation need, or
+  video-native storytelling).
 - An activity so long it eats the direct-instruction time; activities
   serve content, they don't replace it.
 - Employability/soft-skill content presented as a standalone lesson
