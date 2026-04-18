@@ -10,7 +10,6 @@ estimated_minutes: 45
 difficulty: 3
 prerequisites:
   - teachable-machine-introduction
-  - ai-bias-privacy-accuracy
 status: draft
 reviewer:
 review_date:

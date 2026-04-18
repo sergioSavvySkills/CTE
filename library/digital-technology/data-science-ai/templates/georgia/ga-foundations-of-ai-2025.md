@@ -73,10 +73,12 @@ units:
       - slot: 1
         atom_id: ai-in-everyday-life
       - slot: 2
-        atom_id: investigating-ai-in-daily-life
+        atom_id: data-vs-information
       - slot: 3
-        atom_id: ai-in-art-and-creative-fields
+        atom_id: investigating-ai-in-daily-life
       - slot: 4
+        atom_id: ai-in-art-and-creative-fields
+      - slot: 5
         atom_id: future-of-work-with-ai
     unit_generate:
       game: false
@@ -88,12 +90,16 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: teachable-machine-introduction
+        atom_id: how-ai-uses-data-for-predictions
       - slot: 2
         atom_id: supervised-unsupervised-reinforcement-learning
+      - slot: 3
+        atom_id: teachable-machine-introduction
+      - slot: 4
+        atom_id: exploring-bias-with-teachable-machine
     unit_generate:
       game: false
-      summative_quiz: false
+      summative_quiz: true
       performance_task: true
 
   - unit_id: u05
@@ -132,16 +138,12 @@ units:
       - slot: 2
         atom_id: basic-data-types-computers-use
       - slot: 3
-        atom_id: data-vs-information
-      - slot: 4
         atom_id: data-processing-cycle
-      - slot: 5
+      - slot: 4
         atom_id: bits-and-binary-representation
-      - slot: 6
+      - slot: 5
         atom_id: big-data-and-ai
-      - slot: 7
-        atom_id: how-ai-uses-data-for-predictions
-      - slot: 8
+      - slot: 6
         atom_id: boolean-logic-for-ai
     unit_generate:
       game: true
@@ -172,12 +174,10 @@ units:
       - slot: 1
         atom_id: ai-bias-privacy-accuracy
       - slot: 2
-        atom_id: exploring-bias-with-teachable-machine
-      - slot: 3
         atom_id: ai-ethics-and-philosophy
-      - slot: 4
+      - slot: 3
         atom_id: legal-and-regulatory-landscape-of-ai
-      - slot: 5
+      - slot: 4
         atom_id: ai-for-good-organizations
     unit_generate:
       game: false
