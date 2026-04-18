@@ -22,15 +22,14 @@ Students will be able to use a no-code web tool (Google Teachable Machine or Wek
 
 ## Content stub
 
-- **Tool overview:** Google Teachable Machine — browser-based, no-code ML for image/sound/pose classification
-- **Gather samples:** use webcam or uploaded images to create at least two classes (e.g., happy vs. sad faces)
-- **Train the model:** click 'Train Model' — the tool uses transfer learning from MobileNet; takes ~30 seconds
-- **Test predictions:** preview live predictions; see confidence scores; identify misclassifications
-- **Export and share:** download the model as TensorFlow.js, TFLite, or keras; embed in a webpage or Python
-- **Iterate:** add more training samples for weak classes; balance the dataset; retest
+Skill lesson — students build and test a classifier in one 45-min session. Export/deployment is out of scope (belongs in Applications).
+
+- **Tool overview:** Google Teachable Machine — browser-based, no-code image/sound/pose classifier; no install required
+- **Gather samples:** webcam captures; at least 30 samples per class; visually distinct classes required
+- **Train the model:** click Train Model; transfer learning from MobileNet runs in ~30 seconds in-browser
+- **Test and explain:** preview live predictions; read confidence scores; identify misclassifications and explain why they happen (background, lighting, sample variety)
 
 ## Assessment stub
 
-- Hands-on: build and train a 2-class image classifier (e.g., with/without glasses); achieve >80% test accuracy
-- Document: write a 1-paragraph reflection on what surprised you about training
-- Troubleshoot: identify one type of example your model got wrong and hypothesize why
+- Hands-on: train a 2-class image classifier; hit ≥80% accuracy on new test images
+- Troubleshoot: identify one example your model got wrong and write one sentence explaining why
