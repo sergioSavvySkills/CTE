@@ -22,23 +22,22 @@ this template leans on lessons, videos, and formative quizzes while the
 companion Lab template handles the hands-on simulations against the same
 atom sequence. Aligned primarily to CompTIA A+ Core 1 objectives.
 
+TEKS §130.303(c)(1) employability elements are **integrated throughout
+the course**: critical-thinking, documentation, and professional
+communication land in u02 Troubleshooting Methodology (where they are
+literally practiced on every ticket); work-behaviors in u09 (handling
+licensing/compliance professionally); leadership/teamwork in u11
+Emerging Technologies (capstone team recommendation).
+
 ```yaml
 units:
   - unit_id: u01
-    title: "Professional Practice in Computer Technology"
-    weeks: 2
+    title: "Course Launch: IT Careers and Lab Safety"
+    weeks: 1
     slots:
       - slot: 1
         atom_id: career-exploration-it-pathway
       - slot: 2
-        atom_id: work-behaviors-professional-standards
-      - slot: 3
-        atom_id: professional-communication-it
-      - slot: 4
-        atom_id: leadership-and-teamwork-it
-      - slot: 5
-        atom_id: critical-thinking-problem-solving
-      - slot: 6
         atom_id: it-safety-procedures
     unit_generate:
       game: false
@@ -47,7 +46,7 @@ units:
 
   - unit_id: u02
     title: "Troubleshooting Methodology"
-    weeks: 1
+    weeks: 2
     slots:
       - slot: 1
         atom_id: troubleshooting-methodology
@@ -58,13 +57,17 @@ units:
           simulation: false
           video: true
       - slot: 2
-        atom_id: documentation-and-ticketing-systems
+        atom_id: critical-thinking-problem-solving
       - slot: 3
+        atom_id: documentation-and-ticketing-systems
+      - slot: 4
+        atom_id: professional-communication-it
+      - slot: 5
         atom_id: change-management
     unit_generate:
       game: false
       summative_quiz: true
-      performance_task: false
+      performance_task: true
 
   - unit_id: u03
     title: "Digital Logic and Data Representation"
@@ -200,6 +203,8 @@ units:
         atom_id: cloud-computing
       - slot: 5
         atom_id: application-architecture-and-delivery-models
+      - slot: 6
+        atom_id: work-behaviors-professional-standards
     unit_generate:
       game: false
       summative_quiz: true
@@ -230,12 +235,14 @@ units:
 
   - unit_id: u11
     title: "Emerging Technologies in Computing"
-    weeks: 1
+    weeks: 2
     slots:
       - slot: 1
         atom_id: ai-concepts-in-it
       - slot: 2
         atom_id: it-environmental-impacts
+      - slot: 3
+        atom_id: leadership-and-teamwork-it
     unit_generate:
       game: false
       summative_quiz: true

@@ -32,11 +32,20 @@ Lab-only atoms (diagnostic tools, OS install, BIOS flashing, backup &
 recovery, disaster-recovery planning) are added in the units where they
 reinforce the concurrent theory material.
 
+TEKS §130.304(c)(1) employability elements are **integrated throughout
+the course**: safety stays at u01 (lab courses legitimately teach
+safety before touching equipment), but the remaining soft-skills
+thread across units where they are authentically practiced —
+critical thinking + documentation + professional communication + work
+behaviors all land in u02 Applied Troubleshooting (every ticket
+exercises them), leadership/teamwork lands in u03 the team assembly
+unit.
+
 ```yaml
 units:
   - unit_id: u01
-    title: "Safety, Ethics, and the Work Order"
-    weeks: 2
+    title: "Lab Safety, Work Orders, and IP Responsibility"
+    weeks: 1
     slots:
       - slot: 1
         atom_id: it-safety-procedures
@@ -47,25 +56,17 @@ units:
           simulation: true
           video: false
       - slot: 2
-        atom_id: work-behaviors-professional-standards
-      - slot: 3
-        atom_id: professional-communication-it
-      - slot: 4
-        atom_id: change-management
-      - slot: 5
-        atom_id: ai-concepts-in-it
-      - slot: 6
-        atom_id: leadership-and-teamwork-it
-      - slot: 7
         atom_id: data-value-and-intellectual-property
+      - slot: 3
+        atom_id: change-management
     unit_generate:
       game: false
       summative_quiz: true
-      performance_task: true
+      performance_task: false
 
   - unit_id: u02
     title: "Applied Troubleshooting Methodology"
-    weeks: 1
+    weeks: 2
     slots:
       - slot: 1
         atom_id: troubleshooting-methodology
@@ -76,6 +77,8 @@ units:
           simulation: true
           video: false
       - slot: 2
+        atom_id: critical-thinking-problem-solving
+      - slot: 3
         atom_id: documentation-and-ticketing-systems
         generate:
           lesson: true
@@ -83,12 +86,14 @@ units:
           quiz: exit_ticket
           simulation: true
           video: false
-      - slot: 3
-        atom_id: critical-thinking-problem-solving
+      - slot: 4
+        atom_id: professional-communication-it
+      - slot: 5
+        atom_id: work-behaviors-professional-standards
     unit_generate:
       game: false
       summative_quiz: true
-      performance_task: false
+      performance_task: true
 
   - unit_id: u03
     title: "Component Identification and System Assembly"
@@ -142,6 +147,8 @@ units:
           quiz: exit_ticket
           simulation: true
           video: false
+      - slot: 7
+        atom_id: leadership-and-teamwork-it
     unit_generate:
       game: true
       summative_quiz: true
@@ -425,6 +432,8 @@ units:
           video: false
       - slot: 4
         atom_id: it-environmental-impacts
+      - slot: 5
+        atom_id: ai-concepts-in-it
     unit_generate:
       game: false
       summative_quiz: true

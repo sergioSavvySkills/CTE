@@ -20,30 +20,30 @@ Broad survey of the IT field for grades 9–10. Builds digital-literacy
 fundamentals and prepares students for CompTIA ITF+. Each atom is a
 45-minute period; block-schedule teachers combine two atoms per day.
 
+TEKS §130.302(c)(1) employability elements are **integrated
+throughout the course** (not a front-loaded filler unit): professional
+communication lands in u07 Word Processing (where students actually
+write documents), critical thinking in u05 Networking (troubleshooting
+is critical thinking in action), work behaviors in u04 OS (workstation
+hygiene and professional account management), and leadership/teamwork
+in the u12 Web Design Capstone (team project).
+
 ```yaml
 units:
   - unit_id: u01
-    title: "Professional Foundations and the IT Pathway"
-    weeks: 2
+    title: "Course Launch: IT Pathway and Lab Safety"
+    weeks: 1
     slots:
       - slot: 1
         atom_id: career-exploration-it-pathway
       - slot: 2
-        atom_id: work-behaviors-professional-standards
-      - slot: 3
-        atom_id: professional-communication-it
-      - slot: 4
-        atom_id: leadership-and-teamwork-it
-      - slot: 5
-        atom_id: critical-thinking-problem-solving
-      - slot: 6
         atom_id: it-safety-procedures
-      - slot: 7
+      - slot: 3
         atom_id: documentation-and-ticketing-systems
     unit_generate:
       game: false
       summative_quiz: true
-      performance_task: true
+      performance_task: false
 
   - unit_id: u02
     title: "How Computers Represent Information"
@@ -109,6 +109,8 @@ units:
         atom_id: application-installation
       - slot: 6
         atom_id: application-architecture-and-delivery-models
+      - slot: 7
+        atom_id: work-behaviors-professional-standards
     unit_generate:
       game: true
       summative_quiz: true
@@ -134,6 +136,8 @@ units:
           quiz: exit_ticket
           simulation: true
           video: false
+      - slot: 6
+        atom_id: critical-thinking-problem-solving
     unit_generate:
       game: false
       summative_quiz: true
@@ -178,6 +182,8 @@ units:
         atom_id: word-processing-fundamentals
       - slot: 2
         atom_id: creating-professional-documents
+      - slot: 3
+        atom_id: professional-communication-it
     unit_generate:
       game: false
       summative_quiz: true
@@ -265,6 +271,8 @@ units:
         atom_id: html-fundamentals
       - slot: 5
         atom_id: build-a-web-page
+      - slot: 6
+        atom_id: leadership-and-teamwork-it
     unit_generate:
       game: false
       summative_quiz: true
