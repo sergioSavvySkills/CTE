@@ -9,8 +9,7 @@ skill_type: knowledge
 grade_band: HS
 estimated_minutes: 45
 difficulty: 1
-prerequisites:
-  - kinds-of-data-we-share
+prerequisites: []
 status: draft
 reviewer:
 review_date:

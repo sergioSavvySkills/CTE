@@ -69,7 +69,7 @@ def template_atoms(template_path):
 def template_course_code(template_path):
     with open(template_path) as f:
         txt = f.read()
-    m = re.search(r"^course_code:\s*([\w\.\-]+)", txt, re.M)
+    m = re.search(r'^course_code:\s*"?([\w\.\-]+)"?', txt, re.M)
     return m.group(1) if m else None
 
 

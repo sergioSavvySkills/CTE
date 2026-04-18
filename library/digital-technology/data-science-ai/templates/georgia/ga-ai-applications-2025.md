@@ -157,7 +157,7 @@ units:
       performance_task: true
 
   - unit_id: u08
-    title: "Portfolio, CTSO, and End-of-Pathway Assessment"
+    title: "Portfolio and CTSO"
     weeks: 2
     slots:
       - slot: 1
@@ -168,6 +168,21 @@ units:
         atom_id: ai-industry-trends
     unit_generate:
       game: false
+      summative_quiz: true
+      performance_task: true
+
+  - unit_id: u09
+    title: "End-of-Pathway Assessment Review"
+    weeks: 2
+    slots:
+      - slot: 1
+        atom_id: predicting-future-ai-developments
+      - slot: 2
+        atom_id: statistics-for-ai-and-ds
+      - slot: 3
+        atom_id: productive-collaboration-and-diversity
+    unit_generate:
+      game: true
       summative_quiz: true
       performance_task: true
 ```

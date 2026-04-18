@@ -19,8 +19,8 @@ overrides are fine; sloppy ones can degrade the lesson.
 
 ## 11.44500 — Artificial Intelligence Applications
 
-- Units: **8** — Slots: **36** — Weeks declared: **19**
-- **Pacing:** 36 slots, 1620 atom-minutes total, 19 declared weeks (4275 min @ 5×45 min/week). Slack for assessments/reviews: 2655 min (62%).
+- Units: **9** — Slots: **39** — Weeks declared: **21**
+- **Pacing:** 39 slots, 1755 atom-minutes total, 21 declared weeks (4725 min @ 5×45 min/week). Slack for assessments/reviews: 2970 min (63%).
 
 ### Findings to review
 
@@ -38,6 +38,10 @@ overrides are fine; sloppy ones can degrade the lesson.
 - U05 slot 5 `pandas-for-data-work` requires `datasets-and-dataframes` — **prereq not in course**
 - U05 slot 6 `statistics-for-ai-and-ds` requires `data-analysis-for-decisions` — **prereq not in course**
 - U07 slot 3 `programming-a-sensor-driven-robot` requires `python-input-and-decisions` — **prereq not in course**
+- U09 slot 2 `statistics-for-ai-and-ds` requires `data-analysis-for-decisions` — **prereq not in course**
+- U09 slot 1 `predicting-future-ai-developments` — **duplicate** (first appears U02 slot 3)
+- U09 slot 2 `statistics-for-ai-and-ds` — **duplicate** (first appears U05 slot 6)
+- U09 slot 3 `productive-collaboration-and-diversity` — **duplicate** (first appears U01 slot 7)
 - U06 `Community Problem-Solving with AI` has `summative_quiz: false` — unusual for a CTE unit
 
 ## 11.44400 — Artificial Intelligence Concepts
@@ -71,9 +75,8 @@ overrides are fine; sloppy ones can degrade the lesson.
 
 ### Findings to review
 
-- U06 slot 8 `boolean-logic-for-ai` requires `python-operators-and-expressions` — **prereq not in course**
+- U06 slot 6 `boolean-logic-for-ai` requires `python-operators-and-expressions` — **prereq not in course**
 - U09 slot 4 `identify-real-world-ai-problem` requires `researching-an-ai-problem` — **prereq not in course**
-- U04 `Training Your First AI Model` has `summative_quiz: false` — unusual for a CTE unit
 - U09 `Design Thinking and Collaboration` has `summative_quiz: false` — unusual for a CTE unit
 - U10 `Capstone and CTSO Participation` has `summative_quiz: false` — unusual for a CTE unit
 
