@@ -12,21 +12,6 @@ rules for picking the right activity for a given skill.
 If you're a designer sitting down with an atom stub on Monday morning,
 start here.
 
-## The golden-reference lesson
-
-Before you read the rest of this playbook, skim the one lesson I've
-expanded end-to-end:
-[`library/digital-technology/data-science-ai/lessons/teachable-machine-introduction.md`](../library/digital-technology/data-science-ai/lessons/teachable-machine-introduction.md).
-
-It's a Shape B / Mode 1 lesson (skill atom, voice-over slides) with
-all the pieces called out: frontmatter, teacher prep, common
-misconceptions, differentiation, vocabulary, twelve-slide script with
-narration + live-teacher notes + pacing, rubric for the in-deck exit
-ticket, and generator composition across five product components.
-Everything below is abstracted from that one concrete lesson. If
-something in this playbook doesn't match what that lesson does, the
-lesson wins and the playbook is wrong.
-
 ## What "done" looks like for a lesson
 
 Every lesson ships as a slide deck rendered in the **Presentator**.
