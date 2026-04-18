@@ -11,9 +11,9 @@ estimated_minutes: 45
 difficulty: 2
 prerequisites:
   - ai-domains-ml-nlp-cv
-status: draft
-reviewer:
-review_date:
+status: active
+reviewer: maya-delgado
+review_date: 2026-04-18
 ---
 
 ## Learning objective
