@@ -23,41 +23,40 @@ for AI, data science with DataFrames + SQL + statistics, AI ethics
 and policy, and applying Design Thinking to real-world AI problems.
 Prereq: Foundations of AI (11.44300). Each atom is 45 minutes.
 
+Standard 1 (employability) and Standard 8 (CTSO) are threaded across
+units per Georgia's guidance that these elements be *integrated
+throughout the content of this course.* Employability atoms appear
+where students practice the skill in context (communicating AI
+research, teamwork on ML projects, meeting OOP coding standards,
+polishing a portfolio).
+
 ```yaml
 units:
   - unit_id: u01
-    title: "Professional Foundations Review"
-    weeks: 2
-    slots:
-      - slot: 1
-        atom_id: professional-communication-skills
-      - slot: 2
-        atom_id: creativity-and-innovation-workplace
-      - slot: 3
-        atom_id: critical-thinking-for-career-planning
-      - slot: 4
-        atom_id: work-readiness-and-professional-traits
-      - slot: 5
-        atom_id: teamwork-in-technology-workplace
-      - slot: 6
-        atom_id: professional-image-presentation
-      - slot: 7
-        atom_id: career-technical-student-organizations-overview
-    unit_generate:
-      game: false
-      summative_quiz: true
-      performance_task: false
-
-  - unit_id: u02
-    title: "AI Research and Industry Trends"
-    weeks: 2
+    title: "Course Launch and Industry Context"
+    weeks: 1
     slots:
       - slot: 1
         atom_id: current-ai-research-and-events
       - slot: 2
         atom_id: ai-industry-trends
       - slot: 3
+        atom_id: career-technical-student-organizations-overview
+      - slot: 4
+        atom_id: professional-communication-skills
+    unit_generate:
+      game: false
+      summative_quiz: true
+      performance_task: false
+
+  - unit_id: u02
+    title: "AI Developments and Predictions"
+    weeks: 2
+    slots:
+      - slot: 1
         atom_id: predicting-future-ai-developments
+      - slot: 2
+        atom_id: critical-thinking-for-career-planning
     unit_generate:
       game: false
       summative_quiz: true
@@ -75,6 +74,8 @@ units:
         atom_id: training-evaluating-ml-models
       - slot: 4
         atom_id: investigating-ai-in-daily-life
+      - slot: 5
+        atom_id: teamwork-in-technology-workplace
     unit_generate:
       game: true
       summative_quiz: true
@@ -102,6 +103,8 @@ units:
         atom_id: python-operators-and-expressions
       - slot: 9
         atom_id: python-functions-and-returns
+      - slot: 10
+        atom_id: work-readiness-and-professional-traits
     unit_generate:
       game: false
       summative_quiz: true
@@ -138,6 +141,8 @@ units:
         atom_id: datasets-and-dataframes
       - slot: 4
         atom_id: ethical-issues-in-data-science
+      - slot: 5
+        atom_id: creativity-and-innovation-workplace
     unit_generate:
       game: false
       summative_quiz: true
@@ -184,12 +189,14 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: design-thinking-process
+        atom_id: productive-collaboration-and-diversity
       - slot: 2
-        atom_id: researching-an-ai-problem
+        atom_id: design-thinking-process
       - slot: 3
-        atom_id: identify-real-world-ai-problem
+        atom_id: researching-an-ai-problem
       - slot: 4
+        atom_id: identify-real-world-ai-problem
+      - slot: 5
         atom_id: end-to-end-ai-project
     unit_generate:
       game: false
@@ -198,14 +205,16 @@ units:
 
   - unit_id: u10
     title: "Portfolio and CTSO"
-    weeks: 1
+    weeks: 2
     slots:
       - slot: 1
         atom_id: ctso-participation-and-competitions
       - slot: 2
         atom_id: developer-portfolio-for-ai
+      - slot: 3
+        atom_id: professional-image-presentation
     unit_generate:
       game: false
-      summative_quiz: false
+      summative_quiz: true
       performance_task: true
 ```

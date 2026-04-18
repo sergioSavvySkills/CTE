@@ -25,43 +25,42 @@ embedded AI / robotics. Prereqs: Foundations of AI (11.44300) and
 AI Concepts (11.44400). Concludes with end-of-pathway assessment.
 Each atom is 45 minutes.
 
+Standard 1 (employability) and Standard 8 (CTSO) are threaded across
+units per Georgia's guidance that these elements be *integrated
+throughout the content of this course.* Because this is the capstone
+course, employability atoms cluster toward teamwork (u06) and
+professional-image/communication (u08 portfolio pitch), reflecting
+how students actually use these skills at the end of the pathway.
+
 ```yaml
 units:
   - unit_id: u01
-    title: "Professional Foundations and Industry Context"
-    weeks: 2
-    slots:
-      - slot: 1
-        atom_id: professional-communication-skills
-      - slot: 2
-        atom_id: creativity-and-innovation-workplace
-      - slot: 3
-        atom_id: critical-thinking-for-career-planning
-      - slot: 4
-        atom_id: work-readiness-and-professional-traits
-      - slot: 5
-        atom_id: teamwork-in-technology-workplace
-      - slot: 6
-        atom_id: professional-image-presentation
-      - slot: 7
-        atom_id: productive-collaboration-and-diversity
-      - slot: 8
-        atom_id: career-technical-student-organizations-overview
-    unit_generate:
-      game: false
-      summative_quiz: true
-      performance_task: false
-
-  - unit_id: u02
-    title: "AI Trends and Non-ML AI"
-    weeks: 2
+    title: "Course Launch and AI Industry Landscape"
+    weeks: 1
     slots:
       - slot: 1
         atom_id: current-ai-research-and-events
       - slot: 2
         atom_id: non-ml-ai-genetic-algorithms-robotics
       - slot: 3
+        atom_id: career-technical-student-organizations-overview
+      - slot: 4
+        atom_id: critical-thinking-for-career-planning
+    unit_generate:
+      game: false
+      summative_quiz: true
+      performance_task: false
+
+  - unit_id: u02
+    title: "AI Trends and Future Predictions"
+    weeks: 2
+    slots:
+      - slot: 1
         atom_id: predicting-future-ai-developments
+      - slot: 2
+        atom_id: ai-industry-trends
+      - slot: 3
+        atom_id: creativity-and-innovation-workplace
     unit_generate:
       game: false
       summative_quiz: true
@@ -96,6 +95,8 @@ units:
         atom_id: researching-an-ai-problem
       - slot: 4
         atom_id: end-to-end-ai-project
+      - slot: 5
+        atom_id: work-readiness-and-professional-traits
     unit_generate:
       game: false
       summative_quiz: true
@@ -127,13 +128,17 @@ units:
     weeks: 3
     slots:
       - slot: 1
-        atom_id: design-thinking-process
+        atom_id: productive-collaboration-and-diversity
       - slot: 2
-        atom_id: identify-real-world-ai-problem
+        atom_id: design-thinking-process
       - slot: 3
-        atom_id: collaborative-ai-solution-design
+        atom_id: identify-real-world-ai-problem
       - slot: 4
+        atom_id: collaborative-ai-solution-design
+      - slot: 5
         atom_id: prototyping-ai-solutions
+      - slot: 6
+        atom_id: teamwork-in-technology-workplace
     unit_generate:
       game: false
       summative_quiz: false
@@ -165,7 +170,9 @@ units:
       - slot: 2
         atom_id: ctso-participation-and-competitions
       - slot: 3
-        atom_id: ai-industry-trends
+        atom_id: professional-image-presentation
+      - slot: 4
+        atom_id: professional-communication-skills
     unit_generate:
       game: false
       summative_quiz: true
@@ -176,11 +183,11 @@ units:
     weeks: 2
     slots:
       - slot: 1
-        atom_id: predicting-future-ai-developments
+        atom_id: ai-bias-privacy-accuracy
       - slot: 2
-        atom_id: statistics-for-ai-and-ds
+        atom_id: ai-ethics-and-philosophy
       - slot: 3
-        atom_id: productive-collaboration-and-diversity
+        atom_id: legal-and-regulatory-landscape-of-ai
     unit_generate:
       game: true
       summative_quiz: true
