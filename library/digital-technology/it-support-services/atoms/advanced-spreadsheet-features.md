@@ -24,9 +24,6 @@ Students will be able to use advanced spreadsheet features including charts, piv
 - **Conditional formatting:** highlight cells based on rules (greater than, duplicates, top 10%); data bars; color scales
 - **Pivot tables:** creating from a dataset; rows/columns/values/filters; summarizing data without formulas; refreshing
 - **Data validation:** dropdown lists, number range restriction, date limits; input messages; error alerts
-- **Named ranges:** defining and using named ranges in formulas; readability benefits
-- **What-if analysis:** Goal Seek; Data Tables for scenario comparison; Scenario Manager
-
 ## Assessment stub
 
 - Chart exercise: given a monthly sales dataset, create a line chart with proper labels and a trend line

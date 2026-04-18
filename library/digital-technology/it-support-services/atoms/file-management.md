@@ -22,7 +22,7 @@ Students will be able to navigate a file system, create and organize files and f
 
 - **File system concepts:** directories and paths (absolute vs. relative); root directory; file extensions and types
 - **Windows file systems:** NTFS (permissions, journaling, encryption), FAT32 (legacy, USB), exFAT (cross-platform large files)
-- **Linux/macOS file systems:** ext4 (Linux default), APFS (macOS), HFS+ (legacy); case sensitivity differences
+- **Linux/macOS file systems:** ext4 (Linux default), APFS (macOS) — case-sensitive unlike Windows NTFS
 - **File operations:** copy, move, rename, delete, search; recycle bin vs. permanent deletion; hidden files
 - **Permissions basics:** owner/group/other on Linux; NTFS ACLs on Windows; why permissions matter
 - **File organization best practices:** naming conventions, folder hierarchies, archiving vs. deleting old files

@@ -26,8 +26,6 @@ Students will be able to distinguish client-server, web, and cloud application a
 - **SaaS:** software fully hosted and managed by vendor; user accesses via browser; examples: Salesforce, Gmail
 - **PaaS:** provider manages OS and runtime; developer deploys code; examples: Heroku, Azure App Service
 - **IaaS:** provider supplies virtual hardware; customer manages OS up; examples: AWS EC2, Azure VMs
-- **Hybrid and multi-cloud:** mixing cloud providers and on-premises; why organizations avoid single-vendor lock-in
-
 ## Assessment stub
 
 - Model classification: given 8 services, identify each as SaaS/PaaS/IaaS

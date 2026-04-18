@@ -22,7 +22,7 @@ Students will be able to compare 802.11 Wi-Fi standards by speed, frequency, and
 ## Content stub
 
 - **Wi-Fi standards:** 802.11a/b/g/n/ac/ax (Wi-Fi 6)/be (Wi-Fi 7); frequency bands, max theoretical speeds, range
-- **Wi-Fi 6 and 6E:** OFDMA, MU-MIMO, BSS coloring; 6 GHz band for Wi-Fi 6E; reduced congestion
+- **Wi-Fi 6 and 6E:** improved performance in dense environments; 6 GHz band for Wi-Fi 6E; faster and less congested than 5 GHz
 - **Bluetooth:** versions 4.0 through 5.3; Classic vs. BLE; range and throughput; pairing process
 - **NFC:** near-field communication; 10 cm range; used for payments, access badges, device pairing
 - **Cellular in IT:** LTE/5G as a backup WAN or primary for IoT; hotspot use cases; carrier aggregation

@@ -27,8 +27,6 @@ Students will be able to distinguish authentication from authorization, explain 
 - **Authorization:** access control after authentication; RBAC (role-based), ABAC, ACLs; principle of least privilege
 - **Accounting/auditing:** logging who did what and when; event logs, SIEM systems; required for compliance
 - **Non-repudiation:** cryptographic proof that an action was taken by a specific party; digital signatures
-- **SSO and federation:** single sign-on; SAML, OAuth, OIDC; how cloud SSO reduces password fatigue
-
 ## Assessment stub
 
 - Factor classification: given 10 authentication examples, identify the factor type for each
