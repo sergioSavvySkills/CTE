@@ -21,14 +21,14 @@ Students will be able to describe AI approaches that don't rely on machine learn
 
 ## Content stub
 
-- **Genetic algorithms:** evolutionary optimization — initial population, fitness scoring, crossover, mutation, repeat
-- **Symbolic AI / expert systems:** encoded human expertise as if-then rules; still used in tax software, medical triage, regulatory compliance
-- **Search algorithms:** A*, minimax with alpha-beta pruning, constraint satisfaction — how game-playing and routing work
-- **Classical robotics:** inverse kinematics, PID controllers, sensor fusion — the non-learned math of robot motion
-- **Hybrid systems:** modern AI often combines ML with symbolic rules (e.g., safety constraints on an LLM output)
+Survey lesson — four non-ML approaches, one-line description + one real-world use case each. No algorithm internals.
+
+- **Genetic algorithms:** evolve solutions by selecting, combining, and mutating candidates (e.g., scheduling optimization, circuit design)
+- **Symbolic AI / expert systems:** encode human rules as if-then logic (e.g., TurboTax decision trees, medical triage checklists)
+- **Search algorithms:** explore possible states to find a solution (e.g., GPS routing, chess move selection)
+- **Hybrid systems:** most modern AI mixes ML with symbolic rules (e.g., safety filters on top of an LLM)
 
 ## Assessment stub
 
-- Identify: given 5 scenarios, say whether ML, symbolic AI, or a hybrid fits best and why
-- Research: find one production system that uses a genetic algorithm or classical search
-- Short answer: why hasn't ML replaced symbolic AI in all applications?
+- Match: given 4 scenarios, assign the best non-ML approach and explain in one sentence
+- Short answer: name one situation where a rule-based system is safer than a machine-learned one

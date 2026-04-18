@@ -22,15 +22,14 @@ Students will be able to distinguish the three main ML paradigms, identify examp
 
 ## Content stub
 
-- **Supervised learning:** train on labeled data (input + correct output); examples: spam classification, house-price regression
-- **Regression vs. classification:** regression predicts numbers (price, age); classification predicts categories (spam/not, dog/cat)
-- **Unsupervised learning:** no labels — the model finds structure; examples: clustering customers, dimensionality reduction
-- **Clustering:** k-means, hierarchical — group similar items; used in market segmentation
-- **Reinforcement learning:** agent takes actions in an environment, gets rewards/penalties; used in games, robotics, ads
-- **How to choose:** have labels + predict a known outcome → supervised; exploring data without labels → unsupervised; sequential decisions with rewards → RL
+Taxonomy lesson — students learn to recognize and pick the right paradigm. Mechanics of individual algorithms belong in `training-evaluating-ml-models`.
+
+- **Supervised learning:** labeled data (input + known output); predicts a value or category (spam filter, house-price estimate)
+- **Unsupervised learning:** no labels — model finds hidden structure in data (customer segments, anomaly detection)
+- **Reinforcement learning:** agent earns rewards for good decisions in an environment (game AI, robotics, ad bidding)
+- **Choosing a paradigm:** have labeled outputs → supervised; exploring unknown patterns → unsupervised; sequential decision loop → RL
 
 ## Assessment stub
 
-- Classify 6 problem statements by paradigm and justify
-- Design: describe a supervised, an unsupervised, and an RL approach to the same problem (e.g., music recommendation)
-- Short answer: what's the fundamental data requirement of supervised learning that unsupervised doesn't need?
+- Classify 6 problem statements by paradigm and justify in one sentence each
+- Short answer: what data requirement separates supervised from unsupervised learning?

@@ -16,19 +16,18 @@ review_date:
 
 ## Learning objective
 
-Students will be able to identify career roles across the AI, machine-learning, and data-science pathway, describe salary ranges and educational requirements, and map postsecondary options that support each role.
+Students will be able to identify key career roles in the AI/ML/DS pathway and describe the postsecondary routes that lead to each.
 
 ## Content stub
 
-- **Core AI/ML/DS roles:** data analyst, data scientist, machine-learning engineer, AI engineer, MLOps engineer, AI product manager, prompt engineer, and applied-research roles; how responsibilities differ across the stack
-- **Adjacent and supporting roles:** data engineer, business intelligence analyst, AI ethicist and policy analyst, annotation and evaluation specialists, and domain experts partnering with AI teams
-- **Salary and market outlook:** typical entry, mid, and senior salary bands in the United States and Georgia metro areas; BLS growth projections; regional clusters including Atlanta tech employers
-- **Educational pathways:** high-school CTE pathway completion, industry certifications (Microsoft AI-900, AWS AI Practitioner, Google), associate and bachelor degrees in CS/data science/statistics, bootcamps, and graduate study for research roles
-- **Postsecondary options in Georgia:** Technical College System of Georgia programs, University System of Georgia institutions with AI/DS programs, dual-enrollment pathways, and registered apprenticeships
-- **Self-alignment:** mapping personal interests (math, coding, communication, design, ethics) to roles; building a multi-year portfolio of coursework, projects, certifications, and CTSO accomplishments that signal readiness
+Course-launch lesson — show students the landscape, not the details. One-line description per role cluster; no salary figures.
+
+- **Data roles:** data analyst (explores data), data scientist (builds models), data engineer (moves data)
+- **AI/ML roles:** ML engineer (trains and deploys models), AI engineer (integrates AI into products), MLOps engineer (keeps models running in production)
+- **Adjacent roles:** AI ethicist, AI product manager, annotation specialist, domain expert partnering with AI teams
+- **Getting there:** CTE pathway → certification (ITF+, AI-900) → associate/bachelor degree → industry; Georgia-specific note on TCSG and USG dual-enrollment options
 
 ## Assessment stub
 
-- Role research: students document three AI/ML/DS roles including duties, required skills, education, certifications, and Georgia salary range with cited sources
-- Pathway map: students draft a visual map from current grade through first full-time role, listing courses, certifications, CTSO events, and postsecondary steps
-- Informational interview plan: identify a local professional in a target role and prepare five questions aligned to career decision making
+- Match: given 5 job descriptions, identify the role title
+- Short answer: which of the roles listed interests you most and what one skill would you need to develop first?

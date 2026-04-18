@@ -30,6 +30,5 @@ Students will be able to discuss how AI is reshaping careers, identify new AI-ad
 
 ## Assessment stub
 
-- Research: find one career you're interested in — describe 3 ways AI is changing how that work gets done
-- Design: plan a 3-year learning path to enter an AI-adjacent role
-- Debate: 'AI will eliminate more jobs than it creates' — argue both sides in 3 sentences each
+- Research: pick one career that interests you — describe two ways AI is changing how that work gets done
+- Short answer: 'AI will eliminate more jobs than it creates' — argue the opposing view in 3 sentences

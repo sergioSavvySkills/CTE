@@ -23,14 +23,14 @@ Students will be able to describe the main AI offerings of the major cloud provi
 
 ## Content stub
 
-- **Microsoft Azure AI:** Azure AI Foundry, Cognitive Services (vision, speech, language), Azure OpenAI Service, Azure Machine Learning
-- **AWS AI:** Amazon Bedrock (foundation models), SageMaker (ML platform), Rekognition (vision), Transcribe/Polly (speech)
-- **Google Cloud AI:** Vertex AI, Gemini API, Cloud Vision/Speech/Translation, AutoML
-- **IBM Watson:** watsonx platform, Watson Assistant, Watson Discovery for enterprise NLP
-- **How to choose:** existing cloud footprint, pricing, data residency, specific model availability, compliance needs
+Three major clouds — IBM Watson excluded (declining market relevance). Service-list depth is unnecessary; students need the decision logic.
+
+- **Microsoft Azure AI:** Cognitive Services (vision, speech, language), Azure OpenAI Service — strong choice if already in the Microsoft ecosystem
+- **AWS AI:** Amazon Bedrock (foundation models), SageMaker (ML training/deployment), Rekognition (vision) — strongest for companies already on AWS
+- **Google Cloud AI:** Vertex AI, Gemini API, AutoML — best integration with Google data tools (BigQuery, Sheets)
+- **Choosing a cloud:** follow your organization's existing footprint first; differentiate on specific service availability, pricing, and data-residency requirements
 
 ## Assessment stub
 
-- Match: given 5 use cases, recommend Azure/AWS/GCP/Watson and justify
-- Research: find current pricing for one service on each cloud and compare
-- Short answer: why would a company pick a cloud AI service over self-hosting?
+- Match: given 3 company profiles (Microsoft-heavy enterprise, AWS startup, Google Workspace school), recommend a cloud AI platform and give one reason
+- Short answer: why does a company's existing cloud footprint usually determine which AI platform they evaluate first?

@@ -22,15 +22,14 @@ Students will be able to describe key laws, regulations, and legal policies that
 
 ## Content stub
 
-- **EU AI Act:** tiered risk-based rules in force; bans on certain uses; strict requirements for high-risk systems
-- **US executive orders:** recent orders on AI safety, reporting requirements, federal procurement
-- **State-level laws:** California, Colorado, Illinois — biometric privacy, deepfake rules, employment-AI disclosures
-- **Copyright and AI:** ongoing lawsuits over training data; fair use disputes; the Getty vs Stability AI case
-- **Liability:** when AI causes harm, who is responsible — developer, deployer, user? courts are still deciding
-- **Sector-specific rules:** HIPAA for health AI, FERPA for education AI, FCRA for credit AI
+Survey lesson — name the major regulatory layers and their logic. Avoid case-specific details that go stale.
+
+- **EU AI Act:** risk-tiered rules — banned uses (social scoring), high-risk requirements (transparency, audit), general-purpose rules for foundation models
+- **US approach:** executive orders set reporting requirements; Congress still debating federal law; patchwork of state laws (biometric privacy, deepfake rules, employment AI disclosures)
+- **Sector-specific rules already in force:** HIPAA (health AI), FERPA (education AI), FCRA (credit AI) — these bind AI deployments regardless of new AI-specific laws
+- **Copyright and liability:** unsettled — training data ownership and who is responsible when AI causes harm are still being decided by courts
 
 ## Assessment stub
 
-- Research: summarize one recent AI lawsuit in 3 sentences
-- Apply: for a hypothetical school-grading AI, identify 3 laws that would govern it
-- Short answer: why are regulators having a hard time keeping up with AI?
+- Apply: for a hypothetical AI that monitors student attendance, list two existing laws that already govern it
+- Short answer: why do sector-specific rules (HIPAA, FERPA) matter even before any new AI law passes?

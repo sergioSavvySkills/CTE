@@ -23,15 +23,16 @@ Students will be able to define machine learning, natural language processing, a
 
 ## Content stub
 
-- **Machine learning (ML):** algorithms that learn patterns from data rather than being programmed with rules; the engine behind most modern AI
-- **Natural language processing (NLP):** AI working with human language: translation, sentiment, summarization, chatbots, ChatGPT-style generation
-- **Computer vision (CV):** AI that interprets images and video: face detection, self-driving perception, X-ray analysis, OCR
-- **Speech AI:** speech-to-text, text-to-speech, voice cloning — a sub-area sitting between NLP and audio signal processing
-- **Reinforcement learning:** agents that learn from rewards and penalties (used in robotics, game-playing, recommendation)
-- **Generative AI:** cross-cuts all domains — produces new text, images, audio, code from prompts
+Survey lesson — one sentence per domain, one real-world product per domain. No deep mechanics.
+
+- **Machine learning (ML):** learns patterns from data instead of explicit rules (e.g., spam filter, product recommendation)
+- **Natural language processing (NLP):** AI that reads, writes, and understands human language (e.g., ChatGPT, Google Translate)
+- **Computer vision (CV):** AI that interprets images and video (e.g., face unlock, self-driving cameras, medical X-ray analysis)
+- **Speech AI:** converts voice to text and text to voice (e.g., Siri, Google Assistant, live captions)
+- **Reinforcement learning (RL):** agents that learn by earning rewards (e.g., game-playing AI, robotics)
+- **Generative AI:** produces new text, images, audio, or code from a prompt (e.g., DALL-E, GitHub Copilot)
 
 ## Assessment stub
 
-- Classify 10 everyday AI examples into ML / NLP / CV / Speech / RL / GenAI buckets
-- Short answer: why is 'machine learning' a foundational concept that NLP and CV both rely on?
-- Research: find one current product in each of ML, NLP, CV and describe what it does
+- Sort/classify: given 12 real AI product cards, drag each into its domain bucket
+- Short answer: name one product a classmate uses daily and identify its domain
