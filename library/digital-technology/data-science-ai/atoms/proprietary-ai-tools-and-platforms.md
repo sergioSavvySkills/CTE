@@ -22,15 +22,14 @@ Students will be able to compare proprietary AI platforms and understand the tra
 
 ## Content stub
 
-- **OpenAI:** GPT-4/5, DALL-E, Whisper via API; ChatGPT product; generally best-in-class
-- **Anthropic:** Claude models via API; emphasis on safety; competitive on reasoning
-- **Google Gemini:** integrated with Google Workspace; long context; multimodal
-- **Microsoft Copilot:** built on OpenAI; deep integration with Office, GitHub, Windows
-- **Trade-offs:** proprietary: top quality, easy APIs, usage fees, data policy concerns; open-source: local control, privacy, customization, requires infra
-- **Licensing gotchas:** terms of service, training-data opt-outs, commercial-use restrictions vary by provider
+Three major providers are enough — IBM Watson is excluded (declining adoption). Licensing details are out of scope at this level.
+
+- **OpenAI:** GPT models, DALL-E, Whisper — general-purpose text, image, audio via API; ChatGPT is the consumer product
+- **Google Gemini:** integrated with Google Workspace; strong multimodal (text + image + video); long context window
+- **Microsoft Copilot:** built on OpenAI; embedded in Office, GitHub, Windows — most visible to enterprise users
+- **Proprietary vs. open-source trade-off:** proprietary = best quality, easy APIs, usage fees, data-sharing with vendor; open-source = local control, privacy, customization, but requires your own infrastructure
 
 ## Assessment stub
 
-- Research: find one real company that switched from OpenAI to open-source (or vice versa) — why?
-- Design: for a hospital triage AI, would you pick proprietary or open-source and why?
-- Short answer: what concerns does sending medical data to a proprietary API raise?
+- Design: a school district wants an AI writing tutor — should they use a proprietary API or host an open-source model? Give two reasons for your choice
+- Short answer: what is the main privacy concern with sending student writing to a proprietary AI API?

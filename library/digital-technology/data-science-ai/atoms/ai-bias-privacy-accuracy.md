@@ -31,6 +31,5 @@ Students will be able to define and identify bias, perception, privacy, and accu
 
 ## Assessment stub
 
-- Match: given 4 real AI incidents, identify which of (bias/perception/privacy/accuracy) each illustrates
-- Research: find one 2024+ story about one of these issues and summarize
-- Short answer: why can a model be 'accurate overall' and still be unfair?
+- Match: given 4 real AI incidents, identify which issue (bias / perception / privacy / accuracy) each illustrates and explain in one sentence
+- Short answer: why can a model be 'accurate overall' and still be unfair to a specific group?

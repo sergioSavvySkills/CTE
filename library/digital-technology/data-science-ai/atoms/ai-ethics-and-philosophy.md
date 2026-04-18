@@ -21,15 +21,14 @@ Students will be able to describe major ethical frameworks and apply them to AI 
 
 ## Content stub
 
-- **Consequentialism:** judge actions by outcomes — how much net good or harm did the AI cause?
-- **Deontology:** judge by duties and rules — are we violating rights regardless of outcomes? (e.g., privacy, consent)
-- **Virtue ethics:** what would a virtuous person/organization do? humility, honesty, care
-- **Justice and fairness:** Rawls' veil of ignorance; design AI as if you might be any affected group
-- **Applied AI ethics:** the IEEE Ethically Aligned Design, the EU AI Act principles, Partnership on AI's guidelines
-- **Ethics is ongoing:** not a checkbox — require regular audits, diverse teams, and stakeholder input
+Three frameworks are enough for HS — virtue ethics is dropped (too similar to deontology at this level). Applied frameworks anchor the lesson.
+
+- **Consequentialism:** judge the AI by its outcomes — net benefit vs. harm across all affected groups
+- **Deontology:** judge by duties and rights — are privacy, consent, or autonomy being violated regardless of outcomes?
+- **Justice and fairness:** design as if you could be any affected person (Rawls' veil of ignorance) — who is harmed if this system fails?
+- **Applied AI ethics in practice:** major guidelines (EU AI Act principles, NIST AI RMF) use all three frameworks; ethics requires ongoing audits, not a one-time check
 
 ## Assessment stub
 
-- Apply: analyze one AI deployment (e.g., predictive policing) through each of the 4 frameworks
-- Discuss: case study — what should a company do when its AI detects a minor crime committed by its CEO?
-- Short answer: how does virtue ethics differ from consequentialism in practice?
+- Apply: analyze one AI use case (predictive policing, hiring screener, or student surveillance) through each of the three frameworks — what does each framework say to do?
+- Short answer: which framework do you find most useful for evaluating AI and why?

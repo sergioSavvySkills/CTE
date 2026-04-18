@@ -19,15 +19,14 @@ Students will be able to identify components of an embedded system and describe 
 
 ## Content stub
 
-- **Microcontroller:** tiny computer on a single chip; Arduino, micro:bit, ESP32; runs one program; low power
-- **Microcomputer:** full computer at the edge; Raspberry Pi; runs Linux; can run Python and light ML models
-- **Common sensors:** temperature, humidity, light, motion (PIR), distance (ultrasonic), camera, microphone, accelerometer
-- **Actuators:** motors, servos, LEDs, relays — what the embedded system uses to affect the physical world
-- **Circuits basics:** power + ground, breadboards, resistors, jumper wires; read a basic schematic
-- **Edge AI:** running ML models on the device itself; TinyML, TFLite Micro; keeps data local, no cloud needed
+Conceptual overview only — circuit wiring and breadboard work belong in `building-an-embedded-robot`.
+
+- **Microcontroller vs. microcomputer:** microcontroller (Arduino, micro:bit) runs one loop, ultra-low power; microcomputer (Raspberry Pi) runs a full OS and can run Python ML models
+- **Sensors:** input devices that read the physical world — temperature, motion, camera, microphone, accelerometer; the data source for edge AI
+- **Actuators:** output devices that act on the world — motors, servos, LEDs; what the system *does* with its decisions
+- **Edge AI:** running a trained ML model on the device itself rather than sending data to the cloud; faster response, better privacy, works offline
 
 ## Assessment stub
 
-- Match: given 5 scenarios (smart thermostat, step counter, smart camera), pick sensors and microcontroller
-- Lab: identify the 4 main components on a Raspberry Pi or Arduino board
-- Short answer: when would you choose edge AI over cloud AI?
+- Match: given 4 real products (smart thermostat, fitness tracker, doorbell camera, robotic vacuum), identify the key sensors and whether it runs edge AI or cloud AI
+- Short answer: name one reason a designer would choose edge AI over a cloud API

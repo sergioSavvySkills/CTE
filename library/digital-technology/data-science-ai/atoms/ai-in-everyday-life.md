@@ -31,6 +31,5 @@ Students will be able to identify AI in common apps and services and explain wha
 
 ## Assessment stub
 
-- Audit your phone: list 10 apps and note which use AI and for what
-- Analyze: pick 3 services and describe what problem the AI solves vs. what manual task it replaced
+- Audit: list 6 apps on your phone or computer; for each, identify whether it uses AI and what problem the AI solves
 - Short answer: how does a recommender system differ from a simple 'most popular' list?

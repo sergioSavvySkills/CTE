@@ -29,6 +29,5 @@ Students will be able to identify current trends in the AI industry and make inf
 
 ## Assessment stub
 
-- Research: name 3 companies driving AI investment right now and what each is betting on
-- Predict: write 3 predictions for the next 12 months with your reasoning
-- Short answer: what regulatory change do you think will have the biggest impact on students entering AI?
+- Predict: pick two trends from the lesson and write one prediction each for the next 12 months with a one-sentence rationale
+- Short answer: which trend do you think will most affect the career of someone entering AI in the next 5 years?
