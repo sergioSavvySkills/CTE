@@ -1,5 +1,6 @@
 ---
 atom_id: healthcare-careers-and-pathways
+atom_serial: HHS-PH-0013
 title: Healthcare Careers and Education Pathways
 subcluster: physical-health
 credential_objectives: []

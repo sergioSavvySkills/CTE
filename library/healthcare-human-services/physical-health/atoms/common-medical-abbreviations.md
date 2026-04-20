@@ -1,5 +1,6 @@
 ---
 atom_id: common-medical-abbreviations
+atom_serial: HHS-PH-0005
 title: Common Medical Abbreviations and Safe Documentation
 subcluster: physical-health
 credential_objectives: []

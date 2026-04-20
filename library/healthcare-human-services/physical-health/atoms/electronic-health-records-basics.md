@@ -1,5 +1,6 @@
 ---
 atom_id: electronic-health-records-basics
+atom_serial: HHS-PH-0008
 title: Electronic Health Records — What They Are and How to Use Them Safely
 subcluster: physical-health
 credential_objectives: []

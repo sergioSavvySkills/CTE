@@ -1,5 +1,6 @@
 ---
 atom_id: maslows-hierarchy-and-patient-needs
+atom_serial: HHS-PH-0025
 title: Maslow's Hierarchy of Needs Applied to Patient Care
 subcluster: physical-health
 credential_objectives: []

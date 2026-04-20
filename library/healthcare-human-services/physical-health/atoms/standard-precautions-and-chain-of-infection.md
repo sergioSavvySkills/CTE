@@ -1,5 +1,6 @@
 ---
 atom_id: standard-precautions-and-chain-of-infection
+atom_serial: HHS-PH-0033
 title: Standard Precautions and the Chain of Infection
 subcluster: physical-health
 credential_objectives: []

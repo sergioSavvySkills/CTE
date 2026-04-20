@@ -1,5 +1,6 @@
 ---
 atom_id: healthcare-team-roles
+atom_serial: HHS-PH-0017
 title: Healthcare Team Roles and Scopes
 subcluster: physical-health
 credential_objectives: []

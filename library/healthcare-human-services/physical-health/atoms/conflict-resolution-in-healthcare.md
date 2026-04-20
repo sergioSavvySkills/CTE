@@ -1,5 +1,6 @@
 ---
 atom_id: conflict-resolution-in-healthcare
+atom_serial: HHS-PH-0006
 title: Conflict Resolution in Health Care
 subcluster: physical-health
 credential_objectives: []

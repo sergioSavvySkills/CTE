@@ -1,5 +1,6 @@
 ---
 atom_id: body-mechanics-and-safe-patient-handling
+atom_serial: HHS-PH-0002
 title: Body Mechanics and Safe Patient Handling
 subcluster: physical-health
 credential_objectives: []

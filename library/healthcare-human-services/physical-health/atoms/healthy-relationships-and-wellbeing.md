@@ -1,5 +1,6 @@
 ---
 atom_id: healthy-relationships-and-wellbeing
+atom_serial: HHS-PH-0018
 title: Healthy Relationships and Their Effect on Wellbeing
 subcluster: physical-health
 credential_objectives: []

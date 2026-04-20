@@ -22,6 +22,7 @@ by the instructional content stub.
 
 ```yaml
 atom_id: string            # kebab-case, globally unique
+atom_serial: string        # CCC-SSS-NNNN hierarchy-encoded serial; assigned by scripts/assign_atom_serials.py
 title: string              # one clear competency statement
 subcluster: string         # e.g. it-support-services
 credential_objectives:     # list of objective_codes from objectives CSVs
@@ -52,3 +53,16 @@ review_date: ISO date
 - 15–60 minutes of estimated student time.
 - Authored in industry-neutral vocabulary, never from state standard phrasing.
 - Every anchor credential objective must have at least one covering atom.
+
+## Atom serials
+
+`atom_serial` is a hierarchy-encoded identifier in the format
+`<CLUSTER>-<SUBCLUSTER>-<NNNN>` (e.g., `HHS-PH-0042`). It sits alongside the
+kebab-case `atom_id`, which remains the primary reference used by templates,
+crosswalks, scripts, and data files.
+
+- **Cluster and sub-cluster codes** come from `library/_schemas/atom-serial-codes.csv` (2-3 letter mnemonics)
+- **NNNN** is a zero-padded 4-digit integer assigned sequentially within the sub-cluster; gaps are allowed (retired atoms keep their serial)
+- **Immutability:** serials are permanent once assigned. Renaming an atom does not change its serial. Moving an atom between sub-clusters retires the old serial and assigns a new one in the destination
+- **Assignment:** run `scripts/assign_atom_serials.py --assign --subcluster <slug>` to populate serials; run `--next <slug>` to get the next available serial for a new atom; run `--verify` to confirm uniqueness and format
+- Per-sub-cluster manifests at `library/<cluster>/<subcluster>/atoms/_serials.csv` record all assigned serials and their status (active / retired)

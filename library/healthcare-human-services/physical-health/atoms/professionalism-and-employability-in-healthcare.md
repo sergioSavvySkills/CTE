@@ -1,5 +1,6 @@
 ---
 atom_id: professionalism-and-employability-in-healthcare
+atom_serial: HHS-PH-0031
 title: Professionalism and Employability Skills in Healthcare
 subcluster: physical-health
 credential_objectives: []

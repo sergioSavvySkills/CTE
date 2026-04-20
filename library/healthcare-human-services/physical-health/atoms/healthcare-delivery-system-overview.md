@@ -1,5 +1,6 @@
 ---
 atom_id: healthcare-delivery-system-overview
+atom_serial: HHS-PH-0014
 title: The Healthcare Delivery System
 subcluster: physical-health
 credential_objectives: []

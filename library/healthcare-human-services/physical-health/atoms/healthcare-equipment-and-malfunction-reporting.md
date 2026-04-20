@@ -1,5 +1,6 @@
 ---
 atom_id: healthcare-equipment-and-malfunction-reporting
+atom_serial: HHS-PH-0015
 title: Healthcare Equipment and Malfunction Reporting
 subcluster: physical-health
 credential_objectives: []

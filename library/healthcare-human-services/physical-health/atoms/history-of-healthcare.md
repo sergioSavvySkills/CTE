@@ -1,5 +1,6 @@
 ---
 atom_id: history-of-healthcare
+atom_serial: HHS-PH-0020
 title: Historical Significance of Health Care
 subcluster: physical-health
 credential_objectives: []

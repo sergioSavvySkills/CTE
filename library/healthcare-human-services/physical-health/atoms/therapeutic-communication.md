@@ -1,5 +1,6 @@
 ---
 atom_id: therapeutic-communication
+atom_serial: HHS-PH-0035
 title: Therapeutic Communication with Patients
 subcluster: physical-health
 credential_objectives: []

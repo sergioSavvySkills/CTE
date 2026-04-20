@@ -1,5 +1,6 @@
 ---
 atom_id: hipaa-and-patient-confidentiality
+atom_serial: HHS-PH-0019
 title: HIPAA and Patient Confidentiality
 subcluster: physical-health
 credential_objectives: []

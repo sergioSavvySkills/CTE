@@ -1,5 +1,6 @@
 ---
 atom_id: leadership-and-teamwork-in-healthcare
+atom_serial: HHS-PH-0022
 title: Leadership and Teamwork in Healthcare
 subcluster: physical-health
 credential_objectives: []

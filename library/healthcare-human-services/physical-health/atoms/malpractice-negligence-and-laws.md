@@ -1,5 +1,6 @@
 ---
 atom_id: malpractice-negligence-and-laws
+atom_serial: HHS-PH-0024
 title: Malpractice, Negligence, Liability, and Healthcare Law
 subcluster: physical-health
 credential_objectives: []

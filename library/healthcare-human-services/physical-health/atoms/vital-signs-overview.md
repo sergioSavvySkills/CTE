@@ -1,5 +1,6 @@
 ---
 atom_id: vital-signs-overview
+atom_serial: HHS-PH-0036
 title: Vital Signs — What They Measure and Why They Matter
 subcluster: physical-health
 credential_objectives: []

@@ -1,5 +1,6 @@
 ---
 atom_id: healthcare-regulatory-agencies
+atom_serial: HHS-PH-0016
 title: Healthcare Regulatory Agencies and Safety Oversight
 subcluster: physical-health
 credential_objectives: []

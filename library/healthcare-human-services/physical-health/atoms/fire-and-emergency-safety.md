@@ -1,5 +1,6 @@
 ---
 atom_id: fire-and-emergency-safety
+atom_serial: HHS-PH-0010
 title: Fire and Emergency Safety in Healthcare Settings
 subcluster: physical-health
 credential_objectives: []

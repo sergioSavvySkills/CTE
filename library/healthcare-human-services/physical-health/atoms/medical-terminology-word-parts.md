@@ -1,5 +1,6 @@
 ---
 atom_id: medical-terminology-word-parts
+atom_serial: HHS-PH-0026
 title: Medical Terminology — Roots, Prefixes, and Suffixes
 subcluster: physical-health
 credential_objectives: []

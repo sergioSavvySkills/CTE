@@ -1,5 +1,6 @@
 ---
 atom_id: patient-rights-and-informed-consent
+atom_serial: HHS-PH-0027
 title: Patient Rights and Informed Consent
 subcluster: physical-health
 credential_objectives: []

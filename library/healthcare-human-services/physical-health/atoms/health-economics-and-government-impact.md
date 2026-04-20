@@ -1,5 +1,6 @@
 ---
 atom_id: health-economics-and-government-impact
+atom_serial: HHS-PH-0012
 title: Health Services Economics and Government Impact
 subcluster: physical-health
 credential_objectives: []

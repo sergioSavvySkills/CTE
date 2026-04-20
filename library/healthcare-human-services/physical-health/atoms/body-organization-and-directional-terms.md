@@ -1,5 +1,6 @@
 ---
 atom_id: body-organization-and-directional-terms
+atom_serial: HHS-PH-0003
 title: Body Organization, Planes, and Directional Terms
 subcluster: physical-health
 credential_objectives: []

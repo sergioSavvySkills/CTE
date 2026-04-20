@@ -1,5 +1,6 @@
 ---
 atom_id: technical-communication-in-health-science
+atom_serial: HHS-PH-0034
 title: Technical Communication in Health Science
 subcluster: physical-health
 credential_objectives: []

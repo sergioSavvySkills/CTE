@@ -1,5 +1,6 @@
 ---
 atom_id: personal-protective-equipment-use
+atom_serial: HHS-PH-0028
 title: Personal Protective Equipment — Selection and Use
 subcluster: physical-health
 credential_objectives: []

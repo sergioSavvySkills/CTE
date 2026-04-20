@@ -1,5 +1,6 @@
 ---
 atom_id: hand-hygiene-technique
+atom_serial: HHS-PH-0011
 title: Hand Hygiene Technique and the Five Moments
 subcluster: physical-health
 credential_objectives: []

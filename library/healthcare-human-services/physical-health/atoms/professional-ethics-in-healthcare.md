@@ -1,5 +1,6 @@
 ---
 atom_id: professional-ethics-in-healthcare
+atom_serial: HHS-PH-0029
 title: Professional Ethics in Healthcare
 subcluster: physical-health
 credential_objectives: []

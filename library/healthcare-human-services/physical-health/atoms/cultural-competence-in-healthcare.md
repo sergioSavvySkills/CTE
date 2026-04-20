@@ -1,5 +1,6 @@
 ---
 atom_id: cultural-competence-in-healthcare
+atom_serial: HHS-PH-0007
 title: Cultural Competence and Humility in Healthcare
 subcluster: physical-health
 credential_objectives: []

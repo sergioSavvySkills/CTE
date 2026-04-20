@@ -1,5 +1,6 @@
 ---
 atom_id: scope-of-practice-and-licensure
+atom_serial: HHS-PH-0032
 title: Scope of Practice and Licensure
 subcluster: physical-health
 credential_objectives: []

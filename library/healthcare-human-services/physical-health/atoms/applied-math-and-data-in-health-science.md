@@ -1,5 +1,6 @@
 ---
 atom_id: applied-math-and-data-in-health-science
+atom_serial: HHS-PH-0001
 title: Applied Math and Data in Health Science
 subcluster: physical-health
 credential_objectives: []

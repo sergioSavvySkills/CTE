@@ -1,5 +1,6 @@
 ---
 atom_id: professional-organizations-and-credentialing
+atom_serial: HHS-PH-0030
 title: Professional Organizations, Credentialing, and Certification
 subcluster: physical-health
 credential_objectives: []

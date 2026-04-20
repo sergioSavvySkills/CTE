@@ -1,5 +1,6 @@
 ---
 atom_id: ethics-of-technology-in-healthcare
+atom_serial: HHS-PH-0009
 title: Ethical Issues Raised by Healthcare Technology
 subcluster: physical-health
 credential_objectives: []
