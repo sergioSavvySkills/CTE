@@ -19,7 +19,7 @@ Students will be able to describe the economic scale of the health services sect
 
 ## Content stub
 
-- **Scale of the sector:** healthcare ≈ 17-18% of U.S. GDP, ~20M workers, largest sector in many states and counties; generates local jobs and tax revenue
+- **Scale of the sector:** healthcare is roughly 17-18% of U.S. GDP and employs 20+ million U.S. workers per the current BLS *Occupational Outlook Handbook* — one of the largest sectors in most states and counties; generates local jobs and tax revenue
 - **Cost drivers and levers:** technology, drug prices, administration, chronic disease, aging; cost-containment via Medicare payment reform, bundled payments, value-based care
 - **Federal role:** CMS (Medicare, Medicaid), FDA (drugs, devices), CDC (public health), NIH (research funding), OSHA (workplace safety), HRSA (safety-net providers)
 - **State role:** license health professionals and facilities, administer Medicaid jointly with CMS, set public-health laws (e.g., vaccination, reporting), operate state hospitals

@@ -21,7 +21,7 @@ Students will be able to identify major healthcare career families, compare thei
 
 - **Career families:** nursing, therapeutic services, diagnostic services, health informatics, support services, biotechnology — and what each family actually does at the bedside or the bench
 - **Education ladders:** certificate (phlebotomy, CNA, MA) → associate (RN, respiratory therapy) → bachelor's (BSN, public health) → graduate/doctoral (PA, NP, MD, PharmD, PT/OT/DPT)
-- **Salary ranges:** use current BLS data — CNA $30-38k, RN $77-95k, PA $115-135k, RN manager, anesthesiologist — and why the range depends on region, setting, experience
+- **Salary ranges:** look up each role in the current U.S. Bureau of Labor Statistics *Occupational Outlook Handbook* (bls.gov/ooh) — ranges vary widely by region, setting, experience, and specialty, and published figures drift year-over-year
 - **Job outlook:** which roles are growing fastest and why (aging population, chronic disease, technology adoption)
 - **Stackable credentials:** how a high-school CNA becomes an LVN, then RN, then BSN, then NP — earning while learning
 - **Self-alignment:** matching interests (people vs. data vs. procedures vs. research) and constraints (time, cost, geography) to candidate pathways

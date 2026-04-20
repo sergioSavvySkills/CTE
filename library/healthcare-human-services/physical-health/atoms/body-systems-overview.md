@@ -20,16 +20,17 @@ Students will be able to name the eleven major organ systems, state each system'
 ## Content stub
 
 - **Integumentary:** skin, hair, nails — barrier, thermoregulation, sensation; burns, melanoma, eczema
-- **Skeletal / muscular:** support, movement, calcium store, blood-cell production; fractures, osteoporosis, muscular dystrophy
-- **Cardiovascular / lymphatic:** circulate blood and immune fluid; hypertension, CAD, lymphoma
-- **Respiratory:** gas exchange; asthma, COPD, pneumonia
-- **Digestive:** nutrient absorption, waste elimination; IBD, GERD, cirrhosis
-- **Urinary:** filtration, fluid/electrolyte balance; UTI, CKD, kidney stones
-- **Endocrine:** hormonal regulation; diabetes, hypothyroidism, Cushing's
-- **Nervous / sensory:** control and communication; stroke, epilepsy, neuropathy
-- **Reproductive:** producing offspring, hormones; infertility, cancers, STIs
-- **Immune:** defense against pathogens and abnormal cells; autoimmune disease, HIV, allergies
-- **System interactions:** no system works alone — blood pressure involves cardio + renal + endocrine + nervous
+- **Skeletal:** bones, joints, cartilage — support, protection, calcium store, blood-cell production; fractures, osteoporosis, arthritis
+- **Muscular:** skeletal, smooth, and cardiac muscle — movement, posture, heat generation; muscular dystrophy, strains, myasthenia gravis
+- **Cardiovascular:** heart, blood, vessels — transport of oxygen, nutrients, waste; hypertension, coronary artery disease, heart failure
+- **Lymphatic (including immune function):** lymph, lymph nodes, spleen, thymus — fluid balance and immune defense; lymphoma, autoimmune disease, HIV
+- **Respiratory:** airways, lungs — gas exchange; asthma, COPD, pneumonia
+- **Digestive:** GI tract plus liver/pancreas/gallbladder — nutrient absorption, waste elimination; IBD, GERD, cirrhosis
+- **Urinary:** kidneys, ureters, bladder, urethra — filtration, fluid and electrolyte balance; UTI, CKD, kidney stones
+- **Endocrine:** hormone-producing glands — chemical regulation; diabetes, hypothyroidism, Cushing's
+- **Nervous:** brain, spinal cord, peripheral nerves (including the sensory organs) — control and communication; stroke, epilepsy, neuropathy
+- **Reproductive:** gonads and accessory structures — producing offspring, sex hormones; infertility, cancers, STIs
+- **System interactions:** no system works alone — e.g., blood-pressure regulation involves cardiovascular + renal + endocrine + nervous
 
 ## Assessment stub
 

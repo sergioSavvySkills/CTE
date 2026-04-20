@@ -24,7 +24,7 @@ Students will be able to identify the five standard vital signs, describe normal
 - **Respiratory rate:** adult normal 12-20 breaths/min; count for a full minute; look for effort, rhythm, depth — not just rate
 - **Blood pressure:** normal <120/80; stage 1 HTN 130-139/80-89; hypotension is context-dependent; proper cuff size and arm position matter
 - **Oxygen saturation (SpO2):** normal 95-100%; <92% warrants attention; false readings from nail polish, cold hands, motion
-- **Pain:** the "fifth vital sign" — self-reported 0-10 scale, PQRST, or faces scale for peds; patient's word is the standard
+- **Pain:** historically called the "fifth vital sign" after a 2001 Joint Commission initiative; the label has since been retired in many settings because pain-as-a-vital-sign framing contributed to opioid over-prescribing. Current guidance treats pain as an essential assessment — not automatic — using a self-reported 0-10 scale, PQRST, or a faces scale for peds, weighed alongside function and risk. The patient's report remains the standard for what they feel
 
 ## Assessment stub
 
