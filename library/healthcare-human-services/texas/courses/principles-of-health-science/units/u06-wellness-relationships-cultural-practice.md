@@ -7,22 +7,22 @@ course_code: 127.403
 course_name: Principles of Health Science
 weeks: 2
 slots: 3
-status: draft
-reviewer:
-review_date:
+status: reviewed
+reviewer: maya-delgado
+review_date: 2026-04-20
 ---
 
 # u06 — Wellness, Relationships, and Cultural Practice
 
 ## Purpose and description
 
-u06 is the **humanistic unit** — where students move from the legal and ethical frameworks of u05 to the patient-centered dimensions of care: wellness and disease prevention across the lifespan, the role of relationships in health, and cultural practice as a daily consideration in clinical work. Three atoms, two weeks, no performance task — a breather unit after the 4-week ethics stretch, but substantive (7 primary KS standards, tied with u05 for third-heaviest coverage count).
+u06 is the **humanistic unit** — where students move from the legal and ethical frameworks of u05 to the patient-centered dimensions of care: wellness and disease prevention across the lifespan, the role of relationships in health, and cultural practice as a daily consideration in clinical work. Three atoms, two weeks, no performance task — a shorter unit by atoms and weeks, but substantive in KS coverage (7 primary standards, tied with u05 for third-heaviest coverage count).
 
 ## Why this unit exists
 
 Patients don't show up as disembodied cases. They arrive with lifestyles, relationships, families, and cultural frames that shape what "good care" means for them. Clinicians who ignore these dimensions practice worse medicine — lower adherence, worse outcomes, lower patient satisfaction, and more ethical conflicts.
 
-Two §127.403 KS areas live in this unit explicitly: half of (c)(2) (wellness, relationships, cultural influences) and three of (c)(10) (wellness for prevention, relationships on health, diversity and cultural practices). The unit gives the course a coherent place to teach these as patient-facing skills, not abstractions.
+u06 owns 4 of the 17 (c)(2) academic-integration standards (c2K wellness, c2L relationships, c2P and c2Q cultural influences) and 3 of the 5 (c)(10) rights-and-choices standards (c10B wellness for prevention, c10C relationships on health, c10E diversity and cultural practices). The unit gives the course a coherent place to teach these as patient-facing skills, not abstractions.
 
 ## Placement in the course (why u06 and not later)
 
@@ -35,13 +35,14 @@ Two weeks is the right length: three atoms of "both" skill-type with applied-tas
 
 ## Essential questions
 
-1. What do "health" and "wellness" actually mean across a lifetime, and how are they different?
-2. What wellness strategies prevent disease?
-3. How do we tell strong-evidence recommendations from weak ones?
-4. How do relationships — family, peer, community — affect physical and emotional health for better and for worse?
-5. How do culture and social context shape what patients consider "healthy" and how they engage with care?
-6. What does culturally responsive care look like in practice?
-7. What's the difference between cultural competence and cultural humility — and why did the field shift?
+1. What do "health" and "wellness" actually mean across a lifetime?
+2. How are health and wellness different from each other?
+3. What wellness strategies prevent disease?
+4. How are strong-evidence recommendations distinguished from weak ones?
+5. How do relationships — family, peer, community — affect physical and emotional health for better and for worse?
+6. How do culture and social context shape what patients consider "healthy" and how they engage with care?
+7. What does culturally responsive care look like in practice?
+8. What's the difference between cultural competence and cultural humility — and why did the field shift?
 
 ## Unit learning outcomes
 
@@ -50,17 +51,17 @@ Students will be able to:
 1. Distinguish health, wellness, and the multiple dimensions of well-being across the lifespan.
 2. Identify evidence-based wellness strategies across primary, secondary, and tertiary prevention.
 3. Evaluate how specific relationship patterns (family, peer, romantic, community) affect physical and emotional health.
-4. Describe how culture, language, socioeconomic status, and social determinants shape health outcomes.
+4. Describe how social determinants of health (SDOH) — including culture, language, socioeconomic status, neighborhood, and access factors — shape health outcomes.
 5. Apply cultural humility and responsive-care principles to a clinical scenario, including recognizing and accounting for one's own cultural frame as part of the encounter.
 
 ## Content scope — in / out
 
 **In scope for this unit**
 
-- Definitions: health, wellness, well-being; the six-to-eight dimensions of wellness (physical, emotional, social, intellectual, occupational, spiritual, environmental, financial)
+- Definitions: health, wellness, well-being; the eight dimensions of wellness (physical, emotional, social, intellectual, occupational, spiritual, environmental, financial) — with a teaching-convention note that some sources teach 6 or 7, similar to the u03 organ-systems convention variation
 - Levels of prevention: primary (immunization, nutrition, exercise, sleep), secondary (screening, early detection), tertiary (chronic-disease management, rehab) — with U.S. Preventive Services Task Force (USPSTF) evidence-grading (Grades A, B, C, D, and I for Insufficient evidence) as the basis for separating strong from weak recommendations
 - Lifestyle factors with strongest outcome evidence: tobacco cessation, physical activity, diet quality, sleep adequacy, stress management, social connection
-- Relationships and health: social ties as a health determinant; positive patterns (respect, reciprocity, repair after conflict); harmful patterns (control, isolation, contempt, abuse); relationship dynamics across the lifespan (peer-centered in adolescence, partner in young adulthood, caregiving in middle age, loss in older adulthood)
+- Relationships and health: social ties as a health determinant; positive patterns (respect, reciprocity, repair after conflict); harmful patterns (control, isolation, contempt, abuse); relationship dynamics across the lifespan — peer-centered in adolescence, partner in young adulthood, caregiving in middle age, and in older adulthood a mix of long-standing partnership, grandparenting and intergenerational connection, community and volunteer ties, and experience of loss that becomes part of relational life
 - Social determinants of health (SDOH): housing, food access, income, education, transportation, discrimination experienced — how each shapes outcomes
 - Health disparities: documented outcome gaps by race, ethnicity, gender, sexual orientation, rural/urban geography, insurance status
 - Cultural frameworks in healthcare: cultural competence (mastery model) vs. cultural humility (ongoing-learning model) — the shift from the former to the latter in modern practice
@@ -77,7 +78,7 @@ Students will be able to:
 | Conflict-resolution techniques per se | u04 |
 | Specific body-system disease mechanisms | u03 / later courses |
 | Safety protocols and workplace wellness (ergonomics, body mechanics) | u07 |
-| Population-health economics and government programs | u01 (introduced) / later courses (deeper) |
+| Healthcare economics and government programs | u01 (introduced) / later courses (deeper) |
 
 ## §127.403 coverage
 
@@ -107,7 +108,7 @@ This unit owns 7 primary KS standards — tied with u05 for third-heaviest cover
 
 **"Patients don't show up as cases — they show up as lives."** The unit moves from wellness (how patients take care of themselves or don't) to relationships (who patients live their lives alongside) to culture (the frames within which those lives make sense). Every atom asks students to see the patient before the diagnosis.
 
-Pedagogy blends knowledge (evidence-based prevention, SDOH data) with applied scenarios (responding to a patient whose wellness plan conflicts with their cultural practice, or whose family dynamics complicate adherence). Discussion is lighter than u05 because the stakes of getting it wrong are different — not liability, but rapport and outcomes.
+Pedagogy blends knowledge (evidence-based prevention, SDOH data) with applied scenarios (responding to a patient whose wellness plan conflicts with their cultural practice, or whose family dynamics complicate adherence). Discussion is lighter than u05 because the immediate stakes shift — the primary risks here are rapport and clinical outcomes, with legal-liability exposure less direct than in u05 (though still real in ADA, Title VI, and refusal-of-care contexts).
 
 ## Prior knowledge expected
 
@@ -171,4 +172,19 @@ Mix: wellness-dimension matching, prevention-level classification (primary/secon
 
 **Round 7.1 (provisional — passes 1-3 only):** Draft + pass 2 + pass 3 done this session with chunked writes. u04 and u05 experience established that single-session passes miss content-accuracy issues, so status stays explicitly provisional until a follow-up dedicated re-review (round 7.2).
 
-**Status: draft (provisional after 7.1 passes).** Awaiting round 7.2 dedicated re-review.
+**Round 7.2 (dedicated re-review):** fresh-eyed pass caught 10 substantive issues — in range with u03 (11), u04 (9), u05 (9). Fixes:
+
+1. "Breather unit" framing contradicted the 7-primary-KS coverage count. Softened to "shorter by atoms and weeks, but substantive in KS coverage."
+2. "Half of (c)(2)" was quantitatively wrong — u06 owns 4 of 17 c2 standards (≈24%). Corrected to "4 of the 17 (c)(2) academic-integration standards" with the specific codes.
+3. "Three of (c)(10)" underspecified — it's 3 of 5 total. Added the denominator.
+4. EQ #1 was still two-in-one after pass 2 (same pattern as pass-2 EQs #2 and #5). Split into EQ #1 (meaning) and EQ #2 (distinction). Total EQs now 8.
+5. EQ #3 "how do we tell" used first-person framing inconsistent with other EQs. Rephrased in neutral voice.
+6. Outcome #4 listed "culture, language, SES, and SDOH" redundantly — SDOH subsumes the first three. Reorganized under SDOH umbrella.
+7. In-scope said "six-to-eight dimensions" but Open Questions decided on 8 with convention note. Aligned in-scope to 8 with explicit convention note (same pattern as u03 organ systems).
+8. Relationship-lifespan description reduced older adulthood to "loss" — reductive and mildly ageist. Added partnership, grandparenting, community, and volunteer ties alongside loss.
+9. Out-of-scope claimed "population-health economics" was in u01. u01 actually covers healthcare economics; population health is a distinct discipline. Narrowed to "healthcare economics."
+10. Narrative said the stakes are "not liability, but rapport and outcomes" — cultural mismatch can create liability (ADA, Title VI, refusal-of-care claims). Clarified: primary stakes are rapport/outcomes; legal-liability exposure less direct than u05 but still real.
+
+Pre-commit grep-verify (same rule as u04 round 5.2): checked for any phrases that might have appeared in multiple locations before applying fixes. No duplicates found.
+
+**Status: reviewed (final-blessed after round 7.2).**
