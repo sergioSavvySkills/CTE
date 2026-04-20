@@ -7,16 +7,16 @@ course_code: 127.403
 course_name: Principles of Health Science
 weeks: 3
 slots: 4
-status: draft
-reviewer:
-review_date:
+status: reviewed
+reviewer: maya-delgado
+review_date: 2026-04-20
 ---
 
 # u08 — Healthcare Technology and Data (capstone)
 
 ## Purpose and description
 
-u08 is the **capstone unit** — where students close the course by surveying healthcare technology and data across the five health science systems, learning the mechanics of electronic health records, encountering vital signs as a data stream, and building quantitative fluency with conversions and data interpretation. Four atoms, three weeks, anchored by the **Technology Systems Map** capstone performance task which requires explicit integration of content from u03-u07.
+u08 is the **capstone unit** — where students close the course by surveying healthcare technology and data across the five health science systems, learning the mechanics of electronic health records, encountering vital signs as a data stream, and building quantitative fluency with conversions and data interpretation. Four atoms, three weeks, anchored by the **Technology Systems Map** capstone performance task which requires explicit integration of content from u01-u07.
 
 One atom (`vital-signs-overview`) is **cross-scope to §127.403** — it primary-belongs to Health Science Theory (§127.422) but is taught here because modern vital signs are a data phenomenon: continuous monitor feeds, EHR documentation, and clinical decision rules all sit at the intersection of technology and data this unit covers.
 
@@ -67,9 +67,9 @@ Students will be able to:
 
 - Equipment across the five health science systems: diagnostic (imaging devices, lab analyzers, EKG, point-of-care testing), therapeutic (IV pumps, ventilators, defibrillators including AEDs, beds, dialysis), informatics (EHR workstations, barcode scanners, telemetry monitors, patient portals), support services (sterilizers, HVAC with HEPA filtration, fire and call systems), biotechnology R&D (centrifuges, PCR thermocyclers, flow cytometers, microscopes, biosafety cabinets)
 - Malfunction recognition: alarms, error codes, abnormal readings, physical damage, lockout tags — with the safety response (stop use, label "Do Not Use," notify biomed)
-- Reporting process: internal (biomed / clinical engineering ticket; risk management notification when patient harm is suspected; EHR incident report) and external (FDA Medical Device Reporting — MDR — for device-related patient injury or death; required of facilities under 21 CFR Part 803)
+- Reporting process: internal (biomed / clinical engineering ticket; risk management notification when patient harm is suspected; EHR incident report) and external (FDA Medical Device Reporting — MDR — under 21 CFR Part 803). The user-facility reporting rule is specific: device-related **deaths** must be reported to both the FDA and the manufacturer within 10 work days; device-related **serious injuries** must be reported to the manufacturer (and to the FDA if the manufacturer is unknown) within 10 work days; other malfunctions and near-misses are captured through internal reporting rather than FDA MDR.
 - Electronic health records: EHR vs. EMR distinction, chart sections (demographics, problem list, medications, allergies, progress notes, orders, labs, imaging, flow sheets), safe documentation (accuracy, timeliness, objective language, late-entry rules), credential hygiene (individual logins, no sharing, secure logout), HIE (health information exchange) overview
-- Vital signs: temperature (normal ranges, methods, fever and hypothermia thresholds), pulse / heart rate (ranges by age, sites, rhythm and strength), respiratory rate (ranges, effort and pattern), blood pressure (ranges, cuff sizing, position), SpO2 (range, false-reading sources). Pain briefly as an essential assessment, with the nuance that pain was historically called the "fifth vital sign" (a 2001 Joint Commission initiative since retired in many settings because the framing contributed to opioid over-prescribing).
+- Vital signs: temperature (normal ranges, methods, fever and hypothermia thresholds), pulse / heart rate (ranges by age, sites, rhythm and strength), respiratory rate (ranges, effort and pattern), blood pressure (ranges, cuff sizing, position), SpO2 (range, false-reading sources). Pain briefly as an essential assessment, with the nuance that pain was historically called the "fifth vital sign" (a framing coined by the American Pain Society in 1995, adopted by the VA in 1998-1999, and amplified by Joint Commission's 2001 pain-management standards; since retired in many settings because the framing contributed to opioid over-prescribing).
 - Measurement-system conversions: weight (lb ↔ kg, oz ↔ g), volume (mL ↔ tsp, L ↔ oz), length (cm ↔ in, m ↔ ft), temperature (°C ↔ °F); healthcare standardizes on metric
 - Clinical data interpretation: reference ranges in lab results, drug dosing tables, growth-chart percentiles, trend lines, infographics from public-health data; common error sources (unit mixing, decimal placement, mis-read axes)
 
@@ -117,7 +117,7 @@ This unit owns 5 primary KS standards.
 |---|---|---|
 | 1 | healthcare-equipment-and-malfunction-reporting | Anchors the unit with the breadth of equipment across all five systems and the safety-first malfunction response. Goes first because it frames what the next three atoms operate within. |
 | 2 | electronic-health-records-basics | Drills into informatics-system equipment in depth. EHR is the single most-touched piece of healthcare technology for most roles. Follows slot 1 naturally. |
-| 3 | vital-signs-overview | Vital signs as a data stream — where equipment, EHR, and clinical judgment meet. Sits in the middle because it bridges equipment (slot 1) and data (slot 4). |
+| 3 | vital-signs-overview | Vital signs as a data stream — where equipment, EHR, and clinical judgment meet. Sits between the equipment-and-EHR atoms (slots 1-2) and the quantitative atom (slot 4), bridging device output to data interpretation. |
 | 4 | applied-math-and-data-in-health-science | Closes the unit with quantitative fluency for any healthcare data encounter — unit conversions and chart/graph interpretation. Moved here from u04 in round 3.2 because data interpretation belongs with the technology and data that produces it. |
 
 ## Unit narrative / throughline
@@ -155,7 +155,7 @@ Mix: equipment-to-system matching, malfunction-response scenario (what action an
 
 The single largest assessment in the course. Students pick one career from their Career Pathway Portfolio and produce an integrated technology-and-data map for that role. Required components:
 
-- Equipment: list 5-8 pieces of equipment the role uses across the five systems (drawing on u01 career content and u08 atom 1)
+- Equipment: list 5-8 pieces of equipment the role uses, identifying which of the five systems each belongs to (drawing on u01 career content and u08 atom 1). Most roles span 2-3 of the five systems; the list should reflect the role's actual scope rather than artificially covering all five.
 - Data flow: show how information moves between the role, the EHR, and the care team (u02 teams + u04 communication + u08 atom 2)
 - Safety: describe one plausible equipment-related safety event, the role's immediate response, and the reporting pathway (u07 safety and reporting + u08 atom 1)
 - Vital signs or other clinical data: identify one type of clinical data central to the role, the normal range, and an escalation trigger (u03 homeostasis + u08 atom 3)
@@ -195,6 +195,18 @@ Rubric dimensions: equipment accuracy, data-flow clarity, safety-response correc
 
 ---
 
-**Round 9.1 (provisional — passes 1-3):** Draft + pass 2 + pass 3 done in chunked writes. Per the user rule established after round 7.2: autonomous review up to this point is allowed; any post-flip revisions require bringing issues to the user for discussion first.
+**Round 9.1 (provisional — passes 1-3):** Draft + pass 2 + pass 3 done in chunked writes. Pass 2 caught 3 issues (Why-section grammar; u03 attribution error for "fifth vital sign" framing; pulse-ox bias direction factual error). All 3 applied before first commit.
 
-**Status: draft (provisional after 9.1 passes).** Awaiting re-review discussion before status flip.
+**Round 9.2 (re-review — user-approved):** Dedicated re-review brought 6 issues to user for discussion. User approved 5 of 6 fixes; left #B (borderline two-in-one EQs) as-is per recommendation. Fixes applied:
+
+A. **Purpose PT integration range** was "u03-u07" but capstone draws on u01 (careers, portfolio) and u02 (teams) as well. Corrected to "u01-u07."
+
+C. **FDA MDR requirement** was overstated as blanket "required of facilities." Actual rule is specific: user facilities report device-related **deaths** to FDA + manufacturer within 10 work days; device-related **serious injuries** to manufacturer (and FDA if manufacturer is unknown) within 10 work days; other malfunctions and near-misses go through internal reporting. Expanded the bullet to capture this correctly.
+
+D. **"Fifth vital sign" attribution** was wrong — said "2001 Joint Commission initiative" but the phrase was coined by American Pain Society (James Campbell, 1995), adopted by the VA (1998-1999), and amplified by Joint Commission's 2001 pain-management standards. Rewrote with the correct attribution chain.
+
+E. **PT component #1** required equipment "across the five systems" which forces awkward stretch answers for roles that realistically span only 2-3 systems (e.g., radiologic technologist). Rephrased to "identifying which of the five systems each belongs to" with an explicit note that most roles span 2-3 systems and the list should reflect the role's actual scope.
+
+F. **Slot 3 rationale** claimed vital signs "sits in the middle" — but slot 3 is the 3rd of 4 slots, not literally the middle. Clarified to "sits between the equipment-and-EHR atoms (slots 1-2) and the quantitative atom (slot 4), bridging device output to data interpretation."
+
+**Status: reviewed.** All 8 unit briefs (u01-u08) are now reviewed.
