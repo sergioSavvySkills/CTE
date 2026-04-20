@@ -38,11 +38,15 @@ moment they encounter real clinical contexts. Establishing team literacy
 early means every downstream unit can reference "the multidisciplinary
 team" without re-teaching.
 
-Professional organizations are the **invisible scaffolding** behind
-every licensed role — they set standards, run credentialing exams, and
-define continuing-education requirements. Students need to know this
-exists so that u01's career research makes sense ("who decides an RN is
-an RN?") and so u05's scope-of-practice content has a foundation.
+Professional organizations and credentialing bodies together form the
+**invisible scaffolding** behind every licensed role — professional
+organizations (AMA, ANA, and others) set practice standards, publish
+guidelines, and run continuing-education programs, while separate
+credentialing bodies (NBME, NCSBN, ARRT, and others) govern the exams
+and hours required to earn and maintain the credential. Students need
+to know both exist, and that they are not the same entity, so that
+u01's career research makes sense ("who decides an RN is an RN?") and
+so u05's scope-of-practice content has a foundation.
 
 ## Placement in the course (why u02 and not later)
 
@@ -122,7 +126,7 @@ Students will be able to:
 | KS code | reinforced via |
 |---|---|
 | c1B | portfolio revisit note — "how the role teams with others" (cooperate as team member) |
-| c5A / c6 | professional-organizations-and-credentialing deepens credentialing framing introduced in u01 |
+| c6 | professional-organizations-and-credentialing deepens the credential / licensure / continuing-education framing introduced in u01 |
 
 ## Atom sequence and rationale
 
@@ -243,7 +247,7 @@ portfolio as a living artifact.
 *None blocking for build. All judgment calls flagged in the draft were
 resolved during Maya's review — see Decisions below.*
 
-## Decisions made during round 3.5 review
+## Decisions made during review
 
 - **SBAR, closed-loop communication, CUS/two-challenge, and TeamSTEPPS
   are fully taught in u02** — not previewed here and deep-dived later.
@@ -255,8 +259,9 @@ resolved during Maya's review — see Decisions below.*
   organizations and pathways) — not in u01 as the earlier draft
   stated. No dedicated teaching time beyond that mention.
 - **No unit performance task** — the portfolio revisit is the
-  integration artifact, which is proportional to a shorter unit
-  (3 atoms, 2 weeks). Atom-level and unit-level assessments remain
+  integration artifact, which is proportional to a lighter unit
+  (3 atoms, 2 weeks, lower cognitive load than the science, ethics,
+  and safety units). Atom-level and unit-level assessments remain
   substantial.
 
 ---
@@ -265,8 +270,8 @@ resolved during Maya's review — see Decisions below.*
 closed-loop, CUS, and TeamSTEPPS were mis-tagged as "preview here, deep
 dive in u04/u07" when they in fact live entirely in u02's leadership-
 and-teamwork atom. Corrected across the scope-in and scope-out tables,
-resolved three open questions, tightened EQ #3 phrasing, and populated
-front-matter.
+resolved three open questions, tightened the professional-organizations
+essential question, and populated front-matter.
 
 **Round 3.6 (second review):** caught six more issues the first review
 rubber-stamped through:
@@ -287,7 +292,29 @@ rubber-stamped through:
    vague — no canonical "team meeting stages." Replaced with
    "ordering (components of an SBAR handoff)" — canonical and
    taught in this unit.
-6. Decision #3 called u02 "2 weeks of lighter content" — "lighter"
-   implied cognitive load. Corrected to "shorter" (3 atoms / 2 weeks).
+6. Decision #3 called u02 "2 weeks of lighter content"; I changed to
+   "shorter." ⚠ **This correction was wrong and has been reverted in
+   round 3.7** — the Purpose and Placement sections explicitly affirm
+   "lighter" and "relatively low cognitive load," and the term is
+   accurate in that framing. Over-correction.
 
-**Status: reviewed.** No remaining comments after round 3.6.
+**Round 3.7 (third review):** caught five lingering items:
+
+1. Reverted round 3.6 fix #6 — restored "lighter" in Decision #3 to
+   match the Purpose and Placement sections' consistent framing.
+2. Why-section conflated professional organizations with credentialing
+   bodies ("they set standards, run credentialing exams"). Rewrote to
+   keep the two distinct — since the atom and scope-in lines carefully
+   separate them.
+3. Supporting KS table claimed c5A was reinforced by
+   professional-organizations-and-credentialing. Stretch. Narrowed to
+   c6 only (academic requirements for advancement), which is the direct
+   reinforcement.
+4. Round 3.5 historical note referenced "EQ #3" but that EQ shifted to
+   EQ #4 after round 3.6's split. Reworded generically to survive
+   renumbering.
+5. "Decisions made during round 3.5 review" heading was misleading
+   because several decisions were refined in round 3.6. Dropped the
+   round number.
+
+**Status: reviewed.** No remaining comments after round 3.7.
