@@ -57,10 +57,11 @@ the science-spine u03.
 
 ## Essential questions
 
-1. Why does healthcare require a team, and what happens when teaming breaks down?
-2. Who's on a typical healthcare team, and what does each role contribute?
-3. How do professional organizations credential and govern who practices in healthcare?
-4. What makes someone a leader in healthcare, and how are leadership skills different from clinical skills?
+1. Why does healthcare require a team rather than individual experts?
+2. What happens when teaming breaks down — and what are the known failure modes?
+3. Who's on a typical healthcare team, and what does each role contribute?
+4. How do professional organizations credential and govern who practices in healthcare?
+5. What makes someone a leader in healthcare, and how are leadership skills different from clinical skills?
 
 ## Unit learning outcomes
 
@@ -157,7 +158,7 @@ urgency.
 |---|---|
 | u04 | therapeutic communication and conflict resolution assume a team context; closed-loop communication is introduced here |
 | u05 | scope-of-practice, malpractice, and liability operate within team contexts; the "who is qualified to do what" question starts here |
-| u07 | TeamSTEPPS and safety protocols are team-executed; psychological safety and speaking-up behaviors introduced here get deeper treatment |
+| u07 | safety reporting and incident escalation rely on the psychological-safety, two-challenge-rule, and speak-up frameworks introduced here — u07 depends on these, does not re-teach them |
 | u08 capstone | capstone requires describing how a chosen role teams with others across the 5 systems — the portfolio "team note" revisit here feeds the capstone |
 
 ## Assessment strategy
@@ -170,9 +171,9 @@ urgency.
 **Unit summative quiz** (20-25 items)
 
 Mix: MCQ (role × system assignment, credentialing body match,
-leadership trait identification), ordering (stages of an effective
-team meeting), scenario-based (given a patient scenario, identify
-which team members are involved and what each contributes), and a
+leadership trait identification), ordering (components of an SBAR
+handoff), scenario-based (given a patient scenario, identify which
+team members are involved and what each contributes), and a
 short-answer item on "what is teaming and how is it different from
 just having a team."
 
@@ -203,9 +204,11 @@ portfolio as a living artifact.
 - "Allied health is support staff" — PTs, OTs, PAs, NPs, RTs, SLPs,
   pharmacists, social workers, and chaplains are licensed professionals
   with specialized graduate training.
-- "Professional organizations are unions" — most credentialing and
-  standard-setting bodies are not unions; some have advocacy arms that
-  function union-adjacent.
+- "Leaders are born, not made" — leadership in healthcare is a set of
+  learnable behaviors (situational awareness, closing the loop, inviting
+  dissent, debriefing). c4A "identify traits of a leader" is built
+  around the assumption that these traits are teachable and observable,
+  not innate.
 - "Credentialing is one test" — most credentials require education +
   clinical hours + exam + ongoing continuing education to maintain.
 - "A good leader has all the answers" — in healthcare, a good leader
@@ -247,19 +250,44 @@ resolved during Maya's review — see Decisions below.*
   Verification: the `leadership-and-teamwork-in-healthcare` atom owns
   all four concepts; no u04 or u07 atom re-covers them. Draft had
   mislabeled these as out-of-scope; corrected.
-- **HOSA** is introduced in u01 career exploration and referenced in u02
-  as an extracurricular connection for practicing these skills — no
-  dedicated teaching time.
+- **HOSA** is introduced in u02 via the
+  `professional-organizations-and-credentialing` atom (under Student
+  organizations and pathways) — not in u01 as the earlier draft
+  stated. No dedicated teaching time beyond that mention.
 - **No unit performance task** — the portfolio revisit is the
-  integration artifact, which is proportional to 2 weeks of lighter
-  content. Atom-level and unit-level assessments remain substantial.
+  integration artifact, which is proportional to a shorter unit
+  (3 atoms, 2 weeks). Atom-level and unit-level assessments remain
+  substantial.
 
 ---
 
-**Round 3.5 (draft → approved):** Maya reviewed the first draft and
-caught a scope-labeling error — SBAR, closed-loop, CUS, and TeamSTEPPS
-were mis-tagged as "preview here, deep dive in u04/u07" when they in
-fact live entirely in u02's leadership-and-teamwork atom. Corrected
-across the scope-in and scope-out tables, resolved three open questions,
-tightened EQ #3 phrasing, and populated the front-matter. **Status:
-reviewed.** No remaining comments.
+**Round 3.5 (first review):** caught a scope-labeling error — SBAR,
+closed-loop, CUS, and TeamSTEPPS were mis-tagged as "preview here, deep
+dive in u04/u07" when they in fact live entirely in u02's leadership-
+and-teamwork atom. Corrected across the scope-in and scope-out tables,
+resolved three open questions, tightened EQ #3 phrasing, and populated
+front-matter.
+
+**Round 3.6 (second review):** caught six more issues the first review
+rubber-stamped through:
+
+1. EQ #1 was two questions crammed into one (same failure mode caught on
+   u01 round 3.3). Split into EQ #1 and EQ #2.
+2. Misconception "Professional organizations are unions" wasn't a real
+   Grade 9-10 misconception. Replaced with "Leaders are born, not made"
+   — a genuine teen misconception, and c4A explicitly assumes leader
+   traits are teachable.
+3. Downstream dependency u07 claimed psych-safety and speak-up "get
+   deeper treatment" — wrong; u07 depends on them, doesn't deepen
+   them. Corrected to reflect dependency relationship.
+4. HOSA placement in Decisions section was wrong — said u01 career
+   exploration, but HOSA actually appears in the u02
+   professional-organizations atom. Corrected.
+5. Assessment "ordering (stages of an effective team meeting)" was
+   vague — no canonical "team meeting stages." Replaced with
+   "ordering (components of an SBAR handoff)" — canonical and
+   taught in this unit.
+6. Decision #3 called u02 "2 weeks of lighter content" — "lighter"
+   implied cognitive load. Corrected to "shorter" (3 atoms / 2 weeks).
+
+**Status: reviewed.** No remaining comments after round 3.6.
