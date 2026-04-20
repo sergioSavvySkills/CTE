@@ -23,7 +23,7 @@ systems, then build the unifying principle that explains why systems
 matter (homeostasis), pivot from biology to human needs (Maslow), and
 close by tracing how the body and its needs change across the lifespan.
 
-This is the densest content unit so far — five atoms, three weeks. Two
+This is a dense content unit — five atoms, three weeks. Two
 of the atoms (body-organization, body-systems) are **cross-scope to
 §127.403** and primarily belong to Anatomy and Physiology
 (§127.423), but they are taught here because the §127.403 content
@@ -42,10 +42,11 @@ function for infection precautions. Technology (u08) presumes that
 equipment exists to measure and modulate homeostatic variables.
 
 Maslow specifically anchors u05's prioritization and rights content;
-lifespan stages anchor u04's lifespan-communication content (c2L) and
-u06's relationships-and-wellbeing content. Without u03 first, those
-later atoms have weaker scaffolding and require more foundational
-work inline.
+lifespan stages anchor u06's `healthy-relationships-and-wellbeing`
+atom, which owns c2L (communication for healthy relationships across
+the lifespan) and c10C (relationships' effects on physical and
+emotional health). Without u03 first, those later atoms have weaker
+scaffolding and require more foundational work inline.
 
 ## Placement in the course (why u03 and not later)
 
@@ -64,7 +65,7 @@ unit game for retention of the high-volume factual material.
 
 1. How is the human body organized, and what language do healthcare workers use to describe it precisely?
 2. What are the eleven major organ systems, and how do they depend on each other?
-3. What is homeostasis, and why is it the single concept that explains both health and most diseases?
+3. What is homeostasis, and why is it a central concept for understanding both health and disease?
 4. How does Maslow's Hierarchy of Needs help healthcare workers prioritize patient care?
 5. How does the body — and what it needs — change across the lifespan?
 
@@ -166,9 +167,9 @@ what stage of life?), and technology (what function, for whom?).
 
 | later unit | what it assumes from u03 |
 |---|---|
-| u04 | medical-terminology word roots reinforce body-part vocabulary students meet here (roots like cardi/o, hepat/o, nephr/o); lifespan-communication content (c2L) builds on lifespan stages |
+| u04 | medical-terminology word roots reinforce body-part vocabulary students meet here (roots like cardi/o, hepat/o, nephr/o) |
 | u05 | ethics work assumes Maslow for **prioritization** (not autonomy — autonomy is u05's own content) and lifespan stages for capacity considerations across ages |
-| u06 | wellness assumes homeostasis and body systems; healthy-relationships and the relationships-on-health content build on lifespan stages |
+| u06 | wellness assumes homeostasis and body systems; the `healthy-relationships-and-wellbeing` atom (c2L, c10C) builds directly on lifespan stages |
 | u07 | body-mechanics builds on muscular/skeletal anatomy; standard-precautions builds on immune/lymphatic function |
 | u08 | vital signs (in u08) measure homeostatic variables; equipment exists to measure and modulate body-system function |
 
@@ -351,5 +352,28 @@ fixes:
     are hormones that drive processes, not processes. Reworded to
     "biochemical regulators."
 
-**Status: reviewed (re-approved after round 4.2).** No remaining
+**Round 4.3 (final blessing):** third dedicated pass after round 4.2
+landed. Three lingering issues caught:
+
+1. **c2L cross-unit attribution error.** Two places attributed c2L
+   (lifespan communication for healthy relationships) to u04 — but
+   c2L is owned by `healthy-relationships-and-wellbeing` which lives
+   in u06, not u04. Factual error that survived rounds 3.x and 4.2.
+   Corrected in the Why section and the Downstream dep u04 row. Also
+   strengthened the u06 row to name the owning atom and both c2L and
+   c10C.
+2. **EQ #3 "the single concept that explains both health and most
+   diseases"** — overstated singular claim. Homeostasis is central
+   but not literally the only frame (genetic, neoplastic, trauma
+   have distinct lineages). Softened to "a central concept."
+3. **"Densest content unit so far"** would age poorly once u04-u08
+   briefs are written. Dropped "so far"; now just "a dense content
+   unit."
+
+Meta-lesson: cross-unit factual wiring (which atom owns which c-code,
+and which unit hosts it) is a failure mode that none of the three
+internal-consistency passes caught. Verifying cross-unit references
+against the atoms.md owner table is a new check to run for u04-u08.
+
+**Status: reviewed (finally blessed after round 4.3).** No remaining
 comments.
