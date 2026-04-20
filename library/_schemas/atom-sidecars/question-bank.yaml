@@ -24,13 +24,23 @@ items:
     type: multiple_choice     # *  multiple_choice | true_false | short_answer |
                               #    matching | fill_blank | ordering | drag_drop
     stem: "<question text>"   # *  the prompt shown to the student
-    options:                  #    required for multiple_choice, matching, drag_drop
+    options:                  #    required for multiple_choice, drag_drop
       - "Option A"
       - "Option B"
       - "Option C"
       - "Option D"
-    correct: 1                # *  0-indexed for MC; text for short_answer;
-                              #    true/false for TF; list for matching/ordering
+    correct: 1                # *  Format depends on type:
+                              #    multiple_choice  -> integer (0-indexed into `options`)
+                              #    true_false       -> true | false
+                              #    short_answer     -> string (model answer)
+                              #    fill_blank       -> string (canonical answer)
+                              #    ordering         -> list of ints (indices into
+                              #                       `options` in correct order)
+                              #    matching         -> list of [left_idx, right_idx]
+                              #                       pairs; requires `left` and
+                              #                       `right` keys instead of `options`
+                              #    drag_drop        -> list of ints (target slot
+                              #                       indices for each option)
     rationale: "<why>"        # *  1-2 sentence explanation shown on feedback
     objective_tag: <string>   # *  ties to the atom's learning objective or
                               #    a specific sub-skill (e.g., "identify-system",
@@ -50,6 +60,24 @@ items:
     type: true_false
     stem: "<statement to evaluate>"
     correct: true
+    rationale: "<why>"
+    objective_tag: <string>
+    difficulty: 1
+
+  # Matching-item example — note the `left` / `right` keys replace `options`,
+  # and `correct` is a list of [left_idx, right_idx] pairs.
+  - id: q003
+    type: matching
+    stem: "Match each left item to its right counterpart."
+    left:
+      - "Term A"
+      - "Term B"
+      - "Term C"
+    right:
+      - "Definition that pairs with B"
+      - "Definition that pairs with C"
+      - "Definition that pairs with A"
+    correct: [[0, 2], [1, 0], [2, 1]]
     rationale: "<why>"
     objective_tag: <string>
     difficulty: 1

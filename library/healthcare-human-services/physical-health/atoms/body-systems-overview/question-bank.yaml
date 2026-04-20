@@ -70,14 +70,19 @@ items:
 
   - id: q005
     type: matching
-    stem: "Match each organ system to its primary function."
-    options:
-      - ["Skeletal", "Support, protection, calcium storage, blood-cell production"]
-      - ["Respiratory", "Gas exchange between air and blood"]
-      - ["Endocrine", "Chemical regulation through hormones"]
-      - ["Lymphatic", "Fluid balance and immune defense"]
-    correct: [0, 1, 2, 3]
-    rationale: "Each pairing is the canonical primary function for that system. Students should be fluent at this level before tackling cross-system interactions."
+    stem: "Match each organ system (left) to its primary function (right)."
+    left:
+      - "Skeletal"
+      - "Respiratory"
+      - "Endocrine"
+      - "Lymphatic"
+    right:
+      - "Gas exchange between air and blood"
+      - "Fluid balance and immune defense"
+      - "Support, protection, calcium storage, blood-cell production"
+      - "Chemical regulation through hormones"
+    correct: [[0, 2], [1, 0], [2, 3], [3, 1]]
+    rationale: "Each pairing is the canonical primary function for that system. Left and right are presented in different orders so the student must actually match, not just read across. Students should be fluent at this level before tackling cross-system interactions."
     objective_tag: match-system-to-function
     difficulty: 1
     tags: [system-identification]

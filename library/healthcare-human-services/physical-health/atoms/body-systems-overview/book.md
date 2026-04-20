@@ -3,7 +3,7 @@ atom_id: body-systems-overview
 atom_serial: HHS-PH-0004
 sidecar: book
 status: ai-draft
-word_count: 2510
+word_count: 2484
 author: claude
 reviewer:
 review_date:
