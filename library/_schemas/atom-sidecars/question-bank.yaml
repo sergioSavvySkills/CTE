@@ -1,0 +1,59 @@
+# Schema — question-bank.yaml
+#
+# Item bank for an atom. Feeds quiz, exit-ticket, and unit-review generators.
+# Items are atomic (one assessable claim each) and carry enough metadata for
+# a generator to pick items by objective / difficulty / type.
+#
+# Sizing guidance: 15-25 items per atom. Include a mix of types and
+# difficulties so the quiz generator has options.
+
+# Top-level metadata (sibling of `items`):
+meta:
+  atom_id: <matches parent atom>
+  atom_serial: <matches parent atom>
+  sidecar: question-bank
+  status: ai-draft            # ai-draft | reviewed | published
+  item_count: <integer>
+  author: <name or claude>
+  reviewer: <name or blank>
+  review_date: <ISO date or blank>
+
+# One entry per item. Required keys marked (*), optional keys noted.
+items:
+  - id: q001                  # *  atom-local id, zero-padded, sequential
+    type: multiple_choice     # *  multiple_choice | true_false | short_answer |
+                              #    matching | fill_blank | ordering | drag_drop
+    stem: "<question text>"   # *  the prompt shown to the student
+    options:                  #    required for multiple_choice, matching, drag_drop
+      - "Option A"
+      - "Option B"
+      - "Option C"
+      - "Option D"
+    correct: 1                # *  0-indexed for MC; text for short_answer;
+                              #    true/false for TF; list for matching/ordering
+    rationale: "<why>"        # *  1-2 sentence explanation shown on feedback
+    objective_tag: <string>   # *  ties to the atom's learning objective or
+                              #    a specific sub-skill (e.g., "identify-system",
+                              #    "match-function", "diagnose-disorder")
+    difficulty: 1             # *  1 = recall | 2 = application | 3 = analysis
+    tags:                     #    optional; for filtering
+      - vocabulary
+      - system-identification
+    related_terms:            #    optional; vocab.csv terms this item tests
+      - integumentary
+      - epidermis
+    misconception_addressed:  #    optional; links to a misconceptions.md entry
+      "Misconception 2"
+    source_key:               #    optional; if item derives from a sources.md entry
+
+  - id: q002
+    type: true_false
+    stem: "<statement to evaluate>"
+    correct: true
+    rationale: "<why>"
+    objective_tag: <string>
+    difficulty: 1
+
+# Mix guidance (generator expectations, not enforced):
+#   Types: 40-60% MC | 10-20% TF | 10-20% short_answer | 10-30% other
+#   Difficulty: 30-40% level-1 | 40-50% level-2 | 15-25% level-3

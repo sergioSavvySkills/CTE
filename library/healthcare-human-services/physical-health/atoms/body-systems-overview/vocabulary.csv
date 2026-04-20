@@ -1,0 +1,65 @@
+# Vocabulary — body-systems-overview
+# atom_id: body-systems-overview
+# atom_serial: HHS-PH-0004
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 56
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+organ system,A group of organs that work together to carry out a shared function.,noun,"The eleven organ systems are the building blocks of human anatomy.",Tortora §1.3,body-organization-and-directional-terms,1
+homeostasis,The body's ability to keep its internal conditions stable despite changes outside.,noun,"Homeostasis breaks down when the body can't cool itself during heatstroke.",OpenStax §1.5,homeostasis-and-biological-processes,1
+negative feedback,A control loop that reverses a change to bring a value back to its set point.,compound,"Shivering is a negative-feedback response to a drop in core temperature.",OpenStax §1.5,homeostasis-and-biological-processes,2
+positive feedback,A control loop that amplifies a change rather than reversing it.,compound,"Uterine contractions during childbirth use positive feedback.",OpenStax §1.5,homeostasis-and-biological-processes,2
+integumentary system,The organ system comprising skin, hair, and nails.,compound,"The integumentary system is the body's first line of defense against infection.",Tortora §1.3,,1
+epidermis,The outer layer of the skin.,noun,"The epidermis thickens where the skin takes repeated pressure, forming calluses.",OpenStax §1.2,,1
+dermis,The middle layer of the skin containing blood vessels, nerves, and glands.,noun,"A paper cut reaches the dermis when it starts to bleed.",OpenStax §1.2,,1
+thermoregulation,The process of maintaining core body temperature.,noun,"Sweating is the body's main thermoregulation strategy in the heat.",OpenStax §1.5,,2
+skeletal system,The organ system of bones, joints, and cartilage.,compound,"The skeletal system does more than hold you up — it also stores calcium.",Tortora §1.3,,1
+bone remodeling,The ongoing process of breaking down and rebuilding bone tissue.,compound,"Bone remodeling is why a fracture can heal and why bones weaken without use.",NIA-Aging-Bone,,2
+osteoporosis,A condition in which bones become weak and brittle due to lost density.,noun,"Osteoporosis raises the risk of hip fracture after age 65.",NIA-Aging-Bone,,2
+muscular system,The organ system of skeletal, smooth, and cardiac muscle.,compound,"The muscular system generates movement, posture, and body heat.",Tortora §1.3,,1
+skeletal muscle,Voluntary muscle attached to bone that produces movement.,compound,"Skeletal muscle is what you flex when you lift a backpack.",Marieb Ch. 1,,1
+smooth muscle,Involuntary muscle found in organ walls and blood vessels.,compound,"Smooth muscle pushes food through the digestive tract.",Marieb Ch. 1,,2
+cardiac muscle,Involuntary striated muscle found only in the heart.,compound,"Cardiac muscle contracts about 100,000 times a day without fatiguing.",OpenStax §19.4,,2
+cardiovascular system,The organ system of the heart, blood, and blood vessels.,compound,"The cardiovascular system delivers oxygen to every cell and carries waste away.",Tortora §1.3,,1
+cardiac output,The volume of blood the heart pumps per minute.,compound,"Cardiac output rises during exercise to meet muscle demand.",OpenStax §19.4,,3
+artery,A blood vessel that carries blood away from the heart.,noun,"Arteries have thick walls to handle the pressure of each heartbeat.",OpenStax §1.2,,1
+vein,A blood vessel that carries blood back to the heart.,noun,"Veins have valves to keep blood from flowing backward.",OpenStax §1.2,,1
+capillary,The smallest blood vessel, where gases and nutrients exchange with tissues.,noun,"Oxygen leaves a capillary and diffuses into surrounding muscle cells.",OpenStax §1.2,,2
+hypertension,Chronically high blood pressure.,noun,"Untreated hypertension damages the heart, kidneys, and eyes over years.",NIH-NHLBI-HBP,,2
+lymphatic system,The organ system of lymph vessels, lymph nodes, and immune organs.,compound,"The lymphatic system returns leaked fluid to the bloodstream and fights infection.",Tortora §1.3,,1
+lymph,A clear fluid that flows through lymph vessels carrying immune cells.,noun,"Lymph drains from tissue into nearby lymph nodes to be screened for pathogens.",CDC-Immune-Basics,,2
+immune response,The body's coordinated defense against pathogens.,compound,"A fever is part of the immune response, not a malfunction of it.",CDC-Immune-Basics,,2
+respiratory system,The organ system of the airways and lungs.,compound,"The respiratory system moves oxygen into the blood and carbon dioxide out.",Tortora §1.3,,1
+gas exchange,The swap of oxygen and carbon dioxide between air and blood in the lungs.,compound,"Gas exchange happens across the thin walls of the alveoli.",OpenStax §1.2,,2
+alveolus,A tiny air sac in the lung where gas exchange occurs.,noun,"Each lung holds roughly 300 million alveoli.",OpenStax §1.2,,2
+digestive system,The organ system that breaks down food and absorbs nutrients.,compound,"The digestive system stretches from the mouth to the anus.",Tortora §1.3,,1
+peristalsis,Wave-like muscle contractions that move contents through the GI tract.,noun,"Peristalsis pushes a swallowed bite through the esophagus in about eight seconds.",Marieb Ch. 1,,2
+absorption,The movement of digested nutrients from the gut into the blood.,noun,"Most absorption happens in the small intestine.",Marieb Ch. 1,,2
+urinary system,The organ system of kidneys, ureters, bladder, and urethra.,compound,"The urinary system filters blood and regulates fluid balance.",Tortora §1.3,,1
+nephron,The filtering unit of the kidney.,noun,"Each kidney contains about a million nephrons.",OpenStax §25.1,,3
+glomerular filtration rate,The volume of plasma filtered by the kidneys per minute.,compound,"A falling glomerular filtration rate is a key sign of chronic kidney disease.",NIDDK-CKD,,3
+chronic kidney disease,Long-term loss of kidney function.,compound,"Chronic kidney disease often progresses silently until late stages.",NIDDK-CKD,,2
+endocrine system,The organ system of hormone-producing glands.,compound,"The endocrine system regulates growth, metabolism, mood, and reproduction.",Tortora §1.3,,1
+hormone,A chemical messenger released into the bloodstream by an endocrine gland.,noun,"Insulin is the hormone that lets cells take up glucose after a meal.",OpenStax §17.1,,2
+insulin,A hormone from the pancreas that lowers blood glucose.,noun,"People with type 1 diabetes must inject insulin to replace what their pancreas can't make.",OpenStax §17.1,,2
+diabetes mellitus,A group of conditions marked by high blood glucose.,compound,"Diabetes mellitus raises the risk of kidney, nerve, eye, and heart disease.",OpenStax §17.1,,2
+nervous system,The organ system of the brain, spinal cord, and peripheral nerves.,compound,"The nervous system carries electrical signals that coordinate every other system.",Tortora §1.3,,1
+central nervous system,The brain and spinal cord.,compound,"The central nervous system processes information and issues commands.",Marieb Ch. 1,,1
+peripheral nervous system,The nerves outside the brain and spinal cord.,compound,"The peripheral nervous system carries signals between the CNS and the rest of the body.",Marieb Ch. 1,,2
+neuron,A nerve cell that transmits electrical signals.,noun,"A single motor neuron can reach from the spinal cord all the way to a toe muscle.",Marieb Ch. 1,,2
+reproductive system,The organ system of gonads and accessory structures that produce offspring.,compound,"The reproductive system also releases hormones that shape puberty.",Tortora §1.3,,1
+gonad,An organ that produces gametes and sex hormones (ovary or testis).,noun,"The gonads are both reproductive organs and endocrine glands.",OpenStax §17.1,,2
+organ,A structure made of two or more tissues that work together for a function.,noun,"The heart is an organ made of muscle, connective, and nervous tissue.",OpenStax §1.2,,1
+tissue,A group of similar cells that perform a shared function.,noun,"Muscle tissue is one of the four basic tissue types in the body.",OpenStax §1.2,,1
+set point,The value a feedback loop tries to hold a variable near.,compound,"The set point for human core temperature is about 37 degrees Celsius.",OpenStax §1.5,,2
+feedback loop,A control system that senses a value and triggers a response when it drifts.,compound,"Blood glucose is managed by a feedback loop involving the pancreas and liver.",OpenStax §17.1,,2
+baroreceptor,A pressure sensor in blood-vessel walls that helps regulate blood pressure.,noun,"When baroreceptors detect a pressure drop, the nervous system speeds up the heart.",Guyton-Renal-BP,,3
+vital signs,Standard measurements of body function: temperature, pulse, respiration, blood pressure, oxygen saturation.,compound,"Vital signs are the first data point collected at almost every patient visit.",AHA-Vital-Signs,vital-signs-overview,1
+pulse,The pressure wave you can feel each time the heart beats.,noun,"A nurse takes a pulse at the radial artery for 30 seconds and doubles it.",AHA-Vital-Signs,vital-signs-overview,1
+blood pressure,The force blood exerts on artery walls, written as systolic over diastolic.,compound,"A reading of 120 over 80 millimeters of mercury is considered normal blood pressure.",AHA-Vital-Signs,vital-signs-overview,1
+system interaction,A process that requires two or more organ systems to work together.,compound,"Regulating blood pressure is a system interaction between cardiovascular, renal, endocrine, and nervous systems.",NIH-NHLBI-HBP,,2
+cardiorespiratory coupling,The coordinated change in heart rate and breathing rate during exertion or stress.,compound,"Cardiorespiratory coupling is why your heart and breath both speed up when you sprint.",OpenStax §19.4,,3
+autoimmune disease,A disease in which the immune system attacks the body's own tissue.,compound,"Type 1 diabetes is an autoimmune disease that destroys pancreatic beta cells.",CDC-Immune-Basics,,3
+stroke,Brain injury from loss of blood flow (ischemic) or bleeding (hemorrhagic).,noun,"A stroke can damage multiple systems because the brain controls them all.",Mayo-Organ-Systems,,2
+disorder,Any condition that disrupts the normal function of a system.,noun,"A disorder in one system often strains others — kidney disease raises blood pressure.",Mayo-Organ-Systems,,1

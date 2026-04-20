@@ -54,6 +54,31 @@ review_date: ISO date
 - Authored in industry-neutral vocabulary, never from state standard phrasing.
 - Every anchor credential objective must have at least one covering atom.
 
+## Sidecar artifacts
+
+An atom may have a **sidecar folder** next to its `.md` file containing
+expanded source material that generators (lesson, quiz, flashcard,
+textbook) consume at authoring time. Sidecars are optional and additive —
+the stub remains the canonical entry point, and every generator degrades
+gracefully when a sidecar is absent.
+
+```
+library/<cluster>/<subcluster>/atoms/
+├── <atom-id>.md        # the stub (unchanged)
+└── <atom-id>/          # sidecar folder (same slug, no .md)
+    ├── book.md
+    ├── vocabulary.csv
+    ├── examples.md
+    ├── misconceptions.md
+    ├── question-bank.yaml
+    ├── media-brief.md
+    └── sources.md
+```
+
+Supported sidecar types and their schemas live at
+[`_schemas/atom-sidecars/`](atom-sidecars/README.md). Each sidecar type has
+its own conventions doc (length targets, section structure, front-matter).
+
 ## Atom serials
 
 `atom_serial` is a hierarchy-encoded identifier in the format
