@@ -4,8 +4,14 @@
 # Items are atomic (one assessable claim each) and carry enough metadata for
 # a generator to pick items by objective / difficulty / type.
 #
-# Sizing guidance: 15-25 items per atom. Include a mix of types and
-# difficulties so the quiz generator has options.
+# Sizing guidance: 10-15 items per atom for focused LOs; up to 20 for
+# atoms with genuinely broader objectives. If you're past 20, you're
+# likely testing content that belongs to a deeper atom — pull those items
+# back into the per-topic deep-dive atom where they belong.
+#
+# Every item must trace to one of the parent atom's LO parts (or to a
+# misconception the atom explicitly addresses). If an item tests content
+# the atom's book.md doesn't cover, it's OUT OF SCOPE, not a stretch item.
 
 # Top-level metadata (sibling of `items`):
 meta:

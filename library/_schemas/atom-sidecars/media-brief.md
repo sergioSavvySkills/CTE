@@ -52,4 +52,5 @@ re-licensing / re-creating the same diagram across 3 atoms.)
 ## Count
 
 Roughly 1 asset per 2-3 slides of lesson. For a 45-minute atom, expect
-5-12 visual assets briefed.
+4-8 visual assets briefed. Per-system or per-concept diagrams belong in
+the deep-dive atom for that system or concept, not in a survey atom.

@@ -57,3 +57,25 @@ review_date:
 
 CSV and YAML sidecars carry the same fields in a comment header or top-level
 key, as noted in their individual schema docs.
+
+## The "trace to the LO" discipline
+
+Every item in every sidecar must trace back to the parent atom's learning
+objective or to an explicit bullet in its content stub. Items that test,
+explain, cite, or illustrate content the atom's stub doesn't cover are
+OUT OF SCOPE — not stretch material, not enrichment. Pull them into the
+deeper atom they actually belong in.
+
+Signals that a sidecar is over-scoped:
+
+- More than 20 vocabulary terms in a foundational (difficulty 1) atom
+- More than 15 question-bank items for a narrow LO
+- A `book.md` that introduces new bolded terms beyond the vocab list
+- Examples that walk through physiological mechanisms instead of naming
+  which systems are at work
+- Media assets depicting organ-internal structures rather than system-
+  level schematics
+
+When in doubt, ask: *"If a student only knew the content stub's bullets,
+would this sidecar item still be reasonable to encounter?"* If the
+answer is no, it belongs elsewhere.

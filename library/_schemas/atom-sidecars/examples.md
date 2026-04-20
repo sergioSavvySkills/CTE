@@ -19,7 +19,9 @@ example_count: <integer>
 ## Count
 
 Aim for **3-5 examples per atom.** Enough variety that guided practice has
-options; not so many that maintenance becomes a burden.
+options; not so many that maintenance becomes a burden. Keep each example
+at the level the atom's LO targets — a survey atom's examples name systems,
+not the internal mechanisms of any one system.
 
 ## Per-example structure
 

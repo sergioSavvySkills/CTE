@@ -3,7 +3,7 @@ atom_id: body-systems-overview
 atom_serial: HHS-PH-0004
 sidecar: sources
 status: ai-draft
-source_count: 14
+source_count: 12
 author: claude
 reviewer:
 review_date:
@@ -51,13 +51,6 @@ Every bracketed citation in this atom's `book.md`, `examples.md`, and
 - **Used for:** cardiac output, cardiovascular–respiratory coupling during exercise
 - **Confidence:** high
 
-### OpenStax §25.1
-
-- **Citation:** OpenStax. (2022). *Anatomy and Physiology 2e*, §25.1 "Internal and External Anatomy of the Kidney".
-- **URL:** https://openstax.org/books/anatomy-and-physiology-2e/pages/25-1-internal-and-external-anatomy-of-the-kidney
-- **Used for:** glomerular filtration rate (~180 L/day), kidney–blood-pressure tie-in
-- **Confidence:** high
-
 ### OpenStax §17.1
 
 - **Citation:** OpenStax. (2022). *Anatomy and Physiology 2e*, §17.1 "An Overview of the Endocrine System".
@@ -103,14 +96,6 @@ Every bracketed citation in this atom's `book.md`, `examples.md`, and
 - **URL:** https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings
 - **Used for:** normal vital-signs ranges referenced in worked examples
 - **Confidence:** high — professional medical society
-
-## Peer-reviewed articles
-
-### Guyton-Renal-BP
-
-- **Citation:** Guyton, A. C. (1991). Blood pressure control — special role of the kidneys and body fluids. *Science*, 252(5014), 1813–1816.
-- **Used for:** canonical reference for renal role in long-term blood-pressure regulation
-- **Confidence:** high — foundational peer-reviewed paper
 
 ## Other authoritative pages
 
