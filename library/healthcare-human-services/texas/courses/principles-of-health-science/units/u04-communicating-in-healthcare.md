@@ -16,7 +16,7 @@ review_date: 2026-04-20
 
 ## Purpose and description
 
-u04 is the **communication unit** — where students learn to decode, speak, defuse, and write the language of healthcare. Five atoms cover medical vocabulary (word parts and abbreviations), therapeutic communication with patients, conflict resolution with patients/families/coworkers, and technical writing and presentation.
+u04 is the **communication unit** — where students learn to decode, speak, defuse, and craft the language of healthcare. Five atoms cover medical vocabulary (word parts and abbreviations), therapeutic communication with patients, conflict resolution with patients/families/coworkers, and technical writing and presentations.
 
 Every atom in this unit is a "both" skill-type — meaning practice and simulation anchor every slot. This is a skills-heavy unit.
 
@@ -24,13 +24,13 @@ Every atom in this unit is a "both" skill-type — meaning practice and simulati
 
 Communication is the thread through every clinical encounter. Every later unit assumes it: u05 ethics requires difficult conversations (informed consent, confidentiality), u06 wellness requires patient education, u07 safety requires incident reporting and speak-up behaviors, u08 technology requires precise EHR documentation.
 
-Front-loading medical vocabulary means every downstream unit can use real medical language without re-defining terms. Students who leave PoHS without the word-part toolkit are at a permanent disadvantage in any healthcare context.
+Front-loading medical vocabulary means every downstream unit can use real medical language without re-defining terms. Students who leave PoHS without the word-part toolkit are at a significant disadvantage in any healthcare context — the gap is closable later (in A&P, on the job, or through self-study) but unnecessarily costly.
 
 ## Placement in the course (why u04 and not later)
 
 After motivation (u01), teams (u02), and science foundation (u03), students have:
 - Context for why communication matters (careers, team dynamics)
-- Body-part vocabulary that medical word roots reinforce (cardi/o from cardiovascular, nephr/o from urinary, etc.)
+- Body-part vocabulary that medical word roots attach to (cardi/o → heart → cardiovascular system; nephr/o → kidney → urinary system; etc.)
 - Lifespan stages to anchor age-adapted communication
 
 Placing communication fourth also means u05 (ethics) and u06 (cultural) can immediately apply therapeutic-communication techniques to their own content without re-teaching.
@@ -67,7 +67,7 @@ Students will be able to:
 - Communication with diverse populations (introduction): interpreter use, cultural humility as a concept, age-adapted communication
 - Conflict styles — the Thomas-Kilmann five: avoiding, accommodating, competing, compromising, collaborating — with scenarios for when each applies
 - De-escalation with upset patients and families: acknowledge → apologize where appropriate → explain → offer next step
-- Team conflict and escalation: CUS, two-challenge rule, chain of command (reinforced from u02)
+- Team conflict and escalation: CUS and two-challenge rule reinforced from u02; this unit extends them to include chain-of-command escalation and formal documentation of the concern
 - Technical writing structure: headline → background → findings → recommendations; audience-first writing; active voice
 - Oral presentation planning: audience, purpose, time, storyboard, slides as support not substitute
 - Precise language in clinical communication: specific verbs, measurable values, decimal accuracy, unambiguous pronouns
@@ -138,7 +138,7 @@ Students practice each mode with scenarios drawn from real clinical contexts (a 
 
 | later unit | what it assumes from u04 |
 |---|---|
-| u05 | informed-consent conversations, confidentiality discussions, difficult-news delivery all assume therapeutic-communication and conflict-handling |
+| u05 | informed-consent conversations, confidentiality discussions, and ethical-dilemma conversations all assume therapeutic-communication and conflict-handling skills |
 | u06 | cultural-competence content deepens the diverse-society introduction started here; wellness teaching requires therapeutic-communication |
 | u07 | incident-reporting writing and speak-up protocols assume the technical-writing and conflict-resolution skills |
 | u08 | EHR documentation requires precise language (c2F) and medical vocabulary (c3D); capstone synthesis uses technical-writing and presentation skills |
@@ -169,16 +169,16 @@ A Jeopardy or Bingo review covering medical word parts, prefixes, suffixes, and 
 - "Silence is awkward and should be filled" — therapeutic silence is a specific technique that gives patients time to think and respond authentically. Filling every silence interrupts the patient's process.
 - "Empathy and sympathy are the same" — empathy is understanding the patient's experience; sympathy is feeling sorry for them. Empathy is the therapeutic move; sympathy can be condescending.
 - "Avoiding conflict is the professional move" — avoidance often makes conflicts worse. Addressing conflict directly, calmly, and collaboratively is the professional standard.
-- "You have to win an argument to resolve it" — resolution is collaboration, not victory. The Thomas-Kilmann "collaborating" style is the default in clinical teams.
+- "You have to win an argument to resolve it" — resolution is collaboration, not victory. The Thomas-Kilmann **collaborating** style is often the goal in clinical teams, but the right style depends on the situation (emergencies favor direct competing/directing; routine work favors collaborating; minor issues may favor accommodating or avoiding).
 - "Using jargon shows expertise" — jargon without explanation harms patient understanding and is a safety risk. Expertise is the ability to translate jargon, not the ability to use it.
 
 ## Equity and sensitivity notes
 
-- **Interpreters.** Professional medical interpreters are the standard for patients with limited English proficiency — **not** family members (consent and accuracy issues, especially for children). ASL interpreters for Deaf patients are equally required. Patients are legally entitled to language access under federal civil-rights law; this is not optional.
+- **Interpreters.** Professional medical interpreters are the **required standard in federally-funded healthcare settings** under Title VI of the Civil Rights Act — **not** family members (consent and accuracy issues, especially for children). ASL interpreters for Deaf patients are equally required. Patients are legally entitled to language access; this is not optional where the setting accepts federal funds (which covers the vast majority of U.S. healthcare).
 - **Cultural humility vs. cultural competence.** Introduce the distinction: competence implies a mastery; humility implies ongoing learning. Full treatment is u06; u04 establishes the vocabulary.
 - **Trauma-informed communication.** Some patients have histories (violence, medical trauma, ACEs) that affect how they hear and respond. Open-ended questions, permission-asking ("is it OK if I..."), and giving control where possible are trauma-informed defaults.
 - **Names and pronouns.** Use patients' stated names and pronouns as given. This is clinical-communication practice grounded in accurate patient identification and therapeutic rapport, not a political framing. **District policy may vary on depth**; the safe default is to use what patients state about themselves, which is rigorous and district-defensible regardless of policy.
-- **Power dynamics.** Medical communication is asymmetric — the healthcare worker has training, jargon, and the clinical space as power. Acknowledging this asymmetry is a therapeutic-communication technique, not a political stance.
+- **Power dynamics.** Medical communication is asymmetric — the healthcare worker has training, jargon, and the clinical environment (white coat, institutional setting, scheduled time) as sources of power. Acknowledging this asymmetry is a therapeutic-communication technique, not a political stance.
 - **Neurodiversity.** Patients with autism, ADHD, and other neurodivergent profiles may communicate differently (less eye contact, direct or literal language, different response times). These are communication differences, not deficits. Don't pathologize style.
 
 ## Open questions / decisions pending
@@ -186,6 +186,7 @@ A Jeopardy or Bingo review covering medical word parts, prefixes, suffixes, and 
 - Interpreter-use simulation depth — do we include a full interpreted-encounter scenario here or defer to u06? Current lean: intro here (3-4 min scenario with clip), deeper in u06.
 - Thomas-Kilmann scenarios — how many? Current: one scenario per style (5 total) plus 1-2 mixed-style scenarios for the summative.
 - Citation basics (APA / AMA) in technical-communication — currently out of scope; if districts want this, add as an optional enrichment slot.
+- **Atom-level issue (flagged for atom build-out):** the `conflict-resolution-in-healthcare` atom attributes the 4-step acknowledge/apologize/explain/next-step de-escalation flow to "AHRQ CANDOR model." CANDOR (Communication and Optimal Resolution) is specifically a **post-harm disclosure** framework, not a general de-escalation pattern. The 4-step flow is real and useful but should either be presented without the CANDOR label, or the CANDOR section should be narrowed to post-harm contexts only. Flag for content review when the atom is authored.
 
 ---
 
@@ -205,4 +206,18 @@ Pass 3 grep verified:
 - c-codes appearing in file: c1A (supporting), c1B (prior-knowledge ref), c2C-F (primary), c3A-D (primary). Zero cross-unit c-code attribution errors (the u03 round-4.4 failure mode).
 - All cross-unit references (u02 SBAR/closed-loop/CUS, u03 body-parts/lifespan, u05-u08 forward refs) grep-checked against template and crosswalk.
 
-**Status: reviewed.** Final blessed in a single working session using the stricter cadence — no separate re-review round needed because the cross-unit c-code grep was built into this pass.
+**Round 5.2 (dedicated re-review):** sat with u04 fresh-eyed after round 5.1 landed. Nine more issues caught — the same failure mode as u03 rounds 4.2-4.4 where a "final blessing" still had loose threads. Fixes:
+
+1. **Purpose/narrative inconsistency.** Round 5.1 fix #5 updated the narrative to "decode, speak, defuse, and craft" but missed the Purpose sentence which still said "write." Fixed Purpose to match.
+2. **"Permanent disadvantage"** in Why section overstated the cost of missing the word-part toolkit. Softened to "significant disadvantage... closable later but unnecessarily costly."
+3. **Etymology direction** in Placement — "cardi/o from cardiovascular" reverses the etymological direction (cardi/o comes from Greek *kardia*; cardiovascular contains that root). Same fix applied on line 132 in round 5.1 but missed on line 33. **Literal u03 round-4.4 failure mode repeated.** Fixed.
+4. **"Chain of command reinforced from u02"** — CUS and two-challenge are u02 content; chain of command is more a u04 conflict-resolution concept. Clarified: u02 tools are reinforced; chain-of-command escalation is extended here.
+5. **u05 dependency "difficult-news delivery"** — not explicitly taught in u05 atoms. Replaced with "ethical-dilemma conversations."
+6. **Thomas-Kilmann "default" claim** oversimplified. Clarified that style choice depends on situation; collaborating is often the goal but not always the right move.
+7. **"Interpreters are the standard"** was too general. Specified the Title VI federal-funding basis.
+8. **"Clinical space as power"** awkward phrasing. Clarified as "clinical environment (white coat, institutional setting, scheduled time) as sources of power."
+9. **CANDOR overstretch in the atom.** Round 5.1 dropped the CANDOR label from the unit brief, but the conflict-resolution atom itself still attributes the 4-step flow to CANDOR. CANDOR is specifically post-harm disclosure. Added to open questions as an **atom-level** content issue to resolve when atom content is built out.
+
+Meta-lesson: even with the u03-round-4.4 cross-unit-grep check built into round 5.1, **cross-location consistency within a single unit** still failed (issue 1) and **cross-location factual consistency** still failed (issue 3 — etymology direction). Adding a new check: when a pass-2 fix changes a specific phrase or direction of a claim, grep for every instance of the old phrasing before committing.
+
+**Status: reviewed (re-blessed after round 5.2).** No remaining comments.
