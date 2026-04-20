@@ -7,9 +7,9 @@ course_code: 127.403
 course_name: Principles of Health Science
 weeks: 2
 slots: 5
-status: draft
-reviewer:
-review_date:
+status: reviewed
+reviewer: maya-delgado
+review_date: 2026-04-20
 ---
 
 # u01 — Entering Health Science
@@ -61,13 +61,13 @@ equipment-by-system in u08).
 1. What kinds of people work in healthcare — beyond the doctors and nurses most of us picture — and what do they actually do?
 2. What does it take, in education and credentials and day-to-day professionalism, to join them?
 3. How does healthcare function as a major U.S. economic sector?
-4. How do federal, state, and local government shape what happens in the industry day-to-day?
+4. How do federal, state, and local government shape the day-to-day work of the industry?
 
 ## Unit learning outcomes
 
 Students will be able to:
 
-1. Identify and compare careers across the five health science systems, naming at least three representative roles per system.
+1. Identify and compare careers across the five health science systems, naming two to three representative roles per system.
 2. Evaluate career options using current employment data, education pathways, and credential requirements.
 3. Describe the employability skills every healthcare employer expects and self-assess against them.
 4. Explain how healthcare functions as a major U.S. economic sector, including its scale, cost drivers, and workforce footprint.
@@ -80,7 +80,7 @@ Students will be able to:
 
 - The five health science systems, with representative careers in each
 - Education ladders: certificate, associate, bachelor's, graduate/doctoral
-- BLS *Occupational Outlook Handbook* as the research tool for current salary and outlook
+- Published employment data as the research tool (default: BLS *Occupational Outlook Handbook*; final choice between OOH, Texas CRS, and O*NET is an open question below)
 - Credential types: certification, license, registration, continuing education, advanced degrees (c6)
 - Employability expectations: punctuality, attendance, communication, cooperation, time management, productive work habits (c1A-C)
 - Economic scale of the U.S. healthcare sector (c2N)
@@ -296,3 +296,12 @@ nuanced medical-history framing to Tuskegee/Lacks default with Sims as
 district discretion; expanded Career Pathway Portfolio into a progressive-
 revisit artifact across u02/u05/u07/u08. This shape is now the reference
 for u02-u08 unit briefs.
+
+**Round 3.4 (approval, 2026-04-20):** Maya re-reviewed the revised draft
+and approved with four minor polish items applied in this commit —
+softened BLS OOH wording to match the open-question TBD on research-tool
+choice, relaxed outcome #1 from "at least three roles per system" to
+"two to three" (more realistic as a summative target), tightened EQ #4
+phrasing, and populated the front-matter `status` / `reviewer` /
+`review_date` fields. **Status: reviewed.** No remaining comments. This
+is now the reference shape for u02-u08.
