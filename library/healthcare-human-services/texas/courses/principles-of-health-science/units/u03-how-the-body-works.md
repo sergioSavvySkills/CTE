@@ -138,7 +138,7 @@ content.
 | 2 | body-systems-overview | Bird's-eye view of all eleven systems before zooming in. Provides the "what is a body made of" answer that the next atom builds on. |
 | 3 | homeostasis-and-biological-processes | The unifying principle: why having multiple systems matters. Explains the *purpose* of the systems just surveyed. Video-first per template — abstract concept benefits from explainer animation. |
 | 4 | maslows-hierarchy-and-patient-needs | Pivots from biology (what the body does) to human needs (what the body requires). Bridges science and care. Video-first per template. |
-| 5 | lifespan-development-stages | Closes the unit by applying the body and needs frameworks across human development. Sets up u04's lifespan-communication content (c2L) and u06's relationships content. |
+| 5 | lifespan-development-stages | Closes the unit by applying the body and needs frameworks across human development. Sets up u06's `healthy-relationships-and-wellbeing` atom, which owns c2L (communication across the lifespan) and c10C (relationships' effects on health). |
 
 ## Unit narrative / throughline
 
@@ -352,28 +352,25 @@ fixes:
     are hormones that drive processes, not processes. Reworded to
     "biochemical regulators."
 
-**Round 4.3 (final blessing):** third dedicated pass after round 4.2
-landed. Three lingering issues caught:
+**Round 4.3 (final blessing, attempt 1):** three issues caught —
+(a) c2L cross-unit attribution error in two places (Why section and
+Downstream u04 row), (b) EQ #3 "single concept" overstatement, and
+(c) "densest... so far" wording that would age poorly. Fixed all
+three. I claimed this round was the final blessing.
 
-1. **c2L cross-unit attribution error.** Two places attributed c2L
-   (lifespan communication for healthy relationships) to u04 — but
-   c2L is owned by `healthy-relationships-and-wellbeing` which lives
-   in u06, not u04. Factual error that survived rounds 3.x and 4.2.
-   Corrected in the Why section and the Downstream dep u04 row. Also
-   strengthened the u06 row to name the owning atom and both c2L and
-   c10C.
-2. **EQ #3 "the single concept that explains both health and most
-   diseases"** — overstated singular claim. Homeostasis is central
-   but not literally the only frame (genetic, neoplastic, trauma
-   have distinct lineages). Softened to "a central concept."
-3. **"Densest content unit so far"** would age poorly once u04-u08
-   briefs are written. Dropped "so far"; now just "a dense content
-   unit."
+**Round 4.4 (final blessing, actually final):** caught a **third**
+instance of the c2L error in the Atom-sequence rationale table
+(slot 5 still said "Sets up u04's lifespan-communication content
+(c2L)"). Third location of the same factual error that I had just
+claimed to have fully fixed. Corrected.
 
-Meta-lesson: cross-unit factual wiring (which atom owns which c-code,
-and which unit hosts it) is a failure mode that none of the three
-internal-consistency passes caught. Verifying cross-unit references
-against the atoms.md owner table is a new check to run for u04-u08.
+Meta-lesson compounded: not only do cross-unit factual references
+survive consistency passes, they can also survive targeted fix
+rounds when the fixer only grep-checks some instances. The rule for
+u04-u08: **when correcting a cross-unit attribution, grep for
+every instance of the term and fix each one before committing**.
+Added this check to the u04-u08 cadence explicitly.
 
-**Status: reviewed (finally blessed after round 4.3).** No remaining
-comments.
+**Status: reviewed (finally blessed after round 4.4).** No remaining
+comments. Grep-verified c2L appears only in correct u06 contexts in
+the live text (plus the changelog).
