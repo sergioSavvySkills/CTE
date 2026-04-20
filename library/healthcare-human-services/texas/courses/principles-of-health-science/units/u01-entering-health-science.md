@@ -60,7 +60,8 @@ equipment-by-system in u08).
 
 1. What kinds of people work in healthcare — beyond the doctors and nurses most of us picture — and what do they actually do?
 2. What does it take, in education and credentials and day-to-day professionalism, to join them?
-3. How does healthcare sit inside the U.S. economy and government, and why does that shape the jobs available to me?
+3. How does healthcare function as a major U.S. economic sector?
+4. How do federal, state, and local government shape what happens in the industry day-to-day?
 
 ## Unit learning outcomes
 
@@ -69,8 +70,9 @@ Students will be able to:
 1. Identify and compare careers across the five health science systems, naming at least three representative roles per system.
 2. Evaluate career options using current employment data, education pathways, and credential requirements.
 3. Describe the employability skills every healthcare employer expects and self-assess against them.
-4. Explain how healthcare functions as a major U.S. economic sector and how federal, state, and local government shape the industry.
-5. Place current healthcare practice within a short historical arc of advances, public-health wins, and policy changes.
+4. Explain how healthcare functions as a major U.S. economic sector, including its scale, cost drivers, and workforce footprint.
+5. Describe the distinct roles of federal, state, and local government in shaping the health science industry.
+6. Place current healthcare practice within a short historical arc of advances, public-health wins, and policy changes.
 
 ## Content scope — in / out
 
@@ -179,7 +181,7 @@ career goal, identify plausible education pathways).
 
 **Performance task — Career Pathway Portfolio (cornerstone)**
 
-- Students select **two** healthcare careers from different systems
+- Students select **two** healthcare careers from different health science systems
 - For each, research and document: role description, education pathway,
   required credentials (certificate / license / degree, whichever apply),
   current BLS salary range and outlook, three employability skills most
@@ -190,21 +192,41 @@ career goal, identify plausible education pathways).
   policy or economic factor affecting it today
 - Rubric dimensions: research depth, source quality, clarity of writing
   (c1A), self-assessment honesty, evidence-based reasoning
-- The portfolio is seeded here and **re-visited** in u08 capstone;
-  students add new roles as they encounter them in later units
+
+The portfolio is a **progressive-revisit artifact**, not a one-time
+submission. Students return to it and add a short note after every
+downstream unit where new information reshapes their career
+understanding:
+
+| after | portfolio note required |
+|---|---|
+| u02 (Team) | how the role teams with others in the care team (c1B) |
+| u05 (Ethics/Law) | scope-of-practice, liability, and ethical flashpoints for the role (c9) |
+| u07 (Safety) | safety protocols, regulatory agencies, and PPE/standard precautions that apply (c11) |
+| u08 (capstone) | technology/equipment the role uses; synthesis reflection across all notes |
+
+This makes the portfolio the spine along which §127.403(c)(1) employability
+and career-planning literacy thread across the whole course, not just u01.
 
 ## Common misconceptions
 
 Students often arrive with these — teach against them explicitly:
 
-- "Healthcare = doctors and nurses" — students don't know informatics,
-  support services, or biotech R&D careers
+- "Healthcare = doctors and nurses" — students don't see informatics,
+  support services, or biotech R&D as healthcare careers
+- "Healthcare is one industry" — it's actually five overlapping systems
+  (therapeutic, diagnostic, informatics, support services, biotech R&D)
+  with very different day-to-day work, tools, and career entry points
 - "You have to pick your career now" — confusing career exploration with
   commitment; reassure that iteration is expected
 - "More education is always better" — education has real cost and
   opportunity cost; pathway choice is strategic, not linear
-- "The U.S. healthcare system is the best in the world" — benchmark
-  against peer countries briefly; outcomes data matters
+- "The U.S. has the best healthcare in the world" — the U.S. leads in
+  many specialty and cutting-edge areas but lags peer countries on
+  population-level outcomes (life expectancy, infant mortality, access)
+  despite spending more per person. This gap is exactly why informatics,
+  public health, and prevention-focused careers are among the fastest-
+  growing in the sector.
 - "Private insurance covers everyone" — Medicaid, Medicare, uninsured and
   underinsured populations exist and shape access
 - "Professionalism is just being polite" — underestimates the legal,
@@ -220,10 +242,19 @@ Students often arrive with these — teach against them explicitly:
   access, socioeconomic barriers to higher ed, student-debt realities.
   Portfolio research should accommodate students considering certificate-
   first pathways for cost reasons.
-- **Historical content** — do not sanitize. Brief, factual inclusion of
-  medical racism (e.g., Tuskegee, Henrietta Lacks, J. Marion Sims) belongs
-  in the history atom at age-appropriate depth. Frame as context for
-  modern informed-consent law (forward reference to u05).
+- **Historical content — framing.** Frame medical-history examples of
+  exploitation as **documented historical events tied to current
+  professional practice standards** (informed-consent law, IRB review,
+  human-subjects research ethics), not as contemporary racial commentary.
+  That framing is pedagogically stronger, honest, and district-defensible.
+  - Default inclusions (widely taught, well-sourced, directly ties to
+    modern informed-consent and research-ethics law): the **Tuskegee
+    Syphilis Study** and **Henrietta Lacks**. Forward-reference both to
+    u05 (informed consent, tech ethics).
+  - Instructor discretion based on district policy: **J. Marion Sims**
+    and similar cases. More contested in curricula; include if district
+    supports, otherwise the default two are sufficient to make the
+    pedagogical point.
 - **Immigrant and first-generation students** — foreign credentials often
   do not transfer to U.S. practice; first-gen students may have no family
   context for credential / degree distinctions. Make these explicit in
@@ -234,17 +265,34 @@ Students often arrive with these — teach against them explicitly:
 
 ## Open questions / decisions pending
 
-- Portfolio — two careers or three? (Current: two; revisit if too light.)
 - Is there a single external tool we direct students to for career
   research (Texas CRS, BLS OOH, O*NET, or all three)?
 - Should we commission a short pre-recorded interview library of real
   healthcare professionals to embed in relevant atoms?
-- Depth of the history content — video-first keeps engagement up, but is
-  20-25 minutes of video across atom 3 too much? (Propose: break into
-  three 7-minute segments with comprehension checks between.)
+
+## Decisions made during round 3.3 review
+
+- **Portfolio scope**: 2 careers from different systems (not 3).
+- **Portfolio revisit mechanism**: progressive revisit after u02, u05,
+  u07, u08 — the portfolio is a living artifact, not a one-time submission.
+- **History-atom delivery**: 4-5 thematic video segments of 3-4 minutes each
+  (ancient/pre-modern, scientific revolution, modern medicine, public-
+  health wins, recent turning points) with a quick comprehension check
+  between each. Total video ~15-18 minutes; leaves room for formative
+  interactives and the atom summative within a 45-minute period.
+- **Medical-history framing**: Tuskegee and Henrietta Lacks are default
+  inclusions, framed as history connected to current informed-consent and
+  research-ethics standards; J. Marion Sims and similar is instructor-
+  discretion by district.
 
 ---
 
-**Reviewer notes for Maya:** The sensitivity section, misconceptions
-list, and the history-atom depth question are the three places I most
-want your eyes before the other seven unit briefs copy this shape.
+**Round 3.3 (reviewer hooks applied):** Maya red-penned the first draft
+and six revisions landed: split essential question #3 and outcome #4 (each
+was two questions crammed together); added "healthcare is one industry"
+misconception and recast "best in the world" as a professional-tension
+framing; documented history-atom delivery (4-5 × 3-4 min thematic segments);
+nuanced medical-history framing to Tuskegee/Lacks default with Sims as
+district discretion; expanded Career Pathway Portfolio into a progressive-
+revisit artifact across u02/u05/u07/u08. This shape is now the reference
+for u02-u08 unit briefs.
