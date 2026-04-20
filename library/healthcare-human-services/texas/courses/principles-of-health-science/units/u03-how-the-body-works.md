@@ -34,16 +34,18 @@ take A&P.
 ## Why this unit exists
 
 Every later unit assumes basic body literacy. Wellness (u06) presumes
-homeostasis. Ethics (u05) presumes Maslow as the framework for thinking
-about patient autonomy and prioritization. Safety (u07) presumes
+homeostasis. Ethics (u05) presumes Maslow as the framework for
+**prioritizing patient needs** (autonomy itself comes from biomedical
+ethics, not Maslow — that's u05's own content). Safety (u07) presumes
 muscular/skeletal anatomy for body mechanics, and immune/lymphatic
 function for infection precautions. Technology (u08) presumes that
 equipment exists to measure and modulate homeostatic variables.
 
-Maslow specifically anchors u05's autonomy and rights content;
+Maslow specifically anchors u05's prioritization and rights content;
 lifespan stages anchor u04's lifespan-communication content (c2L) and
 u06's relationships-and-wellbeing content. Without u03 first, those
-later atoms have no scaffolding.
+later atoms have weaker scaffolding and require more foundational
+work inline.
 
 ## Placement in the course (why u03 and not later)
 
@@ -51,8 +53,8 @@ After motivation (u01) and team literacy (u02), the course needs its
 science foundation before tackling ethics, wellness, safety, or
 technology. Putting science third also benefits from the team and
 career context students already have — when we say "the cardiovascular
-system supports the work of cardiologists, EKG techs, perfusionists,
-and ICU nurses," students recognize those roles from u01-u02.
+system supports the work of cardiologists, cardiac nurses, EKG techs,
+and cardiac surgeons," students recognize those roles from u01-u02.
 
 Three weeks is the right length: five atoms — two of them dense
 cross-scope A&P content compressed to 45-minute survey form — plus a
@@ -85,10 +87,10 @@ Students will be able to:
 - Eleven organ systems with primary functions and one or two common disorders each: integumentary, skeletal, muscular, cardiovascular, lymphatic (including immune function), respiratory, digestive, urinary, endocrine, nervous (including sensory organs), reproductive
 - The principle that no system works alone — system interactions exemplified through blood-pressure regulation (cardio + renal + endocrine + nervous)
 - Homeostasis as dynamic equilibrium; negative feedback loops as the dominant mechanism; positive feedback as a rarer amplifying mechanism (childbirth, clotting)
-- Key chemical processes maintaining homeostasis: pH buffering (bicarbonate / carbonic-acid), oxygen transport (hemoglobin), glucose regulation (insulin / glucagon), water balance (ADH)
+- Key biochemical regulators maintaining homeostasis: bicarbonate / carbonic-acid buffering (pH), hemoglobin (oxygen transport), insulin and glucagon (glucose regulation), ADH (water balance)
 - Common homeostasis failures as examples: fever, type 1 and type 2 diabetes, dehydration, acidosis / alkalosis
 - Maslow's five levels: physiological → safety/security → love/belonging → self-esteem → self-actualization
-- Prioritizing in practice: ABCs (airway, breathing, circulation) first, then Maslow ascending; explanation that lower levels generally precede higher but the framework is heuristic, not rigid
+- Prioritizing in practice: life-threat triage first (the **ABCs** — airway, breathing, circulation — drawn from emergency medicine), then Maslow ascending for non-emergency prioritization. ABCs and Maslow are complementary, not the same framework. Note that lower Maslow levels generally precede higher but the hierarchy is heuristic, not rigid.
 - Lifespan stages with health priorities and communication adaptations: infancy, early childhood, school age, adolescence, young and middle adulthood, older adulthood
 
 **Explicitly out of scope (covered elsewhere)**
@@ -148,14 +150,15 @@ lifetime*).
 The framework students walk out with: every patient is **a body, in a
 particular state of development, with a particular set of needs**.
 That framing — body × stage × needs — is the lens the rest of the
-course uses to think about ethics (whose needs?), safety (which body?),
-wellness (which stage?), and technology (which needs?).
+course uses to think about ethics (whose autonomy, whose
+responsibility?), safety (which body, at what risk?), wellness (at
+what stage of life?), and technology (what function, for whom?).
 
 ## Prior knowledge expected
 
 - Middle-school science: organ systems named at a high level, basic biology vocabulary
 - u01 content: the 5 health science systems and career families (used to anchor "who studies which body system")
-- u02 team literacy (used to anchor "which roles team around which systems")
+- u02 team literacy (used to anchor "which specialists focus on which systems")
 - Reading at ~9th grade Lexile
 - Comfort with labeled diagrams and images — this unit is visually heavy
 
@@ -163,10 +166,10 @@ wellness (which stage?), and technology (which needs?).
 
 | later unit | what it assumes from u03 |
 |---|---|
-| u04 | medical terminology builds on body-organization vocabulary; lifespan-communication content (c2L) builds on lifespan stages |
-| u05 | ethics work assumes Maslow (autonomy framing, prioritization) and lifespan stages (capacity considerations across ages) |
+| u04 | medical-terminology word roots reinforce body-part vocabulary students meet here (roots like cardi/o, hepat/o, nephr/o); lifespan-communication content (c2L) builds on lifespan stages |
+| u05 | ethics work assumes Maslow for **prioritization** (not autonomy — autonomy is u05's own content) and lifespan stages for capacity considerations across ages |
 | u06 | wellness assumes homeostasis and body systems; healthy-relationships and the relationships-on-health content build on lifespan stages |
-| u07 | body-mechanics builds on muscular/skeletal anatomy; standard-precautions builds on immune/lymphatic function; safety implications vary across lifespan |
+| u07 | body-mechanics builds on muscular/skeletal anatomy; standard-precautions builds on immune/lymphatic function |
 | u08 | vital signs (in u08) measure homeostatic variables; equipment exists to measure and modulate body-system function |
 
 ## Assessment strategy
@@ -216,7 +219,8 @@ portfolio revisit is after u05 (Ethics, Law, and Patient Rights).
   developmental needs, anatomical proportions (larger heads, smaller
   airways), and disease patterns that are not adult-medicine scaled
   down.
-- "Pain is just a nervous-system signal" — pain is biopsychosocial:
+- "Pain is just a nervous-system signal" — pain is **biopsychosocial**
+  (biology + psychology + social/cultural factors combined): a
   nervous-system signal *plus* endocrine response (stress hormones)
   *plus* psychological appraisal *plus* cultural framing. Treating it
   as nerves-only mis-handles it.
@@ -258,7 +262,8 @@ portfolio revisit is after u05 (Ethics, Law, and Patient Rights).
 - **Chronic illness at every stage.** Lifespan content should include
   chronic conditions across all stages, not concentrate them in older
   adulthood. Pediatric diabetes, adolescent autoimmune conditions, and
-  young-adult chronic pain are common.
+  young-adult chronic pain all exist — present chronic illness as
+  possible at any age, even when prevalence varies by stage.
 - **Cultural views of aging and the body.** Different cultures
   conceptualize aging, the body, and health differently. Acknowledge
   variation with respect — neither dismissing nor romanticizing.
@@ -307,4 +312,44 @@ EQs and outcomes balance at 5 each, and all cross-scope references are
 coherent across Purpose / coverage table / sequence rationale /
 downstream deps / teaching note / open questions.
 
-**Status: reviewed.** No remaining comments after round 4.1.
+**Round 4.2 (re-review):** dedicated re-read with skeptical eyes after
+the initial 3-pass approval landed. Eleven substantive issues found —
+instructive that a full 3-pass cadence still missed accuracy items. The
+fixes:
+
+1. **Maslow-as-autonomy-framework** error in Why section and Downstream
+   u05 row. Maslow is a prioritization framework; autonomy comes from
+   biomedical ethics (Kantian tradition), not Maslow. Corrected in both
+   places to say Maslow = prioritization only; autonomy lives in u05's
+   own content.
+2. **"No scaffolding"** overstated — softened to "weaker scaffolding,
+   requires more foundational work inline."
+3. **"Perfusionists"** in the cardiac-team anchor example. Obscure role;
+   replaced with cardiac nurses, EKG techs, cardiac surgeons.
+4. **"ABCs ... then Maslow ascending"** conflated two frameworks.
+   Clarified: ABCs is emergency-medicine triage; Maslow is
+   prioritization; they are complementary, not the same.
+5. **Unit-narrative "whose needs?"** for ethics was weak framing.
+   Rewrote the four-part parallel to "whose autonomy, whose
+   responsibility? / which body, at what risk? / at what stage of
+   life? / what function, for whom?"
+6. **Prior knowledge** "roles team around which systems" — teams
+   aren't organized by body system. Reworded to "which specialists
+   focus on which systems."
+7. **u04 downstream dep** conflated directional terms (superior,
+   anterior) with medical word roots (cardi/o, hepat/o). Reworded:
+   word roots reinforce body-part vocabulary students meet here.
+8. **u07 downstream dep** claimed "safety implications vary across
+   lifespan" — u07's atoms don't primary-cover lifespan-specific
+   safety. Dropped that claim.
+9. **"Pediatric diabetes, adolescent autoimmune, young-adult chronic
+   pain are common"** — overstated. Softened to "exist at every
+   stage, even when prevalence varies by stage."
+10. **"Biopsychosocial"** was jargon for Grade 9-10. Glossed
+    inline as "biology + psychology + social/cultural factors."
+11. **"Chemical processes: insulin/glucagon"** — insulin and glucagon
+    are hormones that drive processes, not processes. Reworded to
+    "biochemical regulators."
+
+**Status: reviewed (re-approved after round 4.2).** No remaining
+comments.
