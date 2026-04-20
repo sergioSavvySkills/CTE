@@ -7,9 +7,9 @@ course_code: 127.403
 course_name: Principles of Health Science
 weeks: 4
 slots: 6
-status: draft
-reviewer:
-review_date:
+status: reviewed
+reviewer: maya-delgado
+review_date: 2026-04-20
 ---
 
 # u05 — Ethics, Law, and Patient Rights
@@ -61,15 +61,15 @@ Students will be able to:
 **In scope for this unit**
 
 - Four principles of biomedical ethics: autonomy, beneficence, non-maleficence, justice — with conflict cases
-- Professional codes of ethics: AMA (physicians), ANA (nurses), allied-health codes — what they share and what they don't
+- Professional codes of ethics: American Medical Association (AMA) code for physicians, ANA code for nurses, allied-health codes — what they share and what they don't
 - HIPAA basics: Privacy Rule, Security Rule, 18 identifiers (Safe Harbor), minimum-necessary standard, treatment/payment/operations (TPO) exception, breach consequences (civil + criminal penalties, job loss, license loss)
-- Informed consent: elements (competence, information, understanding, voluntariness, consent), emergency exception, implied consent, capacity vs. competence, assent for minors, advance directives
-- Patient rights: the Patient's Bill of Rights, the right to refuse treatment, the right to documentation access, the AMA (against medical advice) discharge
-- Scope of practice: state practice acts, facility policy, delegation rules (RN → LVN → CNA), independent vs. supervised practice, the "license protects the public, not the practitioner" principle
+- Informed consent: elements (capacity, information, understanding, voluntariness, consent), emergency exception, implied consent, **capacity** (clinical assessment) vs. **competence** (legal determination), assent for minors, advance directives
+- Patient rights: the Patient's Bill of Rights, the right to refuse treatment, the right to documentation access, the right to leave against medical advice (AMA discharge)
+- Scope of practice: state practice acts, facility policy, nurse delegation rules under state practice acts, independent vs. supervised practice, the "license protects the public, not the practitioner" principle
 - Licensure vs. certification vs. registration: what each actually guarantees
 - Malpractice four-element test: duty of care, breach of standard, causation, damages
 - Liability types: personal, vicarious (employer for employee), institutional
-- Major U.S. healthcare laws: HIPAA, EMTALA, Stark/Anti-Kickback, ACA, FDA Act, CLIA — one-line each
+- Major U.S. healthcare laws: HIPAA, EMTALA, Stark Law, Anti-Kickback Statute, ACA, the Federal Food, Drug, and Cosmetic Act (FDCA), CLIA — one-line each
 - Ethics of emerging technology: AI and diagnostic algorithms (bias, accountability), genomic data (privacy, GINA, family implications), telehealth (access, state-licensure, quality), wearables (data ownership, consent), end-of-life technology (when to stop)
 
 **Explicitly out of scope (covered elsewhere)**
@@ -113,9 +113,9 @@ This unit owns 7 primary KS standards — the third-heaviest primary-coverage co
 |---|---|---|
 | 1 | professional-ethics-in-healthcare | Establishes the four-principle framework (autonomy, beneficence, non-maleficence, justice) that every subsequent atom applies. Discussion-based. |
 | 2 | hipaa-and-patient-confidentiality | The most concrete, rule-based ethics content — gives students a clear example of how principles become law. Grounds the abstract. |
-| 3 | patient-rights-and-informed-consent | The patient side — what patients are entitled to, how consent works. Follows HIPAA because consent decisions are built on confidentiality. |
+| 3 | patient-rights-and-informed-consent | The patient side — what patients are entitled to, how consent works. Follows HIPAA because both atoms concern patient-information flow (confidentiality before consent, consent before disclosure), and autonomy — the foundation for consent — is easier to grasp once the concrete rule-based content of HIPAA has made "patient rights" tangible. |
 | 4 | scope-of-practice-and-licensure | The provider side — what practitioners are permitted and required to do. Follows rights because rights set the demand; scope sets the supply. |
-| 5 | malpractice-negligence-and-laws | The consequences — what happens when scope is violated or rights are breached. Discussion-based. |
+| 5 | malpractice-negligence-and-laws | The consequences — what happens when care fails to meet the standard of care, whether through error, scope violation, or rights breach. Discussion-based. |
 | 6 | ethics-of-technology-in-healthcare | The emerging frontier — applies the framework to AI, genomics, telehealth, wearables. Video-first + discussion. |
 
 ## Unit narrative / throughline
@@ -137,7 +137,7 @@ Every atom in this unit asks students to **reason from a principle to a situatio
 
 | later unit | what it assumes from u05 |
 |---|---|
-| u06 | wellness and cultural-practice atoms invoke autonomy (patient choice about lifestyle, culturally influenced care); healthy-relationships touches informed-consent ideas in sexual health context |
+| u06 | wellness and cultural-practice atoms invoke autonomy (patient choice about lifestyle, culturally influenced care) |
 | u07 | scope-of-practice violations can cause safety incidents; regulatory agencies (u07) enforce laws introduced here; incident reporting has legal-liability dimensions that tie back to malpractice content |
 | u08 | EHR content assumes HIPAA; capstone synthesis requires applying ethical reasoning across technology choices |
 
@@ -173,7 +173,7 @@ Rubric dimensions: principle application, legal identification, reasoning qualit
 
 ## Common misconceptions
 
-- "Ethics and law are the same thing" — related but distinct. Something can be legal and unethical (the ACA's provider rules still allow practices some find ethically questionable) or illegal yet defensible in an ethical framework (emergency care beyond scope when no one else is available). Students need both vocabularies.
+- "Ethics and law are the same thing" — related but distinct. Many things are legal and yet ethically contested (certain billing or conflict-of-interest practices), and ethics sometimes demands more than the law requires (voluntary disclosure of errors when no law compels it). Students need both vocabularies.
 - "HIPAA means you can't talk about patients at all" — HIPAA permits disclosure for **t**reatment, **p**ayment, and health-care **o**perations (TPO) with minimum-necessary standard. It restricts gossip, disclosure to unauthorized parties, and many post-care conversations. It does not prevent teamwork.
 - "Informed consent is just a signature on a form" — consent is a **process**: assessing capacity, providing information in understandable language, checking understanding, confirming voluntariness, documenting. The form is a receipt, not the event.
 - "If a patient asks for it, autonomy means you have to do it" — autonomy is the right to accept or refuse; it does **not** obligate providers to act beyond their scope, judgment, or the law. Providers retain professional judgment.
@@ -183,7 +183,7 @@ Rubric dimensions: principle application, legal identification, reasoning qualit
 
 ## Equity and sensitivity notes
 
-- **Historical context.** Tuskegee and Henrietta Lacks — introduced in u01 history — come back here as the documented bases for modern informed-consent and research-ethics law. Frame as history tied to current practice (IRB review, the Common Rule, GINA), not contemporary commentary. J. Marion Sims and similar cases remain district-discretion per u01.
+- **Historical context.** Tuskegee and Henrietta Lacks — introduced in u01 history — come back here as documented bases for modern **research-ethics law and the Common Rule** (IRB review, informed consent for research, GINA). Informed-consent law for clinical care has a separate legal lineage (Salgo 1957, Canterbury v. Spence 1972); Tuskegee shaped research ethics specifically. Frame as history tied to current practice, not contemporary commentary. J. Marion Sims and similar cases remain district-discretion per u01.
 - **Consent across language.** Informed consent cannot be valid if the patient does not understand it. Professional medical interpreters (from u04) are not optional for limited-English-proficiency patients and Deaf patients — consent without language access is void.
 - **Consent and cognitive disability.** Capacity is decision-specific, not global. A patient with cognitive disability may have capacity for some decisions and not others. Supported decision-making is the modern framework; guardianship is a last resort.
 - **Medical racism still present.** Pain-assessment disparities (Black patients consistently under-treated for pain), maternal mortality disparities (Black maternal mortality 2-3× white), and algorithmic bias (risk scores that under-weight Black patients) are documented current realities. Teach as data, not advocacy.
@@ -202,6 +202,18 @@ Rubric dimensions: principle application, legal identification, reasoning qualit
 
 ---
 
-**Round 6.1 (provisional — passes 1-3 only):** Draft + pass 2 + pass 3 done in this session with chunked writes to avoid API timeouts. Explicitly provisional status. A dedicated re-review in a follow-up session is required before status becomes truly "reviewed" — see u03 and u04 experience where single-session "final blessings" turned out to still have loose threads.
+**Round 6.2 (dedicated re-review):** fresh-eyed pass after 6.1 provisional commit landed. Nine substantive issues found — matching the u03 (11) and u04 (9) yields at this stage, confirming that single-session passes reliably miss content-accuracy issues. Fixes:
 
-**Status: draft (provisional after 6.1 passes).** Awaiting round 6.2 dedicated re-review.
+1. **"Competence" vs "capacity" terminology** inconsistency in the informed-consent elements list — one line listed "competence" as an element then also mentioned "capacity vs. competence" as a separate distinction. Fixed to use "capacity" (the clinical term) in the elements list and clarified the clinical/legal distinction.
+2. **AMA acronym disambiguation** — the same acronym appeared three lines apart with two different meanings (American Medical Association at line 64; against-medical-advice discharge at line 67). Spelled out both; kept "AMA discharge" with explicit definition.
+3. **"FDA Act"** isn't a real law name. Corrected to "Federal Food, Drug, and Cosmetic Act (FDCA)."
+4. **Delegation arrow "RN → LVN → CNA"** suggested a strict chain. Real delegation rules are broader; softened to "nurse delegation rules under state practice acts."
+5. **Slot 3 rationale** said "consent decisions are built on confidentiality." Wrong relationship — consent is built on **autonomy**; HIPAA governs the information flow around consent. Rewrote the sequence rationale to reflect the actual conceptual dependency (rule-based content makes rights tangible before the autonomy framework lands).
+6. **Slot 5 rationale** was too narrow — said malpractice is about "scope violated or rights breached" but most malpractice is standard-of-care failure (med errors, missed diagnoses). Broadened.
+7. **u06 downstream dep** claimed healthy-relationships "touches informed-consent ideas in sexual health context." Overreach — the atom covers interpersonal relationship health, not sexual-health consent. Dropped.
+8. **"Illegal yet defensible in an ethical framework"** misconception example used "emergency care beyond scope" — but that's typically legal via Good Samaritan protections, not illegal. Replaced with a more accurate framing (ethics sometimes demands more than law, not usually less).
+9. **Tuskegee/Lacks framing** — "documented bases for modern informed-consent and research-ethics law" was wrong. Tuskegee drove **research-ethics law** (Common Rule) specifically; informed-consent law for clinical care has separate lineage (Salgo 1957, Canterbury 1972). Corrected.
+
+Pre-commit grep-verify (the u03 round 4.4 / u04 round 5.2 rule): checked `AMA`, `competence`, `capacity`, `FDA Act` across all locations before fixing to avoid missing duplicate instances. All duplicates accounted for.
+
+**Status: reviewed.** Final-blessed after round 6.2.
