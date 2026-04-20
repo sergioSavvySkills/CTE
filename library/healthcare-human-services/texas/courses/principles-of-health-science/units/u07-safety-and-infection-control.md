@@ -7,9 +7,9 @@ course_code: 127.403
 course_name: Principles of Health Science
 weeks: 3
 slots: 6
-status: draft
-reviewer:
-review_date:
+status: reviewed
+reviewer: maya-delgado
+review_date: 2026-04-20
 ---
 
 # u07 — Safety and Infection Control
@@ -33,19 +33,22 @@ Late placement after u05 (ethics) and u06 (humanistic) is deliberate:
 - **Needs:** u02 teaming and speak-up behaviors (safety reporting and incident escalation require them); u03 muscular/skeletal anatomy (body mechanics) and immune/lymphatic function (infection susceptibility); u04 technical communication (incident writing, SBAR for safety reports); u05 scope of practice and malpractice framing (safety incidents often have legal dimensions); u06 cultural responsiveness (safety protocols that land across diverse patient populations, e.g., PPE accommodations for religious dress)
 - **Feeds:** u08 technology (equipment malfunctions interact with safety protocols; EHR incident reporting)
 
-Three weeks is the right length: six atoms with two "both" skill-type, two "skill" type (hand hygiene, PPE), and two knowledge-type (regulatory, fire). The skill atoms drive the time — step-ordering simulations, video walkthroughs, and procedural assessments take longer than knowledge content.
+Three weeks is the right length: six atoms with three "both" skill-type (standard-precautions, fire-and-emergency-safety, body-mechanics), two "skill" type (hand hygiene, PPE), and one knowledge-type (regulatory-agencies). The skill atoms drive the time — step-ordering simulations, video walkthroughs, and procedural assessments take longer than knowledge content.
 
 ## Essential questions
 
-1. Which agencies regulate healthcare safety, and what does each actually enforce?
-2. How do infections spread, and how do standard precautions interrupt the chain?
-3. What is the correct procedure for hand hygiene, and when does it matter most?
-4. How do I select, don, and doff PPE without contaminating myself?
-5. What do I do in a healthcare fire?
-6. How do I respond to other emergencies — code situations, active threat, and weather events?
-7. How do I move patients and equipment without injuring myself or them?
-8. What is safety culture in a healthcare setting?
-9. How do individual workers contribute to (or erode) safety culture day to day?
+1. Which agencies regulate healthcare safety?
+2. What does each agency actually enforce in the workplace?
+3. How do infections spread from one person to another?
+4. How do standard precautions interrupt the chain of infection?
+5. What is the correct procedure for hand hygiene?
+6. When does hand hygiene matter most — and when do alcohol rubs fall short?
+7. How do I select, don, and doff PPE without contaminating myself?
+8. What do I do in a healthcare fire?
+9. How do I respond to other emergencies — code situations, active threat, and weather events?
+10. How do I move patients and equipment without injuring myself or them?
+11. What is safety culture in a healthcare setting?
+12. How do individual workers contribute to (or erode) safety culture day to day?
 
 ## Unit learning outcomes
 
@@ -55,9 +58,10 @@ Students will be able to:
 2. Explain the six-link chain of infection and identify interventions that break each link.
 3. Demonstrate correct hand-hygiene technique using the WHO Five Moments framework in a simulated setting.
 4. Demonstrate correct PPE selection, donning sequence, and doffing sequence for specified transmission-based precaution types and task risks.
-5. Apply RACE and PASS protocols to a simulated fire emergency and identify appropriate responses to code situations, active threat, and weather events.
-6. Apply body-mechanics principles to specified lifting, transferring, and posture scenarios.
-7. Describe safety-culture behaviors (incident reporting, speak-up, near-miss reporting) and their role in patient safety.
+5. Apply RACE and PASS protocols to a simulated fire emergency.
+6. Identify appropriate responses to code situations, active threat, and weather emergencies.
+7. Apply body-mechanics principles to specified lifting, transferring, and posture scenarios.
+8. Describe safety-culture behaviors (incident reporting, speak-up, near-miss reporting) and their role in patient safety.
 
 ## Content scope — in / out
 
@@ -68,12 +72,12 @@ Students will be able to:
 - Standard precautions: hand hygiene, PPE, safe injection practices, respiratory hygiene / cough etiquette, safe handling of contaminated equipment and surfaces, sharps safety
 - Transmission-based precautions: contact, droplet, airborne — when each applies
 - Hand hygiene technique: the WHO Five Moments (before patient contact, before aseptic task, after body fluid exposure risk, after patient contact, after contact with patient surroundings); alcohol-based hand rub vs. soap-and-water; when each is appropriate (soap-and-water for visibly soiled or C. diff exposure)
-- PPE use: gown, mask (surgical vs. N95 respirator), eye protection (goggles or face shield), gloves; donning sequence per CDC guidance (gown → mask/respirator → goggles/face shield → gloves); doffing sequence per CDC (gloves → gown → goggles/face shield → mask/respirator), with hand hygiene between steps and contamination-avoidance technique
+- PPE use: gown, mask (surgical vs. N95 respirator), eye protection (goggles or face shield), gloves; donning sequence per CDC guidance (gown → mask/respirator → goggles/face shield → gloves); doffing sequence per CDC (gloves → goggles/face shield → gown → mask/respirator), with hand hygiene between steps and contamination-avoidance technique
 - Fire safety: RACE (Rescue, Alarm, Contain, Extinguish/Evacuate), PASS (Pull, Aim, Squeeze, Sweep) for extinguisher use, fire-safety classes of extinguisher (A/B/C/K)
 - Emergency response: code system overview (codes vary by facility; Code Blue for cardiac arrest; Code Red for fire; Code Pink for infant abduction; Code Silver for active threat; others facility-specific), active-threat protocols (Run / Hide / Fight as federal default; variations for healthcare settings where evacuation is complicated by patients), weather emergencies
 - Body mechanics principles: base of support, center of gravity, alignment, leverage, the principle to "lift with the legs, not the back," turning the whole body rather than twisting the spine
 - Safe patient handling: ergonomic risks, mechanical-lift use, team transfers, No-Lift / Safe Patient Handling policies as the modern standard
-- Safety culture: incident reporting (electronic via EHR), near-miss reporting, speak-up from u02 applied to safety contexts, Joint Commission NPSGs, just-culture frameworks (distinguishing human error from reckless behavior)
+- Safety culture: incident reporting (electronic via EHR), near-miss reporting, speak-up from u02 applied to safety contexts, Joint Commission NPSGs, just-culture frameworks (distinguishing three categories of behavior — human error, at-risk behavior, and reckless behavior — with different responses to each)
 
 **Explicitly out of scope (covered elsewhere)**
 
@@ -164,7 +168,7 @@ Multi-part scenario: a simulated healthcare workday where students encounter and
 - Identify which agency's rule governs each situation
 - Write a short incident report using c2F precise language
 - Apply RACE/PASS to the fire scene
-- Execute a written body-mechanics plan for the transfer
+- Write a body-mechanics plan for the transfer
 - Document the near-miss and explain why reporting matters
 
 Rubric dimensions: regulatory identification accuracy, PPE selection correctness, reporting quality (c2D + c2F from u04), RACE/PASS sequencing, body-mechanics reasoning, safety-culture understanding.
@@ -173,14 +177,14 @@ Rubric dimensions: regulatory identification accuracy, PPE selection correctness
 
 ## Common misconceptions
 
-- "Gloves alone are enough PPE" — gloves are often the minimum, not the complete PPE. Exposure level dictates full PPE (eye protection, gown, mask). Gloves alone can give false confidence.
+- "Gloves alone are enough PPE" — gloves are often the minimum, not the complete PPE. Transmission-based precaution type and task risk dictate full PPE (eye protection, gown, mask). Gloves alone can give false confidence.
 - "Hand sanitizer is always better than soap and water" — not for C. diff spores (soap-and-water required) and not for visibly soiled hands. Alcohol rubs are faster and equally effective in most other situations.
 - "Standard precautions only apply when a patient is known to be infectious" — standard precautions apply to every patient every time, because infectious status is often unknown. The 'standard' in standard precautions means the default.
 - "Fire extinguishers are interchangeable" — extinguishers are classed A (ordinary combustibles), B (flammable liquids), C (electrical), D (metal), K (kitchen). Using the wrong class can make a fire worse.
 - "Back belts prevent lifting injuries" — evidence is weak at best. Body mechanics and mechanical lifts prevent injuries; back belts do not replace proper technique.
 - "If I'm strong enough I don't need a lift team" — lifting a fully dependent adult patient alone is an injury waiting to happen regardless of strength. Team transfers and mechanical lifts are the standard.
 - "Near-misses don't need to be reported since nothing happened" — near-misses are the most valuable safety data. They reveal system weaknesses before harm occurs. Reporting them is a core safety-culture behavior.
-- "Reporting a coworker's unsafe behavior is snitching" — it is patient safety. Just-culture frameworks distinguish human error (coaching, system fix) from reckless behavior (consequences); speak-up protects patients and colleagues both.
+- "Reporting a coworker's unsafe behavior is snitching" — it's a patient-safety responsibility. Just-culture frameworks distinguish human error (coaching, system fix) from at-risk behavior (coaching, safety-system reinforcement) from reckless behavior (consequences); speak-up protects patients and colleagues both.
 
 ## Equity and sensitivity notes
 
@@ -200,6 +204,17 @@ Rubric dimensions: regulatory identification accuracy, PPE selection correctness
 
 ---
 
-**Round 8.1 (provisional — passes 1-3 only):** Draft + pass 2 + pass 3 done this session with chunked writes. Per new user rule after round 7.2: autonomous review up to this point is allowed; **any further changes after status flips to reviewed require bringing a list of issues to the user first, not autonomous revisions.** Current status stays provisional until the next-session re-review is run and discussed.
+**Round 8.1 (provisional — passes 1-3):** Draft + pass 2 + pass 3 done in chunked writes. Pass 2 caught 4 issues (EQ splits, PPE doffing order attempt, outcome-#4 terminology). Committed as provisional per the new rule.
 
-**Status: draft (provisional after 8.1 passes).** Awaiting re-review discussion before status flip.
+**Round 8.2 (re-review — user-discussed):** Dedicated re-review brought 8 issues to user for approval before applying. User approved all 8. Fixes:
+
+1. **Atom skill-type count wrong** (line 36) — had "two 'both', two 'skill', two 'knowledge'" but actual distribution is three 'both', two 'skill', one 'knowledge'. Corrected with specific atom names.
+2. **PPE doffing sequence — my own pass-2 fix was wrong.** Original draft had `gloves → eye protection → gown → mask` which is the correct CDC order. My pass-2 "correction" swapped goggles and gown to `gloves → gown → goggles → mask`, which is the WRONG order. Reverted to the correct CDC sequence: `gloves → goggles/face shield → gown → mask/respirator`. Same over-correction failure mode as u04 round 5.2.
+3. **Outcome #5 two-in-one** (fire + other emergencies). Split; outcomes now 8.
+4. **EQs #1, #2, #3 two-in-one** — split each into its own question. Total EQs now 12. Slightly long but each is now single-focus.
+5. **Just-culture oversimplified** — modern just-culture has three categories (human error, at-risk, reckless). Corrected.
+6. **"Exposure level" terminology** used in misconception #1 but I had changed it in outcome #4 to "transmission-based precaution type and task risk." Aligned.
+7. **"Execute a written body-mechanics plan"** awkward phrasing. Changed to "Write a body-mechanics plan."
+8. **"It is patient safety"** grammar in misconception #8. Changed to "it's a patient-safety responsibility" and expanded the just-culture bullet to match fix #5.
+
+**Status: reviewed.**
