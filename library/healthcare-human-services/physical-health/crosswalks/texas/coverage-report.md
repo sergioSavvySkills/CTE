@@ -8,7 +8,7 @@
 ## §127.403 — Principles of Health Science (Subchapter I)
 
 - **Standards:** 50 (across 12 knowledge-and-skills areas in subsection (c))
-- **Atoms with primary alignment:** 26 (of 37 total atoms in this sub-cluster)
+- **Atoms with primary alignment:** 28 (of 37 total atoms in this sub-cluster)
 - **Standards covered by ≥1 primary atom:** 50 / 50 (**100%**)
 - **Standards covered by any alignment:** 50 / 50 (100%)
 - **Gaps:** none
@@ -146,8 +146,14 @@ These will gain primary alignments when those course crosswalks are built.
 | metric | count |
 |---|---|
 | total atoms in sub-cluster | 37 |
-| atoms primary-aligned to §127.403 | 26 |
-| atoms supporting-aligned to §127.403 only | 6 |
-| atoms not primary-aligned to §127.403 (other courses) | 5 |
+| atoms primary-aligned to §127.403 | 28 |
+| atoms supporting-aligned only (including cross-scope with supporting) | 7 |
+| atoms with no §127.403 alignment (pure cross-scope) | 2 |
 | §127.403 standards | 50 |
 | §127.403 standards with primary coverage | 50 (100%) |
+
+The 2 pure cross-scope atoms (`body-organization-and-directional-terms`,
+`vital-signs-overview`) are included in the sub-cluster for future
+Subchapter I courses (A&P §127.423, Health Science Theory §127.422) and
+are sequenced in the PoHS template as enrichment — they do not count
+toward §127.403 coverage.

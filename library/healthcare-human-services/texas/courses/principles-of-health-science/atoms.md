@@ -7,11 +7,29 @@ state-neutral at
 [TEKS file](teks-127-403.md) and the [crosswalk](crosswalk.md).
 
 **Coverage:** 50 / 50 §127.403 standards have a primary-aligned atom (**100%**).
-**SME review:** Round 3 — **approved** (maya-delgado, 2026-04-20). See
+**SME review:** Round 3.2 — **approved with unit-sequence fixes applied**
+(maya-delgado, 2026-04-20). See
 `../../../physical-health/crosswalks/texas/sme-review.md` for round history
 and bloat audit.
 
-## Primary-aligned atoms (26) — required for §127.403 coverage
+## View by unit (template sequencing)
+
+The canonical sequencing of these atoms into a course is in the course
+template at
+`../../../physical-health/templates/texas/tx-principles-of-health-science-2022.md`.
+
+| unit | title | primary atoms | supporting / cross-scope embedded | covers §127.403 KS areas |
+|---|---|---|---|---|
+| u01 | Entering Health Science | professionalism-and-employability-in-healthcare, healthcare-careers-and-pathways, history-of-healthcare, health-economics-and-government-impact | healthcare-delivery-system-overview | (c)(1), (c)(2)M-O, (c)(5), (c)(6), (c)(7)A |
+| u02 | The Healthcare Team | healthcare-team-roles, professional-organizations-and-credentialing, leadership-and-teamwork-in-healthcare | — | (c)(4), (c)(7)B, (c)(8) |
+| u03 | How the Body Works | homeostasis-and-biological-processes, maslows-hierarchy-and-patient-needs, lifespan-development-stages | body-organization-and-directional-terms, body-systems-overview | (c)(2)G, I, J |
+| u04 | Communicating in Healthcare | medical-terminology-word-parts, therapeutic-communication, conflict-resolution-in-healthcare, technical-communication-in-health-science | common-medical-abbreviations | (c)(2)C-F, (c)(3) |
+| u05 | Ethics, Law, and Patient Rights | professional-ethics-in-healthcare, patient-rights-and-informed-consent, scope-of-practice-and-licensure, malpractice-negligence-and-laws, ethics-of-technology-in-healthcare | hipaa-and-patient-confidentiality | (c)(9), (c)(10)A, D |
+| u06 | Wellness, Relationships, and Cultural Practice | wellness-and-disease-prevention, healthy-relationships-and-wellbeing, cultural-competence-in-healthcare | — | (c)(2)K-L, P-Q, (c)(10)B, C, E |
+| u07 | Safety and Infection Control | healthcare-regulatory-agencies, standard-precautions-and-chain-of-infection, fire-and-emergency-safety, body-mechanics-and-safe-patient-handling | hand-hygiene-technique, personal-protective-equipment-use | (c)(2)H, (c)(11) |
+| u08 | Healthcare Technology and Data | healthcare-equipment-and-malfunction-reporting, applied-math-and-data-in-health-science | electronic-health-records-basics, vital-signs-overview | (c)(2)A-B, (c)(12) |
+
+## Primary-aligned atoms (28) — required for §127.403 coverage
 
 ### Professional standards and employability (§127.403(c)(1))
 
@@ -91,33 +109,30 @@ and bloat audit.
 |---|---|
 | [healthcare-equipment-and-malfunction-reporting](../../../physical-health/atoms/healthcare-equipment-and-malfunction-reporting.md) | c12A, c12B, c12C |
 
-## Supporting-only atoms (6) — reinforce but don't primary-own a standard
+## Supporting-only atoms (7) — reinforce but don't primary-own a §127.403 standard
 
-| atom | supports |
-|---|---|
-| [common-medical-abbreviations](../../../physical-health/atoms/common-medical-abbreviations.md) | c3D |
-| [hipaa-and-patient-confidentiality](../../../physical-health/atoms/hipaa-and-patient-confidentiality.md) | c9B |
-| [healthcare-delivery-system-overview](../../../physical-health/atoms/healthcare-delivery-system-overview.md) | c2N, c2O, c11A |
-| [electronic-health-records-basics](../../../physical-health/atoms/electronic-health-records-basics.md) | c12A |
-| [hand-hygiene-technique](../../../physical-health/atoms/hand-hygiene-technique.md) | c11B |
-| [personal-protective-equipment-use](../../../physical-health/atoms/personal-protective-equipment-use.md) | c11B |
+| atom | supports | also primary-belongs to |
+|---|---|---|
+| [body-systems-overview](../../../physical-health/atoms/body-systems-overview.md) | c2G | §127.423 Anatomy and Physiology |
+| [common-medical-abbreviations](../../../physical-health/atoms/common-medical-abbreviations.md) | c3D | — (PoHS-scoped) |
+| [electronic-health-records-basics](../../../physical-health/atoms/electronic-health-records-basics.md) | c12A | — (PoHS-scoped) |
+| [hand-hygiene-technique](../../../physical-health/atoms/hand-hygiene-technique.md) | c11B | Health Science Clinical |
+| [healthcare-delivery-system-overview](../../../physical-health/atoms/healthcare-delivery-system-overview.md) | c2N, c2O, c11A | — (PoHS-scoped; survey/integrator) |
+| [hipaa-and-patient-confidentiality](../../../physical-health/atoms/hipaa-and-patient-confidentiality.md) | c9B | — (PoHS-scoped) |
+| [personal-protective-equipment-use](../../../physical-health/atoms/personal-protective-equipment-use.md) | c11B | Health Science Clinical |
 
-## Cross-scope atoms (5) — belong primary-first to other Subchapter I courses
+## Pure cross-scope atoms (2) — no §127.403 alignment, sequenced for enrichment
 
 | atom | primary course (future) |
 |---|---|
 | [body-organization-and-directional-terms](../../../physical-health/atoms/body-organization-and-directional-terms.md) | §127.423 Anatomy and Physiology |
-| [body-systems-overview](../../../physical-health/atoms/body-systems-overview.md) | §127.423 Anatomy and Physiology |
 | [vital-signs-overview](../../../physical-health/atoms/vital-signs-overview.md) | §127.422 Health Science Theory |
-
-(`hand-hygiene-technique` and `personal-protective-equipment-use` — listed
-under supporting above — also primary-belong to Health Science Clinical.)
 
 ## Counts
 
 | bucket | atoms |
 |---|---|
-| primary-aligned to §127.403 | 26 |
-| supporting-only to §127.403 | 6 |
-| cross-scope (other Subchapter I courses) | 5 |
+| primary-aligned to §127.403 | 28 |
+| supporting-only (incl. cross-scope with supporting alignment) | 7 |
+| pure cross-scope (no §127.403 alignment) | 2 |
 | **total in sub-cluster** | **37** |

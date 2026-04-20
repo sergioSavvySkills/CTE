@@ -33,6 +33,15 @@ supplies are never required. Skill atoms (hand hygiene, PPE) are assessed
 via video-demo walkthroughs, step-ordering interactives, and scenario-based
 mastery checks — no in-person check-off.
 
+§127.403(c)(1) employability elements are **threaded throughout the course**,
+not a front-loaded filler unit: `professionalism-and-employability-in-healthcare`
+in u01 introduces the standards, then cross-unit performance tasks and applied
+tasks continue to exercise them — u02 team-collaboration rubrics (c1B
+cooperate as team member), u04 communication-precision prompts (c1A express
+ideas clearly), u05 discussion-based ethical reasoning (c1A precise
+language), u07 safety-response protocols (c1C employer expectations and
+work habits), and the u08 capstone rubric (all three).
+
 ## Unit ordering rationale
 
 **Units 1-2 build motivation and context** (who works in healthcare, what
@@ -44,13 +53,17 @@ later units can use medical terms, interpret data, and read technical
 material without re-teaching. **Unit 5 (ethics/law) sits in the middle** —
 heaviest cognitive load placed after students have tools to work with it.
 **Units 6-7** deliver the humanistic and safety halves of practice.
-**Unit 8 closes the loop** — healthcare technology spans all 5 systems
-and ties back to Unit 1 careers.
+**Unit 8 closes the loop** — healthcare technology spans all 5 systems,
+adds data interpretation, and ties back to Unit 1 careers.
 
 Performance tasks anchor the four units where an integrated project
 delivers more than any single atom can: the **Career Pathway Portfolio**
-(u01), the **Ethics Case Analysis** (u05), the **Safety Scenario Response**
-(u07), and the **Technology Systems Map** capstone (u08).
+(u01), the **Ethics Case Analysis** (u05, mid-course integrator that
+pulls in u01-u04 context), the **Safety Scenario Response** (u07), and
+the **Technology Systems Map capstone** (u08). The u08 capstone PT is
+explicitly integrative — its rubric requires students to cite evidence
+from the science, communication, ethics, wellness, and safety units, not
+just the technology unit content.
 
 ```yaml
 units:
@@ -145,8 +158,6 @@ units:
         atom_id: conflict-resolution-in-healthcare
       - slot: 5
         atom_id: technical-communication-in-health-science
-      - slot: 6
-        atom_id: applied-math-and-data-in-health-science
     unit_generate:
       game: true
       summative_quiz: true
@@ -167,30 +178,6 @@ units:
       - slot: 2
         atom_id: hipaa-and-patient-confidentiality
       - slot: 3
-        atom_id: scope-of-practice-and-licensure
-        generate:
-          lesson: true
-          classwork: discussion
-          quiz: exit_ticket
-          simulation: false
-          video: false
-      - slot: 4
-        atom_id: malpractice-negligence-and-laws
-        generate:
-          lesson: true
-          classwork: discussion
-          quiz: exit_ticket
-          simulation: false
-          video: false
-      - slot: 5
-        atom_id: ethics-of-technology-in-healthcare
-        generate:
-          lesson: true
-          classwork: discussion
-          quiz: exit_ticket
-          simulation: false
-          video: true
-      - slot: 6
         atom_id: patient-rights-and-informed-consent
         generate:
           lesson: true
@@ -198,6 +185,30 @@ units:
           quiz: exit_ticket
           simulation: false
           video: false
+      - slot: 4
+        atom_id: scope-of-practice-and-licensure
+        generate:
+          lesson: true
+          classwork: discussion
+          quiz: exit_ticket
+          simulation: false
+          video: false
+      - slot: 5
+        atom_id: malpractice-negligence-and-laws
+        generate:
+          lesson: true
+          classwork: discussion
+          quiz: exit_ticket
+          simulation: false
+          video: false
+      - slot: 6
+        atom_id: ethics-of-technology-in-healthcare
+        generate:
+          lesson: true
+          classwork: discussion
+          quiz: exit_ticket
+          simulation: false
+          video: true
     unit_generate:
       game: true
       summative_quiz: true
@@ -240,8 +251,8 @@ units:
       performance_task: true
 
   - unit_id: u08
-    title: "Healthcare Technology"
-    weeks: 2
+    title: "Healthcare Technology and Data"
+    weeks: 3
     slots:
       - slot: 1
         atom_id: healthcare-equipment-and-malfunction-reporting
@@ -249,6 +260,8 @@ units:
         atom_id: electronic-health-records-basics
       - slot: 3
         atom_id: vital-signs-overview
+      - slot: 4
+        atom_id: applied-math-and-data-in-health-science
     unit_generate:
       game: false
       summative_quiz: true
@@ -257,7 +270,7 @@ units:
 
 ## Pacing summary
 
-Eight units spanning ~21 weeks of instruction, leaving ~15 weeks across a
+Eight units spanning ~22 weeks of instruction, leaving ~14 weeks across a
 36-week year for unit review, mid-term and final exams, state-testing
 windows, and the four performance tasks (which expand beyond the slot
 count of their host unit).
@@ -271,18 +284,24 @@ run the coverage report against
 to verify every §127.403(c) standard hits at least one slot. Current state
 per SME round 3.1: **50 / 50 standards have a primary-aligned atom (100%).**
 
-## Atom inventory in this template
+## Unit inventory — what's in each unit
 
-| unit | slots | primary atoms | supporting / cross-scope |
-|---|---|---|---|
-| u01 Entering Health Science | 5 | professionalism-and-employability, healthcare-careers-and-pathways, history-of-healthcare, health-economics-and-government-impact | healthcare-delivery-system-overview |
-| u02 The Healthcare Team | 3 | healthcare-team-roles, professional-organizations-and-credentialing, leadership-and-teamwork-in-healthcare | — |
-| u03 How the Body Works | 5 | homeostasis-and-biological-processes, maslows-hierarchy-and-patient-needs, lifespan-development-stages | body-organization-and-directional-terms, body-systems-overview |
-| u04 Communicating in Healthcare | 6 | medical-terminology-word-parts, therapeutic-communication, conflict-resolution-in-healthcare, technical-communication-in-health-science, applied-math-and-data-in-health-science | common-medical-abbreviations |
-| u05 Ethics, Law, and Patient Rights | 6 | professional-ethics-in-healthcare, scope-of-practice-and-licensure, malpractice-negligence-and-laws, ethics-of-technology-in-healthcare, patient-rights-and-informed-consent | hipaa-and-patient-confidentiality |
-| u06 Wellness, Relationships, and Cultural Practice | 3 | wellness-and-disease-prevention, healthy-relationships-and-wellbeing, cultural-competence-in-healthcare | — |
-| u07 Safety and Infection Control | 6 | healthcare-regulatory-agencies, standard-precautions-and-chain-of-infection, fire-and-emergency-safety, body-mechanics-and-safe-patient-handling | hand-hygiene-technique, personal-protective-equipment-use |
-| u08 Healthcare Technology | 3 | healthcare-equipment-and-malfunction-reporting | electronic-health-records-basics, vital-signs-overview |
-| **total** | **37** | **26 primary** | **11 support/cross-scope** |
+| unit | title | weeks | primary atoms | supporting / cross-scope embedded | covers §127.403 KS areas |
+|---|---|:-:|---|---|---|
+| u01 | Entering Health Science | 2 | professionalism-and-employability-in-healthcare, healthcare-careers-and-pathways, history-of-healthcare, health-economics-and-government-impact | healthcare-delivery-system-overview | (c)(1), (c)(2)M-O, (c)(5), (c)(6), (c)(7)A |
+| u02 | The Healthcare Team | 2 | healthcare-team-roles, professional-organizations-and-credentialing, leadership-and-teamwork-in-healthcare | — | (c)(4), (c)(7)B, (c)(8) |
+| u03 | How the Body Works | 3 | homeostasis-and-biological-processes, maslows-hierarchy-and-patient-needs, lifespan-development-stages | body-organization-and-directional-terms, body-systems-overview | (c)(2)G, I, J |
+| u04 | Communicating in Healthcare | 3 | medical-terminology-word-parts, therapeutic-communication, conflict-resolution-in-healthcare, technical-communication-in-health-science | common-medical-abbreviations | (c)(2)C-F, (c)(3) |
+| u05 | Ethics, Law, and Patient Rights | 4 | professional-ethics-in-healthcare, patient-rights-and-informed-consent, scope-of-practice-and-licensure, malpractice-negligence-and-laws, ethics-of-technology-in-healthcare | hipaa-and-patient-confidentiality | (c)(9), (c)(10)A, D |
+| u06 | Wellness, Relationships, and Cultural Practice | 2 | wellness-and-disease-prevention, healthy-relationships-and-wellbeing, cultural-competence-in-healthcare | — | (c)(2)K-L, P-Q, (c)(10)B, C, E |
+| u07 | Safety and Infection Control | 3 | healthcare-regulatory-agencies, standard-precautions-and-chain-of-infection, fire-and-emergency-safety, body-mechanics-and-safe-patient-handling | hand-hygiene-technique, personal-protective-equipment-use | (c)(2)H, (c)(11) |
+| u08 | Healthcare Technology and Data | 3 | healthcare-equipment-and-malfunction-reporting, applied-math-and-data-in-health-science | electronic-health-records-basics, vital-signs-overview | (c)(2)A-B, (c)(12) |
+| **total** | | **22** | **28 primary atoms** | **9 support/cross-scope** | **all 12 KS areas covered** |
+
+c1A-C (professional standards and employability) are introduced via
+`professionalism-and-employability-in-healthcare` in u01 and then
+reinforced through performance-task rubrics and applied tasks across
+units 2, 4, 5, 7, and 8 — see the "threaded throughout the course" note
+in the intro.
 
 All 37 atoms in the sub-cluster are sequenced by this template.

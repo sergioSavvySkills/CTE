@@ -1,7 +1,8 @@
 # Atoms — Physical Health
 
 **Status:** 37 atoms total, all `draft`. §127.403 Principles of Health
-Science (Subchapter I) at **100% primary coverage** (SME-approved round 3).
+Science (Subchapter I) at **100% primary coverage** (SME-approved round 3.2 —
+round 3 content sign-off + round 3.2 unit-sequence fixes applied).
 Other Subchapter I courses pending.
 
 ## Scope
@@ -59,9 +60,9 @@ reusable by other state views when added.
 
 | role | count |
 |---|---|
-| primary-aligned to §127.403 | 26 |
-| supporting-only to §127.403 | 6 |
-| cross-scope (other Subchapter I courses) | 5 |
+| primary-aligned to §127.403 | 28 |
+| supporting-only (incl. cross-scope w/ supporting alignment) | 7 |
+| pure cross-scope (no §127.403 alignment) | 2 |
 | **total** | **37** |
 
 ## Course views that reference these atoms

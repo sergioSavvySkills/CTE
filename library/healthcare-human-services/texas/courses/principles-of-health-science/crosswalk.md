@@ -4,9 +4,42 @@ Readable view of the atom ↔ §127.403 alignment. Machine-readable source at
 `../../../physical-health/crosswalks/texas/crosswalk.csv`.
 
 **Coverage:** 50 / 50 standards have a primary atom (**100%**).
-**Review status:** Round 3 — **approved** (maya-delgado, 2026-04-20). See
+**Review status:** Round 3.2 — **approved with unit-sequence fixes applied**
+(maya-delgado, 2026-04-20). See
 [sme-review.md](../../../physical-health/crosswalks/texas/sme-review.md) for
 round history and bloat audit.
+
+## KS-area coverage by unit
+
+Where each KS area is taught in the [course template](../../../physical-health/templates/texas/tx-principles-of-health-science-2022.md):
+
+| KS area | topic | unit(s) |
+|---|---|---|
+| (c)(1) | Professional standards and employability | u01 (intro); threaded u02, u04, u05, u07, u08 |
+| (c)(2)A-B | Measurement conversion, data interpretation | u08 |
+| (c)(2)C-F | Technical material, reports, presentations, precise language | u04 |
+| (c)(2)G | Homeostasis | u03 |
+| (c)(2)H | Body mechanics | u07 |
+| (c)(2)I | Maslow's Hierarchy | u03 |
+| (c)(2)J | Lifespan stages | u03 |
+| (c)(2)K | Wellness across lifespan | u06 |
+| (c)(2)L | Relationship communication | u06 |
+| (c)(2)M | Historical significance | u01 |
+| (c)(2)N-O | Economics and government impact | u01 |
+| (c)(2)P-Q | Cultural influences and practices | u06 |
+| (c)(3) | Verbal and nonverbal communication | u04 |
+| (c)(4) | Leadership | u02 |
+| (c)(5) | Career options | u01 |
+| (c)(6) | Academic preparation | u01 |
+| (c)(7) | Career pathways | u01 (A), u02 (B) |
+| (c)(8) | Multidisciplinary team | u02 |
+| (c)(9) | Ethical behavior and legal responsibilities | u05 |
+| (c)(10)A, D | Autonomy and documentation of rights | u05 |
+| (c)(10)B | Wellness strategies | u06 |
+| (c)(10)C | Relationships on health | u06 |
+| (c)(10)E | Diversity and cultural practices | u06 |
+| (c)(11) | Safety | u07 |
+| (c)(12) | Technology | u08 |
 
 ## Standards → primary atoms
 

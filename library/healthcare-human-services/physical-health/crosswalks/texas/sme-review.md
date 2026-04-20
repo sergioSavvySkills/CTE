@@ -141,14 +141,37 @@ without them). Will be promoted when those courses' crosswalks are built.
   against that canonical source can be added to the verification trail
   without changing any content.
 
+## Round 3.2 — unit-sequence review (2026-04-20)
+
+Triggered by Maya's review of the first-draft course template
+(`templates/texas/tx-principles-of-health-science-2022.md`). Four
+sequencing fixes identified and applied in this round:
+
+| # | concern | fix applied |
+|---|---|---|
+| 1 | u08 was a thin capstone (3 slots) carrying a performance task that should integrate across modules | u08 PT description now explicitly requires students to cite evidence from u03-u07 content in the Technology Systems Map; u08 also gained a slot (applied-math-and-data) and extended to 3 weeks |
+| 2 | §127.403(c)(1) employability (c1A-C) disappeared after u01 | intro paragraph now documents explicit threading across u02 (team-collab rubrics / c1B), u04 (communication-precision prompts / c1A), u05 (discussion-based reasoning / c1A), u07 (safety-response protocols / c1C), and u08 (capstone rubric / all three) |
+| 3 | applied-math-and-data-in-health-science in u04 was a stretch — data interpretation isn't really "communication" | moved to u08 (Technology and Data) where data sits naturally next to EHR and vital signs. u04 drops from 6 to 5 slots; u08 rises from 3 to 4 slots |
+| 4 | u05 internal slot order was abstract → HIPAA → scope → malpractice → tech → rights — not a learning flow | reordered to ethics → HIPAA → **patient-rights** → scope → malpractice → tech-ethics (foundation → concrete rule → patient side → provider side → consequences → new frontiers) |
+
+Also corrected a documentation count: primary-aligned atoms are **28**,
+not 26 as earlier summary text said. Enumerated lists in atoms.md were
+always correct; the roll-up counter was wrong and has been fixed in
+coverage-report.md, atoms.md, _about.md, _index.md, and the template
+total row. No change to coverage percentage (still 100%).
+
 ## Sign-off
 
 - Reviewer: maya-delgado (AI SME persona)
 - Date: 2026-04-20
-- Round: **3.1** (follow-up patch after round 3)
-- Status: **Approved with all caveats closed.**
-  - §127.403 alignment is complete and accurate; primary source verified against **two** independent mirrors (Cornell LII + txrules.elaws.us).
-  - All 5 must-fix bloat items applied in atoms.
+- Round: **3.2** (unit-sequence review, follow-up to round 3.1)
+- Status: **Approved with all caveats closed and unit-sequence fixes applied.**
+  - §127.403 alignment complete and accurate (100% primary, 50/50 standards).
+  - Rule text verified against **two** independent TAC mirrors (Cornell LII + txrules.elaws.us).
+  - All 5 must-fix bloat items applied in atoms (round 3.1).
+  - All 4 unit-sequence fixes applied in template (round 3.2).
+  - Primary-atom count corrected from 26 → 28 in summary docs.
+  - Template `status: draft` pending one more SME pass on the unit-level table before promoting to `active`.
   - No open caveats remain for §127.403.
 
 ## Lessons for future sub-cluster work
