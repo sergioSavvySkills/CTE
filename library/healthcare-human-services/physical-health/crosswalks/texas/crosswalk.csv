@@ -1,35 +1,61 @@
 atom_id,state,standard_code,alignment_strength,rationale,source,reviewer,review_date,framework_version
-healthcare-delivery-system-overview,TX,127.402-c8A,primary,"Atom directly covers U.S. healthcare delivery system: providers, settings, payers, and regulators",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-healthcare-delivery-system-overview,TX,127.402-c1A,supporting,"Atom references career opportunities within the delivery system context",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-healthcare-careers-and-pathways,TX,127.402-c1A,primary,"Atom's career-family taxonomy directly aligns with the five health science career pathways",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-healthcare-careers-and-pathways,TX,127.402-c1B,primary,"Atom covers education, licensure, and certification ladders by role",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-healthcare-careers-and-pathways,TX,127.402-c1C,primary,"Atom's pathway-mapping assessment scaffolds personal career plan creation",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-healthcare-team-roles,TX,127.402-c3C,primary,"Atom directly addresses roles and scopes of healthcare team members",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-healthcare-team-roles,TX,127.402-c1A,supporting,"Atom reinforces career pathway awareness through role differentiation",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-medical-terminology-word-parts,TX,127.402-c2A,primary,"Atom directly teaches word roots, prefixes, and suffixes for medical communication",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-medical-terminology-word-parts,TX,127.402-c6C,primary,"Atom's decoding strategy explicitly targets interpreting unfamiliar terms from word parts",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-common-medical-abbreviations,TX,127.402-c6D,primary,"Atom covers common abbreviations and explicitly includes the Joint Commission do-not-use list",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-common-medical-abbreviations,TX,127.402-c2A,supporting,"Atom reinforces medical-communication vocabulary",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-common-medical-abbreviations,TX,127.402-c2C,supporting,"Atom addresses documentation standards through abbreviation use",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-body-organization-and-directional-terms,TX,127.402-c6A,primary,"Atom directly covers levels of organization, planes, cavities, and directional terms",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-body-systems-overview,TX,127.402-c6B,primary,"Atom identifies the 11 major body systems and primary functions with representative disorders",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-professional-ethics-in-healthcare,TX,127.402-c4D,primary,"Atom directly teaches the four ethical principles and applies them to dilemmas",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-hipaa-and-patient-confidentiality,TX,127.402-c4A,primary,"Atom covers HIPAA Privacy, Security, and Breach rules plus patient confidentiality in practice",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-patient-rights-and-informed-consent,TX,127.402-c4B,primary,"Atom covers Patient Bill of Rights and the five elements of informed consent",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-scope-of-practice-and-licensure,TX,127.402-c4C,primary,"Atom directly addresses scope, licensure, delegation, and practice-act variation",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-standard-precautions-and-chain-of-infection,TX,127.402-c5A,primary,"Atom covers standard precautions and the six-link chain of infection with transmission modes",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-hand-hygiene-technique,TX,127.402-c5B,primary,"Atom teaches soap-and-water and ABHR technique plus WHO Five Moments",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-personal-protective-equipment-use,TX,127.402-c5C,primary,"Atom covers PPE selection and correct donning/doffing sequence with skill check",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-body-mechanics-and-safe-patient-handling,TX,127.402-c5D,primary,"Atom teaches body mechanics, safe transfers, and lift-equipment decision-making",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-fire-and-emergency-safety,TX,127.402-c5E,primary,"Atom covers RACE, PASS, emergency codes, and evacuation priorities",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-therapeutic-communication,TX,127.402-c2B,primary,"Atom directly addresses verbal and nonverbal communication with patients and teams",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-therapeutic-communication,TX,127.402-c2D,primary,"Atom covers communication barriers and specific adaptations",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-cultural-competence-in-healthcare,TX,127.402-c8C,primary,"Atom directly covers cultural competence and humility in healthcare",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-cultural-competence-in-healthcare,TX,127.402-c2D,supporting,"Atom reinforces communication adaptations for diverse patient populations",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-wellness-and-disease-prevention,TX,127.402-c8B,primary,"Atom directly covers wellness dimensions and primary/secondary/tertiary prevention",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-vital-signs-overview,TX,127.402-c6E,primary,"Atom teaches measuring and recording the five standard vital signs with normal ranges",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-electronic-health-records-basics,TX,127.402-c7A,primary,"Atom covers EHR purpose, chart navigation, and safe documentation practices",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-electronic-health-records-basics,TX,127.402-c2C,supporting,"Atom reinforces written documentation standards within the EHR context",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-electronic-health-records-basics,TX,127.402-c7B,supporting,"Atom touches emerging tech (patient portals, HIE, FHIR APIs) used in healthcare delivery",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-leadership-and-teamwork-in-healthcare,TX,127.402-c3A,primary,"Atom addresses leadership characteristics and behaviors at every level",ai-draft,maya-delgado,2026-04-20,2022 Adopted
-leadership-and-teamwork-in-healthcare,TX,127.402-c3B,primary,"Atom covers team-building, SBAR, closed-loop communication, and TeamSTEPPS",ai-draft,maya-delgado,2026-04-20,2022 Adopted
+applied-math-and-data-in-health-science,TX,127.461-d1A,primary,"Atom directly teaches unit conversions between measurement systems used in healthcare",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+applied-math-and-data-in-health-science,TX,127.461-d1B,primary,"Atom covers chart, table, and graph interpretation applied to clinical problems",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+technical-communication-in-health-science,TX,127.461-d1C,primary,"Atom teaches interpreting technical material (journal abstracts, drug inserts, guidelines)",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+technical-communication-in-health-science,TX,127.461-d1D,primary,"Atom addresses writing reports and summaries with audience-first structure",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+technical-communication-in-health-science,TX,127.461-d1E,primary,"Atom covers planning and delivering oral presentations",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+technical-communication-in-health-science,TX,127.461-d1F,primary,"Atom teaches precise language in clinical communication",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+homeostasis-and-biological-processes,TX,127.461-d1G,primary,"Atom directly covers biological and chemical processes that maintain homeostasis including feedback loops",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+body-mechanics-and-safe-patient-handling,TX,127.461-d1H,primary,"Atom covers body mechanics principles and movement applied to healthcare work",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+maslows-hierarchy-and-patient-needs,TX,127.461-d1I,primary,"Atom directly teaches Maslow's Hierarchy and applies it to patient priorities",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+lifespan-development-stages,TX,127.461-d1J,primary,"Atom covers the stages of human development from infancy to older adulthood",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+wellness-and-disease-prevention,TX,127.461-d1K,primary,"Atom covers wellness dimensions and the levels of prevention across the lifespan",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthy-relationships-and-wellbeing,TX,127.461-d1L,primary,"Atom addresses communication skills for healthy relationships throughout the lifespan",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+history-of-healthcare,TX,127.461-d1M,primary,"Atom directly covers historical significance of healthcare across eras and turning points",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+health-economics-and-government-impact,TX,127.461-d1N,primary,"Atom covers scale and economic impact of the health services sector",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+health-economics-and-government-impact,TX,127.461-d1O,primary,"Atom analyzes federal, state, and local government impact on the health science industry",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+cultural-competence-in-healthcare,TX,127.461-d1P,primary,"Atom directly addresses diverse cultural influences on healthcare delivery",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+cultural-competence-in-healthcare,TX,127.461-d1Q,primary,"Atom covers cross-cultural practices and disparities in healthcare",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+therapeutic-communication,TX,127.461-d2A,primary,"Atom directly teaches effective vs. non-effective communication components",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+therapeutic-communication,TX,127.461-d2B,primary,"Atom covers effective communication for diverse patient populations",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+conflict-resolution-in-healthcare,TX,127.461-d2C,primary,"Atom directly evaluates conflict-resolution techniques with Thomas-Kilmann styles applied",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+medical-terminology-word-parts,TX,127.461-d2D,primary,"Atom teaches interpreting medical vocabulary via word-part analysis",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+common-medical-abbreviations,TX,127.461-d2D,supporting,"Atom reinforces medical vocabulary in documentation contexts",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+leadership-and-teamwork-in-healthcare,TX,127.461-d3A,primary,"Atom identifies leader traits and effective behaviors",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+leadership-and-teamwork-in-healthcare,TX,127.461-d3B,primary,"Atom covers leadership skills, goal-setting, and team building",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+leadership-and-teamwork-in-healthcare,TX,127.461-d3C,primary,"Atom touches team meetings via SBAR, handoff briefings, and team huddles/debriefs",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-careers-and-pathways,TX,127.461-d4A,primary,"Atom teaches locating, evaluating, and interpreting career options and employment information",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-careers-and-pathways,TX,127.461-d4B,primary,"Atom's career-plan assessment directly addresses impact of career decisions",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-careers-and-pathways,TX,127.461-d5,primary,"Atom covers academic requirements: certification, licensure, continuing education, advanced degrees",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+scope-of-practice-and-licensure,TX,127.461-d5,supporting,"Atom reinforces licensure and certification requirements by role",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-careers-and-pathways,TX,127.461-d6A,primary,"Atom compares careers across therapeutic, diagnostic, informatics, support, and biotech pathways",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-team-roles,TX,127.461-d6B,primary,"Atom identifies collaborative roles of team members across systems for quality care",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-team-roles,TX,127.461-d7A,primary,"Atom directly covers the concept of teaming to provide quality health care",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+leadership-and-teamwork-in-healthcare,TX,127.461-d7A,supporting,"Atom reinforces teaming through TeamSTEPPS and interprofessional collaboration",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+professional-organizations-and-credentialing,TX,127.461-d7B,primary,"Atom directly examines professional organizations in credentialing and certification governance",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+scope-of-practice-and-licensure,TX,127.461-d8A,primary,"Atom compares professional scope of practice across roles and practice acts",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+professional-ethics-in-healthcare,TX,127.461-d8A,supporting,"Atom addresses codes of ethics (ANA, AMA) in the context of the four ethical principles",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+professional-ethics-in-healthcare,TX,127.461-d8B,primary,"Atom teaches ethical principles and applies them to confidentiality scenarios",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+hipaa-and-patient-confidentiality,TX,127.461-d8B,supporting,"Atom covers consequences of breach of confidentiality (fines, charges, patient harm)",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+ethics-of-technology-in-healthcare,TX,127.461-d8C,primary,"Atom directly discusses ethical issues related to healthcare technology (AI, genomics, telehealth)",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+malpractice-negligence-and-laws,TX,127.461-d8D,primary,"Atom examines malpractice, negligence, and liability with the four-element framework",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+malpractice-negligence-and-laws,TX,127.461-d8E,primary,"Atom maps federal and state laws governing the health science industry",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+patient-rights-and-informed-consent,TX,127.461-d9A,primary,"Atom covers autonomy-related situations including informed refusal and AMA discharge",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+wellness-and-disease-prevention,TX,127.461-d9B,primary,"Atom identifies wellness strategies for primary, secondary, and tertiary prevention",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthy-relationships-and-wellbeing,TX,127.461-d9C,primary,"Atom evaluates positive and negative effects of relationships on physical and emotional health",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+patient-rights-and-informed-consent,TX,127.461-d9D,primary,"Atom addresses documentation of rights, consent, and refusal",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+cultural-competence-in-healthcare,TX,127.461-d9E,primary,"Atom covers diversity and cultural practices influencing healthcare delivery",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-regulatory-agencies,TX,127.461-d10A,primary,"Atom directly identifies WHO, CDC, OSHA, FDA, Joint Commission, and NIH and their roles",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+standard-precautions-and-chain-of-infection,TX,127.461-d10B,primary,"Atom covers standard precautions as part of industry safety standards",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+fire-and-emergency-safety,TX,127.461-d10B,primary,"Atom covers fire prevention, safety practices, and emergency response per industry standards",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+hand-hygiene-technique,TX,127.461-d10B,supporting,"Atom operationalizes standard precautions via hand-hygiene procedure",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+personal-protective-equipment-use,TX,127.461-d10B,supporting,"Atom operationalizes standard precautions via PPE selection and use",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-regulatory-agencies,TX,127.461-d10C,primary,"Atom relates daily safety practices (bloodborne-pathogen training, PPE, incident reporting) to the agency rules behind them",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-equipment-and-malfunction-reporting,TX,127.461-d11A,primary,"Atom identifies technological equipment across all five health science systems",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+electronic-health-records-basics,TX,127.461-d11A,supporting,"Atom covers specific informatics-system equipment (EHR, portals, HIE)",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-equipment-and-malfunction-reporting,TX,127.461-d11B,primary,"Atom identifies potential equipment malfunctions and warning signs",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-equipment-and-malfunction-reporting,TX,127.461-d11C,primary,"Atom covers the reporting process for equipment malfunctions including FDA MDR",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-delivery-system-overview,TX,127.461-d1N,supporting,"Atom provides background on health services sector structure informing economic analysis",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-delivery-system-overview,TX,127.461-d1O,supporting,"Atom outlines federal, state, and accrediting regulators relevant to government impact",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+healthcare-delivery-system-overview,TX,127.461-d10A,supporting,"Atom introduces CMS, FDA, OSHA and Joint Commission roles",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)
+body-systems-overview,TX,127.461-d1G,supporting,"Atom provides system-level context for homeostasis; primary alignment belongs to A&P course",ai-draft,maya-delgado,2026-04-20,2015 (Aug 2025 update)

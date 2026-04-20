@@ -1,83 +1,74 @@
-# Crosswalk — Principles of Health Science (§127.402) ↔ Atoms
+# Crosswalk — Principles of Health Science (§127.461) ↔ Atoms
 
-Readable view of the atom ↔ TEKS alignment for this course. Machine-readable
-source is at `../../../physical-health/crosswalks/texas/crosswalk.csv`.
+Readable view of the atom ↔ §127.461 alignment. Machine-readable source is
+at `../../../physical-health/crosswalks/texas/crosswalk.csv`.
 
-**Coverage summary:** 27 of 30 standards covered by a primary atom (**90%**).
-Remaining 3 (c1D, c2C, c7B) covered by supporting atoms only — gap atoms
-recommended. See `../../../physical-health/crosswalks/texas/coverage-report.md`
-for detail.
+**Coverage:** 47 / 47 standards have a primary atom (**100%**).
+**Review status:** Round 2 — **approved** (maya-delgado, 2026-04-20).
+See [sme-review.md](../../../physical-health/crosswalks/texas/sme-review.md)
+for round-by-round notes and bloat audit.
 
-**Review status:** SME review round 1 complete (maya-delgado, 2026-04-20) —
-**conditional approval** pending authoritative TEKS text verification. See
-`../../../physical-health/crosswalks/texas/sme-review.md`.
+## Standards → primary atoms
 
-## Atom → Standards (what each atom covers)
-
-| atom | primary | supporting |
+| standard | text (abbrev.) | primary atom |
 |---|---|---|
-| [healthcare-delivery-system-overview](../../../physical-health/atoms/healthcare-delivery-system-overview.md) | c8A | c1A |
-| [healthcare-careers-and-pathways](../../../physical-health/atoms/healthcare-careers-and-pathways.md) | c1A, c1B, c1C | |
-| [healthcare-team-roles](../../../physical-health/atoms/healthcare-team-roles.md) | c3C | c1A |
-| [medical-terminology-word-parts](../../../physical-health/atoms/medical-terminology-word-parts.md) | c2A, c6C | |
-| [common-medical-abbreviations](../../../physical-health/atoms/common-medical-abbreviations.md) | c6D | c2A, c2C |
-| [body-organization-and-directional-terms](../../../physical-health/atoms/body-organization-and-directional-terms.md) | c6A | |
-| [body-systems-overview](../../../physical-health/atoms/body-systems-overview.md) | c6B | |
-| [professional-ethics-in-healthcare](../../../physical-health/atoms/professional-ethics-in-healthcare.md) | c4D | |
-| [hipaa-and-patient-confidentiality](../../../physical-health/atoms/hipaa-and-patient-confidentiality.md) | c4A | |
-| [patient-rights-and-informed-consent](../../../physical-health/atoms/patient-rights-and-informed-consent.md) | c4B | |
-| [scope-of-practice-and-licensure](../../../physical-health/atoms/scope-of-practice-and-licensure.md) | c4C | |
-| [standard-precautions-and-chain-of-infection](../../../physical-health/atoms/standard-precautions-and-chain-of-infection.md) | c5A | |
-| [hand-hygiene-technique](../../../physical-health/atoms/hand-hygiene-technique.md) | c5B | |
-| [personal-protective-equipment-use](../../../physical-health/atoms/personal-protective-equipment-use.md) | c5C | |
-| [body-mechanics-and-safe-patient-handling](../../../physical-health/atoms/body-mechanics-and-safe-patient-handling.md) | c5D | |
-| [fire-and-emergency-safety](../../../physical-health/atoms/fire-and-emergency-safety.md) | c5E | |
-| [therapeutic-communication](../../../physical-health/atoms/therapeutic-communication.md) | c2B, c2D | |
-| [cultural-competence-in-healthcare](../../../physical-health/atoms/cultural-competence-in-healthcare.md) | c8C | c2D |
-| [wellness-and-disease-prevention](../../../physical-health/atoms/wellness-and-disease-prevention.md) | c8B | |
-| [vital-signs-overview](../../../physical-health/atoms/vital-signs-overview.md) | c6E | |
-| [electronic-health-records-basics](../../../physical-health/atoms/electronic-health-records-basics.md) | c7A | c2C, c7B |
-| [leadership-and-teamwork-in-healthcare](../../../physical-health/atoms/leadership-and-teamwork-in-healthcare.md) | c3A, c3B | |
+| d1A | unit conversions | [applied-math-and-data-in-health-science](../../../physical-health/atoms/applied-math-and-data-in-health-science.md) |
+| d1B | data from tables/charts/graphs | [applied-math-and-data-in-health-science](../../../physical-health/atoms/applied-math-and-data-in-health-science.md) |
+| d1C | interpret technical material | [technical-communication-in-health-science](../../../physical-health/atoms/technical-communication-in-health-science.md) |
+| d1D | reports and summaries | [technical-communication-in-health-science](../../../physical-health/atoms/technical-communication-in-health-science.md) |
+| d1E | oral presentations | [technical-communication-in-health-science](../../../physical-health/atoms/technical-communication-in-health-science.md) |
+| d1F | precise language | [technical-communication-in-health-science](../../../physical-health/atoms/technical-communication-in-health-science.md) |
+| d1G | homeostasis | [homeostasis-and-biological-processes](../../../physical-health/atoms/homeostasis-and-biological-processes.md) |
+| d1H | body mechanics | [body-mechanics-and-safe-patient-handling](../../../physical-health/atoms/body-mechanics-and-safe-patient-handling.md) |
+| d1I | Maslow's Hierarchy | [maslows-hierarchy-and-patient-needs](../../../physical-health/atoms/maslows-hierarchy-and-patient-needs.md) |
+| d1J | lifespan stages | [lifespan-development-stages](../../../physical-health/atoms/lifespan-development-stages.md) |
+| d1K | wellness throughout lifespan | [wellness-and-disease-prevention](../../../physical-health/atoms/wellness-and-disease-prevention.md) |
+| d1L | relationships communication | [healthy-relationships-and-wellbeing](../../../physical-health/atoms/healthy-relationships-and-wellbeing.md) |
+| d1M | historical significance | [history-of-healthcare](../../../physical-health/atoms/history-of-healthcare.md) |
+| d1N | impact on economy | [health-economics-and-government-impact](../../../physical-health/atoms/health-economics-and-government-impact.md) |
+| d1O | government impact | [health-economics-and-government-impact](../../../physical-health/atoms/health-economics-and-government-impact.md) |
+| d1P | diverse cultural influences | [cultural-competence-in-healthcare](../../../physical-health/atoms/cultural-competence-in-healthcare.md) |
+| d1Q | cross-cultural practices | [cultural-competence-in-healthcare](../../../physical-health/atoms/cultural-competence-in-healthcare.md) |
+| d2A | effective/non-effective communication | [therapeutic-communication](../../../physical-health/atoms/therapeutic-communication.md) |
+| d2B | diverse society communication | [therapeutic-communication](../../../physical-health/atoms/therapeutic-communication.md) |
+| d2C | conflict-resolution | [conflict-resolution-in-healthcare](../../../physical-health/atoms/conflict-resolution-in-healthcare.md) |
+| d2D | medical vocabulary | [medical-terminology-word-parts](../../../physical-health/atoms/medical-terminology-word-parts.md) |
+| d3A | leader traits | [leadership-and-teamwork-in-healthcare](../../../physical-health/atoms/leadership-and-teamwork-in-healthcare.md) |
+| d3B | leadership skills and team building | [leadership-and-teamwork-in-healthcare](../../../physical-health/atoms/leadership-and-teamwork-in-healthcare.md) |
+| d3C | conduct meetings | [leadership-and-teamwork-in-healthcare](../../../physical-health/atoms/leadership-and-teamwork-in-healthcare.md) |
+| d4A | career options | [healthcare-careers-and-pathways](../../../physical-health/atoms/healthcare-careers-and-pathways.md) |
+| d4B | career decisions impact | [healthcare-careers-and-pathways](../../../physical-health/atoms/healthcare-careers-and-pathways.md) |
+| d5 | certification, licensure | [healthcare-careers-and-pathways](../../../physical-health/atoms/healthcare-careers-and-pathways.md) |
+| d6A | careers across 5 systems | [healthcare-careers-and-pathways](../../../physical-health/atoms/healthcare-careers-and-pathways.md) |
+| d6B | collaborative team roles | [healthcare-team-roles](../../../physical-health/atoms/healthcare-team-roles.md) |
+| d7A | teaming for quality care | [healthcare-team-roles](../../../physical-health/atoms/healthcare-team-roles.md) |
+| d7B | professional organizations, credentialing | [professional-organizations-and-credentialing](../../../physical-health/atoms/professional-organizations-and-credentialing.md) |
+| d8A | scope of practice and ethics codes | [scope-of-practice-and-licensure](../../../physical-health/atoms/scope-of-practice-and-licensure.md) |
+| d8B | ethical behavior, confidentiality | [professional-ethics-in-healthcare](../../../physical-health/atoms/professional-ethics-in-healthcare.md) |
+| d8C | tech-related ethics | [ethics-of-technology-in-healthcare](../../../physical-health/atoms/ethics-of-technology-in-healthcare.md) |
+| d8D | malpractice/negligence/liability | [malpractice-negligence-and-laws](../../../physical-health/atoms/malpractice-negligence-and-laws.md) |
+| d8E | laws governing industry | [malpractice-negligence-and-laws](../../../physical-health/atoms/malpractice-negligence-and-laws.md) |
+| d9A | autonomy | [patient-rights-and-informed-consent](../../../physical-health/atoms/patient-rights-and-informed-consent.md) |
+| d9B | wellness strategies | [wellness-and-disease-prevention](../../../physical-health/atoms/wellness-and-disease-prevention.md) |
+| d9C | relationships on health | [healthy-relationships-and-wellbeing](../../../physical-health/atoms/healthy-relationships-and-wellbeing.md) |
+| d9D | documentation of rights | [patient-rights-and-informed-consent](../../../physical-health/atoms/patient-rights-and-informed-consent.md) |
+| d9E | diversity and cultural practices | [cultural-competence-in-healthcare](../../../physical-health/atoms/cultural-competence-in-healthcare.md) |
+| d10A | regulatory agencies | [healthcare-regulatory-agencies](../../../physical-health/atoms/healthcare-regulatory-agencies.md) |
+| d10B | standard precautions, fire/emergency | [standard-precautions-and-chain-of-infection](../../../physical-health/atoms/standard-precautions-and-chain-of-infection.md), [fire-and-emergency-safety](../../../physical-health/atoms/fire-and-emergency-safety.md) |
+| d10C | safety practices in industry | [healthcare-regulatory-agencies](../../../physical-health/atoms/healthcare-regulatory-agencies.md) |
+| d11A | technology across 5 systems | [healthcare-equipment-and-malfunction-reporting](../../../physical-health/atoms/healthcare-equipment-and-malfunction-reporting.md) |
+| d11B | equipment malfunctions | [healthcare-equipment-and-malfunction-reporting](../../../physical-health/atoms/healthcare-equipment-and-malfunction-reporting.md) |
+| d11C | reporting malfunctions | [healthcare-equipment-and-malfunction-reporting](../../../physical-health/atoms/healthcare-equipment-and-malfunction-reporting.md) |
 
-## Standards → Atoms (what covers each standard)
+## Supporting alignments
 
-| standard | primary atom | supporting atoms |
-|---|---|---|
-| c1A | healthcare-careers-and-pathways | healthcare-delivery-system-overview, healthcare-team-roles |
-| c1B | healthcare-careers-and-pathways | |
-| c1C | healthcare-careers-and-pathways | |
-| **c1D** | **— GAP —** | _implicit across atoms_ |
-| c2A | medical-terminology-word-parts | common-medical-abbreviations |
-| c2B | therapeutic-communication | |
-| **c2C** | **— GAP —** | common-medical-abbreviations, electronic-health-records-basics |
-| c2D | therapeutic-communication | cultural-competence-in-healthcare |
-| c3A | leadership-and-teamwork-in-healthcare | |
-| c3B | leadership-and-teamwork-in-healthcare | |
-| c3C | healthcare-team-roles | |
-| c4A | hipaa-and-patient-confidentiality | |
-| c4B | patient-rights-and-informed-consent | |
-| c4C | scope-of-practice-and-licensure | |
-| c4D | professional-ethics-in-healthcare | |
-| c5A | standard-precautions-and-chain-of-infection | |
-| c5B | hand-hygiene-technique | |
-| c5C | personal-protective-equipment-use | |
-| c5D | body-mechanics-and-safe-patient-handling | |
-| c5E | fire-and-emergency-safety | |
-| c6A | body-organization-and-directional-terms | |
-| c6B | body-systems-overview | |
-| c6C | medical-terminology-word-parts | |
-| c6D | common-medical-abbreviations | |
-| c6E | vital-signs-overview | |
-| c7A | electronic-health-records-basics | |
-| **c7B** | **— GAP —** | electronic-health-records-basics |
-| c8A | healthcare-delivery-system-overview | |
-| c8B | wellness-and-disease-prevention | |
-| c8C | cultural-competence-in-healthcare | |
+12 additional supporting alignments provide reinforcement. See
+`../../../physical-health/crosswalks/texas/crosswalk.csv` for the complete list
+including rationale per row.
 
-## Recommended gap-closing atoms
+## Gap-closing summary
 
-1. **professional-behavior-and-appearance** — close c1D
-2. **healthcare-documentation-standards** — close c2C
-3. **emerging-healthcare-technology** — close c7B
-
-Adding these 3 atoms (bringing total to 25) would achieve 100% primary coverage.
+Round 1 (built against a fabricated §127.402 framework) had 3 false gaps
+(c1D, c2C, c7B). Round 2 (built against authoritative §127.461) identified
+25 real gaps, which were closed by adding 14 new atoms. Current state:
+**0 gaps, 100% primary coverage.**
