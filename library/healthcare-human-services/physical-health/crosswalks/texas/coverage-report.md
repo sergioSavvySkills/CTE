@@ -1,134 +1,141 @@
 # Coverage Report — Texas Physical Health
 
-**Generated:** 2026-04-20 (round 2)
-**Framework version:** §127.461, 2015 adopted, August 1, 2025 amendment (50 TexReg 4421)
-**Status:** ✅ Framework text authoritative (verified against TEA Ch 127 Subch J PDF, Feb 2026)
-**Crosswalk status:** AI-draft alignments, SME-reviewed by maya-delgado
+**Generated:** 2026-04-20 (round 3)
+**Framework version:** 19 TAC §127.403, adopted 2015; most recent amendment per Source Note: "Adopted by Texas Register, Volume 47, Number 13, April 1, 2022, TexReg 1678, eff. 4/7/2022"
+**Status:** ✅ Framework text verified verbatim against Cornell Legal Information Institute
+**Crosswalk status:** AI-draft alignments, SME-reviewed by maya-delgado (round 3 approved)
 
-## 127.461 — Principles of Health Science
+## §127.403 — Principles of Health Science (Subchapter I)
 
-- **Standards:** 47 (across 11 knowledge-and-skills areas)
-- **Atoms with primary alignment:** 25 (of 36 total atoms in this sub-cluster)
-- **Standards covered by ≥1 primary atom:** 47 / 47 (**100%**)
-- **Standards covered by any alignment:** 47 / 47 (100%)
+- **Standards:** 50 (across 12 knowledge-and-skills areas in subsection (c))
+- **Atoms with primary alignment:** 26 (of 37 total atoms in this sub-cluster)
+- **Standards covered by ≥1 primary atom:** 50 / 50 (**100%**)
+- **Standards covered by any alignment:** 50 / 50 (100%)
 - **Gaps:** none
 
 ## Per-standard coverage
 
-### (1) Academic integration — 17 standards
+### (c)(1) Professional standards and employability skills — 3 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d1A | unit conversions | applied-math-and-data-in-health-science | |
-| d1B | tables, charts, graphs | applied-math-and-data-in-health-science | |
-| d1C | interpret technical material | technical-communication-in-health-science | |
-| d1D | write reports and summaries | technical-communication-in-health-science | |
-| d1E | oral presentations | technical-communication-in-health-science | |
-| d1F | precise language | technical-communication-in-health-science | |
-| d1G | biological processes, homeostasis | homeostasis-and-biological-processes | body-systems-overview |
-| d1H | body mechanics and movement | body-mechanics-and-safe-patient-handling | |
-| d1I | Maslow's Hierarchy | maslows-hierarchy-and-patient-needs | |
-| d1J | lifespan stages | lifespan-development-stages | |
-| d1K | wellness across lifespan | wellness-and-disease-prevention | |
-| d1L | communication for relationships | healthy-relationships-and-wellbeing | |
-| d1M | historical significance | history-of-healthcare | |
-| d1N | impact on economy | health-economics-and-government-impact | healthcare-delivery-system-overview |
-| d1O | government impact | health-economics-and-government-impact | healthcare-delivery-system-overview |
-| d1P | diverse cultural influences | cultural-competence-in-healthcare | |
-| d1Q | cross-cultural practices | cultural-competence-in-healthcare | |
+| c1A | express ideas clearly | professionalism-and-employability-in-healthcare | technical-communication-in-health-science |
+| c1B | cooperate as team member | professionalism-and-employability-in-healthcare | healthcare-team-roles, leadership-and-teamwork-in-healthcare |
+| c1C | employer expectations | professionalism-and-employability-in-healthcare | |
 
-### (2) Verbal and nonverbal communication — 4 standards
+### (c)(2) Academic integration — 17 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d2A | effective communication components | therapeutic-communication | |
-| d2B | communication in diverse society | therapeutic-communication | |
-| d2C | conflict-resolution techniques | conflict-resolution-in-healthcare | |
-| d2D | interpret medical vocabulary | medical-terminology-word-parts | common-medical-abbreviations |
+| c2A | unit conversions | applied-math-and-data-in-health-science | |
+| c2B | tables, charts, graphs | applied-math-and-data-in-health-science | |
+| c2C | interpret technical material | technical-communication-in-health-science | |
+| c2D | write reports and summaries | technical-communication-in-health-science | |
+| c2E | oral presentations | technical-communication-in-health-science | |
+| c2F | precise language | technical-communication-in-health-science | |
+| c2G | biological processes, homeostasis | homeostasis-and-biological-processes | body-systems-overview |
+| c2H | body mechanics and movement | body-mechanics-and-safe-patient-handling | |
+| c2I | Maslow's Hierarchy | maslows-hierarchy-and-patient-needs | |
+| c2J | lifespan stages | lifespan-development-stages | |
+| c2K | wellness across lifespan | wellness-and-disease-prevention | |
+| c2L | communication for relationships | healthy-relationships-and-wellbeing | |
+| c2M | historical significance | history-of-healthcare | |
+| c2N | impact on economy | health-economics-and-government-impact | healthcare-delivery-system-overview |
+| c2O | government impact | health-economics-and-government-impact | healthcare-delivery-system-overview |
+| c2P | diverse cultural influences | cultural-competence-in-healthcare | |
+| c2Q | cross-cultural practices | cultural-competence-in-healthcare | |
 
-### (3) Leadership — 3 standards
+### (c)(3) Verbal and nonverbal communication — 4 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d3A | leader traits | leadership-and-teamwork-in-healthcare | |
-| d3B | leadership skills, team building | leadership-and-teamwork-in-healthcare | |
-| d3C | conduct and participate in meetings | leadership-and-teamwork-in-healthcare | |
+| c3A | effective communication components | therapeutic-communication | |
+| c3B | communication in diverse society | therapeutic-communication | |
+| c3C | conflict-resolution techniques | conflict-resolution-in-healthcare | |
+| c3D | interpret medical vocabulary | medical-terminology-word-parts | common-medical-abbreviations |
 
-### (4) Career options — 2 standards
+### (c)(4) Leadership — 3 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom |
+|---|---|---|
+| c4A | leader traits | leadership-and-teamwork-in-healthcare |
+| c4B | leadership skills, team building | leadership-and-teamwork-in-healthcare |
+| c4C | conduct and participate in meetings | leadership-and-teamwork-in-healthcare |
+
+### (c)(5) Career options — 2 standards
+
+| standard | text (abbrev.) | primary atom |
+|---|---|---|
+| c5A | evaluate career information | healthcare-careers-and-pathways |
+| c5B | impact of career decisions | healthcare-careers-and-pathways |
+
+### (c)(6) Academic preparation — 1 standard
+
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d4A | evaluate career information | healthcare-careers-and-pathways | |
-| d4B | impact of career decisions | healthcare-careers-and-pathways | |
+| c6 | certification, licensure, advanced degrees | healthcare-careers-and-pathways | scope-of-practice-and-licensure |
 
-### (5) Academic preparation — 1 standard
+### (c)(7) Career pathways — 2 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom |
+|---|---|---|
+| c7A | compare careers across 5 systems | healthcare-careers-and-pathways |
+| c7B | collaborative role of team members | healthcare-team-roles |
+
+### (c)(8) Multidisciplinary team — 2 standards
+
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d5 | certification, licensure, advanced degrees | healthcare-careers-and-pathways | scope-of-practice-and-licensure |
+| c8A | teaming for quality care | healthcare-team-roles | leadership-and-teamwork-in-healthcare |
+| c8B | professional organizations, credentialing | professional-organizations-and-credentialing | |
 
-### (6) Career pathways — 2 standards
+### (c)(9) Ethics and legal — 5 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d6A | compare careers across 5 systems | healthcare-careers-and-pathways | |
-| d6B | collaborative role of team members | healthcare-team-roles | |
+| c9A | scope of practice, codes of ethics | scope-of-practice-and-licensure | professional-ethics-in-healthcare |
+| c9B | ethical behavior, confidentiality | professional-ethics-in-healthcare | hipaa-and-patient-confidentiality |
+| c9C | ethical issues with tech advances | ethics-of-technology-in-healthcare | |
+| c9D | malpractice, negligence, liability | malpractice-negligence-and-laws | |
+| c9E | laws governing industry | malpractice-negligence-and-laws | |
 
-### (7) Multidisciplinary team — 2 standards
+### (c)(10) Rights and choices — 5 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom |
+|---|---|---|
+| c10A | autonomy | patient-rights-and-informed-consent |
+| c10B | wellness strategies for prevention | wellness-and-disease-prevention |
+| c10C | relationships on physical/emotional health | healthy-relationships-and-wellbeing |
+| c10D | documentation of rights and choices | patient-rights-and-informed-consent |
+| c10E | diversity and cultural practices | cultural-competence-in-healthcare |
+
+### (c)(11) Safety — 3 standards
+
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d7A | teaming for quality care | healthcare-team-roles | leadership-and-teamwork-in-healthcare |
-| d7B | professional organizations, credentialing | professional-organizations-and-credentialing | |
+| c11A | regulatory agencies | healthcare-regulatory-agencies | healthcare-delivery-system-overview |
+| c11B | standard precautions, fire, emergency | standard-precautions-and-chain-of-infection, fire-and-emergency-safety | hand-hygiene-technique, personal-protective-equipment-use |
+| c11C | safety practices in industry | healthcare-regulatory-agencies | |
 
-### (8) Ethics and legal — 5 standards
+### (c)(12) Technology — 3 standards
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
+| standard | text (abbrev.) | primary atom | supporting atom |
 |---|---|---|---|
-| d8A | scope of practice, codes of ethics | scope-of-practice-and-licensure | professional-ethics-in-healthcare |
-| d8B | ethical behavior, confidentiality | professional-ethics-in-healthcare | hipaa-and-patient-confidentiality |
-| d8C | ethical issues with tech advances | ethics-of-technology-in-healthcare | |
-| d8D | malpractice, negligence, liability | malpractice-negligence-and-laws | |
-| d8E | laws governing industry | malpractice-negligence-and-laws | |
+| c12A | technological equipment across 5 systems | healthcare-equipment-and-malfunction-reporting | electronic-health-records-basics |
+| c12B | potential malfunctions | healthcare-equipment-and-malfunction-reporting | |
+| c12C | reporting malfunctions | healthcare-equipment-and-malfunction-reporting | |
 
-### (9) Rights and choices — 5 standards
+## Atoms not primary-aligned to §127.403
 
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
-|---|---|---|---|
-| d9A | autonomy | patient-rights-and-informed-consent | |
-| d9B | wellness strategies for prevention | wellness-and-disease-prevention | |
-| d9C | relationships on physical/emotional health | healthy-relationships-and-wellbeing | |
-| d9D | documentation of rights and choices | patient-rights-and-informed-consent | |
-| d9E | diversity and cultural practices | cultural-competence-in-healthcare | |
-
-### (10) Safety — 3 standards
-
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
-|---|---|---|---|
-| d10A | regulatory agencies (WHO, CDC, OSHA, FDA, JCAHO, NIH) | healthcare-regulatory-agencies | healthcare-delivery-system-overview |
-| d10B | standard precautions, fire, emergency | standard-precautions-and-chain-of-infection, fire-and-emergency-safety | hand-hygiene-technique, personal-protective-equipment-use |
-| d10C | safety practices in industry | healthcare-regulatory-agencies | |
-
-### (11) Technology — 3 standards
-
-| standard | text (abbrev.) | primary atom(s) | supporting atom(s) |
-|---|---|---|---|
-| d11A | technological equipment across 5 systems | healthcare-equipment-and-malfunction-reporting | electronic-health-records-basics |
-| d11B | potential malfunctions | healthcare-equipment-and-malfunction-reporting | |
-| d11C | reporting malfunctions | healthcare-equipment-and-malfunction-reporting | |
-
-## Atoms not primary-aligned to §127.461
-
-Five atoms in this sub-cluster are primary content for other courses in
-Subchapter J (Anatomy and Physiology, Health Science Theory, Health Science
-Clinical). They appear here because competencies are state-neutral and
-shareable. They currently have only supporting alignments to §127.461:
+Five atoms in this sub-cluster belong primary-first to other Subchapter I
+courses (Anatomy and Physiology, Health Science Theory, Health Science
+Clinical). They have supporting-only alignments to §127.403:
 
 | atom | intended primary course |
 |---|---|
-| body-organization-and-directional-terms | §127.463 Anatomy and Physiology |
-| body-systems-overview | §127.463 Anatomy and Physiology |
-| vital-signs-overview | §127.462/Health Science Theory |
+| body-organization-and-directional-terms | §127.423 Anatomy and Physiology |
+| body-systems-overview | §127.423 Anatomy and Physiology |
+| vital-signs-overview | §127.422 Health Science Theory |
 | hand-hygiene-technique | Health Science Clinical |
 | personal-protective-equipment-use | Health Science Clinical |
 
@@ -138,9 +145,9 @@ These will gain primary alignments when those course crosswalks are built.
 
 | metric | count |
 |---|---|
-| total atoms in sub-cluster | 36 |
-| atoms primary-aligned to §127.461 | 25 |
-| atoms supporting-aligned to §127.461 only | 6 |
-| atoms not aligned to §127.461 | 5 (belong to other courses) |
-| §127.461 standards | 47 |
-| §127.461 standards with primary coverage | 47 (100%) |
+| total atoms in sub-cluster | 37 |
+| atoms primary-aligned to §127.403 | 26 |
+| atoms supporting-aligned to §127.403 only | 6 |
+| atoms not primary-aligned to §127.403 (other courses) | 5 |
+| §127.403 standards | 50 |
+| §127.403 standards with primary coverage | 50 (100%) |
