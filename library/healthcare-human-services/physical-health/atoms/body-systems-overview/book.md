@@ -3,7 +3,7 @@ atom_id: body-systems-overview
 atom_serial: HHS-PH-0004
 sidecar: book
 status: ai-draft
-word_count: 2484
+word_count: 2478
 author: claude
 reviewer:
 review_date:
@@ -274,16 +274,16 @@ you're talking about before you dive into the specifics [Mayo-Organ-Systems].
 
 ## Key terms to remember
 
-Eight anchor terms are worth keeping on the tip of your tongue:
-**organ**, **tissue**, **organ system**, **homeostasis**, **feedback loop**,
-**set point**, **system interaction**, and **cardiorespiratory coupling**.
-Master those eight and the rest of this atom's vocabulary becomes labels
-you hang on a framework, rather than fifty disconnected words you have to
-memorize cold. The full list — fifty-plus terms with definitions, example
-sentences, source references, and flashcard metadata — lives in
-`vocabulary.csv` next to this file. Generators will pull from that CSV to
-build vocab slides, exit-ticket items, and spaced-repetition flashcards,
-so every term you see there has earned its place in the atom.
+Three anchor terms hold the whole atom together: **organ system**,
+**homeostasis**, and **system interaction**. Add the names of the eleven
+systems themselves and the three cross-system disorders that appear on
+multiple lists (**hypertension**, **diabetes mellitus**, **stroke**) and
+you have the seventeen terms that carry the learning objective. They live
+next to this file in `vocabulary.csv` with definitions, example sentences,
+and flashcard metadata. System-internal vocabulary — nephron, alveolus,
+cardiac output, insulin, and the rest of the words you saw bolded in the
+tour — belongs to the deep-dive atom for each system, which is where you
+will master it.
 
 ## Further reading
 

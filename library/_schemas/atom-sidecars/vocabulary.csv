@@ -17,6 +17,11 @@
 #   difficulty     1 | 2 | 3 — roughly the atom's difficulty when the term
 #                  is first introduced. Drives flashcard order.
 #
-# Sizing guidance: 20-60 terms for most atoms; up to 80 for survey atoms.
+# Sizing guidance: 10-15 terms for most atoms; up to 20 for survey atoms
+# whose scope genuinely demands it. If you're over 20 for a single 45-minute
+# atom, you're probably describing multiple atoms' worth of content — pull
+# the specialized terms back into the per-system deep-dive atoms where they
+# belong. Every term here must trace back to the parent atom's learning
+# objective or to an explicit bullet in its content stub.
 term,definition,part_of_speech,example,source_key,related_atoms,difficulty
 <replace-this-row>,<definition>,noun,<example sentence>,<source-key>,<other-atom-ids>,1
