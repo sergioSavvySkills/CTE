@@ -1,0 +1,20 @@
+# Vocabulary — hand-hygiene-technique
+# atom_id: hand-hygiene-technique
+# atom_serial: HHS-PH-0011
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 12
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+hand hygiene,"The general practice of cleaning hands with soap-and-water or an alcohol-based hand rub to remove or kill microorganisms before and after patient care.",compound,Hand hygiene is the single most effective measure for preventing the spread of healthcare-associated infections.,WHO-HandHygiene,,1
+alcohol-based hand rub,"A gel, foam, or liquid containing 60–95% alcohol used to decontaminate hands when they are not visibly soiled; also abbreviated ABHR.",compound,An alcohol-based hand rub kills most pathogens in about 20 seconds without a sink.,CDC-HandHygiene,,1
+ABHR,Abbreviation for alcohol-based hand rub.,abbreviation,Most hospital hallways now have an ABHR dispenser outside every patient room.,CDC-HandHygiene,,1
+soap-and-water handwash,"A hand wash using plain or antimicrobial soap under running water for at least 20 seconds, followed by drying with a paper towel.",compound,"A soap-and-water handwash is required when hands are visibly soiled or after caring for a patient with C. difficile.",WHO-HandHygiene,,1
+Five Moments,"The WHO framework of five indications for hand hygiene during patient care: before patient contact, before an aseptic task, after body-fluid exposure risk, after patient contact, and after contact with patient surroundings.",compound,"The Five Moments tell you when to clean your hands, not how.",WHO-FiveMoments,,1
+aseptic task,"A clinical procedure in which microorganisms must be kept out of a normally sterile site, such as inserting an IV or handling a sterile dressing.",compound,Hand hygiene is required immediately before an aseptic task even if you just cleaned your hands at the door.,WHO-FiveMoments,,2
+body-fluid exposure,"Any contact with blood, secretions, excretions, mucous membranes, or broken skin that may carry pathogens.",compound,After a body-fluid exposure you clean your hands before touching anything else — even before leaving the bedside.,WHO-FiveMoments,,2
+patient zone,"The patient and the surfaces and equipment immediately around them that become contaminated with the patient's flora during care.",compound,Touching the bedside table counts as contact with the patient zone and triggers a Five-Moments hand hygiene.,WHO-FiveMoments,,2
+healthcare-associated infection,"An infection a patient acquires during the course of receiving care that was not present on admission.",compound,Missed hand hygiene is the leading preventable cause of a healthcare-associated infection.,WHO-HandHygiene,,1
+HAI,Abbreviation for healthcare-associated infection.,abbreviation,Every missed hand-hygiene moment is an opportunity for an HAI.,WHO-HandHygiene,,1
+spore,"A dormant, tough-shelled form some bacteria (such as C. difficile) produce that resists alcohol and many disinfectants.",noun,Alcohol-based hand rub does not kill a C. difficile spore — you have to wash the spores off mechanically with soap and water.,CDC-CDiff,,2
+hand-hygiene compliance,"The rate at which healthcare workers perform hand hygiene at the indicated moments, usually measured by direct observation.",compound,The Joint Commission expects hospitals to monitor hand-hygiene compliance under National Patient Safety Goal 07.,TJC-NPSG-07,,2
