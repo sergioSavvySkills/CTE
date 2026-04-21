@@ -1,27 +1,27 @@
 # Texas Programs of Study — Physical Health
 
-Four Health Science Programs of Study route through this sub-cluster. Course folders live at `library/healthcare-human-services/texas/courses/` so shared foundation courses (Principles of Health Science, Medical Terminology, Anatomy and Physiology) are not duplicated.
+Four Health Science Programs of Study route through this sub-cluster. The only Texas course built out so far — Principles of Health Science (§127.403) — lives in this folder alongside this file. Other courses are listed by name below and will be built into their owning sub-clusters when authored.
 
 ## Nursing Science
 
 | Level 1 | Level 2 | Level 3 | Level 4 |
 |---|---|---|---|
-| [Principles of Health Science](../../texas/courses/principles-of-health-science/) | [Medical Terminology](../../texas/courses/medical-terminology/)<br>[Anatomy and Physiology](../../texas/courses/anatomy-and-physiology/) | [Health Science Theory](../../texas/courses/health-science-theory/)<br>[Health Science Clinical](../../texas/courses/health-science-clinical/)<br>[Pharmacology](../../texas/courses/pharmacology/) | [Practicum in Nursing](../../texas/courses/practicum-in-nursing/)<br>[Leadership and Management in Nursing](../../texas/courses/leadership-and-management-in-nursing/) |
+| Principles of Health Science | Medical Terminology<br>Anatomy and Physiology | Health Science Theory<br>Health Science Clinical<br>Pharmacology | Practicum in Nursing<br>Leadership and Management in Nursing |
 
 ## Healthcare Therapeutic
 
 | Level 1 | Level 2 | Level 3 | Level 4 |
 |---|---|---|---|
-| [Principles of Health Science](../../texas/courses/principles-of-health-science/) | [Medical Terminology](../../texas/courses/medical-terminology/)<br>[Anatomy and Physiology](../../texas/courses/anatomy-and-physiology/)<br>[Introduction to Pharmacy Science](../../texas/courses/introduction-to-pharmacy-science/) | [Health Science Theory](../../texas/courses/health-science-theory/)<br>[Health Science Clinical](../../texas/courses/health-science-clinical/)<br>[Pathophysiology](../../texas/courses/pathophysiology/)<br>[Pharmacology](../../texas/courses/pharmacology/)<br>[Pharmacy I](../../texas/courses/pharmacy-i/) | [Practicum in Health Science](../../texas/courses/practicum-in-health-science/)<br>[Extended Practicum in Health Science](../../texas/courses/extended-practicum-in-health-science/)<br>[Medical Assistant](../../texas/courses/medical-assistant/)<br>[Dental Assistant](../../texas/courses/dental-assistant/)<br>[Certified Nurse Aide](../../texas/courses/cna/)<br>[Patient Care Technician](../../texas/courses/patient-care-technician/)<br>[Emergency Medical Technician](../../texas/courses/emt/)<br>[Phlebotomy Technician](../../texas/courses/phlebotomy-technician/)<br>[Pharmacy II](../../texas/courses/pharmacy-ii/) |
+| Principles of Health Science | Medical Terminology<br>Anatomy and Physiology<br>Introduction to Pharmacy Science | Health Science Theory<br>Health Science Clinical<br>Pathophysiology<br>Pharmacology<br>Pharmacy I | Practicum in Health Science<br>Extended Practicum in Health Science<br>Medical Assistant<br>Dental Assistant<br>Certified Nurse Aide<br>Patient Care Technician<br>Emergency Medical Technician<br>Phlebotomy Technician<br>Pharmacy II |
 
 ## Healthcare Diagnostics
 
 | Level 1 | Level 2 | Level 3 | Level 4 |
 |---|---|---|---|
-| [Principles of Health Science](../../texas/courses/principles-of-health-science/) | [Medical Terminology](../../texas/courses/medical-terminology/)<br>[Anatomy and Physiology](../../texas/courses/anatomy-and-physiology/) | [Health Science Theory](../../texas/courses/health-science-theory/)<br>[Medical Microbiology](../../texas/courses/medical-microbiology/)<br>[Pathophysiology](../../texas/courses/pathophysiology/)<br>[Mathematics for Medical Professionals](../../texas/courses/mathematics-for-medical-professionals/) | [Practicum in Health Science](../../texas/courses/practicum-in-health-science/)<br>[Extended Practicum in Health Science](../../texas/courses/extended-practicum-in-health-science/) |
+| Principles of Health Science | Medical Terminology<br>Anatomy and Physiology | Health Science Theory<br>Medical Microbiology<br>Pathophysiology<br>Mathematics for Medical Professionals | Practicum in Health Science<br>Extended Practicum in Health Science |
 
 ## Exercise Science, Wellness and Restoration
 
 | Level 1 | Level 2 | Level 3 | Level 4 |
 |---|---|---|---|
-| [Principles of Health Science](../../texas/courses/principles-of-health-science/) | [Medical Terminology](../../texas/courses/medical-terminology/)<br>[Anatomy and Physiology](../../texas/courses/anatomy-and-physiology/)<br>[Lifetime Nutrition and Wellness](../../texas/courses/lifetime-nutrition-and-wellness/) | [Health Science Theory](../../texas/courses/health-science-theory/)<br>[Pathophysiology](../../texas/courses/pathophysiology/) | [Practicum in Health Science](../../texas/courses/practicum-in-health-science/) |
+| Principles of Health Science | Medical Terminology<br>Anatomy and Physiology<br>Lifetime Nutrition and Wellness | Health Science Theory<br>Pathophysiology | Practicum in Health Science |

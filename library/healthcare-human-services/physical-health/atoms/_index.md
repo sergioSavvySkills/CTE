@@ -9,7 +9,7 @@ Other Subchapter I courses pending.
 
 State-neutral competency atoms shared by physical-health courses. The Texas
 course view at
-`library/healthcare-human-services/texas/courses/principles-of-health-science/`
+`library/healthcare-human-services/physical-health/texas/`
 references these atoms via `atoms.md` and `crosswalk.md`, and maps them to
 §127.403 KS statements via `crosswalks/texas/crosswalk.csv`. Atoms are
 reusable by other state views when added.
@@ -69,7 +69,7 @@ reusable by other state views when added.
 
 | state | course | file |
 |---|---|---|
-| Texas | Principles of Health Science (§127.403) | `../../texas/courses/principles-of-health-science/atoms.md` |
+| Texas | Principles of Health Science (§127.403) | `../texas/atoms.md` |
 
 ## SME review
 
