@@ -1,0 +1,20 @@
+# Vocabulary — health-economics-and-government-impact
+# atom_id: health-economics-and-government-impact
+# atom_serial: HHS-PH-0012
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 12
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+national health expenditure,"The total amount the United States spends on healthcare in a year, tracked by CMS and reported as both a dollar total and a share of GDP.",compound,"The national health expenditure sits near 17-18% of U.S. GDP, making healthcare one of the largest sectors of the economy.",CMS-NHE,,2
+gross domestic product,"The total market value of goods and services produced in a country in a year; used as the denominator when expressing healthcare's share of the economy.",compound,"Healthcare as a share of gross domestic product has grown for decades, which is why small percentage changes translate into large dollar shifts.",CMS-NHE,,2
+Medicare,"A federal health-insurance program primarily for people age 65 and older and certain people with disabilities, administered by CMS.",noun,"Medicare is the largest single purchaser of hospital care in the country, so its payment rules shape how providers operate.",CMS-NHE,,2
+Medicaid,"A joint federal-state health-coverage program for people with low income and certain other eligible groups; each state runs its own program within federal rules.",noun,"Medicaid is administered jointly by CMS and state agencies, which is why eligibility and covered services vary from state to state.",KFF-Medicaid,,2
+CMS,"Centers for Medicare & Medicaid Services — the federal agency inside HHS that runs Medicare and co-administers Medicaid.",abbreviation,"When CMS changes a payment rule, hospitals across the country adjust workflow and staffing in response.",CMS-NHE,,2
+FDA,"Food and Drug Administration — the federal agency that regulates the safety and effectiveness of drugs, medical devices, and many foods.",abbreviation,"A new medication cannot be sold in the United States until the FDA reviews its safety and effectiveness data.",,,2
+value-based care,"A payment and delivery approach in which providers are rewarded for patient outcomes and cost-efficiency rather than for the volume of services delivered.",compound,"Under value-based care, a health system has a financial reason to prevent readmissions rather than simply bill for more visits.",CMS-ValueBased,,2
+bundled payment,"A single payment that covers all the services tied to one episode of care (for example, a joint replacement and its follow-up), shared across the providers who deliver them.",compound,"A bundled payment pushes the surgeon, hospital, and rehab team to coordinate because they share one total payment for the episode.",CMS-ValueBased,,2
+licensure,"A government process by which a state grants permission to a person or facility to practice or operate, setting minimum training and conduct standards.",noun,"State licensure is why a nurse who moves across state lines often has to take additional steps before practicing.",,,2
+public health,"The organized effort of government and partners to protect and improve the health of whole populations through prevention, surveillance, and environmental control.",compound,"Local public health departments run immunization clinics, inspect restaurants, and track disease outbreaks in their county.",NACCHO-LHD,,2
+safety-net provider,"A clinic, hospital, or program that delivers care to patients regardless of ability to pay, often supported by federal, state, or local funding.",compound,"Community health centers funded through HRSA act as safety-net providers in many underserved neighborhoods.",HRSA-Overview,,2
+cost driver,"A factor that pushes healthcare spending up over time — for example, new technology, prescription drug prices, administrative complexity, chronic disease, or an aging population.",compound,"Aging and chronic disease are long-run cost drivers that shape state and federal budget projections.",CBO-HealthSpending,,2
