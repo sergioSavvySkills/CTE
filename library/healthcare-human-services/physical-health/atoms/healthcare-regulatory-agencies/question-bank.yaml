@@ -1,0 +1,207 @@
+meta:
+  atom_id: healthcare-regulatory-agencies
+  atom_serial: HHS-PH-0016
+  sidecar: question-bank
+  status: ai-draft
+  item_count: 13
+  author: claude
+  reviewer:
+  review_date:
+
+items:
+  - id: q001
+    type: multiple_choice
+    stem: "Which agency writes the U.S. standard and transmission-based precaution framework used to decide what gloves, gowns, and masks to wear for a given patient?"
+    options:
+      - "OSHA"
+      - "CDC"
+      - "The Joint Commission"
+      - "FDA"
+    correct: 1
+    rationale: "The CDC publishes standard precautions (applied to every patient) and transmission-based precautions (contact, droplet, airborne). OSHA sets worker PPE supply rules, but the precaution categories themselves are CDC guidance."
+    objective_tag: identify-agency
+    difficulty: 1
+    tags: [agencies, infection-control]
+    related_terms: [standard precaution, transmission-based precaution]
+    source_key: CDC-About
+
+  - id: q002
+    type: multiple_choice
+    stem: "A healthcare worker is stuck by a used needle while drawing blood. Which agency's regulation primarily governs the employer's response?"
+    options:
+      - "FDA — through medical device reporting"
+      - "OSHA — through the Bloodborne Pathogens standard, 29 CFR 1910.1030"
+      - "The Joint Commission — through a sentinel event review"
+      - "WHO — through the International Health Regulations"
+    correct: 1
+    rationale: "Occupational exposure to bloodborne pathogens is OSHA's jurisdiction. The employer's written exposure-control plan, hepatitis B vaccination offer, and post-exposure follow-up all trace to 29 CFR 1910.1030."
+    objective_tag: relate-practice-to-agency
+    difficulty: 1
+    tags: [osha, worker-safety]
+    related_terms: [bloodborne pathogen, personal protective equipment, regulation]
+    misconception_addressed: "Misconception 3"
+    source_key: OSHA-BBP
+
+  - id: q003
+    type: true_false
+    stem: "The Joint Commission is a federal government agency that inspects hospitals under statutory authority."
+    correct: false
+    rationale: "The Joint Commission is an independent nonprofit accreditor, not a federal agency. Hospitals participate voluntarily, though accreditation is effectively required because Medicare and most insurers condition payment on it."
+    objective_tag: identify-agency
+    difficulty: 1
+    tags: [joint-commission, accreditation]
+    related_terms: [accreditation, sentinel event]
+    misconception_addressed: "Misconception 1"
+    source_key: TJC-About
+
+  - id: q004
+    type: multiple_choice
+    stem: "A wrong-site surgery that causes permanent harm is categorized under Joint Commission policy as a:"
+    options:
+      - "Medical device report"
+      - "Sentinel event"
+      - "Transmission-based precaution"
+      - "Bloodborne pathogen exposure"
+    correct: 1
+    rationale: "A sentinel event is a patient-safety event reaching a patient and causing death, permanent harm, or severe temporary harm. Wrong-site surgery with lasting harm meets this definition and triggers a root-cause analysis."
+    objective_tag: relate-practice-to-agency
+    difficulty: 1
+    tags: [joint-commission, patient-safety, vocabulary]
+    related_terms: [sentinel event, accreditation]
+    source_key: TJC-About
+
+  - id: q005
+    type: matching
+    stem: "Match each agency (left) to the daily safety practice it most directly drives (right)."
+    left:
+      - "WHO"
+      - "CDC"
+      - "OSHA"
+      - "FDA"
+      - "The Joint Commission"
+      - "NIH"
+    right:
+      - "Root-cause analysis after a wrong-site surgery"
+      - "IRB review of a clinical trial before enrollment begins"
+      - "Global hand-hygiene guidelines adopted by hospitals"
+      - "Employer exposure-control plan and sharps engineering controls"
+      - "Medication bar-coding and drug-recall safety alerts"
+      - "Standard and transmission-based precautions"
+    correct: [[0, 2], [1, 5], [2, 3], [3, 4], [4, 0], [5, 1]]
+    rationale: "WHO = global hand-hygiene guidance; CDC = precaution categories; OSHA = worker exposure-control and PPE; FDA = drug/device regulation and safety alerts; Joint Commission = patient-safety goals and sentinel event review; NIH = research funding with IRB-protected human subjects research."
+    objective_tag: identify-agency
+    difficulty: 2
+    tags: [agencies, matching]
+    related_terms: [accreditation, sentinel event, bloodborne pathogen, medical device reporting, institutional review board]
+    source_key: TJC-About
+
+  - id: q006
+    type: multiple_choice
+    stem: "The CDC publishes an updated annual schedule used by pediatric clinics, school nurses, and pharmacies. This document is the:"
+    options:
+      - "Bloodborne Pathogens standard"
+      - "Immunization schedule"
+      - "Medical device reporting form"
+      - "National Patient Safety Goals"
+    correct: 1
+    rationale: "The CDC's immunization schedule, developed with the Advisory Committee on Immunization Practices, lists recommended vaccines by age and interval for children, adolescents, and adults."
+    objective_tag: relate-practice-to-agency
+    difficulty: 1
+    tags: [cdc, vocabulary]
+    related_terms: [immunization schedule, outbreak response]
+    source_key: CDC-Immunization
+
+  - id: q007
+    type: true_false
+    stem: "CDC recommendations are automatically binding federal law, and a clinic that does not follow a CDC immunization recommendation is violating federal statute."
+    correct: false
+    rationale: "CDC recommendations are authoritative guidelines, not regulations. They become binding only when adopted by a regulator, state legislature, employer policy, or accreditor."
+    objective_tag: identify-agency
+    difficulty: 2
+    tags: [cdc, regulation-vs-guideline]
+    related_terms: [regulation, guideline, immunization schedule]
+    misconception_addressed: "Misconception 2"
+    source_key: CDC-About
+
+  - id: q008
+    type: multiple_choice
+    stem: "A hospital observes a recurring failure with a specific infusion-pump model that puts patients at risk. Which agency receives a report under which program?"
+    options:
+      - "CDC, under outbreak response"
+      - "OSHA, under the Bloodborne Pathogens standard"
+      - "FDA, under medical device reporting"
+      - "The Joint Commission, under the National Patient Safety Goals"
+    correct: 2
+    rationale: "Medical device reporting is the FDA program through which user facilities, manufacturers, and importers report device-related deaths, serious injuries, and certain malfunctions so the agency can track safety signals and issue recalls."
+    objective_tag: relate-practice-to-agency
+    difficulty: 2
+    tags: [fda, devices, vocabulary]
+    related_terms: [medical device reporting]
+    source_key: FDA-About
+
+  - id: q009
+    type: multiple_choice
+    stem: "Which statement correctly describes the FDA's role in clinical trials?"
+    options:
+      - "The FDA designs and runs the clinical trials that support drug approvals"
+      - "The FDA reviews evidence submitted by sponsors, who design and fund the trials at investigator sites under IRB oversight"
+      - "The FDA inspects every patient in a trial before approval"
+      - "The FDA has no role in clinical trials; that is entirely NIH's job"
+    correct: 1
+    rationale: "Drug sponsors design and fund trials at hospitals and research centers under IRB oversight. The FDA reviews the submitted data and decides on approval; it does not run the trials itself."
+    objective_tag: identify-agency
+    difficulty: 2
+    tags: [fda, trials]
+    related_terms: [institutional review board, human subjects research]
+    misconception_addressed: "Misconception 4"
+    source_key: FDA-About
+
+  - id: q010
+    type: fill_blank
+    stem: "An independent committee formally designated to review biomedical research protocols, consent forms, and ongoing studies involving living individuals is called an ______ ______ ______ (three words)."
+    correct: "institutional review board"
+    rationale: "An Institutional Review Board (IRB) reviews and monitors human subjects research to protect participants' rights and welfare, under the Common Rule framework administered by OHRP with NIH as a funding authority."
+    objective_tag: relate-practice-to-agency
+    difficulty: 1
+    tags: [nih, research-ethics, vocabulary]
+    related_terms: [institutional review board, human subjects research]
+    source_key: OHRP-HumanSubjects
+
+  - id: q011
+    type: multiple_choice
+    stem: "Which of the following best distinguishes a regulation from a guideline?"
+    options:
+      - "A regulation is a suggestion; a guideline is enforceable in federal court"
+      - "A regulation is issued by an accreditor; a guideline is issued by a government agency"
+      - "A regulation has the force of law under statutory authority; a guideline is authoritative advice that becomes binding only when adopted by a regulator, accreditor, or employer policy"
+      - "There is no difference — the terms are synonyms"
+    correct: 2
+    rationale: "Regulations like OSHA's 29 CFR 1910.1030 are enforceable under statute. CDC and WHO guidelines are authoritative advice and become binding only when another body adopts them."
+    objective_tag: identify-agency
+    difficulty: 2
+    tags: [regulation-vs-guideline, vocabulary]
+    related_terms: [regulation, guideline]
+    source_key: OSHA-BBP
+
+  - id: q012
+    type: short_answer
+    stem: "In two or three sentences, name the agency most responsible for each of the following and say why: (a) a nurse's hepatitis B vaccination offer, (b) the isolation-sign category on a patient's door, (c) a clinical-trial consent form."
+    correct: "(a) OSHA, because hepatitis B vaccination offers for workers with bloodborne-pathogen exposure risk are required under 29 CFR 1910.1030. (b) CDC, because the transmission-based precaution category comes from CDC infection-control guidance. (c) NIH plus OHRP, because NIH funding requires IRB oversight under the Common Rule, which governs how human subjects research consent is designed and documented."
+    rationale: "Strong answers name one agency per item, correctly distinguish worker protection (OSHA) from patient infection control (CDC) from research ethics (NIH/OHRP), and use the vocabulary (bloodborne pathogen, transmission-based precaution, IRB) correctly."
+    objective_tag: relate-practice-to-agency
+    difficulty: 3
+    tags: [synthesis, agencies]
+    related_terms: [bloodborne pathogen, transmission-based precaution, institutional review board, human subjects research]
+    misconception_addressed: "Misconception 3"
+    source_key: OSHA-BBP
+
+  - id: q013
+    type: short_answer
+    stem: "A nurse on a med-surg unit starts an IV on a patient in contact precautions. Name at least three agencies whose rules or recommendations shape that 60-second sequence and say which step of the sequence each agency drives."
+    correct: "At least three from: (1) The Joint Commission drives the two-identifier check before touching the patient as a National Patient Safety Goal. (2) WHO and CDC drive hand hygiene before patient contact as global and U.S. infection-control guidelines. (3) CDC drives the contact precautions (gown and gloves choice) through its transmission-based precaution framework. (4) OSHA requires the employer to supply PPE at no cost to the worker under the Bloodborne Pathogens standard. (5) FDA drives the medication label and bar-code through drug-labeling regulation."
+    rationale: "Strong answers identify at least three distinct agencies, name the specific step each agency drives, and show that ordinary clinical tasks layer rules from multiple agencies rather than tracing to one source."
+    objective_tag: relate-practice-to-agency
+    difficulty: 3
+    tags: [synthesis, daily-practice]
+    related_terms: [accreditation, standard precaution, transmission-based precaution, personal protective equipment, bloodborne pathogen]
+    source_key: TJC-About
