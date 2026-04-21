@@ -1,0 +1,198 @@
+meta:
+  atom_id: body-mechanics-and-safe-patient-handling
+  atom_serial: HHS-PH-0002
+  sidecar: question-bank
+  status: ai-draft
+  item_count: 13
+  author: claude
+  reviewer:
+  review_date:
+
+items:
+  - id: q001
+    type: multiple_choice
+    stem: "Which stance gives the most stable base of support when preparing for a patient transfer?"
+    options:
+      - "Feet together, knees locked straight"
+      - "Feet shoulder-width apart, one foot slightly forward, knees bent"
+      - "Feet crossed, weight on the back foot"
+      - "Feet on tiptoes to reach higher"
+    correct: 1
+    rationale: "A wide base of support with one foot forward and bent knees lowers the center of gravity and stabilizes in two directions. This is the starting stance for every lift or transfer."
+    objective_tag: apply-body-mechanics
+    difficulty: 1
+    tags: [stance, balance]
+    related_terms: [base of support, center of gravity, body mechanics]
+
+  - id: q002
+    type: true_false
+    stem: "Lifting with the legs instead of the back means bending at the hips and knees while keeping a neutral spine."
+    correct: true
+    rationale: "Bending at the hips and knees preserves the spine's natural curves and transfers the load to the strong leg muscles. Bending at the waist does the opposite."
+    objective_tag: apply-body-mechanics
+    difficulty: 1
+    tags: [technique]
+    related_terms: [neutral spine, body mechanics]
+
+  - id: q003
+    type: multiple_choice
+    stem: "A new co-worker says, 'I go to the gym — I have a strong back, so I don't need the ceiling lift for this patient.' What is the best response?"
+    options:
+      - "Agree, since strength training protects against lifting injuries"
+      - "Decline the lift and explain that cumulative trauma, not peak strength, drives healthcare back injuries, and the zero-lift policy applies regardless of strength"
+      - "Agree, but only if the patient is cooperative"
+      - "Tell them to ask the charge nurse for a waiver"
+    correct: 1
+    rationale: "Healthcare musculoskeletal injuries come from repeated load over a career, not from one lift exceeding the worker's strength. The zero-lift policy is the standard of care independent of any individual's strength."
+    objective_tag: identify-when-lift-required
+    difficulty: 2
+    tags: [safety-culture]
+    related_terms: [cumulative trauma, zero-lift policy, musculoskeletal disorder]
+    misconception_addressed: "Misconception 1"
+    source_key: OSHA-SafePatient
+
+  - id: q004
+    type: multiple_choice
+    stem: "Which of these patients is the BEST candidate for a standard stand-pivot transfer?"
+    options:
+      - "A 140-pound patient with advanced dementia who cannot follow directions"
+      - "A 200-pound post-operative patient who cannot bear weight on one leg"
+      - "A 160-pound alert patient who can bear weight on both legs and has no lines"
+      - "A 220-pound sedated patient with an IV and a chest tube"
+    correct: 2
+    rationale: "A stand-pivot requires weight-bearing ability, cognition, cooperation, and manageable lines. Only the third patient meets all four criteria."
+    objective_tag: identify-when-lift-required
+    difficulty: 2
+    tags: [transfer-selection]
+    related_terms: [stand-pivot transfer, transfer]
+    source_key: ANA-SafePatient
+
+  - id: q005
+    type: multiple_choice
+    stem: "During a bed-to-chair transfer, when is the highest-risk moment for a lumbar injury?"
+    options:
+      - "Setting up the chair at the correct angle"
+      - "Applying the gait belt"
+      - "Twisting the trunk while lowering the patient into the chair"
+      - "Helping the patient sit up on the edge of the bed"
+    correct: 2
+    rationale: "Combined flexion and rotation under load is the highest-risk motion for the lumbar spine. The fix is to pivot with the feet, not twist the trunk."
+    objective_tag: apply-body-mechanics
+    difficulty: 2
+    tags: [injury-mechanism]
+    related_terms: [body mechanics, neutral spine]
+    misconception_addressed: "Misconception 3"
+    source_key: NIOSH-LiftingEq
+
+  - id: q006
+    type: true_false
+    stem: "Using a mechanical lift or sit-to-stand device for an eligible patient is a sign of weak staff who cannot handle a manual transfer."
+    correct: false
+    rationale: "Lift devices are the standard of care in safe patient handling programs, backed by federal guidance. Using them reflects evidence-based practice, not staff weakness."
+    objective_tag: identify-when-lift-required
+    difficulty: 1
+    tags: [safety-culture]
+    related_terms: [mechanical lift, safe patient handling]
+    misconception_addressed: "Misconception 2"
+    source_key: OSHA-SafePatient
+
+  - id: q007
+    type: ordering
+    stem: "Order the steps of a correct lift from first to last."
+    options:
+      - "Set feet shoulder-width apart, one slightly forward"
+      - "Bend at the hips and knees with a neutral spine"
+      - "Keep the load close and push up through the legs"
+      - "Pivot with the feet toward the destination"
+    correct: [0, 1, 2, 3]
+    rationale: "The sequence is: set stance, drop to the load, drive up through the legs while keeping the load close, pivot with feet. Skipping or reordering steps is where injuries enter."
+    objective_tag: apply-body-mechanics
+    difficulty: 2
+    tags: [technique, sequence]
+    related_terms: [body mechanics, base of support, neutral spine]
+
+  - id: q008
+    type: multiple_choice
+    stem: "A 180-pound patient needs to be boosted up in bed. They can help slightly with their arms. What is the recommended approach?"
+    options:
+      - "One staff member reaches across the bed and pulls under the patient's arms"
+      - "One staff member lifts from the head of the bed"
+      - "Two staff members with a friction-reducing slide sheet, pulling the sheet rather than lifting the patient"
+      - "Wait until the patient can reposition themselves"
+    correct: 2
+    rationale: "The slide sheet cuts the required force by more than half and turns the lift into a horizontal pull through the legs. A one-person manual boost is the single biggest source of back injury in nursing."
+    objective_tag: identify-when-lift-required
+    difficulty: 2
+    tags: [transfer-selection, equipment]
+    related_terms: [friction-reducing device, safe patient handling]
+    source_key: VA-SPHM
+
+  - id: q009
+    type: fill_blank
+    stem: "The point in the body around which weight is evenly distributed, located roughly below the navel in a standing adult, is called the ______."
+    correct: "center of gravity"
+    rationale: "The center of gravity sits just below the navel in a standing adult. Keeping it over the base of support is the geometry of balance."
+    objective_tag: define-key-term
+    difficulty: 1
+    tags: [vocabulary]
+    related_terms: [center of gravity, base of support]
+
+  - id: q010
+    type: multiple_choice
+    stem: "Two patients need a transfer. Patient A weighs 220 pounds, is alert, can stand briefly, and has no lines. Patient B weighs 140 pounds, is confused, has an IV and a Foley catheter, and cannot bear weight on one leg. Which requires a mechanical lift?"
+    options:
+      - "Patient A, because of the higher weight"
+      - "Patient B, because cognition, weight-bearing, and lines all flag lift-equipment territory"
+      - "Both, because any transfer above 100 pounds requires a lift"
+      - "Neither — both can be managed with a stand-pivot"
+    correct: 1
+    rationale: "Weight is only one of four criteria. Cognition, weight-bearing ability, and presence of lines or tubes all drive the decision. Patient B fails three criteria; Patient A passes all four."
+    objective_tag: identify-when-lift-required
+    difficulty: 3
+    tags: [transfer-selection, assessment]
+    related_terms: [mechanical lift, stand-pivot transfer, transfer]
+    misconception_addressed: "Misconception 4"
+    source_key: ANA-SafePatient
+
+  - id: q011
+    type: matching
+    stem: "Match each patient-handling term (left) to its best description (right)."
+    left:
+      - "zero-lift policy"
+      - "cumulative trauma"
+      - "friction-reducing device"
+      - "stand-pivot transfer"
+    right:
+      - "Injury that builds up from many small repeated mechanical loads"
+      - "A slide sheet or board that lowers the force needed to move a patient"
+      - "A workplace rule that manual lifting of dependent patients is not allowed"
+      - "A patient moves from one surface to another by standing and pivoting on their feet"
+    correct: [[0, 2], [1, 0], [2, 1], [3, 3]]
+    rationale: "These four terms organize the vocabulary of safe patient handling: the policy, the injury mechanism, the equipment, and the most common manual transfer."
+    objective_tag: define-key-term
+    difficulty: 2
+    tags: [vocabulary]
+    related_terms: [zero-lift policy, cumulative trauma, friction-reducing device, stand-pivot transfer]
+
+  - id: q012
+    type: short_answer
+    stem: "Explain in two or three sentences why a young, strong healthcare worker should still use a mechanical lift for a 200-pound dependent patient."
+    correct: "Healthcare injuries come from cumulative trauma over a career, not from a single lift exceeding the worker's peak strength. Even a strong spine absorbs load it was not built for when lifting a dependent adult, and that load adds up. The mechanical lift is the standard of care and is the only way to reliably prevent the musculoskeletal disorders that end careers."
+    rationale: "This synthesizes the cumulative-trauma idea, the standard-of-care idea, and the geometry that strength does not change. A strong-answer student names cumulative trauma, the zero-lift standard, and the spinal-load reason."
+    objective_tag: identify-when-lift-required
+    difficulty: 3
+    tags: [synthesis, safety-culture]
+    related_terms: [cumulative trauma, mechanical lift, musculoskeletal disorder]
+    misconception_addressed: "Misconception 1"
+    source_key: NIOSH-LiftingEq
+
+  - id: q013
+    type: short_answer
+    stem: "A stand-pivot transfer ends with the worker lowering the patient into the chair. What is the correct way to face the chair without twisting the spine?"
+    correct: "Pivot with the feet. Step the feet (yours and the patient's) to face the chair before lowering. Twisting the trunk under load combines flexion and rotation and is the highest-risk motion for a lumbar injury."
+    rationale: "Foot-pivoting keeps the spine in a neutral position during the last, most dangerous part of the transfer. Students who only remember 'bend the knees' often miss this second half of body mechanics."
+    objective_tag: apply-body-mechanics
+    difficulty: 2
+    tags: [technique]
+    related_terms: [body mechanics, neutral spine, stand-pivot transfer]
+    misconception_addressed: "Misconception 3"

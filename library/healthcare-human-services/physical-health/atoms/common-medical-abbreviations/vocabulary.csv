@@ -1,0 +1,32 @@
+# Vocabulary — common-medical-abbreviations
+# atom_id: common-medical-abbreviations
+# atom_serial: HHS-PH-0005
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 13
+#
+# Terms are pinned to the atom's two LO parts:
+#   1. Read and use common medical abbreviations correctly
+#   2. Avoid the "do-not-use" list that contributes to medication errors
+# These are the NAMED CONCEPTS students must hold onto; the atom lists many
+# individual abbreviations, but only the ones with conceptual weight
+# (stat, prn, NPO, NKDA, DNR) or the control/safety ideas themselves
+# (do-not-use list, decimal discipline, medication error) belong here.
+# Route-abbreviation literacy is anchored by a single representative term
+# (PO). Pharmacology, specific lab-value interpretation, and exhaustive
+# abbreviation glossaries belong to other atoms.
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+abbreviation,"A shortened written form of a word, phrase, or dose instruction used to save time on medical orders and charts.",noun,"An abbreviation speeds up charting, but only if both the writer and the reader agree on what it means.",,medical-terminology-word-parts,1
+do-not-use list,"A short, named set of abbreviations and dose forms banned from medical orders because each has been linked to patient-harm events.",compound,"The Joint Commission's do-not-use list is the minimum banned set every U.S. hospital must follow.",TJC-DoNotUse,,1
+medication error,"Any preventable event in prescribing, transcribing, dispensing, or administering a drug that could lead to patient harm.",compound,"A medication error made when U is read as a zero can turn a 4 unit insulin dose into 40 units.",AHRQ-Errors,,1
+Joint Commission,"The non-profit organization that accredits U.S. hospitals and publishes the official do-not-use abbreviation list.",noun,"Hospitals that want Joint Commission accreditation must audit charts for do-not-use list violations.",TJC-NPSG,,1
+ISMP,"The Institute for Safe Medication Practices, which maintains a broader error-prone abbreviations list used alongside the Joint Commission's.",abbreviation,"ISMP keeps a longer list of risky abbreviations and updates it when new errors are reported.",ISMP-ErrorProne,,1
+decimal discipline,"The habit of always writing a leading zero before a decimal (0.5 mg, not .5 mg) and never writing a trailing zero (1 mg, not 1.0 mg).",compound,"Decimal discipline turns a missed decimal point from a ten-fold overdose into a legible dose.",FDA-SafeDose,,1
+stat,"An abbreviation from Latin statim meaning 'immediately'; a stat order must be carried out without delay.",abbreviation,"A stat dose of naloxone is drawn up and given within minutes, not at the next scheduled round.",,,1
+prn,"An abbreviation from Latin pro re nata meaning 'as needed'; the drug is given only when the patient meets stated criteria.",abbreviation,"A prn pain medication is given when the patient rates pain at or above the threshold on the order.",,,1
+NPO,"Nil per os — an order meaning the patient takes nothing by mouth, usually before surgery or a procedure.",abbreviation,"A patient on NPO status cannot have water, food, or oral medication until the order is lifted.",,,1
+NKDA,"No known drug allergies; a documented statement that a patient has not reported any drug allergy.",abbreviation,"Charting NKDA without asking the patient is a common documentation shortcut that has caused real harm.",,,1
+DNR,"Do not resuscitate; a physician order stating that CPR and advanced cardiac life support should not be attempted if the patient arrests.",abbreviation,"A DNR order must be documented, signed, and visible in the chart before the team can honor it.",,,1
+PO,"Per os — an order route meaning the medication is given by mouth.",abbreviation,"A PO medication is swallowed, whereas an IV medication is pushed into a vein.",,,1
+approved abbreviation list,"A facility-specific, written list of abbreviations that a particular hospital or clinic has authorized for use in its charts.",compound,"Before charting at a new facility, check its approved abbreviation list because safe shorthand in one hospital may be banned in another.",TJC-NPSG,,1

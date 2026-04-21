@@ -1,0 +1,20 @@
+# Vocabulary — body-mechanics-and-safe-patient-handling
+# atom_id: body-mechanics-and-safe-patient-handling
+# atom_serial: HHS-PH-0002
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 12
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+body mechanics,"The way a worker uses posture, alignment, and movement to perform physical tasks with the least strain on the body.",compound,Good body mechanics turn a lift into a leg push instead of a back pull.,OpenStax-Anatomy,,1
+center of gravity,The point in the body around which weight is evenly distributed; in a standing adult it sits just below the navel.,compound,Keeping your center of gravity over your feet is what prevents a loss of balance during a transfer.,OpenStax-Anatomy,,1
+base of support,"The area beneath the body bounded by the outside edges of the feet, which determines how stable a stance is.",compound,Widening your base of support by stepping your feet apart makes a lift feel more solid.,OpenStax-Anatomy,,1
+neutral spine,"A spine held in its natural slight curves, without rounding, twisting, or hyperextension.",compound,Bending at the hips and knees keeps your neutral spine while you lower yourself to the patient.,ANA-SafePatient,,1
+transfer,"The act of moving a patient from one surface to another, such as bed to chair.",noun,A stand-pivot transfer works only when the patient can bear weight on at least one leg.,ANA-SafePatient,,1
+stand-pivot transfer,"A transfer in which the patient stands, pivots on their feet, and sits on the new surface with staff support.",compound,"Because the stand-pivot transfer depends on the patient's leg strength, it is not used for someone who cannot bear weight.",ANA-SafePatient,,2
+musculoskeletal disorder,"An injury or disorder of the muscles, tendons, ligaments, joints, or spinal discs caused by workplace effort over time.",compound,A musculoskeletal disorder often develops from repeated small strains rather than one dramatic lift.,BLS-MSDHealthcare,,2
+cumulative trauma,"Injury that builds up gradually from many small exposures, not from any single event.",compound,The back pain nurses develop mid-career is usually cumulative trauma from thousands of unassisted boosts.,NIOSH-LiftingEq,,2
+safe patient handling,"A program that replaces manual lifting with mechanical devices and trained techniques to reduce worker and patient injury.",compound,A hospital with a safe patient handling program provides equipment and trains staff to use it on every qualifying lift.,OSHA-SafePatient,,2
+zero-lift policy,"A workplace rule that staff do not manually lift patients who cannot help themselves; mechanical lifts are used instead.",compound,"Under a zero-lift policy, a 180-pound dependent patient is moved with a ceiling lift, not by two aides.",OSHA-SafePatient,,2
+mechanical lift,"A powered device (ceiling-mounted or floor-based) that lifts a patient using a sling under the body.",compound,A mechanical lift turns a two-person transfer into a one-person task that does not load the worker's spine.,VA-SPHM,,1
+friction-reducing device,"A slide sheet, board, or air-assisted mat that lowers the force needed to move a patient across a surface.",compound,Using a friction-reducing device to boost a patient up in bed cuts the effort by more than half.,VA-SPHM,,2
