@@ -1,0 +1,27 @@
+# Vocabulary — applied-math-and-data-in-health-science
+# atom_id: applied-math-and-data-in-health-science
+# atom_serial: HHS-PH-0001
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 13
+#
+# Terms are pinned to the LO's two parts:
+# 1. Convert units between measurement systems used in healthcare
+# 2. Interpret tables, charts, and graphs to support clinical decisions
+# And to the content stub's "common error sources" bullet. Specific
+# pharmacology (half-lives, pharmacokinetics) belongs in pharmacology atoms.
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+unit conversion,"Changing a measured value from one unit (e.g., pounds) to another (e.g., kilograms) while keeping the quantity the same.",compound,Unit conversion is the single most common math task a healthcare worker performs.,NIH-Metric,,1
+metric system,"The International System of Units (SI); the measurement standard in healthcare worldwide, using grams, liters, meters, and degrees Celsius.",compound,Hospitals chart every patient's weight in kilograms because the metric system is the medication-dosing standard.,NIH-Metric,,1
+US customary system,"The measurement system used for everyday life in the United States (pounds, ounces, inches, feet, Fahrenheit).",compound,Patients report their weight in the US customary system; the nurse converts it into metric before dosing.,NIH-Metric,,1
+kilogram,A metric unit of mass equal to 1000 grams; the healthcare standard for patient weight.,noun,A 154-pound adult weighs about 70 kilograms.,NIH-Metric,,1
+pound,A US customary unit of weight equal to about 0.454 kilograms.,noun,Converting pounds to kilograms means dividing by 2.2.,NIH-Metric,,1
+dose,"The amount of a medication given to a patient, usually measured in milligrams, milliliters, or units.",noun,The dose of an antibiotic for a child depends on the child's weight in kilograms.,OpenStax-PharmMath,,1
+weight-based dosing,"Prescribing medication by the patient's weight (e.g., 10 mg/kg), as opposed to a fixed dose for all adults.",compound,Pediatric antibiotics use weight-based dosing because a child's body differs too much from an adult's.,AAP-PediDose,,2
+reference range,The span of values considered normal for a laboratory test in a given population.,compound,A blood glucose of 180 mg/dL is outside the normal reference range for a fasting adult.,AHA-Vital-Signs,,1
+trend,A direction of change over time visible in a chart or graph.,noun,A trend of rising blood glucose across three days is more important than any one reading.,OpenStax-PharmMath,,1
+percentile,"A rank that describes where a value falls in a reference population, from 1st to 99th.",noun,A child at the 90th percentile for weight is heavier than 90 percent of peers the same age.,CDC-GrowthCharts,,2
+growth chart,"A standardized chart that plots pediatric measurements (weight, height, head circumference) against age to show percentile.",compound,The growth chart tells you whether a child is developing along a consistent curve or falling off one.,CDC-GrowthCharts,,2
+medication error,"Any preventable mistake in prescribing, dispensing, or administering a medication.",compound,A trailing zero that gets misread is a leading cause of medication error in pediatrics.,ISMP-Decimal,,2
+decimal discipline,"The safety habit of always writing a leading zero (0.5, not .5) and never writing a trailing zero (1, not 1.0) on doses.",compound,Decimal discipline prevents a ten-fold overdose from a single misplaced mark.,ISMP-Decimal,,2
