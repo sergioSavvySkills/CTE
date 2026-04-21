@@ -1,0 +1,211 @@
+meta:
+  atom_id: electronic-health-records-basics
+  atom_serial: HHS-PH-0008
+  sidecar: question-bank
+  status: ai-draft
+  item_count: 13
+  author: claude
+  reviewer:
+  review_date:
+
+# Every item traces to one of the LO's three parts:
+#   1. Describe what an EHR is
+#   2. Navigate common chart sections
+#   3. Apply safe-practice rules for documentation and access
+# Items that drifted into HIPAA regulation specifics, FHIR/HL7 payload
+# internals, coding/billing (ICD/CPT), or clinical-decision-support
+# ethics were dropped as out-of-scope. Every misconception in
+# misconceptions.md is addressed by at least one item below (see
+# misconception_addressed fields).
+
+items:
+  - id: q001
+    type: multiple_choice
+    stem: "Which of the following best describes an electronic health record (EHR)?"
+    options:
+      - "A paper chart that has been scanned into PDF form"
+      - "A digital, longitudinal record of a patient's health information designed to be shared across providers and care settings"
+      - "A billing system that tracks insurance claims"
+      - "A scheduling tool for clinic appointments"
+    correct: 1
+    rationale: "An EHR is a digital, longitudinal record designed for exchange across providers. It is more than a digitized paper chart and is distinct from billing or scheduling systems."
+    objective_tag: describe-ehr
+    difficulty: 1
+    tags: [definition, vocabulary]
+    related_terms: [electronic health record]
+    source_key: ONC-EHR
+
+  - id: q002
+    type: true_false
+    stem: "An electronic medical record (EMR) and an electronic health record (EHR) mean exactly the same thing."
+    correct: false
+    rationale: "An EMR is a digital chart inside one facility's system; an EHR is a longitudinal record designed to be exchanged across providers and care settings. Federal meaningful-use programs pushed providers from EMR-shaped systems toward true EHRs."
+    objective_tag: describe-ehr
+    difficulty: 1
+    tags: [definition, misconception]
+    related_terms: [electronic health record, electronic medical record, interoperability]
+    misconception_addressed: "Misconception 4"
+    source_key: ONC-EHR
+
+  - id: q003
+    type: matching
+    stem: "Match each chart section (left) to the information it holds (right)."
+    left:
+      - "Problem list"
+      - "Flowsheet"
+      - "Progress note"
+      - "Order"
+    right:
+      - "A dated narrative entry recording what the clinician observed, thought, and did"
+      - "A clinician's instruction for a medication, lab, imaging study, or activity that other staff carry out"
+      - "A running list of a patient's active and resolved diagnoses"
+      - "A grid of repeated measurements such as vitals, intake/output, and pain scores over time"
+    correct: [[0, 2], [1, 3], [2, 0], [3, 1]]
+    rationale: "The four section-types are the most common navigation anchors in any EHR. Problem list holds diagnoses; flowsheet holds repeated measurements; progress note is the narrative; an order routes a clinical instruction."
+    objective_tag: navigate-sections
+    difficulty: 1
+    tags: [navigation, vocabulary]
+    related_terms: [problem list, flowsheet, progress note, order]
+    source_key: TJC-Documentation
+
+  - id: q004
+    type: multiple_choice
+    stem: "A clinician opens a new encounter and wants to see what conditions the patient is being treated for. Which section should they open first?"
+    options:
+      - "Imaging"
+      - "Problem list"
+      - "Demographics"
+      - "Results"
+    correct: 1
+    rationale: "The problem list is the running list of active and resolved diagnoses, and is the fastest way to orient to what the patient is being treated for."
+    objective_tag: navigate-sections
+    difficulty: 1
+    tags: [navigation]
+    related_terms: [problem list]
+
+  - id: q005
+    type: true_false
+    stem: "If you type a wrong dose into a chart note and press delete before signing, there is no record that the text was ever entered."
+    correct: false
+    rationale: "Healthcare charts run under a 'correct-not-erase' rule. The audit trail records keystrokes and versions, and cannot be turned off by the user. After a note is signed, corrections go through an amendment workflow that keeps both the original and the edit."
+    objective_tag: apply-documentation-rules
+    difficulty: 2
+    tags: [documentation, misconception, audit]
+    related_terms: [audit trail, progress note]
+    misconception_addressed: "Misconception 1"
+    source_key: TJC-Documentation
+
+  - id: q006
+    type: multiple_choice
+    stem: "Which of the following is an example of a copy-paste error in an EHR?"
+    options:
+      - "A clinician writes a fresh progress note for today's encounter"
+      - "A pasted HPI describing last admission's chest pain is left inside today's note for a patient admitted with heart failure"
+      - "A flowsheet automatically pulls vital-sign values from connected monitors"
+      - "Two clinicians co-sign a shared discharge summary"
+    correct: 1
+    rationale: "A copy-paste error carries text forward from a previous note into today's note when the text no longer matches the current patient or visit. The pasted HPI describing chest pain in a heart-failure admission is the classic pattern."
+    objective_tag: apply-documentation-rules
+    difficulty: 2
+    tags: [documentation, misconception, copy-paste]
+    related_terms: [copy-paste error, progress note]
+    misconception_addressed: "Misconception 2"
+    source_key: ISMP-CopyPaste
+
+  - id: q007
+    type: multiple_choice
+    stem: "A clinical assistant opens the chart of a neighbor admitted overnight, reads for a minute out of curiosity, tells no one, and closes the chart. Which statement is correct?"
+    options:
+      - "No violation occurred because no information was disclosed"
+      - "No violation occurred because the chart was only open for one minute"
+      - "The access is logged in the audit trail and is an unauthorized-access violation regardless of whether anything was disclosed"
+      - "The access is only a violation if the patient files a complaint"
+    correct: 2
+    rationale: "Every chart view is recorded by the audit trail. Viewing a record without a treatment relationship is itself the breach, and privacy officers review access logs routinely, not only after complaints."
+    objective_tag: apply-access-rules
+    difficulty: 2
+    tags: [access, misconception, audit]
+    related_terms: [audit trail, role-based access]
+    misconception_addressed: "Misconception 3"
+    source_key: HIPAA-Security
+
+  - id: q008
+    type: multiple_choice
+    stem: "Role-based access in an EHR means that:"
+    options:
+      - "Every clinician can see every patient's full chart"
+      - "Each user is granted only the chart permissions their job requires"
+      - "Patients decide which staff can view their chart"
+      - "Access is granted based on seniority"
+    correct: 1
+    rationale: "Role-based access grants each user the permissions their treatment role requires and no more. A registration clerk updates demographics but cannot view a progress note; a pharmacist verifies orders but does not sign them."
+    objective_tag: apply-access-rules
+    difficulty: 1
+    tags: [access, vocabulary]
+    related_terms: [role-based access]
+    source_key: HIPAA-Security
+
+  - id: q009
+    type: short_answer
+    stem: "In one or two sentences, explain what alert fatigue is and why it can be a safety problem."
+    correct: "Alert fatigue is the decreased attention clinicians pay to EHR pop-up warnings after seeing too many low-value alerts. It is a safety problem because a real warning — like a drug-interaction alert — can be dismissed reflexively along with the noise."
+    rationale: "Checks that the student can define alert fatigue and explain the harm mechanism (a real alert hidden in a stream of noise)."
+    objective_tag: apply-documentation-rules
+    difficulty: 2
+    tags: [safety, alerts]
+    related_terms: [alert fatigue]
+    source_key: AHRQ-EHR-Safety
+
+  - id: q010
+    type: multiple_choice
+    stem: "A patient wants to read her own lab results, medication list, and visit notes between appointments. Which feature is designed for this?"
+    options:
+      - "Audit trail"
+      - "Flowsheet"
+      - "Patient portal"
+      - "Problem list"
+    correct: 2
+    rationale: "The patient portal is a secure website or app that lets a patient read parts of their own EHR, message the care team, and view results. Federal rules give patients the right to access most of their record this way."
+    objective_tag: describe-ehr
+    difficulty: 1
+    tags: [patient-access, vocabulary]
+    related_terms: [patient portal]
+    source_key: ONC-PatientAccess
+
+  - id: q011
+    type: ordering
+    stem: "Arrange the four steps for writing a safe progress-note entry, in the order you should apply them."
+    options:
+      - "Write the observation in objective language (what you saw, what the patient reported)"
+      - "Electronically sign the note so it becomes part of the legal record"
+      - "Verify two patient identifiers before typing anything"
+      - "Let the EHR time-stamp the entry automatically — do not backdate"
+    correct: [2, 0, 3, 1]
+    rationale: "The sequence is verify → observe in objective terms → let the EHR time-stamp → sign. Verification prevents a wrong-patient entry; objective observation and automatic time-stamping produce a clean record; the electronic signature commits it."
+    objective_tag: apply-documentation-rules
+    difficulty: 2
+    tags: [documentation, procedure]
+    related_terms: [progress note, wrong-patient error]
+    source_key: TJC-Documentation
+
+  - id: q012
+    type: true_false
+    stem: "Interoperability is the reason a specialist across town can pull up imaging already done at a patient's primary-care clinic."
+    correct: true
+    rationale: "Interoperability is the ability of different EHR systems to exchange and use each other's patient data. It is the concept that turns a digital chart into a shareable asset at the next encounter."
+    objective_tag: describe-ehr
+    difficulty: 1
+    tags: [interoperability, vocabulary]
+    related_terms: [interoperability, electronic health record]
+    source_key: ONC-EHR
+
+  - id: q013
+    type: short_answer
+    stem: "A clinician starts a progress note with two charts open at the same time and types into the wrong window. What is this error called, and what one habit prevents it?"
+    correct: "This is a wrong-patient error. Verifying two patient identifiers (name plus date of birth or medical record number) before typing prevents it."
+    rationale: "Checks the student can name the wrong-patient error pattern and state the two-identifier verification habit that prevents it."
+    objective_tag: apply-documentation-rules
+    difficulty: 2
+    tags: [documentation, safety]
+    related_terms: [wrong-patient error]
+    source_key: AHRQ-EHR-Safety
