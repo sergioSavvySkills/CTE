@@ -12,7 +12,7 @@
 - [TEKS rule text](teks-127-403.md) — verbatim §127.403 (verified against Cornell LII + txrules.elaws.us)
 - [Atoms](atoms.md) — 28 primary + 7 supporting + 2 pure cross-scope atoms comprising this course
 - [Crosswalk](crosswalk.md) — standard ↔ atom alignment (100% primary coverage)
-- [Course template](../templates/texas/tx-principles-of-health-science-2022.md) — 8-unit sequencing with 4 performance tasks
+- [Course template](templates/tx-principles-of-health-science-2022.md) — 8-unit sequencing with 4 performance tasks
 
 Canonical CSV and SME review (rounds 1-3.2) at
-`../crosswalks/texas/`.
+`crosswalks/`.

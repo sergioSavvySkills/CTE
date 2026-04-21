@@ -9,14 +9,14 @@ state-neutral at
 **Coverage:** 50 / 50 §127.403 standards have a primary-aligned atom (**100%**).
 **SME review:** Round 3.2 — **approved with unit-sequence fixes applied**
 (maya-delgado, 2026-04-20). See
-`../crosswalks/texas/sme-review.md` for round history
+`crosswalks/sme-review.md` for round history
 and bloat audit.
 
 ## View by unit (template sequencing)
 
 The canonical sequencing of these atoms into a course is in the course
 template at
-`../templates/texas/tx-principles-of-health-science-2022.md`.
+`templates/tx-principles-of-health-science-2022.md`.
 
 | unit | title | primary atoms | supporting / cross-scope embedded | covers §127.403 KS areas |
 |---|---|---|---|---|

@@ -65,11 +65,11 @@ is never a prerequisite for delivering this course.
 
 ```
 library/healthcare-human-services/physical-health/
-  crosswalks/texas/state-framework.csv      (ingested)
-    → crosswalks/texas/crosswalk.csv        (AI draft + SME review)
-      → crosswalks/texas/coverage-report.md (gaps → atom requests)
+  texas/crosswalks/state-framework.csv      (ingested)
+    → texas/crosswalks/crosswalk.csv        (AI draft + SME review)
+      → texas/crosswalks/coverage-report.md (gaps → atom requests)
         → atoms/                            (atoms authored)
-          → templates/texas/                (slots filled)   ← you are here
+          → texas/templates/                (slots filled)   ← you are here
 ```
 
 ## Next steps for each template

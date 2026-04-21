@@ -144,7 +144,7 @@ without them). Will be promoted when those courses' crosswalks are built.
 ## Round 3.2 — unit-sequence review (2026-04-20)
 
 Triggered by Maya's review of the first-draft course template
-(`templates/texas/tx-principles-of-health-science-2022.md`). Four
+(`../templates/tx-principles-of-health-science-2022.md`). Four
 sequencing fixes identified and applied in this round:
 
 | # | concern | fix applied |

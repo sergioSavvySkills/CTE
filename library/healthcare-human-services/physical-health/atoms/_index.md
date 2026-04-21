@@ -11,7 +11,7 @@ State-neutral competency atoms shared by physical-health courses. The Texas
 course view at
 `library/healthcare-human-services/physical-health/texas/`
 references these atoms via `atoms.md` and `crosswalk.md`, and maps them to
-§127.403 KS statements via `crosswalks/texas/crosswalk.csv`. Atoms are
+§127.403 KS statements via `texas/crosswalks/crosswalk.csv`. Atoms are
 reusable by other state views when added.
 
 ## Atom inventory — 37 atoms
@@ -74,6 +74,6 @@ reusable by other state views when added.
 ## SME review
 
 Current status: **Round 3 — approved** (maya-delgado, 2026-04-20). See
-`../crosswalks/texas/sme-review.md` for full round history including
+`../texas/crosswalks/sme-review.md` for full round history including
 round 1 (fabricated §127.402) and round 2 (fabricated §127.461) and bloat
 audit findings that carry forward.

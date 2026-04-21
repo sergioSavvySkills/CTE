@@ -1,17 +1,17 @@
 # Crosswalk — Principles of Health Science (§127.403) ↔ Atoms
 
 Readable view of the atom ↔ §127.403 alignment. Machine-readable source at
-`../crosswalks/texas/crosswalk.csv`.
+`crosswalks/crosswalk.csv`.
 
 **Coverage:** 50 / 50 standards have a primary atom (**100%**).
 **Review status:** Round 3.2 — **approved with unit-sequence fixes applied**
 (maya-delgado, 2026-04-20). See
-[sme-review.md](../crosswalks/texas/sme-review.md) for
+[sme-review.md](crosswalks/sme-review.md) for
 round history and bloat audit.
 
 ## KS-area coverage by unit
 
-Where each KS area is taught in the [course template](../templates/texas/tx-principles-of-health-science-2022.md):
+Where each KS area is taught in the [course template](templates/tx-principles-of-health-science-2022.md):
 
 | KS area | topic | unit(s) |
 |---|---|---|
@@ -99,7 +99,7 @@ Where each KS area is taught in the [course template](../templates/texas/tx-prin
 ## Supporting alignments
 
 15 additional supporting alignments reinforce but don't claim primary
-ownership. See `../crosswalks/texas/crosswalk.csv` for
+ownership. See `crosswalks/crosswalk.csv` for
 rationale per row.
 
 ## Round-3 delta (vs. round 2)

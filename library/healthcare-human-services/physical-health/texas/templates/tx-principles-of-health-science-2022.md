@@ -280,7 +280,7 @@ count of their host unit).
 TEKS coverage is derived through the slot → atom → crosswalk chain and is
 not hand-authored in this template. Before promoting to `status: active`
 run the coverage report against
-`library/healthcare-human-services/physical-health/crosswalks/texas/crosswalk.csv`
+`library/healthcare-human-services/physical-health/texas/crosswalks/crosswalk.csv`
 to verify every §127.403(c) standard hits at least one slot. Current state
 per SME round 3.1: **50 / 50 standards have a primary-aligned atom (100%).**
 
