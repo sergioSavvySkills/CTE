@@ -1,0 +1,24 @@
+# Vocabulary — body-organization-and-directional-terms
+# atom_id: body-organization-and-directional-terms
+# atom_serial: HHS-PH-0003
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 16
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+anatomical position,"The standard reference posture: standing upright, facing forward, arms at sides, palms turned forward.",compound,"All directional terms assume the body is in anatomical position, even if the patient is lying down.",OpenStax §1.6,,1
+levels of organization,"The hierarchy from chemical to cellular, tissue, organ, organ system, and organism.",compound,"The levels of organization let you say whether a word names a cell, a tissue, an organ, or a whole system.",Tortora §1.4,body-systems-overview,1
+sagittal plane,A vertical plane that divides the body into left and right portions.,compound,A sagittal plane cuts the body lengthwise into left and right sides.,OpenStax §1.6,,1
+midsagittal plane,"The sagittal plane that passes through the midline, producing equal left and right halves.",compound,A midsagittal plane splits the body into mirror-image halves.,OpenStax §1.6,,1
+frontal plane,"A vertical plane that divides the body into anterior (front) and posterior (back) portions; also called the coronal plane.",compound,A frontal plane separates the chest from the back.,OpenStax §1.6,,1
+transverse plane,"A horizontal plane that divides the body into superior (upper) and inferior (lower) portions; also called the axial or horizontal plane.",compound,"Most CT scan images are taken in the transverse plane, as if the body were sliced like a loaf of bread.",OpenStax §1.7,,1
+dorsal cavity,"The posterior body cavity, which contains the cranial cavity (brain) and the spinal cavity (spinal cord).",compound,The brain and spinal cord sit inside the dorsal cavity.,Tortora §1.4,,1
+ventral cavity,"The anterior body cavity, which contains the thoracic cavity above the diaphragm and the abdominopelvic cavity below it.",compound,"The ventral cavity is divided by the diaphragm into a thoracic cavity and an abdominopelvic cavity.",Tortora §1.4,,1
+serous membrane,"A thin double-layered membrane that lines a ventral cavity and covers its organs; the pleural, pericardial, and peritoneal membranes are the three main examples.",compound,"A serous membrane wraps each lung, the heart, and most abdominal organs.",Marieb Ch. 1,,2
+superior,"Directional term meaning toward the head or upper part of a structure; opposite of inferior.",adjective,The head is superior to the shoulders.,OpenStax §1.6,,1
+anterior,Directional term meaning toward the front of the body; opposite of posterior.,adjective,The sternum is anterior to the heart.,OpenStax §1.6,,1
+medial,Directional term meaning toward the midline of the body; opposite of lateral.,adjective,The nose is medial to the ears.,OpenStax §1.6,,1
+proximal,"Directional term meaning closer to the point of attachment of a limb to the trunk; opposite of distal.",adjective,The elbow is proximal to the wrist.,OpenStax §1.6,,1
+superficial,"Directional term meaning closer to the surface of the body; opposite of deep.",adjective,The skin is superficial to the muscles beneath it.,OpenStax §1.6,,1
+contralateral,Directional term meaning on the opposite side of the body; opposite of ipsilateral.,adjective,A stroke on the right side of the brain produces weakness on the contralateral (left) side of the body.,OpenStax §1.6,,2
+abdominopelvic quadrants,"The four regions (RUQ, LUQ, RLQ, LLQ) formed by one transverse and one midsagittal line through the navel, used to locate abdominal pain and organs.",compound,"Appendix pain is usually reported in the RLQ, one of the four abdominopelvic quadrants.",Mayo-Abdominal,,1
