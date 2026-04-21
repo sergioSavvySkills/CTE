@@ -35,7 +35,7 @@ Cornell / txrules.elaws.us when those crosswalks are built.
 ## Files
 
 - `state-framework.csv` — machine-readable KS statements (50 rows)
-- `crosswalk.csv` — atom ↔ standard alignment map (66 rows: 51 primary + 15 supporting)
+- `crosswalk.csv` — atom ↔ standard alignment map (68 rows: 51 primary + 17 supporting)
 - `coverage-report.md` — per-standard coverage and gap analysis
 - `sme-review.md` — round 1 (fabricated §127.402), round 2 (fabricated §127.461), round 3 (**verified §127.403 — approved**)
 

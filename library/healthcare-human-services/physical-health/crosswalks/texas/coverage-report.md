@@ -101,13 +101,13 @@
 
 ### (c)(10) Rights and choices — 5 standards
 
-| standard | text (abbrev.) | primary atom |
-|---|---|---|
-| c10A | autonomy | patient-rights-and-informed-consent |
-| c10B | wellness strategies for prevention | wellness-and-disease-prevention |
-| c10C | relationships on physical/emotional health | healthy-relationships-and-wellbeing |
-| c10D | documentation of rights and choices | patient-rights-and-informed-consent |
-| c10E | diversity and cultural practices | cultural-competence-in-healthcare |
+| standard | text (abbrev.) | primary atom | supporting atom |
+|---|---|---|---|
+| c10A | autonomy | patient-rights-and-informed-consent | |
+| c10B | wellness strategies for prevention | wellness-and-disease-prevention | hand-hygiene-technique |
+| c10C | relationships on physical/emotional health | healthy-relationships-and-wellbeing | |
+| c10D | documentation of rights and choices | patient-rights-and-informed-consent | |
+| c10E | diversity and cultural practices | cultural-competence-in-healthcare | |
 
 ### (c)(11) Safety — 3 standards
 
@@ -115,7 +115,7 @@
 |---|---|---|---|
 | c11A | regulatory agencies | healthcare-regulatory-agencies | healthcare-delivery-system-overview |
 | c11B | standard precautions, fire, emergency | standard-precautions-and-chain-of-infection, fire-and-emergency-safety | hand-hygiene-technique, personal-protective-equipment-use |
-| c11C | safety practices in industry | healthcare-regulatory-agencies | |
+| c11C | safety practices in industry | healthcare-regulatory-agencies | hand-hygiene-technique |
 
 ### (c)(12) Technology — 3 standards
 
