@@ -1,0 +1,20 @@
+# Vocabulary — cultural-competence-in-healthcare
+# atom_id: cultural-competence-in-healthcare
+# atom_serial: HHS-PH-0007
+# sidecar: vocabulary
+# status: ai-draft
+# author: claude
+# term_count: 12
+term,definition,part_of_speech,example,source_key,related_atoms,difficulty
+cultural competence,"A set of learned knowledge, attitudes, and skills that help a clinician care for patients from backgrounds different from their own.",compound,"Cultural competence gives you a starting vocabulary, but it does not replace asking the patient about their own preferences.",Tervalon-Humility,,2
+cultural humility,"A lifelong posture of self-reflection, curiosity, and recognition of power imbalance when caring for patients whose identities differ from the clinician's.",compound,"Cultural humility means that when you meet a new patient, you assume you have something to learn rather than something to apply.",Tervalon-Humility,,2
+social determinants of health,"The non-clinical conditions in which people are born, live, work, and age — income, housing, education, food access, transportation, environment — that shape health outcomes.",compound,A patient's social determinants of health often predict blood-pressure control better than the prescribed medication does.,NAM-SDOH,,2
+health disparity,"A difference in health outcomes between groups that is linked to social, economic, or environmental disadvantage.",compound,The gap in U.S. maternal mortality between Black and white women is a well-documented health disparity.,CDC-Disparities,,2
+health equity,"The principle that everyone has a fair and just opportunity to be as healthy as possible, with specific attention to groups that have faced barriers.",compound,"Health equity is the goal; reducing disparities is how you know you are moving toward it.",CDC-Disparities,,2
+implicit bias,"An automatic, often unconscious association that shapes judgment and behavior, including in clinical assessment and treatment decisions.",compound,Studies show implicit bias can influence how seriously a clinician takes a patient's report of pain.,IOM-Unequal,,2
+qualified medical interpreter,"A trained professional who interprets between a patient and clinician in real time, is bound by confidentiality, and is assessed for language and medical-terminology accuracy.",compound,"Use a qualified medical interpreter, not a family member, whenever the patient and clinician do not share a fluent language.",AHRQ-Interpreter,,2
+limited English proficiency,"A clinical descriptor for patients whose primary language is not English and who cannot communicate effectively with providers in English.",compound,Patients with limited English proficiency have a legal right to language access services in federally funded care.,CLAS-Standards,,2
+CLAS standards,"The National Standards for Culturally and Linguistically Appropriate Services, a U.S. HHS framework for equitable and respectful care.",abbreviation,"The CLAS standards tell organizations what culturally and linguistically responsive care looks like in practice, from signage to interpreter access.",CLAS-Standards,,2
+stereotype,"An oversimplified belief about a group that is applied to individuals within it, often overriding what the individual actually says or needs.",noun,"A ""cheat sheet"" of what people from a given culture want is a stereotype waiting to happen, even when it is well-intentioned.",Tervalon-Humility,,2
+structural racism,"Patterns of policies and institutional practices that produce unequal outcomes by race, independent of any individual's intent.",compound,Structural racism is visible in who lives near clean air and who lives near highways — a health issue before any clinical visit.,IOM-Unequal,,2
+teach-back,"A communication check in which the patient restates key information in their own words so the clinician can confirm understanding.",compound,A teach-back at the end of a visit catches misunderstandings that a simple ""any questions?"" would miss.,AHRQ-Interpreter,,2
