@@ -1,0 +1,201 @@
+meta:
+  atom_id: healthcare-delivery-system-overview
+  atom_serial: HHS-PH-0014
+  sidecar: question-bank
+  status: ai-draft
+  item_count: 13
+  author: claude
+  reviewer:
+  review_date:
+
+items:
+  - id: q001
+    type: multiple_choice
+    stem: "Which statement best describes the difference between a payer and a provider in U.S. healthcare?"
+    options:
+      - "They are the same entity under different names"
+      - "The payer delivers care, and the provider pays the bill"
+      - "The provider delivers care, and the payer pays the bill"
+      - "The payer and provider only differ for Medicare patients"
+    correct: 2
+    rationale: "Providers deliver care (hospitals, clinicians); payers pay claims (Medicare, Medicaid, private insurers, self-insured employers). A single admission can involve multiple providers billing one payer, or one provider billing several payers."
+    objective_tag: define-key-term
+    difficulty: 1
+    tags: [payers]
+    related_terms: [payer]
+    misconception_addressed: "Misconception 1"
+    source_key: KFF-Overview
+
+  - id: q002
+    type: matching
+    stem: "Match each care setting (left) to the acuity level it is primarily designed for (right)."
+    left:
+      - "Emergency department"
+      - "Urgent care"
+      - "Primary care clinic"
+      - "Home health"
+    right:
+      - "Stable chronic conditions after a hospital discharge"
+      - "Preventive care and common ongoing problems"
+      - "Minor injuries and infections that can't wait for a clinic appointment"
+      - "Life-threatening conditions and severe trauma"
+    correct: [[0, 3], [1, 2], [2, 1], [3, 0]]
+    rationale: "Acuity — how sick and unstable the patient is — is the main sorter among these settings. The emergency department is for life-threatening conditions; urgent care for problems that are too urgent for next-week but not life-threatening; primary care for ongoing management and prevention; home health for recovery and chronic-condition support at home."
+    objective_tag: match-setting-to-acuity
+    difficulty: 2
+    tags: [settings, acuity]
+    related_terms: [care setting, acuity, primary care, acute care]
+    misconception_addressed: "Misconception 2"
+    source_key: KFF-Overview
+
+  - id: q003
+    type: true_false
+    stem: "Urgent care and the emergency department handle the same range of patient problems."
+    correct: false
+    rationale: "Urgent care is designed for non-life-threatening problems that can't wait for a primary-care appointment (minor fractures, stitches, infections). The ED is designed for life-threatening and unstable conditions. Cost, staffing, and wait times are very different."
+    objective_tag: distinguish-settings
+    difficulty: 1
+    tags: [settings, acuity]
+    related_terms: [care setting, acuity]
+    misconception_addressed: "Misconception 2"
+
+  - id: q004
+    type: ordering
+    stem: "Place these stages of the continuum of care in order from earliest to latest for a typical patient."
+    options:
+      - "Post-acute (rehabilitation, home health)"
+      - "Preventive care"
+      - "Acute care (hospital inpatient)"
+      - "Primary care"
+    correct: [1, 3, 2, 0]
+    rationale: "Preventive care (1) comes first — screenings, vaccines, counseling. Primary care (3) handles ongoing conditions and coordinates referrals. Acute care (2) is the hospital stay when something serious happens. Post-acute care (0) supports recovery after discharge."
+    objective_tag: order-continuum-stages
+    difficulty: 2
+    tags: [continuum]
+    related_terms: [continuum of care, primary care, acute care, post-acute care]
+
+  - id: q005
+    type: multiple_choice
+    stem: "Which of the following is NOT a common access barrier in U.S. healthcare?"
+    options:
+      - "Geographic distance to the nearest provider"
+      - "Language mismatch between patient and clinician"
+      - "Lack of reliable internet access for telehealth or patient portals"
+      - "Having a health-insurance card in your wallet"
+    correct: 3
+    rationale: "Having insurance is a PROTECTION against access barriers, not a barrier itself. Lack of insurance is a barrier; geographic, language, and digital-access barriers exist for insured and uninsured patients alike."
+    objective_tag: identify-access-barrier
+    difficulty: 1
+    tags: [access]
+    related_terms: [access barrier]
+    misconception_addressed: "Misconception 3"
+
+  - id: q006
+    type: short_answer
+    stem: "A fully insured rural patient with diabetes still struggles to get regular specialty care. Name two access barriers (other than insurance) that could be responsible."
+    correct: "Any two of: geographic distance to the nearest specialist; transportation (no car, no bus line); cost-sharing still too high despite insurance (deductibles, copays, surprise bills); limited broadband / digital access for telehealth; language mismatch; limited clinic hours relative to work or caregiving schedules."
+    rationale: "The item checks that the student has internalized the 'access barriers are not just insurance' point. Any two non-insurance barriers with a plausible rationale is acceptable."
+    objective_tag: apply-access-barriers
+    difficulty: 2
+    tags: [access, application]
+    related_terms: [access barrier]
+    misconception_addressed: "Misconception 3"
+    source_key: RWJF-SDOH
+
+  - id: q007
+    type: multiple_choice
+    stem: "A patient sees their regular primary-care clinician by video instead of in person. Which statement is most accurate?"
+    options:
+      - "This is a different healthcare system than in-person care"
+      - "This is a telehealth visit — a care setting within the same delivery system, usually billed to the same payer and entered in the same medical record"
+      - "Telehealth visits cannot be billed to Medicare or private insurers"
+      - "The clinician must hold a separate 'telehealth-only' license"
+    correct: 1
+    rationale: "Telehealth is a care setting within the existing delivery system, not a parallel system. The clinician is the same provider, the payer and record are typically the same, and the visit slots into the same continuum of care."
+    objective_tag: locate-setting-in-system
+    difficulty: 2
+    tags: [settings, telehealth]
+    related_terms: [telehealth, care setting, payer]
+    misconception_addressed: "Misconception 4"
+    source_key: KFF-Overview
+
+  - id: q008
+    type: multiple_choice
+    stem: "Which program is the federal health-insurance payer for most people age 65 and older in the United States?"
+    options:
+      - "Medicaid"
+      - "CHIP"
+      - "Medicare"
+      - "TRICARE"
+    correct: 2
+    rationale: "Medicare is the federal program primarily for people 65+ and certain people with disabilities. Medicaid is the joint federal-state program for low-income groups. CHIP covers certain children. TRICARE covers military service members and families."
+    objective_tag: identify-payer
+    difficulty: 1
+    tags: [payers]
+    related_terms: [Medicare, payer]
+    source_key: CMS-About
+
+  - id: q009
+    type: fill_blank
+    stem: "The hand-off when a patient moves between care settings or providers (e.g., hospital to home) is called a ______."
+    correct: "care transition"
+    rationale: "Care transitions are where medication errors, missed follow-ups, and readmissions most often happen. System design focuses on making them safer."
+    objective_tag: define-key-term
+    difficulty: 1
+    tags: [continuum]
+    related_terms: [care transition, continuum of care]
+    source_key: AHRQ-Transitions
+
+  - id: q010
+    type: multiple_choice
+    stem: "Which of the following is the strongest example of a care-transition failure?"
+    options:
+      - "A patient sees their primary-care doctor for an annual check-up"
+      - "A patient is discharged from the hospital without an updated medication list, misses a follow-up appointment, and is readmitted within two weeks"
+      - "A patient is seen in urgent care for a minor laceration and sent home"
+      - "A patient's insurance changes at open enrollment"
+    correct: 1
+    rationale: "Care transitions — the hand-offs between settings — are the fragile points. A discharge without med reconciliation and follow-up is the textbook failure mode, and the readmission is the downstream consequence."
+    objective_tag: identify-transition-failure
+    difficulty: 2
+    tags: [transitions, quality]
+    related_terms: [care transition]
+    source_key: AHRQ-Transitions
+
+  - id: q011
+    type: true_false
+    stem: "A single patient admission to a hospital always has one provider and one payer."
+    correct: false
+    rationale: "A single admission typically involves multiple providers (the hospital, the admitting physician, consulting specialists, the radiologist reading the scan) and can involve multiple payers if the patient has primary and secondary insurance. The payer-provider distinction is a structure, not a one-to-one mapping."
+    objective_tag: reason-about-system-structure
+    difficulty: 2
+    tags: [payers, providers]
+    related_terms: [payer]
+    misconception_addressed: "Misconception 1"
+
+  - id: q012
+    type: multiple_choice
+    stem: "Why do hospitals invest so much effort in 'care-transitions' programs (discharge planning, post-discharge calls, bridging appointments)?"
+    options:
+      - "To comply with fire-safety regulations"
+      - "Because transitions are where errors, readmissions, and missed follow-ups most often happen, and fixing them improves outcomes and reduces costs"
+      - "Because payers prohibit any use of follow-up calls"
+      - "Because every patient requires an in-person discharge visit"
+    correct: 1
+    rationale: "The continuum of care is only as strong as its seams. Transitions (hospital → home, ED → primary care, specialist → primary care) are where information drops and patients fall through. Systems that invest in transitions see lower readmissions and better outcomes."
+    objective_tag: explain-system-design
+    difficulty: 3
+    tags: [system-design, transitions]
+    related_terms: [care transition, continuum of care]
+    source_key: AHRQ-Transitions
+
+  - id: q013
+    type: short_answer
+    stem: "In two or three sentences, explain why 'payer,' 'provider,' and 'regulator' are three different things in U.S. healthcare, with one example of each."
+    correct: "A provider delivers care (a hospital, clinic, physician, or nurse). A payer pays for the care (Medicare, Medicaid, a private insurer, a self-insured employer, or the patient out-of-pocket). A regulator sets the rules for how care is delivered and paid for (FDA, CDC, OSHA, Joint Commission, CMS). The three roles can be combined in an organization (e.g., the VA is provider and payer) but conceptually they are distinct, and understanding which role an entity is playing is the key to reading any healthcare story."
+    rationale: "This is the atom's synthesis item. A student who can separate the three roles cleanly can navigate most of the rest of the sub-cluster's content. Cross-reference to healthcare-regulatory-agencies for the regulator side and health-economics-and-government-impact for the payer side."
+    objective_tag: distinguish-roles
+    difficulty: 3
+    tags: [synthesis]
+    related_terms: [payer]
+    misconception_addressed: "Misconception 1"
