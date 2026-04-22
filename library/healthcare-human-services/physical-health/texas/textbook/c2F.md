@@ -49,7 +49,7 @@ A **measurable value** is a quantified observation. An approximation is a qualit
 
 "Blood pressure is up" versus "BP 162/98." "A small cut" versus "a 2 cm linear laceration on the dorsal forearm, 3 cm proximal to the wrist." "The patient urinated" versus "the patient voided 280 mL clear yellow urine." "The wound looks better" versus "the wound margin is approximated, no erythema, no exudate, decreased from 2.5 cm to 1.8 cm since yesterday."
 
-Each specific version answers questions the approximate version does not. "Blood pressure is up" does not tell the next clinician whether this is a new trend or a one-time reading. "BP 162/98" does. Measurable values also create a record that can be compared over time, which is the basis of clinical monitoring.
+Each specific version answers questions the approximate version does not. Measurable values create a record that can be compared over time, which is the basis of clinical monitoring.
 
 [FIGURE: A two-column table showing 8 vague clinical phrases on the left (e.g., "patient was in pain," "the wound is small," "walked a bit") and their precise clinical replacements on the right (e.g., "patient rated pain 7/10 on numeric scale," "2 cm linear laceration," "ambulated 30 feet independently with walker"), with the specific verb and measurable value in each right-column entry underlined]
 
@@ -67,20 +67,9 @@ Formulating a response means hearing the question, identifying what it is actual
 
 A **closed-loop confirmation (check-back)** closes the precision loop: the receiver repeats the order exactly as heard, the sender confirms or corrects. "I'm ordering morphine 2 mg IV now." "Read back: morphine 2 milligrams IV now." "That's correct." The loop is closed. Without the read-back, both clinicians might assume the order was received correctly when a digit or unit was wrong.
 
-The **"Do Not Use" list** from the Joint Commission and ISMP represents the abbreviation and notation errors that precision failures in written orders have caused. The list exists because each item on it has been directly linked to a patient-harm event. Writing "U" instead of "units" has caused insulin overdoses. Writing ".5 mg" instead of "0.5 mg" has caused tenfold dosing errors when the decimal point was missed. These are not hypothetical risks. They are documented events with documented victims.
+The **"Do Not Use" list** from the Joint Commission and ISMP catalogs abbreviation and notation errors directly tied to patient harm. Writing "U" for units has caused ten-fold insulin overdoses. Writing ".5 mg" instead of "0.5 mg" has caused tenfold dosing errors when the decimal was missed. Key banned items: "U" (write "units"), "IU" (write "international units"), "QD" (write "daily"), trailing zeros (5.0 mg, write "5 mg"), missing leading zeros (.5 mg, write "0.5 mg"), "MS"/"MSO4"/"MgSO4" (write drug names in full), and "μg" (write "mcg").
 
-The items healthcare workers must write correctly:
-
-- "U" for units, write "units"
-- "IU" for international units, write "international units"
-- "QD" for daily, write "daily"
-- "QOD" for every other day, write "every other day"
-- A trailing zero after a whole number (5.0 mg), write "5 mg"
-- A missing leading zero before a decimal (.5 mg), write "0.5 mg"
-- "MS," "MSO4," "MgSO4," write "morphine sulfate" or "magnesium sulfate"
-- "μg" for micrograms, write "mcg"
-
-**SNOMED CT** and other controlled clinical terminologies used in electronic health records enforce precision by presenting standardized options rather than free-text fields. When a clinician must select a term from a controlled vocabulary, spelling variation and idiosyncratic abbreviations cannot enter the record. Controlled vocabularies are one of the structural solutions to the precision problem that individual care cannot fully solve.
+**SNOMED CT** and other controlled clinical terminologies enforce precision structurally by presenting standardized pick-list options in electronic health records, preventing spelling variation and idiosyncratic abbreviations from entering the record.
 
 ### Precision with patients: pairs, not replacements
 

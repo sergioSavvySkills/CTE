@@ -24,19 +24,17 @@ The goal of conflict resolution in healthcare is specific. According to the AHRQ
 
 ### The five Thomas-Kilmann conflict styles
 
-The Thomas-Kilmann Conflict Mode Instrument describes five styles of engaging with conflict. Each sits at a different position on two axes: assertiveness (how much you push for your own outcome) and cooperativeness (how much you try to meet the other party's outcome). None of the five styles is always right. Each one is correct in specific situations.
+The Thomas-Kilmann Conflict Mode Instrument describes five styles of engaging with conflict, each positioned on two axes: assertiveness (pushing for your outcome) and cooperativeness (seeking the other party's outcome). None is always right. Each is correct in specific situations.
 
-**Avoid (TKI)** is low assertiveness and low cooperation. You withdraw from the conflict entirely. This is the right choice when the issue is trivial, when emotions are too high for any productive exchange, or when engaging would create a safety risk. It is the wrong choice when a real problem is being ignored repeatedly.
+**Avoid (TKI)** is low assertiveness and low cooperation: withdraw when the issue is trivial, emotions are too high for productive exchange, or engaging creates a safety risk.
 
-Accommodate (TKI) is low assertiveness and high cooperation. You give the other party what they want. This is appropriate when you are wrong, when maintaining the relationship outweighs the issue, or when you want to show goodwill before a harder conversation. It is the wrong choice when it means accepting a safety compromise.
+Accommodate (TKI) is low assertiveness and high cooperation: give the other party what they want when you are wrong, when the relationship outweighs the issue, or when you need to show goodwill first.
 
-**Compete (TKI)** is high assertiveness and low cooperation. You push for your outcome without seeking consensus. This sounds negative but it is the correct style in a safety emergency. When a patient is crashing and the team needs someone to direct, not consult, the competing style is the right tool. A clinical leader who seeks consensus during a code is being inappropriate.
+**Compete (TKI)** is high assertiveness and low cooperation: push for your outcome without consensus. This is the correct style in a safety emergency. A clinical leader who seeks consensus during a code is using the wrong tool.
 
-Compromise (TKI) sits in the middle. Both parties give something up. This works when time is short, the stakes are moderate, and a good-enough solution is better than no solution. The risk is that both parties leave partially dissatisfied.
+Compromise (TKI) sits in the middle: both parties give something up when a good-enough solution beats no solution.
 
-**Collaborate (TKI)** is high assertiveness and high cooperation. Both parties work toward a solution that fully addresses both sets of needs. This is the clinical-team default when time and stakes allow, because it builds shared understanding and produces the most durable solutions. But it is not always available. Collaboration requires time, trust, and willingness from both parties.
-
-The most common mistake students make is treating **collaborate (TKI)** as the universally correct answer. It is not. In a safety emergency, or when one party is acting in bad faith, collaboration is the wrong tool. Choosing the right style means reading the specific situation.
+**Collaborate (TKI)** is high assertiveness and high cooperation: both parties work toward a solution that addresses both sets of needs. It is the clinical-team default when time and stakes allow, but it requires time, trust, and willingness from both parties. The most common student error is treating **collaborate (TKI)** as the universally correct answer. In a safety emergency it is not.
 
 [FIGURE: A two-by-two grid with assertiveness on the vertical axis and cooperativeness on the horizontal axis, with Compete (high/low), Collaborate (high/high), Avoid (low/low), Accommodate (low/high), and Compromise in the middle, each with a one-line situation example]
 
@@ -46,7 +44,7 @@ When a patient or family member is distressed, the first job is not to solve the
 
 **Validation** comes before anything else. Name what the other person is feeling without judging it. "I can see you're really frustrated, and I understand why" is validation. "I'm sorry you feel that way" is not. The second phrase subtly shifts blame and often makes things worse. Validation signals that you have heard the person and that their emotional response makes sense. Without it, any information you offer next will be received as defensive.
 
-The AHRQ CANDOR framework, developed for responding to patient harm events, operationalizes this sequence: acknowledge the patient's experience, apologize where legally appropriate, explain what is known about what happened and what steps are being taken, and offer a concrete next step the patient can hold onto. Legal consultation should inform how much is said and when, because certain admissions of causation carry liability consequences.
+The AHRQ **CANDOR** framework operationalizes this sequence for patient-harm events: acknowledge, apologize where legally appropriate, explain what is known, and offer a concrete next step. Legal consultation should inform how much is said, because certain admissions carry liability consequences.
 
 **Reframing** is a technique that moves the conversation from a contest of positions to a shared problem. Instead of "I understand you want the test done tonight, and that's not possible," try "It sounds like your priority is getting answers as quickly as possible, and mine is the same. Here's the fastest path we can take together." The underlying conflict may be identical, but the framing changes whether it feels like a standoff or a collaboration.
 

@@ -22,9 +22,9 @@ Medical vocabulary is the most technical communication domain in healthcare. It 
 
 ### Why medical terms are built the way they are
 
-Medical terminology was not invented as jargon. It was built from Greek and Latin word parts specifically so that clinicians from different language backgrounds could decode an unfamiliar term by its structure, even if they had never seen it before. A clinician who knows that "-itis" means inflammation and "nephr-" means kidney can decode "nephritis" without a dictionary. That same clinician, faced with "pericarditis," can decode it as inflammation around (peri-) the heart (cardi-) without ever having memorized the word.
+Medical terminology was built from Greek and Latin word parts so that clinicians can decode an unfamiliar term by its structure, even without having seen it before. A clinician who knows "-itis" means inflammation and "nephr-" means kidney can decode "nephritis" without a dictionary.
 
-Every medical term is built from combinations of four structural elements. The **root** carries the core meaning of the term. Common roots include cardi- (heart), nephr- (kidney), hepat- (liver), gastr- (stomach), oste- (bone), derm- (skin), neur- (nerve), and my- (muscle). The **combining vowel**, usually the letter "o," connects a root to another part. It appears in cardiovascular (cardi-o-vascular) and in gastroenterology (gastr-o-enter-o-logy). The **suffix** comes at the end and names the condition or action: -itis for inflammation, -ectomy for surgical removal, -ostomy for a surgically created opening, -oscopy for a visual examination, -algia for pain, -emia for a blood condition, and -logy for the study of something. The **prefix** comes at the front and modifies the root: hypo- (under or low), hyper- (over or high), brady- (slow), tachy- (fast), peri- (around), sub- (below), inter- (between), poly- (many), and dys- (difficult or abnormal).
+Every medical term combines four structural elements. The **root** carries the core meaning: cardi- (heart), nephr- (kidney), hepat- (liver), gastr- (stomach), oste- (bone), derm- (skin), neur- (nerve), my- (muscle). The **combining vowel**, usually "o," joins a root to another part (cardi-o-vascular). The **suffix** modifies the end and names the condition or action: -itis (inflammation), -ectomy (removal), -ostomy (opening), -oscopy (visual exam), -algia (pain), -emia (blood condition), -logy (study of). The **prefix** modifies the front: hypo/hyper, brady/tachy, peri, sub, inter, poly, dys.
 
 The decoding sequence matters: suffix first, then prefix, then root. Work from the outside in. For "pericarditis," read the suffix first: -itis, inflammation. Then the prefix: peri-, around. Then the root: cardi-, heart. Pericarditis is inflammation around the heart. The same sequence works for terms you have never seen before.
 
@@ -38,9 +38,7 @@ Abbreviations that look like word parts are another trap. "SOB" is not a word wi
 
 ### Building terms from definitions
 
-The same word-part knowledge that decodes unfamiliar terms also builds new ones. Given the definition "inflammation of the liver," a student who knows hepat- (liver) and -itis (inflammation) can construct "hepatitis" without ever having memorized it. Given "surgical removal of the gallbladder," a student who knows cholecyst- (gallbladder, from chol- for bile and cyst- for sac) and -ectomy (surgical removal) constructs "cholecystectomy."
-
-This is why learning the word parts rather than the words themselves is the more durable skill. A healthcare worker who has memorized 500 specific terms will be stuck when they encounter the 501st. A worker who knows 50 word parts can decode thousands of terms they have never seen.
+The same word-part knowledge works in reverse. Given "inflammation of the liver," a student who knows hepat- and -itis can construct "hepatitis" without memorizing it. A worker who knows 50 word parts can decode and build thousands of terms they have never seen, which is why learning the parts rather than the words is the more durable skill.
 
 > **Clinical scenario**
 >
@@ -62,13 +60,11 @@ These abbreviations are standard because they appear on approved abbreviation li
 
 ### The "Do Not Use" list: errors that have killed patients
 
-The Joint Commission and the Institute for Safe Medication Practices publish lists of abbreviations, symbols, and dose designations that are banned from clinical documentation. These bans are not stylistic preferences. Each banned item is on the list because it has been directly tied to documented patient-harm events, including deaths.
+The Joint Commission and ISMP publish lists of abbreviations and dose designations banned from clinical documentation. These are not stylistic preferences. Each item is on the list because it caused documented patient harm.
 
-"U" or "u" written for "units" looks like a zero in poor handwriting and has caused ten-fold insulin overdoses. "IU" for international unit has been misread as IV (intravenous). "QD" for daily and "QOD" for every other day are visually similar enough to be misread for each other or for "QID" (four times daily).
+"U" for units looks like a zero and has caused ten-fold insulin overdoses. "QD" for daily and "QOD" for every other day are misread as "QID" (four times daily). "MS" is banned because it could mean morphine sulfate or magnesium sulfate. Write both drug names in full. "μg" must be written "mcg" because μg can be misread as "mg," a thousandfold difference.
 
-Decimal notation errors are among the most dangerous in medication orders. A **trailing zero** is a zero after a whole number: writing "5.0 mg" instead of "5 mg." If the decimal is missed or smeared, "5.0" reads as "50," a tenfold error. A **missing leading zero** is the absence of a zero before a decimal: writing ".5 mg" instead of "0.5 mg." The decimal point can disappear in poor printing, and ".5 mg" becomes "5 mg," another tenfold error. Pediatric patients are especially vulnerable to both errors because their doses are small and the absolute difference between the correct and erroneous dose is clinically significant.
-
-"MS" written as an abbreviation is banned because it could mean morphine sulfate or magnesium sulfate. "MSO4" and "MgSO4" are banned for the same reason. Write "morphine sulfate" or "magnesium sulfate" in full. "μg" (the microgram symbol) should be written "mcg" because μg can be misread as "mg" (milligrams), a thousandfold difference.
+Decimal notation errors are among the most dangerous. A **trailing zero** means writing "5.0 mg" instead of "5 mg." If the decimal is missed, "5.0" reads as "50," a tenfold error. A **missing leading zero** means writing ".5 mg" instead of "0.5 mg." When the decimal disappears, ".5 mg" becomes "5 mg," another tenfold error. Pediatric patients are especially vulnerable because their doses are small and small errors carry large relative consequences.
 
 [FIGURE: A reproduction of a sample medication order with four deliberate errors highlighted: a trailing zero (10.0 mg), a missing leading zero (.25 mg), the abbreviation "U" for units, and "QD" for daily, with corrected versions shown beside each]
 
