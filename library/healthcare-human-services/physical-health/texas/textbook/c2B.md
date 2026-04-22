@@ -130,7 +130,7 @@ Clinical tables and graphs are the medium through which patient data and populat
 
 ### References
 
-- **CDC Growth Charts (2000 reference) and WHO Child Growth Standards** — the canonical pediatric growth percentile references used in every US pediatric visit; practical source material for chart-reading practice.
-- **USPSTF recommendation statements and AHA/ACC guidelines** — examples of how tabular evidence grades (A/B/C/D/I) and summary graphs drive real clinical decisions; source material for the "apply, not just read" objective.
-- **CDC National Notifiable Diseases Surveillance System (NNDSS) weekly reports (MMWR)** — public-facing epi curves and tables that illustrate real public-health decision-making.
-- **Clinical laboratory reference-range tables (e.g., Tietz, Mayo Clinic Laboratories)** — source for the lab-table reading practice.
+- **CDC Growth Charts (2000 reference) and WHO Child Growth Standards:** the canonical pediatric growth percentile references used in every US pediatric visit; practical source material for chart-reading practice.
+- **USPSTF recommendation statements and AHA/ACC guidelines:** examples of how tabular evidence grades (A/B/C/D/I) and summary graphs drive real clinical decisions; source material for the "apply, not just read" objective.
+- **CDC National Notifiable Diseases Surveillance System (NNDSS) weekly reports (MMWR):** public-facing epi curves and tables that illustrate real public-health decision-making.
+- **Clinical laboratory reference-range tables (e.g., Tietz, Mayo Clinic Laboratories):** source for the lab-table reading practice.
