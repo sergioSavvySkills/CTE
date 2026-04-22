@@ -24,7 +24,7 @@ A night-shift nurse finishes a 12-hour shift and needs to hand off 6 patients to
 
 **Compile** second. Once the structure is clear, gather the facts, data, and source citations that fill each section. In healthcare writing, compiling means citing original data and guidelines rather than paraphrasing second-hand summaries. It means never fabricating numbers and flagging where the evidence is weak. A report that presents a preliminary finding as established fact is not neutral, it actively misleads whoever reads it. The **AMA Manual of Style** is the default reference for citation conventions in US medical writing.
 
-**Write** third. Only after organizing and compiling does the actual drafting begin. This sequence feels slow to students who want to start writing immediately, but documents produced this way require fewer revisions and contain fewer factual errors because the structure and the evidence are already in place.
+Write third. Only after organizing and compiling does the actual drafting begin. This sequence feels slow to students who want to start writing immediately, but documents produced this way require fewer revisions and contain fewer factual errors because the structure and the evidence are already in place.
 
 ### Audience-first structure
 
@@ -38,11 +38,11 @@ One idea per paragraph. Plain language for any patient-facing material. The read
 
 **Incident reports** are factual, non-blaming organizational records of adverse events or near-misses. They are not written for patients and are not part of the medical record. Their purpose is to feed the quality-improvement process, which requires accurate facts and no editorializing. The difference between a fact and an opinion in this context is specific: "the patient asked what year it was" is a fact. "The patient was confused" is an interpretation. Incident reports must contain only facts, not interpretations, because a report that editorializes is less useful for analysis and creates liability exposure if it is ever used in legal proceedings. The AHRQ and Joint Commission both provide structured formats for incident reporting.
 
-**Shift summaries and handoff cards** are the most time-critical documents most healthcare workers write regularly. They must include every clinically relevant signal, deterioration, medication changes, family concerns, and then stop. Over-reporting is penalized as hard as under-reporting. A handoff card that lists all 14 routine vital sign entries is harder to use than one that lists the three things the incoming team needs to watch. The goal is the five-bullet standard: cover everything that matters, nothing that does not.
+Shift summaries and handoff cards are the most time-critical documents most healthcare workers write regularly. They must include every clinically relevant signal, deterioration, medication changes, family concerns, and then stop. Over-reporting is penalized as hard as under-reporting. A handoff card that lists all 14 routine vital sign entries is harder to use than one that lists the three things the incoming team needs to watch. The goal is the five-bullet standard: cover everything that matters, nothing that does not.
 
 **Patient-education handouts** are patient-facing documents that must meet plain-language health-literacy standards. The AHRQ Health Literacy Universal Precautions Toolkit sets the target at a 6th-grade reading level for most health materials. That means short sentences, common words, active verbs, and no jargon without immediate explanation. A patient-education handout that the patient cannot read is not a handout. It is paperwork.
 
-**Lab write-ups and public-health briefs** follow the same audience-first structure but may have longer findings and recommendations sections. The key discipline is the same: cite the data, not the summary; flag uncertainty; lead with the main point.
+Lab write-ups and public-health briefs follow the same audience-first structure but may have longer findings and recommendations sections. The key discipline is the same: cite the data, not the summary; flag uncertainty; lead with the main point.
 
 > **Clinical scenario**
 >

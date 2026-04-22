@@ -56,9 +56,7 @@ Clinicians transcribe in several contexts: writing a verbal order given over the
 
 ### Abbreviations, routes, and frequencies you must know
 
-Clinical documentation uses a standardized shorthand that communicates a great deal of information in very few characters. Frequency abbreviations include q (every), bid (twice daily), tid (three times daily), qid (four times daily), qh (every hour), prn (as needed), ac (before meals), pc (after meals), hs (at bedtime), and stat (immediately). Route abbreviations include PO (by mouth), IV (intravenous), IM (intramuscular), SubQ or SC (subcutaneous), SL (sublingual), and PR (per rectum). For the eyes and ears, OD/OS/OU mean right eye, left eye, and both eyes; AD/AS/AU mean right ear, left ear, and both ears.
-
-Body and status abbreviations include BP (blood pressure), HR (heart rate), RR (respiratory rate), T (temperature), **NPO** (nothing by mouth, from the Latin "nil per os"), WNL (within normal limits), NAD (no acute distress), NKDA (no known drug allergies), and DNR (do not resuscitate). Diagnostic abbreviations include CBC (complete blood count), BMP (basic metabolic panel), CXR (chest X-ray), EKG or ECG (electrocardiogram), MRI (magnetic resonance imaging), and H&P (history and physical).
+Clinical documentation uses standardized shorthand. Frequency abbreviations include bid (twice daily), tid (three times daily), qid (four times daily), prn (as needed), ac (before meals), hs (at bedtime), and stat (immediately). Common route abbreviations include PO (by mouth), IV (intravenous), IM (intramuscular), SubQ (subcutaneous), and SL (sublingual). Body and status abbreviations include **NPO** (nothing by mouth, from the Latin "nil per os"), WNL (within normal limits), NKDA (no known drug allergies), and DNR (do not resuscitate). Diagnostic abbreviations include CBC (complete blood count), CXR (chest X-ray), EKG (electrocardiogram), MRI, and H&P (history and physical).
 
 These abbreviations are standard because they appear on approved abbreviation lists. But what is approved at one facility may be banned at another. Every student entering a new clinical site should locate and review the facility's **approved abbreviation list** before writing a single order.
 
@@ -76,11 +74,9 @@ Decimal notation errors are among the most dangerous in medication orders. A **t
 
 ### Appropriate technology for clinical documentation
 
-Modern healthcare documentation happens primarily through **EHR controlled vocabulary** systems, including SNOMED CT (a clinical terminology standard), LOINC (a standard for lab and clinical observations), ICD-10-CM (diagnostic codes), and RxNorm (medication terminology). These controlled vocabularies reduce the freedom to use inconsistent or invented terminology because the system presents standardized options. A clinician entering a diagnosis selects from a pick-list rather than typing free text, which reduces errors introduced by spelling variation, abbreviation, and idiosyncratic term choices.
+Modern healthcare documentation primarily uses **EHR controlled vocabulary** systems: SNOMED CT (clinical terms), LOINC (lab and observations), ICD-10-CM (diagnoses), and RxNorm (medications). These controlled vocabularies force standardized options rather than free text, which reduces spelling variation and abbreviation errors structurally.
 
-**Dictation and voice-to-text** tools are increasingly common and introduce a specific failure mode: homophone errors. "Hypertension" and "hypotension" are pronounced similarly at speed, and a voice-to-text engine may transcribe the wrong one. "Ileum" and "ilium" are nearly identical spoken. "Dysphagia" (difficulty swallowing) and "dysphasia" (difficulty speaking) are easily confused. Any dictated note should be proofread against the original audio before submission, specifically listening for homophones near any medication doses or diagnostic terms.
-
-Secure messaging rules apply regardless of what documentation technology is in use. Patient identifiers cannot travel over unsecured channels, including personal cell phones, consumer text messaging, or email without encryption. This rule exists under HIPAA and is enforced at both institutional and regulatory levels.
+**Dictation and voice-to-text** tools introduce a specific failure mode: homophone errors. "Hypertension" and "hypotension" sound nearly identical at speed. "Ileum" and "ilium" are nearly identical spoken. Any dictated note should be proofread against the original audio, specifically listening near medication doses and diagnostic terms. Additionally, patient identifiers cannot travel over unsecured channels (personal phones, unencrypted email) under HIPAA regardless of which documentation technology is in use.
 
 ### Communicating terminology to different audiences
 

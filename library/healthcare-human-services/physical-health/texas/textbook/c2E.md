@@ -56,7 +56,7 @@ A **debrief (TeamSTEPPS)** is a 5 to 10 minute post-event structured review. It 
 
 An **in-service** is a brief staff-education presentation delivered to colleagues on a unit, typically 10 to 20 minutes. It is more conversational than grand rounds and usually focused on a single practical skill or policy change. The audience wants to know what to do differently on their next shift, not just what the research says.
 
-A **patient-education talk** is delivered directly to patients or families, often in groups. Jargon is replaced entirely by plain language. The message is built around what the patient needs to do at home, not what the clinician finds clinically interesting. Teach-back is used at the end to confirm understanding.
+A patient-education talk is delivered directly to patients or families, often in groups. Jargon is replaced entirely by plain language. The message is built around what the patient needs to do at home, not what the clinician finds clinically interesting. Teach-back is used at the end to confirm understanding.
 
 ### Rehearsing aloud
 

@@ -26,7 +26,7 @@ Precision is a patient-safety requirement, not a writing preference. Verbal orde
 
 ### Specific verbs over vague ones
 
-**Specific verbs** name the exact action. **Vague verbs** name a general category of action and leave the reader to infer the specifics. In clinical contexts, the inference is often wrong.
+**Specific verbs** name the exact action. Vague verbs name a general category of action and leave the reader to infer the specifics. In clinical contexts, the inference is often wrong.
 
 "The nurse gave the medication" and "the nurse administered 5 mg of morphine sulfate IV at 14:15" both describe an event. The first is legally and clinically useless in a conflict or review. The second is a record.
 
