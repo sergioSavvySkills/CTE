@@ -28,9 +28,7 @@ Every FDA-approved drug in the United States carries a **package insert**, also 
 
 The **Highlights of Prescribing Information** is the first section and the fast-reference summary. It fits on one page and covers indications, dosing, the most important warnings, and contraindications. When a clinician needs a quick answer, this is the first stop.
 
-Below the Highlights, the full label unfolds in this order: Indications and Usage, Dosage and Administration, Dosage Forms and Strengths, Contraindications, Warnings and Precautions, Adverse Reactions, Drug Interactions, and Use in Specific Populations. A skilled reader knows that a question about whether a drug is safe in pregnancy lives in Use in Specific Populations. A question about which other drugs interact lives in Drug Interactions. A question about the most serious risk lives in Warnings and Precautions or the **black-box warning**, which appears in a bordered box at the very top of the label and signals an FDA finding of serious or life-threatening risk.
-
-Learning the structure of a PI is a one-time investment that pays back every time you open one. The documents are dense, small-font, and intimidating. They are also navigable, once you know the map.
+Below the Highlights, the full label covers Indications and Usage, Dosage and Administration, Contraindications, Warnings and Precautions, Adverse Reactions, Drug Interactions, and Use in Specific Populations. Pregnancy safety lives in Use in Specific Populations. Drug interactions live in Drug Interactions. The most serious risk lives in the **black-box warning**, a bordered box at the top of the label that signals an FDA finding of serious or life-threatening risk. Every PI uses this same structure, which makes every PI navigable once you have learned the map once.
 
 [FIGURE: A labeled diagram of a drug package insert page showing the Highlights section, the black-box warning box, and the numbered section tabs from Indications through Use in Specific Populations, with arrows pointing to where each type of question is answered]
 
@@ -84,7 +82,7 @@ The same principle of knowing the structure before the emergency applies to ever
 
 ### Chapter summary
 
-Healthcare workers read technical documents to answer specific questions under time pressure, and the skill is navigation, not end-to-end reading. Drug package inserts follow a federal format with eight named sections; the Highlights page is the fast-reference summary, and the black-box warning signals the most serious risk. Journal abstracts follow IMRAD structure; the Methods section tells you whether the study population matches your patient, and the Discussion section tells you what limitations the authors themselves acknowledge. Clinical practice guidelines carry strength-of-recommendation grades, and those grades only apply to the population the guideline was written for. Safety Data Sheets provide emergency-response information in a predictable 16-section format. In every case, when the decision is high-stakes, verify against the primary source rather than relying on a summary.
+Technical reading in healthcare is navigation, not end-to-end reading. Drug package inserts follow a federal format; the Highlights page summarizes the key facts fast, and the black-box warning marks the most serious risk. Journal abstracts follow IMRAD structure; go to Methods to check whether the study population matches your patient, then to Discussion to find the limitations. Clinical practice guidelines carry strength grades and population restrictions; both must match your patient before you apply the recommendation. Safety Data Sheets put emergency information in predictable sections. For any high-stakes decision, verify against the primary source.
 
 ### Review questions
 
