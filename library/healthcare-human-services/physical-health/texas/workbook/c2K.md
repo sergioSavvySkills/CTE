@@ -8,103 +8,107 @@ status: draft
 
 # Workbook: Health, Wellness, and Prevention Across the Lifespan
 
-**Instructions:** Read Chapter c2K in the textbook before completing this workbook. Parts A–D follow the chapter directly. Part E asks you to apply the ideas to your own experience.
+**Instructions:** Read Chapter c2K in the textbook before completing this workbook. Parts A-D follow the chapter directly. Part E asks you to apply the ideas to your own experience.
+
 
 ## Part A: Vocabulary Matching
 
-Match each term (1–9) to the correct definition (A–I). Write the letter in the blank.
+Match each term (1-8) to the correct definition (A-H). Write the letter in the blank.
 
 | # | Term | Your answer |
 |---|---|---|
 | 1 | Health (WHO definition) | ___ |
 | 2 | Wellness | ___ |
-| 3 | Dimensions of wellness | ___ |
-| 4 | Primary prevention | ___ |
-| 5 | Secondary prevention | ___ |
-| 6 | Tertiary prevention | ___ |
-| 7 | Social determinants of health | ___ |
-| 8 | DALY (disability-adjusted life year) | ___ |
-| 9 | Healthy People 2030 | ___ |
+| 3 | Primary prevention | ___ |
+| 4 | Secondary prevention | ___ |
+| 5 | Tertiary prevention | ___ |
+| 6 | Social determinants of health | ___ |
+| 7 | DALY | ___ |
+| 8 | Healthy People 2030 | ___ |
 
 **Definitions:**
 
-- **A.** The conditions in which people are born, grow, live, work, and age; income, housing, education, food access, and neighborhood safety often predict health outcomes more powerfully than individual behavior
-- **B.** Stopping disease before it starts; acts on healthy people through vaccines, seatbelt use, tobacco cessation, and hand hygiene
-- **C.** The HHS federal framework of measurable wellness and health-equity goals across the lifespan; explicitly incorporates social determinants
-- **D.** A measurable wellness indicator combining years of life lost to early death and years lived with disability into a single metric
-- **E.** A state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity
-- **F.** The active, lifelong pursuit of well-being across multiple dimensions; distinguished from health as a state
-- **G.** Limiting damage after a disease is already established; cardiac rehabilitation, stroke rehabilitation, and chronic-disease self-management programs
-- **H.** Catching disease early through screenings when treatment options are widest; acts on people who appear healthy but may have subclinical disease
-- **I.** Physical, mental/emotional, social, intellectual, occupational, spiritual, environmental, and financial dimensions that together describe a flourishing life; they interact and affect each other
+- **A.** A measurable wellness indicator combining years of life lost to early death and years lived with disability
+- **B.** Stopping disease before it starts; acts on healthy people (vaccines, seatbelts, smoking cessation)
+- **C.** The conditions in which people are born, grow, live, work, and age; often predict health outcomes more powerfully than individual behavior
+- **D.** Limiting damage after a disease is already established (cardiac rehab, stroke rehab, chronic-pain management)
+- **E.** The active, lifelong pursuit of well-being across multiple dimensions; distinguished from health as a state
+- **F.** The HHS federal framework of measurable wellness and health-equity goals across the lifespan
+- **G.** A state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity
+- **H.** Catching disease early through screening before symptoms appear, when treatment options are widest
+
 
 ## Part B: Guided Notes
 
 Fill in each blank with the correct word or phrase from the textbook. Each sentence comes directly from the chapter text.
 
-1. The WHO defines health as "a state of complete physical, mental, and social well-being, and not merely the absence of _________________________ or infirmity." This definition is broader than most people expect, including _________________________ and social well-being.
+1. The World Health Organization defines health as a state of complete physical, mental, and social well-being, and not merely the absence of _________________________ or infirmity.
 
-2. Wellness is the active, ongoing pursuit of well-being across multiple dimensions of life. Health is a _________________________ you can measure; wellness is a _________________________ you move in.
+2. Wellness is the active, ongoing pursuit of well-being across multiple _________________________ of life.
 
-3. The eight dimensions of wellness are: physical, mental/emotional, _________________________, intellectual, occupational, _________________________, environmental, and financial.
+3. A person can have managed chronic disease and still practice high levels of wellness by making purposeful choices across multiple dimensions, because wellness is a _________________________ you move in, not a state you measure.
 
-4. Financial stress measurably increases _________________________ levels and disrupts sleep, damaging physical wellness. Social _________________________ worsens outcomes from almost every chronic disease.
+4. The eight dimensions of wellness include physical, mental/emotional, social, intellectual, occupational, spiritual, _________________________, and financial.
 
-5. Primary prevention stops disease _________________________ it starts. It acts on _________________________ people.
+5. Financial stress measurably increases _________________________ levels and disrupts sleep, damaging physical wellness.
 
-6. Secondary prevention catches disease _________________________, when treatment is most effective and damage is minimal. It acts on people who appear healthy but may have disease that hasn't yet caused _________________________.
+6. _________________________ prevention stops disease before it starts; it acts on healthy people.
 
-7. Tertiary prevention limits damage after a disease is already established. Cardiac _________________________ after a heart attack and diabetes self-management education are examples. The goal is not to undo the disease but to prevent further _________________________ and improve quality of life.
+7. Secondary prevention catches disease early, when treatment is most effective and damage is minimal. Screenings are an example: a mammogram for a woman with no breast lump is _________________________ prevention.
 
-8. In older adulthood, the physical dimension requires active maintenance as physiological _________________________ decreases. _________________________ prevention dominates much of older-adult healthcare as chronic conditions accumulate.
+8. In adolescence, _________________________ wellness comes to the front, along with identity formation, peer pressure, sexual health, and the emergence of mental health conditions.
 
-9. Social determinants of health are the conditions in which people are born, grow, live, work, and age. These factors often predict health outcomes more powerfully than individual health _________________________.
+9. Social determinants of health include income, housing stability, education level, food access, neighborhood safety, and _________________________.
 
-10. The community health nurse in the chapter's clinical scenario uses the Healthy People 2030 framework to identify three _________________________ interventions, addressing the social determinants driving an eleven-year life expectancy gap between two zip codes in the same city.
+10. A person who knows they should eat vegetables but lives in a _________________________, works two jobs, and lacks reliable transportation faces structural barriers that good advice alone cannot overcome.
+
 
 ## Part C: Comprehension Questions
 
-Answer each question in 2–4 complete sentences. Use vocabulary terms where they fit naturally.
+Answer each question in 2-4 complete sentences. Use vocabulary terms where they fit naturally.
 
-1. What is the difference between health and wellness, according to the textbook? Can a person with a chronic disease practice wellness? Explain.
+1. What is the difference between health and wellness? Use the WHO definition of health in your answer, and explain why wellness goes beyond that definition.
 
-2. Name all eight dimensions of wellness. Choose two adjacent dimensions and explain specifically how a deficit in one can cause a problem in the other.
+2. Choose any three of the eight dimensions of wellness and explain how they interact with each other. Give a specific example showing how a problem in one dimension damages another.
 
-3. What are the three levels of prevention, and what is the main target population for each? Give one concrete example of a strategy at each level.
+3. What is primary prevention? Give two specific examples of primary-prevention strategies that are different types (one behavioral, one environmental or structural).
 
-4. Why is secondary prevention only effective during a specific time window? What must be true about a disease for secondary screening to be worthwhile?
+4. What is the difference between secondary and tertiary prevention? Give one example of each and explain what distinguishes them.
 
-5. The textbook says that social determinants of health "often outweigh individual behavior in shaping outcomes." What does this mean, and why is it important for healthcare workers to understand it?
+5. Why does the textbook say social determinants of health "often predict health outcomes more powerfully than individual health behaviors"? Give an example of a social determinant and the specific barrier it creates.
 
-6. How do wellness priorities shift from adolescence to older adulthood? Name the dominant wellness dimensions and prevention level at each stage.
+6. What is Healthy People 2030, and why is it relevant to healthcare workers in Texas? What does it explicitly incorporate as a primary driver of health outcomes?
 
-7. What is a DALY, and what does it reveal about a population's health that a simple death rate would not show?
+7. How do wellness priorities shift from adolescence to older adulthood? Name one dominant prevention focus for each stage and explain why it belongs at that stage.
 
-8. The community nurse in the textbook uses three "upstream interventions" to address a health gap between two zip codes. What makes an intervention "upstream," and why is it more effective than addressing only the diseases that social determinants produce?
+8. What is a DALY, and what does comparing DALYs across communities reveal that raw disease rates might not show?
+
 
 ## Part D: Clinical Scenario Analysis
 
 Read the scenario from the textbook, then answer the questions below.
 
-> A community health nurse is reviewing data from two zip codes five miles apart in the same Texas city. One has a life expectancy of 82 years; the other, 71. The rates of hypertension, type 2 diabetes, and obesity are significantly higher in the lower-life-expectancy zip code. The nurse pulls socioeconomic data and finds the gap correlates strongly with median income, access to grocery stores with fresh produce, walkability scores, and park access. She uses the Healthy People 2030 framework to identify three upstream interventions: a mobile food pantry partnership, a walking-trail safety project, and free BP screening at a neighborhood pharmacy, that address the social determinants driving the eleven-year gap, not just the diseases those determinants produce.
+> A community health nurse is reviewing data from two zip codes five miles apart in the same Texas city. One has a life expectancy of 82 years; the other, 71. The rates of hypertension, type 2 diabetes, and obesity are significantly higher in the lower-life-expectancy zip code. The nurse pulls socioeconomic data and finds the gap correlates strongly with median income, access to grocery stores with fresh produce, walkability scores, and park access. She uses the Healthy People 2030 framework to identify three upstream interventions: a mobile food pantry partnership, a walking-trail safety project, and free BP screening at a neighborhood pharmacy.
 
-1. The nurse identifies four social determinants correlated with the health gap: median income, grocery access, walkability, and park access. For each one, explain the specific pathway through which it affects health. Connect each determinant to at least one of the eight dimensions of wellness.
+1. The nurse identifies four social determinants that correlate with the eleven-year life-expectancy gap. Name all four and explain how each one could directly contribute to higher rates of hypertension, type 2 diabetes, or obesity.
 
-2. The free BP screening at the neighborhood pharmacy is one of the nurse's three interventions. At which level of prevention does this intervention operate, and why? Who is the target population?
+2. The mobile food pantry partnership and the walking-trail safety project are both upstream interventions. At which level of prevention do these two strategies belong, and why?
 
-3. The mobile food pantry and the walking-trail safety project address social determinants directly. What level of prevention do these represent? Explain how they differ from the BP screening in terms of when in the disease process each acts.
+3. Free blood pressure screening at a neighborhood pharmacy is the third intervention. At which level of prevention does this belong, and how does it differ from the other two interventions in terms of who it targets?
 
-4. The nurse uses the Healthy People 2030 framework. What does this framework provide that raw disease statistics alone cannot? Why is a federal framework useful for a community-level intervention?
+4. The nurse uses the Healthy People 2030 framework. What does this framework do that a simple list of disease rates would not, and why is that distinction important for designing these interventions?
 
-5. The eleven-year life expectancy gap exists between zip codes five miles apart in the same city. Two patients from these zip codes could have identical individual health behaviors and still have different health outcomes. Using the concept of social determinants of health, explain how this is possible and what it means for how healthcare workers think about patient responsibility.
+5. A neighbor in the lower-life-expectancy zip code says, "People just need to make better choices." Using the concept of social determinants of health, write a respectful but evidence-based response to this statement.
+
 
 ## Part E: Reflection
 
-Answer one of the following prompts in 5–8 sentences.
+Answer one of the following prompts in 5-8 sentences.
 
-**Option 1:** Assess your own wellness right now using the eight dimensions. Identify two dimensions where you feel strong and one where you see room for growth. For each of the three, explain specifically what is contributing to that level of wellness and connect it to at least one other dimension that it affects. Use the vocabulary from this chapter throughout your response.
+**Option 1:** Think about your own community or neighborhood. Using the eight dimensions of wellness, identify two dimensions where your community performs well and two where there are gaps. Use at least three vocabulary terms from this chapter to explain what you observe and what you think drives those gaps.
 
-**Option 2:** A patient tells you: "I know I should eat better, but I live in a food desert and work two jobs. It's not that simple." Using the concepts of social determinants of health, the three levels of prevention, and at least two other vocabulary terms from this chapter, write a response that validates the patient's reality, identifies the structural barriers at work, and describes what kind of intervention would actually address the root cause.
+**Option 2:** You are volunteering at a health fair. An attendee says, "I'm not sick, so I don't need to worry about prevention." Using the three levels of prevention and the concept of wellness, explain why this person's reasoning misses something important. Give at least two specific examples to support your response.
+
 
 
 ## Answer Key
@@ -115,61 +119,64 @@ Answer one of the following prompts in 5–8 sentences.
 
 | # | Term | Answer |
 |---|---|---|
-| 1 | Health (WHO definition) | E |
-| 2 | Wellness | F |
-| 3 | Dimensions of wellness | I |
-| 4 | Primary prevention | B |
-| 5 | Secondary prevention | H |
-| 6 | Tertiary prevention | G |
-| 7 | Social determinants of health | A |
-| 8 | DALY (disability-adjusted life year) | D |
-| 9 | Healthy People 2030 | C |
+| 1 | Health (WHO definition) | G |
+| 2 | Wellness | E |
+| 3 | Primary prevention | B |
+| 4 | Secondary prevention | H |
+| 5 | Tertiary prevention | D |
+| 6 | Social determinants of health | C |
+| 7 | DALY | A |
+| 8 | Healthy People 2030 | F |
+
 
 ### Part B: Guided Notes
 
-1. disease; mental
-2. state; direction
-3. social; spiritual (either order)
-4. cortisol; isolation
-5. before; healthy
-6. early; symptoms
-7. rehabilitation; deterioration
-8. reserve; tertiary
-9. behaviors (accept: choices)
-10. upstream
+1. disease
+2. dimensions
+3. direction
+4. environmental
+5. cortisol
+6. Primary
+7. secondary
+8. mental (accept: mental/emotional, emotional)
+9. transportation
+10. food desert
+
 
 ### Part C: Comprehension Questions
 
-**Sample answers -- accept well-reasoned responses that cite textbook content.**
+**Sample answers; accept well-reasoned responses that cite textbook content.**
 
-1. Health is a state that can be measured by physical, mental, and social indicators. Wellness is an active, ongoing process of pursuing well-being across multiple dimensions of life. A person with a chronic disease can absolutely practice high levels of wellness: they may make purposeful, intentional choices across physical, social, occupational, spiritual, and other dimensions that represent genuine flourishing within the constraints of their condition. The two concepts are related but distinct.
+1. Health, as defined by the WHO, is "a state of complete physical, mental, and social well-being, and not merely the absence of disease or infirmity." Wellness goes further by describing an active, ongoing process across multiple life dimensions. A person can have a managed chronic condition (which technically affects their health state) and still pursue high levels of wellness through purposeful choices in exercise, relationships, meaning, and other dimensions.
 
-2. The eight dimensions are: physical, mental/emotional, social, intellectual, occupational, spiritual, environmental, and financial. Any two adjacent examples accepted. Example: financial and physical. Financial stress elevates cortisol levels and disrupts sleep, both of which are physical wellness components. A person under severe financial pressure may also be unable to afford healthy food, gym membership, or preventive care visits, further degrading physical wellness through structural barriers rather than personal choice.
+2. Accept any three dimensions with a logical interaction. Example: financial and physical wellness interact when financial stress elevates cortisol levels and disrupts sleep, reducing physical wellness. Mental/emotional and social wellness interact because social isolation worsens depression and anxiety, while strong relationships buffer stress. Occupational and mental/emotional wellness interact because a meaningless or toxic work environment is a documented driver of chronic stress and burnout.
 
-3. Primary prevention targets healthy people who have not yet developed the disease being prevented; examples include vaccines, seatbelt laws, hand hygiene, and tobacco cessation programs. Secondary prevention targets people who appear healthy but may have subclinical disease; screenings such as mammography, colonoscopy, and blood pressure checks are secondary prevention. Tertiary prevention targets people who already have a diagnosed condition; cardiac rehabilitation, stroke rehabilitation, and diabetes self-management education are examples, aiming to prevent complications and improve quality of life.
+3. Primary prevention stops disease before it starts by acting on healthy people. Behavioral example: tobacco cessation counseling for someone who smokes, which prevents lung cancer and cardiovascular disease before they develop. Environmental example: seatbelt laws, which prevent injury and death from vehicle crashes through a structural requirement rather than an individual decision.
 
-4. Secondary prevention is only effective during the preclinical window, the period between when disease has biologically begun and when it produces symptoms the patient would notice. For screening to be worthwhile, four conditions must hold: there must be a reliable test; the disease must have a meaningful preclinical window; earlier detection must actually improve outcomes; and the benefits of screening must outweigh the harms (false positives, anxiety, unnecessary procedures).
+4. Secondary prevention catches disease early in apparently healthy people; it uses screening to find disease before it causes symptoms (mammography, colonoscopy, blood pressure check). Tertiary prevention acts on people who already have a diagnosed condition; it limits damage and improves function (cardiac rehabilitation, stroke rehabilitation, diabetes self-management education). The key distinction is where in the disease timeline the intervention acts.
 
-5. Social determinants outweigh individual behavior because the structural conditions of a person's life, their income, housing stability, neighborhood safety, food access, and transportation, constrain the choices available to them in ways that good advice and individual will cannot overcome. A healthcare worker who understands social determinants will not blame a patient for failing to "choose" healthy food when no healthy food is available nearby. This understanding redirects intervention from individual behavior change toward the upstream structural conditions that actually drive outcomes.
+5. Social determinants are the structural conditions (income, housing, food access, education, transportation, neighborhood safety) in which people live, and they often predict outcomes more powerfully than individual choices. Example: a person living in a food desert lacks physical access to affordable fresh produce regardless of their motivation or knowledge about healthy eating. Good advice cannot overcome a structural barrier.
 
-6. In adolescence, mental, social, and emotional wellness are dominant because identity formation, peer relationships, and the development of autonomy are the central life tasks of this stage. Primary prevention of substance use, mental illness, and injury is the public-health priority. In older adulthood, the physical dimension requires active maintenance as physiological reserve decreases, but social and spiritual wellness also become central as people face retirement and loss of peers. Tertiary prevention dominates as chronic conditions accumulate.
+6. Healthy People 2030 is the HHS federal framework of measurable national goals for wellness and health equity across the lifespan. It is relevant to Texas healthcare workers because it sets the evidence-based benchmarks against which community and clinical programs are evaluated. It explicitly incorporates social determinants of health as a primary driver of outcomes, which means it frames population health as a structural issue, not just a behavioral one.
 
-7. A DALY (disability-adjusted life year) combines two types of health loss: years of life lost to early death and years of life lived with disability or diminished function. A simple death rate only captures mortality; it misses the years of suffering, reduced function, and diminished quality of life that disease causes before death. Comparing DALYs across communities reveals the full burden of disease, including the portion driven by chronic disability that never shows up in mortality statistics.
+7. In adolescence, mental, social, and emotional wellness are dominant; the primary prevention priority is substance use, injury, mental illness, and sexual health. In older adulthood, physical wellness requires active maintenance as physiological reserve decreases, and social and spiritual wellness become central as people face retirement, loss of peers, and end-of-life concerns; tertiary prevention dominates much of older-adult care as chronic conditions accumulate.
 
-8. An upstream intervention acts on the conditions that cause disease rather than on the disease itself. The mobile food pantry and walking trail address the social determinants of health (food access, physical activity infrastructure) that produce the chronic diseases being observed. This is more effective than treating only the downstream diseases because addressing root causes can prevent many cases simultaneously, while treating each patient with hypertension or diabetes after the fact requires far more resources and only manages the damage the determinants already caused.
+8. A DALY (disability-adjusted life year) combines years of life lost to early death with years lived with disability into a single number. Comparing DALYs across communities reveals the full burden of disease, including the years of healthy life lost to chronic disability that raw mortality rates would miss. It can also reveal the portion of that burden driven by social conditions, which a simple disease-count metric would not capture.
+
 
 ### Part D: Clinical Scenario Analysis
 
-1. Median income: lower income restricts access to healthy food, safe housing, healthcare, and leisure time for physical activity, directly affecting the physical and financial dimensions of wellness. Grocery access: without a grocery store with fresh produce nearby, physical wellness is compromised because nutrient-poor food is the available default, regardless of individual knowledge or intention. Walkability: low-walkability neighborhoods reduce opportunities for daily physical activity (physical dimension) and reduce the incidental social contact of pedestrian life (social dimension). Park access: parks provide spaces for physical activity (physical dimension) and social gathering (social dimension), contributing to mental/emotional wellness through access to green space (environmental dimension).
+1. The four social determinants are: (1) Median income: lower income limits access to healthy food, healthcare, safe housing, and stress-protective resources, all of which drive chronic disease risk. (2) Access to grocery stores with fresh produce: without nearby grocery options, residents depend on fast food and processed food, driving obesity and type 2 diabetes. (3) Walkability scores: low-walkability environments reduce incidental physical activity, contributing to obesity, hypertension, and cardiovascular risk. (4) Park access: without safe green space, residents have fewer options for physical activity, increasing disease risk.
 
-2. The free BP screening is secondary prevention. It targets people who appear healthy and have no symptoms, but hypertension is largely asymptomatic until it causes organ damage such as stroke or kidney failure. Catching elevated blood pressure before it causes harm allows treatment to begin while outcomes are still favorable. The target population is adults in the lower-life-expectancy zip code who may not have access to routine primary care.
+2. Both the mobile food pantry and the walking-trail safety project are primary prevention strategies. They act on people who do not yet have the diseases being prevented, targeting the upstream social conditions that produce disease risk. They address structural causes before the biological disease process begins.
 
-3. The mobile food pantry and walking-trail safety project are primary prevention: they act before disease begins by changing the structural conditions that produce unhealthy outcomes. They differ from the BP screening in that they act on healthy people before any biological disease process has started, whereas the BP screening acts during the preclinical window after hypertension may already have begun. Primary prevention is upstream; secondary prevention is one step downstream.
+3. The free blood pressure screening is secondary prevention. It targets people who may have hypertension (a largely asymptomatic condition) but have not yet had it detected. It differs from the other two because it does not act on a social determinant upstream of disease; it acts on people who may already have subclinical disease, catching it before organ damage occurs.
 
-4. The Healthy People 2030 framework provides measurable national benchmarks, identified target areas, and evidence-based intervention categories that allow a community nurse to situate local data within a broader national standard of what outcomes are achievable and what methods are known to work. Raw disease statistics show what is happening; the Healthy People framework provides context for how far the community is from achievable goals and what upstream interventions have evidence supporting them. A federal framework also enables funding applications, coalition building, and comparisons with other communities.
+4. Healthy People 2030 sets measurable goals tied to specific population-level outcomes and explicitly incorporates social determinants as primary drivers. A list of disease rates would show what is happening but not why or what to target. The Healthy People framework provides direction for upstream, structural interventions, not just treatment targets, which is why the nurse was able to identify the three interventions rather than just documenting the disparity.
 
-5. If two patients have identical individual health behaviors but live in different zip codes, the person in the lower-income zip code is exposed to higher cumulative stress (through financial insecurity, noise, crime, and neighborhood disorder), has less access to health-promoting environments (parks, walkable streets, grocery stores), and is more likely to experience barriers to healthcare access (transportation, cost, language). These structural conditions produce different biological outcomes, including higher cortisol levels, disrupted sleep, and reduced access to preventive care, independent of what individuals choose to do. This means healthcare workers must not attribute health disparities to individual failure or lack of motivation when structural barriers are the primary driver.
+5. Sample response: The research on social determinants of health shows that income, food access, walkability, and park availability predict health outcomes more powerfully than individual choices in many cases. A person who wants to eat fresh vegetables but has no grocery store within walking distance and no reliable transportation cannot simply "make better choices," the structural barrier prevents the choice from being made regardless of motivation. Addressing the eleven-year life-expectancy gap requires upstream interventions that change the conditions people live in, not just advice to individuals.
+
 
 ### Part E: Reflection
 
-No single correct answer. Award full credit for responses that: (1) use at least three vocabulary terms from the chapter accurately, (2) correctly apply the health/wellness distinction or the prevention framework to a real situation, and (3) for Option 2, engage with the structural (not individual) nature of social determinants and correctly identify the level of prevention that addresses root causes. Deduct credit for responses that treat all poor health outcomes as individual choices, or that describe secondary or tertiary prevention as though they address social determinants.
+No single correct answer. Award full credit for responses that: (1) use at least three chapter vocabulary terms accurately, (2) connect observations to specific wellness dimensions or prevention levels, and (3) demonstrate understanding that health outcomes are shaped by both individual behaviors and structural conditions. Deduct credit for responses that reduce wellness entirely to personal choice or ignore social determinants.
