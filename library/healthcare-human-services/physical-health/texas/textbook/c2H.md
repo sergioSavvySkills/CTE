@@ -8,18 +8,14 @@ status: draft
 
 # Body Mechanics — Forces, Torque, Tension, and Safe Movement
 
----
 **By the end of this chapter you will be able to:**
 - Define force, torque, tension, and elasticity and describe how each acts on the human body
 - Explain why improper lifting posture dramatically increases the load on the lumbar spine
 - Describe the principles of base of support and center of gravity in safe patient handling
 - Identify when a lift requires equipment or additional staff rather than one person lifting alone
 - Apply the principles of body mechanics to a stand-pivot transfer and a bed-repositioning scenario
----
 
 A home health aide is asked to help a 220-pound patient move from a wheelchair to the toilet — alone, in a small bathroom, with no lift equipment available. She knows the patient needs help. She also knows that healthcare workers have the highest rate of musculoskeletal injury of any occupation in the United States. What happens to her spine in the next 30 seconds is a physics problem before it is a healthcare problem.
-
----
 
 ## Part 1: The Physics of the Body in Motion
 
@@ -64,8 +60,6 @@ The body mechanics rule "bend at the hips and knees, keep the load close, do not
 - **Bend at hips and knees** — lowers your center of gravity and recruits the large muscles of the legs instead of the vulnerable muscles of the lower back
 - **Keep the load close** — minimizes the torque arm and therefore the torque on the lumbar spine
 - **Do not twist while lifting** — rotation combined with a load on the spine multiplies the shear force on lumbar discs; pivoting with the feet achieves the same directional change without that shear
-
----
 
 ## Part 2: Safe Patient Handling in Practice
 

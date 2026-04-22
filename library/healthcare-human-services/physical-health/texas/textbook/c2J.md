@@ -8,13 +8,11 @@ status: draft
 
 # Development Across the Lifespan
 
----
 **By the end of this chapter you will be able to:**
 - Describe the major developmental stages from infancy through older adulthood
 - Identify the dominant health priorities, risks, and screening needs at each stage
 - Explain how Erikson's psychosocial stages and Piaget's cognitive stages inform care decisions
 - Adapt communication strategies to match the developmental stage of a patient
----
 
 A pediatric nurse greets two patients back-to-back in the same morning clinic: a 9-month-old here for a well-baby visit and an 85-year-old here for a medication review. The nurse speaks differently, assesses differently, and screens for entirely different health risks — not because these patients are simply at different points on a timeline, but because human development produces fundamentally different physical, cognitive, and social realities at every stage of life.
 

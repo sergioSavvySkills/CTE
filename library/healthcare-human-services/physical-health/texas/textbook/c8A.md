@@ -8,13 +8,11 @@ status: draft
 
 # Teaming — Coordinating Care When the Team Keeps Changing
 
----
 **By the end of this chapter you will be able to:**
 - Explain the concept of teaming and distinguish it from working on a stable team
 - Identify the four conditions that make teaming possible in a healthcare setting
 - Describe specific teaming behaviors and connect each to a quality outcome
 - Recognize teaming as a learnable skill rather than a fixed personality trait
----
 
 A patient arrives in the emergency department at 2:00 a.m. with chest pain. In the next four hours, she will be cared for by an ED nurse who has never met her, a hospitalist covering from another unit, a radiology technician on night rotation, a phlebotomist from the lab, and a cardiologist who joins by phone. None of these people have ever worked together before. None of them will work together again after this shift. And yet they need to function as a single, coordinated team. That is not a stable team — that is **teaming (Edmondson)**.
 

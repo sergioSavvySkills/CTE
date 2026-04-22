@@ -66,8 +66,6 @@ The **biomedical research scientist** designs and conducts experiments on diseas
 
 Biotech R&D typically requires a bachelor's degree at minimum; research scientist roles usually require a graduate degree. Patient contact is minimal — but every approved drug or medical device that reaches a patient at the bedside traces its path back through this system [BLS OOH Healthcare].
 
----
-
 ## Part 2: Comparing Across Systems
 
 ### A consistent comparison framework
