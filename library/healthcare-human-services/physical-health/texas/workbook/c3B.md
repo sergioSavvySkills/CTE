@@ -107,6 +107,8 @@ Answer one of the following prompts in 5–8 sentences.
 **Option 2:** A classmate says, "Teach-back feels condescending. I don't want patients to feel like I'm testing them." Write a response that explains why teach-back is a respect-based practice rather than a test, using the chapter's concept of health literacy universal precautions and at least two other terms to support your argument.
 
 
+
+
 ## Answer Key
 
 *For instructor use. Do not distribute to students until after completion.*
