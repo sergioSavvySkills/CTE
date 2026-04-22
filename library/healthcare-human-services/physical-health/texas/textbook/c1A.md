@@ -8,13 +8,11 @@ status: draft
 
 # Expressing Ideas Clearly in the Health Workplace
 
----
 **By the end of this chapter you will be able to:**
 - Shape your message for the specific person receiving it — a patient, a peer, or a supervisor
 - Write and speak in plain, precise language that leaves no room for misinterpretation
 - Use structured formats (SBAR) to deliver complete information in the shortest time
 - Confirm that a message was received correctly using read-back and paraphrase
----
 
 A nurse calls the on-call physician at 2 a.m. She has thirty seconds to explain why the patient needs attention right now. If she rambles, the physician may miss the urgency. If she is too brief, he may miss the context. Getting that call right — concise, complete, and precise — is the difference between a patient who gets help in time and one who does not.
 

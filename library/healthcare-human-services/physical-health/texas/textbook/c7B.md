@@ -8,13 +8,11 @@ status: draft
 
 # How the Five Systems Collaborate to Deliver Quality Care
 
----
 **By the end of this chapter you will be able to:**
 - Trace all five health science systems through a single patient care episode
 - Identify the handoff points between systems where care quality is determined
 - Name the quality framework used to evaluate cross-system collaboration
 - Explain how a failure at one handoff point cascades through the rest of care
----
 
 A patient arrives by ambulance at 2 a.m. with stroke symptoms. The paramedics called ahead. By the time the gurney clears the doors, a neurologist is ready, a CT scanner is prepped, a scribe is logged in, a phlebotomist is gloved, and a transport aide is standing by. None of those people work in the same department. None share a supervisor. But in the next 20 minutes they will hand off this patient's information and physical safety among themselves four times — and if any one of those handoffs fails, the outcome changes.
 

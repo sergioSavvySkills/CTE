@@ -8,13 +8,11 @@ status: draft
 
 # The Five Health Science Systems and Their Career Families
 
----
 **By the end of this chapter you will be able to:**
 - Name and define each of the five health science career systems
 - Describe the core work, typical education, required credentials, and workplace setting for representative roles in each system
 - Compare two roles from different systems using a consistent six-dimension framework
 - Explain how all five systems touch a single patient during a care episode
----
 
 A radiologic technologist, a medical records coder, a clinical research scientist, a central-sterile technician, and a respiratory therapist walk into a hospital. They are not the setup to a joke — they are the five health science systems working on the same floor. Most students walking into a health science classroom picture one or two of those five. By the end of this chapter, you will see all of them.
 

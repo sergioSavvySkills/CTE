@@ -8,12 +8,10 @@ status: draft
 
 # Researching and Evaluating Healthcare Career Options
 
----
 **By the end of this chapter you will be able to:**
 - Identify the primary authoritative sources for US healthcare career and employment information
 - Evaluate a career-information source for currency, authority, and bias
 - Interpret occupational data — duties, education, credentials, wages, and outlook — accurately and without common misreading errors
----
 
 A student researches nursing salaries and finds four different numbers: $58,000 on one site, $75,000 on another, $89,000 on a third, and a recruiter's starting offer of $42,000. None of them are wrong. All of them are useless without knowing what each number actually measures, where it comes from, and what it means for her specific situation in Texas. Finding career information is easy. Evaluating and interpreting it is the skill.
 

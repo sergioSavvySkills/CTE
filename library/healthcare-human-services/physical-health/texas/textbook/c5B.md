@@ -8,12 +8,10 @@ status: draft
 
 # Career Decisions and the Ripple Effects of Changing Direction
 
----
 **By the end of this chapter you will be able to:**
 - Describe how early career decisions shape credential, specialty, and income options years later
 - Classify the causes of employment change as push, pull, or structural
 - Identify the effects — on income, credentials, benefits, and patients — when a healthcare worker changes jobs or roles
----
 
 A CNA who takes a job at a long-term care facility instead of a hospital is not just choosing a building — she is choosing a skill set, a patient population, a pay scale, and a set of future options. Three years later, when she applies to an LVN bridge program, the skills she built (or didn't build) at that first job matter. Career decisions in healthcare compound. They are reversible, but always with a cost.
 
