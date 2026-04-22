@@ -43,15 +43,15 @@ Researchers studying clinical communication have identified a consistent set of 
 
 Non-effective communication is not simply the absence of the good components. It has its own active patterns, each of which causes specific harm.
 
-**Interrupting and talking over** a patient cuts off the opening statement before the full concern is named. This does not save time. Patients who are not heard often raise the unresolved concern later, at a worse moment, or not at all.
+Interrupting and talking over a patient cuts off the opening statement before the full concern is named. This does not save time. Patients who are not heard often raise the unresolved concern later, at a worse moment, or not at all.
 
-**Jargon without translation** puts the patient in a position where they cannot engage with their own care. The AHRQ Health Literacy Universal Precautions Toolkit documents how widespread low health literacy is across adult populations and why clinicians should assume it rather than screen for it. A patient who does not understand "myocardial infarction" but nods along anyway is not a difficult patient. They are a patient who has been failed by the communication.
+Using **jargon** without translation puts the patient in a position where they cannot engage with their own care. The AHRQ Health Literacy Universal Precautions Toolkit documents how widespread low health literacy is across adult populations and why clinicians should assume it rather than screen for it. A patient who does not understand "myocardial infarction" but nods along anyway is not a difficult patient. They are a patient who has been failed by the communication.
 
-**Minimizing emotion** shuts the door. "Don't worry about that" or "plenty of people have worse" signals to the patient that their concern is not welcome. Once the door is shut, it usually stays shut for the rest of the encounter.
+Minimizing emotion shuts the door. "Don't worry about that" or "plenty of people have worse" signals to the patient that their concern is not welcome. Once the door is shut, it usually stays shut for the rest of the encounter.
 
-**Missing nonverbal signals** means not noticing that a patient's expression does not match their words, that a family member in the corner is quietly crying, or that the patient has leaned back and crossed their arms since you mentioned the medication change.
+Missing nonverbal signals means not noticing that a patient's expression does not match their words, that a family member in the corner is quietly crying, or that the patient has leaned back and crossed their arms since you mentioned the medication change.
 
-**Assumptions and stereotypes** lead a clinician to decide what a patient needs before asking. Assuming an elderly patient cannot understand a complex explanation, or assuming a young patient is healthy, replaces the actual patient with a mental shortcut.
+Assumptions and stereotypes lead a clinician to decide what a patient needs before asking. Assuming an elderly patient cannot understand a complex explanation, or assuming a young patient is healthy, replaces the actual patient with a mental shortcut.
 
 ### Barriers that derail even good technique
 

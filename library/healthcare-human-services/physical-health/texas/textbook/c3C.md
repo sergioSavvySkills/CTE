@@ -28,11 +28,11 @@ The Thomas-Kilmann Conflict Mode Instrument describes five styles of engaging wi
 
 **Avoid (TKI)** is low assertiveness and low cooperation. You withdraw from the conflict entirely. This is the right choice when the issue is trivial, when emotions are too high for any productive exchange, or when engaging would create a safety risk. It is the wrong choice when a real problem is being ignored repeatedly.
 
-**Accommodate (TKI)** is low assertiveness and high cooperation. You give the other party what they want. This is appropriate when you are wrong, when maintaining the relationship outweighs the issue, or when you want to show goodwill before a harder conversation. It is the wrong choice when it means accepting a safety compromise.
+Accommodate (TKI) is low assertiveness and high cooperation. You give the other party what they want. This is appropriate when you are wrong, when maintaining the relationship outweighs the issue, or when you want to show goodwill before a harder conversation. It is the wrong choice when it means accepting a safety compromise.
 
 **Compete (TKI)** is high assertiveness and low cooperation. You push for your outcome without seeking consensus. This sounds negative but it is the correct style in a safety emergency. When a patient is crashing and the team needs someone to direct, not consult, the competing style is the right tool. A clinical leader who seeks consensus during a code is being inappropriate.
 
-**Compromise (TKI)** sits in the middle. Both parties give something up. This works when time is short, the stakes are moderate, and a good-enough solution is better than no solution. The risk is that both parties leave partially dissatisfied.
+Compromise (TKI) sits in the middle. Both parties give something up. This works when time is short, the stakes are moderate, and a good-enough solution is better than no solution. The risk is that both parties leave partially dissatisfied.
 
 **Collaborate (TKI)** is high assertiveness and high cooperation. Both parties work toward a solution that fully addresses both sets of needs. This is the clinical-team default when time and stakes allow, because it builds shared understanding and produces the most durable solutions. But it is not always available. Collaboration requires time, trust, and willingness from both parties.
 

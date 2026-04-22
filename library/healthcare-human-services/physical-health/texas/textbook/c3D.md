@@ -32,7 +32,7 @@ The decoding sequence matters: suffix first, then prefix, then root. Work from t
 
 ### Common decoding traps
 
-Two roots catch almost every student at least once. **Ileum** and **ilium** look nearly identical and are pronounced similarly, but they refer to completely different structures: the ileum is the final segment of the small intestine, and the ilium is the upper portion of the hip bone. Only context disambiguates them. Similarly, **myel-** can mean either spinal cord or bone marrow depending on the context. Myelitis could refer to inflammation of the spinal cord; multiple myeloma is a cancer of bone marrow cells. Reading the full clinical context, not just the term in isolation, resolves the ambiguity.
+Two roots catch almost every student at least once. Ileum and ilium look nearly identical and are pronounced similarly, but they refer to completely different structures: the ileum is the final segment of the small intestine, and the ilium is the upper portion of the hip bone. Only context disambiguates them. Similarly, myel- can mean either spinal cord or bone marrow depending on the context. Myelitis could refer to inflammation of the spinal cord; multiple myeloma is a cancer of bone marrow cells. Reading the full clinical context, not just the term in isolation, resolves the ambiguity.
 
 Abbreviations that look like word parts are another trap. "SOB" is not a word with a suffix. It is a clinical abbreviation for shortness of breath. "CVA" is not a Latin construction to decode. It is an abbreviation for cerebrovascular accident (stroke). Recognizing when to decode and when to look up a specific abbreviation is part of the skill.
 
@@ -111,6 +111,8 @@ The standard requires not only interpreting and transcribing but also communicat
 **NPO:** abbreviation for "nothing by mouth" (from Latin "nil per os"); a body and status abbreviation on the list of terms healthcare students must master.
 
 **Approved abbreviation list:** the institution-specific list of abbreviations permitted in documentation at that facility; always verified before use at a new site.
+
+**Dictation and voice-to-text:** speech-recognition documentation technology whose critical failure mode is homophone errors (hypertension vs. hypotension, ileum vs. ilium); requires proofreading against the original audio before submission.
 
 ### Chapter summary
 
