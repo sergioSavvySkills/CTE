@@ -13,7 +13,8 @@ Each §127.403 standard file under `library/healthcare-human-services/physical-h
 3. `## Content stub`
 4. `## Vocabulary` — 6–12 terms; `**Term** — one-line definition.` with optional trailing `*(also in cXY)*` cross-ref, capped at 2 refs per annotation.
 5. `## Assessment stub`
-6. `## References`
+6. `## Activities` — 2+ classroom sims; each a bold name + one-paragraph evocative description + italic goal tags (application, pattern recognition, decision under constraint, systems thinking, etc.). Sims are delivered as plain HTML + CDN libraries; prefer vanilla, only reach for a library if its output is visually polished out of the box.
+7. `## References`
 
 Preserve this order when editing.
 
