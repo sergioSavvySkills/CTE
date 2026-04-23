@@ -15,13 +15,22 @@ Each §127.403 standard file under `library/healthcare-human-services/physical-h
 5. `## Assessment stub`
 6. `## Activities` — 2+ classroom sims; each a bold name + one-paragraph evocative description + italic goal tags (application, pattern recognition, decision under constraint, systems thinking, etc.). Sims are delivered as plain HTML + CDN libraries; prefer vanilla, only reach for a library if its output is visually polished out of the box.
 7. `## References`
-8. `## Activity specs` — detailed YAML spec per activity, appended at end of file. Each spec covers name, format, supports, duration/mode/equipment, learning_goal, vocab_exercised, content_model, content, initial_state, controls, feedback, scoring, win_condition, reset, student_view, teacher_view, accessibility, success_criteria, tech_stack, ai_required, visual_notes — followed by **Instructions to student** and **Teacher notes** paragraphs. The `ai_required` field is a list (possibly empty) of `{category, reason, fallback}` objects; supported categories are `text_rubric_scoring` and `tts`. **Out of scope:** `stt` (speech-to-text) and `pose` (webcam pose detection) are not supported — design activities around typed text and pre-generated audio / animation instead of voice capture or body tracking. An empty list means the sim runs on regex, keyword match, and numeric logic alone.
+8. `## Activity specs` — detailed YAML spec per activity, appended at end of file. Each spec covers name, format, supports, duration/mode/equipment, learning_goal, vocab_exercised, content_model, content, initial_state, controls, feedback, result, student_view, teacher_view, accessibility, success_criteria, tech_stack, ai_required, visual_notes — followed by **Instructions to student** and **Teacher notes** paragraphs. The `ai_required` field is a list (possibly empty) of `{category, reason, fallback}` objects; supported categories are `text_rubric_scoring` and `tts`. **Out of scope:** `stt` (speech-to-text) and `pose` (webcam pose detection) are not supported — design activities around typed text and pre-generated audio / animation instead of voice capture or body tracking. An empty list means the sim runs on regex, keyword match, and numeric logic alone.
 
 Preserve this order when editing.
 
+## Activity scoring
+
+Activities are **pass/fail**, not rubric-scored. Every spec's `result:` block has two fields:
+
+- `pass_rule` — one or two sentences, plain English, describing the pass condition.
+- `instructions_for_scorer` — the deterministic (or near-deterministic) steps a grader or sim follows to decide pass/fail. Default to regex, keyword match, sentence count, numeric thresholds.
+
+Keep thresholds **forgiving**. The point is pattern practice, not ranking — a student who mostly got it should pass. Retries on a fresh case or passage are always fine. Nuance (audience fit, clarity, judgment calls) belongs in the teacher debrief, not the score. Do not add point totals, 0–5 rubrics, `mastery_threshold`, `win_condition`, or `reset` blocks — they bureaucratize what should feel like a game.
+
 ## AI-required field schema
 
-Every `ai_required` entry carries the three base fields (`category`, `reason`, `fallback`) plus category-specific execution fields so a downstream generator has everything it needs to build the sim.
+Most activities score deterministically and keep `ai_required: []`. Only add an AI block when the pass rule genuinely requires semantic judgment (e.g., meaning preservation across freeform paraphrase) and no regex, keyword match, or numeric heuristic can decide the case. When you do add one, every `ai_required` entry carries the three base fields (`category`, `reason`, `fallback`) plus category-specific execution fields so a downstream generator has everything it needs to build the sim.
 
 **For `text_rubric_scoring`** — add these fields:
 - `dimensions` — list of rubric dimensions that need AI scoring (the rest of the rubric is deterministic and runs client-side).
@@ -42,7 +51,7 @@ All extended fields are optional at the YAML-parser level — a spec without the
 
 ## Activity content
 
-Per-activity source material (source notes, gold answers, scenario scripts, TTS script lines, banned phrases, `dimension_rubric` calibration examples) lives **inline** in the spec's `content:` block in the standards file. No separate content files. Keep scannable blocks at the top of `content:` describing what each entry provides; append populated lists (`notes: []`, `passages: []`, `scripts: []`, etc.) when authoring.
+Per-activity source material (source notes, gold answers, scenario scripts, TTS script lines, required facts, banned phrases) lives **inline** in the spec's `content:` block in the standards file. No separate content files. Keep scannable blocks at the top of `content:` describing what each entry provides; append populated lists (`notes: []`, `passages: []`, `scripts: []`, etc.) when authoring.
 
 ## AI prompt templates
 
