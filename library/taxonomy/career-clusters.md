@@ -78,7 +78,7 @@ other cluster.
 
 Kept here because every state's current CTE data, Perkins V reports, and
 existing IBC / CAPE / IRC lists are still keyed to the legacy 16. This is
-the view we'll use when mapping our atom tags to state-system data.
+the view we'll use when mapping our content to state-system data.
 
 | Legacy Cluster (16) | Modernized Cluster (14) |
 |---|---|
@@ -102,13 +102,14 @@ the view we'll use when mapping our atom tags to state-system data.
 
 ## Notes on Usage
 
-- **Spine** — this is the taxonomic spine for the atom library. Every atom
-  ultimately tags back to one or more of these 72 Sub-Clusters.
+- **Spine** — this is the taxonomic spine for the content library. Every
+  standard and every piece of content ultimately tags back to one or more
+  of these 72 Sub-Clusters.
 - **Cross-cutting clusters** — Digital Technology, Management &
   Entrepreneurship, and Marketing & Sales have implications for content
-  taken in all other clusters. Expect many atoms to tag a sector-specific
+  taken in all other clusters. Expect many items to tag a sector-specific
   cluster *and* a cross-cutting cluster (e.g., a healthcare-informatics
-  atom tags Healthcare & Human Services + Digital Technology).
+  standard tags Healthcare & Human Services + Digital Technology).
 - **State data is still on the legacy 16** — when we ingest state CTE
   frameworks and IBC lists in Phase 3, we'll crosswalk them to this
   modernized spine using the table above.
@@ -134,4 +135,3 @@ With the taxonomy locked, the next Phase 0 artifacts are:
    tagged to one or more Sub-Clusters.
 2. **Anchor-credential decisions per pathway** — 2–3 anchor credentials
    per Cluster (or Sub-Cluster) for whichever wedge we pick.
-3. **Atom schema draft** — with Sub-Cluster as the primary taxonomic tag.

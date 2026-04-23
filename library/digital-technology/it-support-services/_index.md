@@ -101,9 +101,8 @@ cloud architecture (→ Web & Cloud), or data/AI (→ Data Science & AI).
   to CompTIA A+. Strong employer recognition through Google Employer
   Consortium.
 - **Notes:** Course-completion shape differs structurally from
-  CompTIA's objective-list shape; objective alignment for atom work
-  is fuzzier. If anchored, treat as syllabus-based rather than
-  objective-based.
+  CompTIA's objective-list shape; objective alignment is fuzzier. If
+  anchored, treat as syllabus-based rather than objective-based.
 
 ### Cisco Certified Support Technician (CCST) IT Support
 - **Issuer:** Cisco
@@ -200,8 +199,8 @@ anchor).
 2. **ITIL 4 Ohio IRC status** — not confirmed in research.
 3. **CompTIA A+ version** — I've used 220-1201 / 220-1202 as the
    current 2025 release. If the actual Core 1/Core 2 dropped on a
-   different schedule, every A+ atom we author will carry the wrong
-   version tag.
+   different schedule, anything we author against A+ will carry the
+   wrong version tag.
 4. **CompTIA ITF+ version** — FC0-U61 has been in market a long time;
    CompTIA periodically drops successor versions quietly. Verify
    FC0-U61 is still being issued and not superseded.

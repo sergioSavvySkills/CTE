@@ -120,7 +120,7 @@ others — two anchors cover the full HS pathway):
 3. **FAA Part 107 on Ohio IWIP** — USI certs confirmed but Part 107
    itself as an IWIP credential code needs verification.
 4. **USI Level 1 objective stability** — confirm domains haven't changed
-   in last 12 months before atom authoring.
+   in last 12 months before authoring.
 5. **Part 107 minimum age by state** — age 16 is federal minimum; verify
    no state has additional restrictions on minors in testing centers.
 6. **senseFly/AgEagle → EagleNXT rebrand** — confirm certification
