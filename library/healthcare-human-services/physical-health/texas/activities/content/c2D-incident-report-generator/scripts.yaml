@@ -1,0 +1,25 @@
+# TTS scripts for c2D — Incident-Report Generator
+# Referenced by: library/.../texas/standards/127.403-c2D.md (ai_required.scripts_file)
+#
+# One audio clip per incident. Pair each id with the matching entry in rubric-content.yaml.
+# Scripts are first-person or narrator witness accounts of an incident — what a student would
+# hear in a recorded-incident audio clip (45-90 seconds).
+#
+# Schema — each entry in `scripts` provides:
+#   id                — matches rubric-content.yaml incidents[].audio_script_id
+#   speaker:
+#     persona: narrator | clinician | unit_clerk | patient | family_member
+#     role:    "Charge nurse, Med-Surg 4E"       # human description for context
+#     gender:  neutral | female | male
+#     age_band: young_adult | middle | older
+#   script_text       — 100-200 words of spoken prose (~45-90 s at natural pacing)
+#   pacing_notes      — optional per-line cues: [pause_short], [pause_medium], [emphasis]
+#   language          — default "en-US general"; override for non-English content
+#
+# Filename pattern (from the spec): c2d-incident-{index:02d}.mp3
+# Generator assigns index in the order entries appear in this file.
+#
+# Target: 12 scripts matching the 12 incidents in rubric-content.yaml.
+# Status: PLACEHOLDER — content authoring pending.
+
+scripts: []

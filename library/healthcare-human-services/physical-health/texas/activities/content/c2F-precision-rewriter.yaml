@@ -1,0 +1,25 @@
+# Content for c2F — Precision Rewriter
+# Referenced by: library/.../texas/standards/127.403-c2F.md (ai_required.content_file)
+#
+# Schema — each entry in `statements` provides:
+#   id                — stable identifier (e.g., "vague-mood-report-v1")
+#   source_text       — the vague clinical statement the student starts from
+#   banned_phrases    — vague qualifiers the student MUST remove (deterministic precision check)
+#                       Examples: ["great", "a little", "kind of", "pretty much", "sort of", "fine"]
+#   required_replacements:
+#     type: specific_verb | measurable_value | either     # what the rewrite MUST introduce
+#     verb_whitelist: []                                  # acceptable precise verbs (when type is specific_verb)
+#     value_pattern: "<regex for acceptable measurable values, e.g., \\d+\\s*(mg|mL|bpm)>"
+#   gold_rewrites: []   # 2-4 model answers so the AI can see the range of acceptable replacements
+#   dimension_rubric:
+#     replacement_quality:
+#       5_example: "replacement is both precise AND clinically natural (e.g., 'febrile at 38.9°C' not 'had a slight temp')"
+#       3_example: "replacement meets the deterministic check but reads awkwardly or redundantly"
+#       1_example: "replacement is technically a precise verb or measurable value but misses the clinical meaning"
+#       guidance: "score 5 when the student found a replacement a senior clinician would actually write"
+#
+# Target: 30 statements covering the common vagueness categories (mood, pain, mobility, intake, output,
+# wound, respiration, cognition, behavior, social).
+# Status: PLACEHOLDER — content authoring pending.
+
+statements: []

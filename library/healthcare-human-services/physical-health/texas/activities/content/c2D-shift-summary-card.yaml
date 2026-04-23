@@ -1,0 +1,30 @@
+# Content for c2D — Shift-Summary Card
+# Referenced by: library/.../texas/standards/127.403-c2D.md (ai_required.content_file)
+#
+# Schema — each entry in `shifts` provides:
+#   id                — stable identifier (e.g., "med-surg-4e-night-v1")
+#   setting:
+#     unit: "Med-Surg 4E"
+#     role: "Night-shift RN"
+#     census: 6                     # number of patients on the card
+#   event_log:                      # chronological 12-hour shift log, 20+ entries
+#     - time: "19:30"
+#       bed: 1
+#       category: vitals | meds | family | adl | deterioration | ambulation | incident
+#       text: "Bed 1 vitals stable, HR 78, BP 128/76."
+#   gold_5_bullet_card:
+#     - "Bed 3 sundowning, 0300 — redirected, PRN Ativan 0.5 mg given, now sleeping"
+#     - ...
+#   must_include_facts: []          # clinically relevant signals the card MUST capture (deterministic)
+#   must_exclude_facts: []          # routine or non-clinical content the card MUST omit (deterministic)
+#   dimension_rubric:
+#     over_reporting:
+#       5_example: "card has zero bullets beyond must_include_facts; no vitals-when-stable, no ADL details, no social niceties"
+#       3_example: "1 bullet is noise (stable vital, benign family comment) that belongs in the chart not the handoff"
+#       1_example: "2+ bullets are routine content that crowds out a real must-include signal"
+#       guidance: "penalize each bullet that neither matches a must-include nor fills a must-exclude category"
+#
+# Target: 8 shifts across settings (med-surg, ED, ICU, peds, LTC, post-partum, behavioral, outpatient).
+# Status: PLACEHOLDER — content authoring pending.
+
+shifts: []
