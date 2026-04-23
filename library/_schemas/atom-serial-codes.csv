@@ -1,8 +1,0 @@
-level,code,slug,parent_code
-cluster,HHS,healthcare-human-services,
-subcluster,BMH,behavioral-mental-health,HHS
-subcluster,BRD,biotechnology-research-development,HHS
-subcluster,CSS,community-social-services,HHS
-subcluster,HDA,health-data-administration,HHS
-subcluster,PCS,personal-care-services,HHS
-subcluster,PH,physical-health,HHS
