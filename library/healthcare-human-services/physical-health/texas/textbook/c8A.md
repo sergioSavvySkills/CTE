@@ -66,7 +66,7 @@ The IOM/NAM quality aims (safe, effective, patient-centered, timely, efficient, 
 
 ### Teaming is taught, not born
 
-The TEKS asks students to explain the concept of teaming. The deeper point is that teaming is a learnable skill, not a personality trait or an innate gift. Programs like TeamSTEPPS (from AHRQ) exist precisely because the behaviors that enable teaming, structured communication, psychological safety, loop-closing, are teachable in any clinical setting. The IPEC Core Competencies (Interprofessional Education Collaborative) extend this to every health profession: the expectation is not that teams will somehow cohere naturally, but that every practitioner will arrive trained in the behaviors that make teaming work.
+The deeper point is that teaming is a learnable skill, not a personality trait or an innate gift. Programs like TeamSTEPPS (from AHRQ) exist precisely because the behaviors that enable teaming, structured communication, psychological safety, loop-closing, are teachable in any clinical setting. The IPEC Core Competencies (Interprofessional Education Collaborative) extend this to every health profession: the expectation is not that teams will somehow cohere naturally, but that every practitioner will arrive trained in the behaviors that make teaming work.
 
 ### Key terms
 
@@ -100,7 +100,7 @@ Teaming is the coordination work that happens when the team keeps changing, the 
 
 ### References
 
-- **Edmondson, *Teaming: How Organizations Learn, Innovate, and Compete in the Knowledge Economy***, the foundational source for the "teaming" concept this standard asks students to explain; distinguishes teaming from stable teamwork.
+- **Edmondson, *Teaming: How Organizations Learn, Innovate, and Compete in the Knowledge Economy***, the foundational source for the teaming concept; distinguishes teaming from stable teamwork.
 - **Edmondson, *The Fearless Organization***, evidence base for psychological safety as the core enabler of teaming.
 - **AHRQ TeamSTEPPS 3.0**, the operational US healthcare curriculum for teaming behaviors (brief/huddle/debrief, CUS, two-challenge rule, closed-loop communication).
 - **NAM / IOM *Crossing the Quality Chasm***, the quality framework that makes teaming a quality requirement rather than a soft skill.

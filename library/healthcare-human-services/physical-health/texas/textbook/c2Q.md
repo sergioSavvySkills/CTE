@@ -126,7 +126,7 @@ The infectious-disease response during the West African Ebola outbreak illustrat
 
 **Medical anthropology:** the scholarly field studying how cultures explain and respond to illness; the source of the Kleinman explanatory-model framework and ethnographic research in this chapter.
 
-**Cultural appropriation:** using a traditional practice stripped of its cultural context; a research and clinical pitfall this chapter asks students to recognize and avoid.
+**Cultural appropriation:** using a traditional practice stripped of its cultural context; a research and clinical pitfall to recognize.
 
 ### Chapter summary
 

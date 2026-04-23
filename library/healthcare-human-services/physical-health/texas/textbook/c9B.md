@@ -78,7 +78,7 @@ Some categories of information carry heightened protections beyond the baseline 
 
 ### Consequences of a breach
 
-The TEKS standard specifically requires students to understand the consequences of a confidentiality breach. They fall into four categories.
+Understanding the consequences of a confidentiality breach is essential. They fall into four categories.
 
 For the patient: loss of privacy, potential reputational damage, social stigma, identity theft using health information, and in some cases physical safety risks. A patient who is a domestic violence survivor whose location becomes known, or a person whose HIV status is disclosed at work, can face immediate danger.
 

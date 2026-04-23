@@ -19,7 +19,7 @@ A 52-year-old man's smartwatch detects an irregular heart rhythm and sends an al
 
 Every new capability in healthcare creates new versions of old tensions among autonomy, beneficence, non-maleficence, and justice. The principles themselves do not change. What changes is how fast new applications arrive, and how often they arrive before regulators, professional codes, or clinical training have caught up.
 
-This chapter does not resolve these tensions. The TEKS standard asks students to discuss them, which means the goal is to name the tradeoffs honestly, identify which principles are at stake in each case, and recognize that reasonable people using the same principles can reach different conclusions. That kind of reasoning is what healthcare ethics education produces.
+This chapter does not resolve these tensions. The goal here is to name the tradeoffs honestly, identify which principles are at stake in each case, and recognize that reasonable people using the same principles can reach different conclusions. That kind of reasoning is what healthcare ethics education produces.
 
 ### Artificial intelligence and algorithmic decision-making
 

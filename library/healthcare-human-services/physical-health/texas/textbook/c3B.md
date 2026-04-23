@@ -20,7 +20,7 @@ A student in a clinical skills lab can name every component of effective communi
 
 ### Why demonstration matters
 
-The difference between this standard and the previous chapter is captured in a single word: demonstrate. Identifying effective communication is a knowledge task. Demonstrating it in a live encounter is a performance task, and performance only develops through practice, observation, and corrective feedback.
+The difference between this chapter and the previous one is captured in a single word: demonstrate. Identifying effective communication is a knowledge task. Demonstrating it in a live encounter is a performance task, and performance only develops through practice, observation, and corrective feedback.
 
 The skill of responding to patient needs begins before any technique is applied. It begins with the opener. The most important question in any clinical encounter is not a diagnostic question. It is an open one: "What brings you in today?" followed by silence. The clinician's job in the first 60 to 90 seconds is to listen while the patient sets the agenda, not to redirect, not to jump to the chief complaint field on the intake form. The Calgary-Cambridge guide names this the "initiating the session" phase, and research consistently shows that patients who are allowed to complete their opening statement in the first visit return with fewer unresolved concerns.
 

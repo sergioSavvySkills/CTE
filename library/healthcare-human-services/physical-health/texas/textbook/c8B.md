@@ -106,5 +106,5 @@ Every health profession operates through two related but distinct structures: a 
 - **Accreditation bodies:** CCNE, ACEN (nursing); LCME, COCA (medical schools); ARC-PA (PA programs); CAAHEP, ABHES (multiple allied health programs), authoritative list of US healthcare education accreditors.
 - **Institute for Credentialing Excellence (ICE) and National Commission for Certifying Agencies (NCCA)**, accreditors of certification programs themselves; useful for evaluating whether a credential is rigorous.
 - **US Department of Education Database of Accredited Postsecondary Institutions and Programs**, authoritative list of recognized accreditors.
-- **HOSA – Future Health Professionals**, the secondary/post-secondary student organization most relevant to TEKS-aligned CTE Texas programs.
+- **HOSA – Future Health Professionals**, the secondary/post-secondary student organization for health science career and technical education programs.
 - **Professional-organization career pages**, each listed above; serve as primary sources for role-specific certification and preparation information.

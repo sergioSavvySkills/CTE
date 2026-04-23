@@ -20,7 +20,7 @@ A radiologic technologist, a medical records coder, a clinical research scientis
 
 ### Why five systems instead of one
 
-Healthcare is not a single profession. It is five interconnected systems, each doing a different kind of work for the same patients. The five names come from the National Consortium for Health Science Education (NCHSE), and the Texas TEKS draws directly from that framework [NCHSE Health Science Career Clusters].
+Healthcare is not a single profession. It is five interconnected systems, each doing a different kind of work for the same patients. The five names come from the National Consortium for Health Science Education (NCHSE), and that framework shapes how this course organizes the healthcare job market.
 
 Knowing the systems by name and function matters for two reasons. First, it maps the full job market, there are roughly 300 distinct healthcare occupations in the United States, and the systems are the organizing logic that makes that number manageable. Second, it sets up your career planning: entry requirements, typical education, and day-to-day work vary dramatically across systems, and choosing without that picture means choosing blindly.
 
@@ -117,7 +117,7 @@ All five systems operate in the same general world: they serve patients (directl
 
 **Cross-system collaboration**: the cooperation across all five systems that occurs during a single patient care episode.
 
-**NCHSE career clusters**: the National Consortium for Health Science Education five-pathway framework that the Texas TEKS draws from directly.
+**NCHSE career clusters**: the National Consortium for Health Science Education five-pathway framework.
 
 ### Chapter summary
 
@@ -132,7 +132,7 @@ Healthcare is organized into five systems, diagnostic, therapeutic, health infor
 ### References
 
 - **US Bureau of Labor Statistics *Occupational Outlook Handbook*, Healthcare Occupations** (bls.gov/ooh), duties, education, wages, and projections for all five systems.
-- **National Consortium for Health Science Education (NCHSE) Health Science Career Clusters**, the five-pathway framework the Texas TEKS draws from.
+- **National Consortium for Health Science Education (NCHSE) Health Science Career Clusters**, the five-pathway framework for health science careers.
 - **O*NET OnLine** (onetonline.org), detailed skills, work activities, and work-context data for each role.
 - **Texas Workforce Commission, Labor Market Information**, Texas-specific wage and demand data.
 - **Professional organization career pages**, ASCP, ARRT, APTA, AOTA, ANA, AAMA, AHIMA, BIO, SOCRA, RAPS.
