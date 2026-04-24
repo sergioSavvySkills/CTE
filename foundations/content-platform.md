@@ -269,16 +269,16 @@ technology.
    + students + atom completion data, with no hand-maintained
    alignment document anywhere in the chain.
 
-## Open Questions (for Sergio + Maya)
+## Decisions (Locked)
 
-1. **Wedge pathway.** The architecture is pathway-neutral, but the
-   first atom library must be built for exactly one pathway (IT vs.
-   Business vs. Health Science). Decision needed before atoms start
-   being authored.
-2. **First state.** Texas has the largest CTE footprint and the
-   clearest IBC list, which argues for TX first. Maya's call.
-3. **Credential-first vs. standard-first authoring UX.** Industry
-   credentials are the atom-tagging spine in this document, so the
-   recommended authoring UX presents credentials first and lets state
-   alignment fall out. Maya to confirm this matches how curriculum
-   designers actually think.
+1. **Wedge pathway: Texas Health Science.** The first atom library is
+   built for the Texas Health Science Technology pathway (TEKS Chapter
+   130). Courses: 130.202 Principles of Health Science, 130.203 Health
+   Science Theory, 130.204 Health Science Clinical.
+2. **First state: Texas.** Texas has the largest CTE footprint, the
+   clearest IBC list, and the most straightforward Health Science TEKS
+   to crosswalk against.
+3. **Credential-first authoring.** Atom authoring is anchored to Texas
+   IBC-eligible health science credentials (NHA CCMA, NHA CPT, CPR/BLS,
+   etc.). TEKS alignment falls out via crosswalk — never the authoring
+   input.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Standards-match quality report.
+"""Standards-match quality report for Texas Health Science.
 
 Goes beyond "is every standard covered" to ask "how well is it covered":
 - Primary vs supporting alignment ratio per course
@@ -9,8 +9,8 @@ Goes beyond "is every standard covered" to ask "how well is it covered":
 - Weak standards: covered only by supporting-strength rows
 
 Usage:
-    python3 scripts/standards_quality.py                          # defaults: IT-Support/Texas
-    python3 scripts/standards_quality.py --sub data-science-ai --state georgia
+    python3 scripts/standards_quality.py                  # defaults: Texas
+    python3 scripts/standards_quality.py --state texas
 """
 import argparse
 import csv
@@ -20,15 +20,7 @@ import yaml
 from collections import defaultdict
 
 BASE = "/home/user/CTE"
-
-CLUSTER_OF = {
-    "it-support-services": "digital-technology",
-    "data-science-ai": "digital-technology",
-    "network-systems-cybersecurity": "digital-technology",
-    "software-solutions": "digital-technology",
-    "web-cloud": "digital-technology",
-    "unmanned-vehicle-technology": "digital-technology",
-}
+PATHWAY_DIR = f"{BASE}/library/health-science"
 
 
 def atom_credentials(atom_dir, atom_id):
@@ -55,19 +47,13 @@ def template_meta(path):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--sub", default="it-support-services")
     p.add_argument("--state", default="texas")
     args = p.parse_args()
 
-    cluster = CLUSTER_OF.get(args.sub)
-    if not cluster:
-        raise SystemExit(f"Unknown subcluster '{args.sub}'.")
-
-    sub_dir = f"{BASE}/library/{cluster}/{args.sub}"
-    atom_dir = f"{sub_dir}/atoms"
-    framework = f"{sub_dir}/crosswalks/{args.state}/state-framework.csv"
-    crosswalk = f"{sub_dir}/crosswalks/{args.state}/crosswalk.csv"
-    tpl_dir = f"{sub_dir}/templates/{args.state}"
+    atom_dir = f"{PATHWAY_DIR}/atoms"
+    framework = f"{PATHWAY_DIR}/crosswalks/{args.state}/state-framework.csv"
+    crosswalk = f"{PATHWAY_DIR}/crosswalks/{args.state}/crosswalk.csv"
+    tpl_dir = f"{PATHWAY_DIR}/templates/{args.state}"
 
     standards_by_course = defaultdict(list)
     with open(framework) as f:
@@ -91,7 +77,7 @@ def main():
         meta = template_meta(os.path.join(tpl_dir, fname))
         templates.append((str(meta.get("course_code", "?")), fname, meta.get("course_name", "?")))
 
-    print(f"## {args.sub} ({args.state}) — Standards Quality Report")
+    print(f"## health-science ({args.state}) — Standards Quality Report")
     print()
     print(f"{'Course':<50} {'Std':>4} {'Cov%':>5} {'Prim':>5} {'Supp':>5} {'Rev':>4} {'Drft':>4} {'Thin':>4}")
     print("-" * 86)

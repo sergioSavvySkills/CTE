@@ -7,8 +7,8 @@ any atom in any slot maps (via its credential_objectives, or via a
 direct atom→standard crosswalk row) to that standard.
 
 Usage:
-    python3 scripts/coverage_report.py                          # defaults: IT-Support / Texas
-    python3 scripts/coverage_report.py --sub data-science-ai --state georgia
+    python3 scripts/coverage_report.py                  # defaults: Texas
+    python3 scripts/coverage_report.py --state texas
 """
 import argparse
 import csv
@@ -17,15 +17,7 @@ import re
 from collections import defaultdict
 
 BASE = "/home/user/CTE"
-
-CLUSTER_OF = {
-    "it-support-services": "digital-technology",
-    "data-science-ai": "digital-technology",
-    "network-systems-cybersecurity": "digital-technology",
-    "software-solutions": "digital-technology",
-    "web-cloud": "digital-technology",
-    "unmanned-vehicle-technology": "digital-technology",
-}
+PATHWAY_DIR = f"{BASE}/library/health-science"
 
 
 def load_standards_by_course(framework_csv):
@@ -75,20 +67,14 @@ def template_course_code(template_path):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--sub", default="it-support-services")
     p.add_argument("--state", default="texas")
     args = p.parse_args()
 
-    cluster = CLUSTER_OF.get(args.sub)
-    if not cluster:
-        raise SystemExit(f"Unknown subcluster '{args.sub}'.")
-
-    sub_dir = f"{BASE}/library/{cluster}/{args.sub}"
-    atom_dir = f"{sub_dir}/atoms"
-    framework = f"{sub_dir}/crosswalks/{args.state}/state-framework.csv"
-    crosswalk = f"{sub_dir}/crosswalks/{args.state}/crosswalk.csv"
-    tpl_dir = f"{sub_dir}/templates/{args.state}"
-    out = f"{sub_dir}/crosswalks/{args.state}/coverage-report.md"
+    atom_dir = f"{PATHWAY_DIR}/atoms"
+    framework = f"{PATHWAY_DIR}/crosswalks/{args.state}/state-framework.csv"
+    crosswalk = f"{PATHWAY_DIR}/crosswalks/{args.state}/crosswalk.csv"
+    tpl_dir = f"{PATHWAY_DIR}/templates/{args.state}"
+    out = f"{PATHWAY_DIR}/crosswalks/{args.state}/coverage-report.md"
 
     standards_by_course, std_text, course_names = load_standards_by_course(framework)
     cred_to_std = load_credential_to_standards(crosswalk)
@@ -101,7 +87,7 @@ def main():
         if code:
             templates[code] = fname
 
-    header = f"# {args.sub} ({args.state}) — Standards Coverage Report"
+    header = f"# health-science ({args.state}) — Standards Coverage Report"
     lines = [
         header,
         "",

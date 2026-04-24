@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SME review of course templates for a subcluster + state.
+"""SME review of course templates for Texas Health Science.
 
 Surfaces issues a human SME would flag:
 1. Prerequisite violations within a course (prereq appears later or missing).
@@ -10,8 +10,8 @@ Surfaces issues a human SME would flag:
 6. Unit-level generator smells (e.g., no summative_quiz).
 
 Usage:
-    python3 scripts/sme_review.py                          # IT-Support / Texas (default)
-    python3 scripts/sme_review.py --sub data-science-ai --state georgia
+    python3 scripts/sme_review.py                  # defaults: Texas
+    python3 scripts/sme_review.py --state texas
 """
 import argparse
 import os
@@ -20,15 +20,7 @@ import yaml
 from collections import defaultdict
 
 BASE = "/home/user/CTE"
-
-CLUSTER_OF = {
-    "it-support-services": "digital-technology",
-    "data-science-ai": "digital-technology",
-    "network-systems-cybersecurity": "digital-technology",
-    "software-solutions": "digital-technology",
-    "web-cloud": "digital-technology",
-    "unmanned-vehicle-technology": "digital-technology",
-}
+PATHWAY_DIR = f"{BASE}/library/health-science"
 
 PERIODS_PER_WEEK = 5
 
@@ -136,18 +128,12 @@ def review_course(code, fname, title, tpl_dir, atom_dir):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--sub", default="it-support-services")
     p.add_argument("--state", default="texas")
     args = p.parse_args()
 
-    cluster = CLUSTER_OF.get(args.sub)
-    if not cluster:
-        raise SystemExit(f"Unknown subcluster '{args.sub}'.")
-
-    sub_dir = f"{BASE}/library/{cluster}/{args.sub}"
-    atom_dir = f"{sub_dir}/atoms"
-    tpl_dir = f"{sub_dir}/templates/{args.state}"
-    out = f"{sub_dir}/crosswalks/{args.state}/sme-review.md"
+    atom_dir = f"{PATHWAY_DIR}/atoms"
+    tpl_dir = f"{PATHWAY_DIR}/templates/{args.state}"
+    out = f"{PATHWAY_DIR}/crosswalks/{args.state}/sme-review.md"
 
     templates = []
     for fname in sorted(os.listdir(tpl_dir)):
@@ -159,7 +145,7 @@ def main():
     reviews = [review_course(c, f, t, tpl_dir, atom_dir) for c, f, t in templates]
 
     lines = [
-        f"# {args.sub} ({args.state}) — SME Review",
+        f"# health-science ({args.state}) — SME Review",
         "",
         "Automated first-pass review of course templates. Surfaces items a human",
         "SME (Maya) should confirm before promoting any template to `status: active`.",
