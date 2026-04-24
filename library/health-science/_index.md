@@ -5,7 +5,7 @@
 
 ## Overview
 
-This library covers the Texas CTE Health Science pathway, organized by TEKS course code. Content atoms are state-neutral and mapped to Texas standards via crosswalks.
+This library covers the Texas CTE Health Science pathway, organized by TEKS course code. Each course folder contains its standards, textbook chapters, workbook pages, and activities.
 
 ## Course Sequence
 
@@ -21,9 +21,8 @@ This library covers the Texas CTE Health Science pathway, organized by TEKS cour
 health-science/
   courses/              — one folder per TEKS course code
   credentials/          — Texas-recognized health science credentials
-  atoms/                — state-neutral content atoms
   crosswalks/texas/     — state-framework.csv + crosswalk.csv
-  templates/texas/      — course templates (slot sequences)
+  templates/texas/      — course templates
 ```
 
 ## Key Credentials (to be confirmed)

@@ -2,12 +2,10 @@
 """SME review of course templates for Texas Health Science.
 
 Surfaces issues a human SME would flag:
-1. Prerequisite violations within a course (prereq appears later or missing).
-2. Pacing realism: atom-minutes vs declared weeks.
-3. Skill-type / generator mismatches.
-4. Duplicated atoms within a course.
-5. Cross-course atom sharing.
-6. Unit-level generator smells (e.g., no summative_quiz).
+1. Duplicated lessons within a course.
+2. Cross-course lesson sharing.
+3. Pacing realism: lesson count vs declared weeks.
+4. Unit-level completeness (e.g., no summative_quiz).
 
 Usage:
     python3 scripts/sme_review.py                  # defaults: Texas
@@ -23,21 +21,7 @@ BASE = "/home/user/CTE"
 PATHWAY_DIR = f"{BASE}/library/health-science"
 
 PERIODS_PER_WEEK = 5
-
-
-def atom_meta(atom_dir, atom_id):
-    path = os.path.join(atom_dir, atom_id + ".md")
-    if not os.path.exists(path):
-        return None
-    with open(path) as f:
-        txt = f.read()
-    m = re.match(r"---\n(.*?)\n---", txt, re.S)
-    if not m:
-        return None
-    try:
-        return yaml.safe_load(m.group(1)) or {}
-    except Exception:
-        return {}
+MINS_PER_PERIOD = 45
 
 
 def parse_template(path):
@@ -54,59 +38,35 @@ def template_meta(path):
     return yaml.safe_load(m.group(1)) if m else {}
 
 
-def review_course(code, fname, title, tpl_dir, atom_dir):
+def review_course(code, fname, title, tpl_dir):
     tpl = parse_template(os.path.join(tpl_dir, fname))
     units = tpl["units"]
 
     ordered = []
     for ui, unit in enumerate(units):
         for si, slot in enumerate(unit.get("slots", []) or []):
-            ordered.append((ui, si, slot["atom_id"], slot))
+            ordered.append((ui, si, slot["lesson_id"], slot))
 
-    meta_cache = {a: atom_meta(atom_dir, a) for _, _, a, _ in ordered}
     findings = []
 
-    atom_first_pos = {}
-    for idx, (_, _, aid, _) in enumerate(ordered):
-        atom_first_pos.setdefault(aid, idx)
-    for idx, (ui, si, aid, _) in enumerate(ordered):
-        meta = meta_cache.get(aid) or {}
-        for pre in meta.get("prerequisites") or []:
-            pre_pos = atom_first_pos.get(pre)
-            if pre_pos is None:
-                findings.append(f"U{ui+1:02d} slot {si+1} `{aid}` requires `{pre}` — **prereq not in course**")
-            elif pre_pos > idx:
-                findings.append(f"U{ui+1:02d} slot {si+1} `{aid}` requires `{pre}` — **prereq appears later** at position {pre_pos+1}")
-
-    total_minutes = sum(int((meta_cache.get(aid) or {}).get("estimated_minutes") or 45)
-                       for _, _, aid, _ in ordered)
-    declared_weeks = sum(u.get("weeks", 0) for u in units)
-    available = declared_weeks * PERIODS_PER_WEEK * 45
-    pacing_note = (
-        f"**Pacing:** {len(ordered)} slots, {total_minutes} atom-minutes total, "
-        f"{declared_weeks} declared weeks ({available} min @ {PERIODS_PER_WEEK}×45 min/week). "
-        f"Slack for assessments/reviews: {available - total_minutes} min "
-        f"({100 * (available - total_minutes) / available:.0f}%)."
-        if available else f"**Pacing:** {len(ordered)} slots, {total_minutes} atom-minutes."
-    )
-
-    for ui, si, aid, slot in ordered:
-        meta = meta_cache.get(aid) or {}
-        st = meta.get("skill_type", "knowledge")
-        gen = slot.get("generate") or {}
-        sim = gen.get("simulation")
-        if st == "knowledge" and sim is True:
-            findings.append(f"U{ui+1:02d} slot {si+1} `{aid}` (skill_type=knowledge) forces `simulation: true` — unusual; confirm this is intentional")
-        if st in ("skill", "both") and sim is False and gen:
-            findings.append(f"U{ui+1:02d} slot {si+1} `{aid}` (skill_type={st}) has `simulation: false` — skill atom losing hands-on component")
-
     seen = {}
-    for ui, si, aid, _ in ordered:
-        if aid in seen:
-            pui, psi = seen[aid]
-            findings.append(f"U{ui+1:02d} slot {si+1} `{aid}` — **duplicate** (first appears U{pui+1:02d} slot {psi+1})")
+    for ui, si, lid, _ in ordered:
+        if lid in seen:
+            pui, psi = seen[lid]
+            findings.append(f"U{ui+1:02d} slot {si+1} `{lid}` — **duplicate** (first appears U{pui+1:02d} slot {psi+1})")
         else:
-            seen[aid] = (ui, si)
+            seen[lid] = (ui, si)
+
+    declared_weeks = sum(u.get("weeks", 0) for u in units)
+    available_mins = declared_weeks * PERIODS_PER_WEEK * MINS_PER_PERIOD
+    lesson_mins = len(ordered) * MINS_PER_PERIOD
+    pacing_note = (
+        f"**Pacing:** {len(ordered)} lessons, {lesson_mins} estimated minutes total, "
+        f"{declared_weeks} declared weeks ({available_mins} min @ {PERIODS_PER_WEEK}×{MINS_PER_PERIOD} min/week). "
+        f"Slack for assessments/reviews: {available_mins - lesson_mins} min "
+        f"({100 * (available_mins - lesson_mins) / available_mins:.0f}%)."
+        if available_mins else f"**Pacing:** {len(ordered)} lessons."
+    )
 
     for ui, unit in enumerate(units):
         ug = unit.get("unit_generate") or {}
@@ -118,11 +78,10 @@ def review_course(code, fname, title, tpl_dir, atom_dir):
         "title": title,
         "unit_count": len(units),
         "slot_count": len(ordered),
-        "total_minutes": total_minutes,
         "weeks": declared_weeks,
         "pacing": pacing_note,
         "findings": findings,
-        "atoms": [a for _, _, a, _ in ordered],
+        "lessons": [lid for _, _, lid, _ in ordered],
     }
 
 
@@ -131,7 +90,6 @@ def main():
     p.add_argument("--state", default="texas")
     args = p.parse_args()
 
-    atom_dir = f"{PATHWAY_DIR}/atoms"
     tpl_dir = f"{PATHWAY_DIR}/templates/{args.state}"
     out = f"{PATHWAY_DIR}/crosswalks/{args.state}/sme-review.md"
 
@@ -142,7 +100,7 @@ def main():
         meta = template_meta(os.path.join(tpl_dir, fname))
         templates.append((str(meta.get("course_code", "?")), fname, meta.get("course_name", "?")))
 
-    reviews = [review_course(c, f, t, tpl_dir, atom_dir) for c, f, t in templates]
+    reviews = [review_course(c, f, t, tpl_dir) for c, f, t in templates]
 
     lines = [
         f"# health-science ({args.state}) — SME Review",
@@ -154,15 +112,11 @@ def main():
         "",
         "## How to read the findings",
         "",
-        "**`prereq appears later`** — Real ordering bug within a course. Fix by",
-        "reordering slots.",
+        "**`duplicate`** — Same lesson appears more than once in a course. Usually",
+        "a copy/paste error; occasionally intentional review.",
         "",
-        "**`prereq not in course`** — Usually expected cross-course coupling",
-        "(prereq supplied by an earlier course in the pathway). Review only when",
-        "the listed prereq wouldn't be covered elsewhere in the pathway.",
-        "",
-        "**`skill_type` / `simulation` mismatch** — Confirm intent. Deliberate",
-        "overrides are fine; sloppy ones can degrade the lesson.",
+        "**`summative_quiz: false`** — Confirm intent. Every CTE unit normally",
+        "ends with a summative assessment.",
         "",
     ]
 
@@ -170,7 +124,7 @@ def main():
         lines += [
             f"## {r['code']} — {r['title']}",
             "",
-            f"- Units: **{r['unit_count']}** — Slots: **{r['slot_count']}** — Weeks declared: **{r['weeks']}**",
+            f"- Units: **{r['unit_count']}** — Lessons: **{r['slot_count']}** — Weeks declared: **{r['weeks']}**",
             f"- {r['pacing']}",
             "",
         ]
@@ -183,23 +137,23 @@ def main():
         else:
             lines.append("_No automated findings — still worth a human scan for pedagogical order._\n")
 
-    atom_to_courses = defaultdict(list)
+    lesson_to_courses = defaultdict(list)
     for r in reviews:
-        for a in set(r["atoms"]):
-            atom_to_courses[a].append(r["code"])
+        for lesson in set(r["lessons"]):
+            lesson_to_courses[lesson].append(r["code"])
     shared = sorted(
-        ((a, cs) for a, cs in atom_to_courses.items() if len(cs) > 1),
+        ((lesson, cs) for lesson, cs in lesson_to_courses.items() if len(cs) > 1),
         key=lambda x: (-len(x[1]), x[0]),
     )
     lines += [
-        "## Cross-course atom sharing",
+        "## Cross-course lesson sharing",
         "",
-        f"Total atoms used across the templates: **{len(atom_to_courses)}**.",
-        f"Atoms shared by 2+ courses: **{len(shared)}**.",
+        f"Total lessons used across the templates: **{len(lesson_to_courses)}**.",
+        f"Lessons shared by 2+ courses: **{len(shared)}**.",
         "",
     ]
-    for a, cs in shared[:50]:
-        lines.append(f"- `{a}` — in {', '.join(cs)}")
+    for lesson, cs in shared[:50]:
+        lines.append(f"- `{lesson}` — in {', '.join(cs)}")
     if len(shared) > 50:
         lines.append(f"- ...and {len(shared) - 50} more")
 

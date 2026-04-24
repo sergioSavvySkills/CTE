@@ -4,8 +4,8 @@
 Goes beyond "is every standard covered" to ask "how well is it covered":
 - Primary vs supporting alignment ratio per course
 - ai-draft vs reviewed source ratio per course
-- Alignment depth: atoms per standard (1 = thin, 3+ = strong)
-- Orphan atoms: atoms in template that hit zero standards (scope creep)
+- Alignment depth: lessons per standard (1 = thin, 3+ = strong)
+- Orphan lessons: lessons in template that hit zero standards (scope creep)
 - Weak standards: covered only by supporting-strength rows
 
 Usage:
@@ -23,19 +23,9 @@ BASE = "/home/user/CTE"
 PATHWAY_DIR = f"{BASE}/library/health-science"
 
 
-def atom_credentials(atom_dir, atom_id):
-    path = os.path.join(atom_dir, atom_id + ".md")
-    if not os.path.exists(path):
-        return []
+def template_lessons(path):
     with open(path) as f:
-        txt = f.read()
-    m = re.search(r"credential_objectives:(.*?)(?:\nskill_type:|\Z)", txt, re.S)
-    return re.findall(r"-\s+([^\s\n]+)", m.group(1)) if m else []
-
-
-def template_atoms(path):
-    with open(path) as f:
-        return re.findall(r"atom_id:\s+([\w-]+)", f.read())
+        return re.findall(r"lesson_id:\s+([\w\.\-]+)", f.read())
 
 
 def template_meta(path):
@@ -50,7 +40,6 @@ def main():
     p.add_argument("--state", default="texas")
     args = p.parse_args()
 
-    atom_dir = f"{PATHWAY_DIR}/atoms"
     framework = f"{PATHWAY_DIR}/crosswalks/{args.state}/state-framework.csv"
     crosswalk = f"{PATHWAY_DIR}/crosswalks/{args.state}/crosswalk.csv"
     tpl_dir = f"{PATHWAY_DIR}/templates/{args.state}"
@@ -64,9 +53,9 @@ def main():
     with open(crosswalk) as f:
         rows = list(csv.DictReader(f))
 
-    key_to_rows = defaultdict(list)
+    lesson_to_rows = defaultdict(list)
     for r in rows:
-        key_to_rows[r["atom_id"]].append(
+        lesson_to_rows[r["lesson_id"]].append(
             (r["standard_code"], r["alignment_strength"], r["source"])
         )
 
@@ -83,18 +72,16 @@ def main():
     print("-" * 86)
 
     for code, fname, title in templates:
-        atoms = template_atoms(os.path.join(tpl_dir, fname))
+        lessons = template_lessons(os.path.join(tpl_dir, fname))
         all_std = set(standards_by_course[code])
 
         std_hits = defaultdict(list)
-        atom_hits = defaultdict(set)
-        for a in atoms:
-            keys = [a] + atom_credentials(atom_dir, a)
-            for k in keys:
-                for std, strength, source in key_to_rows.get(k, []):
-                    if std in all_std:
-                        std_hits[std].append((a, strength, source))
-                        atom_hits[a].add(std)
+        lesson_hits = defaultdict(set)
+        for lesson in lessons:
+            for std, strength, source in lesson_to_rows.get(lesson, []):
+                if std in all_std:
+                    std_hits[std].append((lesson, strength, source))
+                    lesson_hits[lesson].add(std)
 
         covered = set(std_hits.keys())
         primary = {t for t, h in std_hits.items() if any(x[1] == "primary" for x in h)}
@@ -102,7 +89,7 @@ def main():
         reviewed = {t for t, h in std_hits.items() if any(x[2] != "ai-draft" for x in h)}
         ai_only = {t for t in covered if t not in reviewed}
         thin = {t for t, h in std_hits.items() if len(h) == 1}
-        orphans = [a for a in atoms if not atom_hits[a]]
+        orphans = [lesson for lesson in lessons if not lesson_hits[lesson]]
 
         pct = 100 * len(covered) / len(all_std) if all_std else 0
         label = f"{code} {title}"[:48]
@@ -113,7 +100,7 @@ def main():
             f"{len(thin):>4}"
         )
         if orphans:
-            print(f"    orphan atoms (no standard hit): {len(orphans)} — {', '.join(orphans[:5])}" + (" ..." if len(orphans) > 5 else ""))
+            print(f"    orphan lessons (no standard hit): {len(orphans)} — {', '.join(orphans[:5])}" + (" ..." if len(orphans) > 5 else ""))
         if supp_only:
             print(f"    supporting-only standards: {', '.join(sorted(supp_only)[:5])}" + (" ..." if len(supp_only) > 5 else ""))
 
@@ -123,7 +110,7 @@ def main():
     print("  Supp = standards with only supporting-strength rows (weaker)")
     print("  Rev  = standards backed by a reviewed (non-ai-draft) row")
     print("  Drft = standards backed only by ai-draft rows (pending SME)")
-    print("  Thin = standards hit by exactly one atom (single point of failure)")
+    print("  Thin = standards hit by exactly one lesson (single point of failure)")
 
 
 if __name__ == "__main__":

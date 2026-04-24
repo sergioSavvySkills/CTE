@@ -7,9 +7,10 @@ into a publishable course template with 100% TEKS coverage. The project is
 organized course-first: each folder under `library/health-science/courses/`
 corresponds to one TEKS course code.
 
-End state of one pass: a course folder that feeds into shared atoms, credential
-objective CSVs, a Texas state-framework + crosswalk, and a course template —
-all wired so the automated reports (coverage, SME review, standards quality) pass.
+End state of one pass: a course folder with a textbook chapter and workbook
+page per TEKS standard, a Texas state-framework + crosswalk, and a course
+template — all wired so the automated reports (coverage, SME review, standards
+quality) pass.
 
 ---
 
@@ -51,70 +52,61 @@ all wired so the automated reports (coverage, SME review, standards quality) pas
 
 ---
 
-## Phase 3 — Draft credential → TEKS crosswalk (AI)
+## Phase 3 — Author lessons (one per TEKS standard)
 
-**Goal:** Map each TEKS standard to one or more credential objectives.
+**Goal:** A textbook chapter and workbook page for every TEKS expectation.
 
-1. AI drafts rows in `crosswalks/texas/crosswalk.csv` with header:
-   `atom_id, state, standard_code, alignment_strength, rationale, source, reviewer, review_date, framework_version`.
-   At this stage `atom_id` holds a credential objective key (e.g., `nha-ccma::1.1`);
-   direct atom rows are added in Phase 6.
-2. Expect 40–60% first-pass coverage; gaps closed later.
+1. For each standard in `state-framework.csv`, create:
+   - `courses/<course-slug>/textbook/<standard-slug>.md` — instructional content
+   - `courses/<course-slug>/workbook/<standard-slug>.md` — student practice and assessment
+2. Use the standard code as the lesson ID (e.g., `127.403-c1A`).
+3. Each textbook chapter: learning objective, instructional content covering the
+   standard, vocabulary, examples.
+4. Each workbook page: practice questions, applied tasks, assessment items tied
+   to the standard.
+
+**Output:** `courses/<course-slug>/textbook/` and `courses/<course-slug>/workbook/`,
+one file per TEKS expectation.
 
 ---
 
-## Phase 4 — Author the atom library
+## Phase 4 — Draft lesson → TEKS crosswalk (AI)
 
-**Goal:** Industry-neutral content units. Every anchor credential objective
-gets at least one atom.
+**Goal:** Map each lesson to one or more TEKS standards.
 
-1. Plan atoms in batches (~10 per batch). Each batch lives in a JSON data
-   file with one entry per atom: id, title, creds, skill_type, mins, diff,
-   prereqs, obj, content[], assess[].
-2. Run `python3 gen_atoms.py data_bN.json` to emit markdown files into
-   `library/health-science/atoms/`.
-   Update the `BASE` constant in `gen_atoms.py` to point at that folder.
-3. Each atom: YAML frontmatter (atom_id, title, credential_objectives,
-   skill_type, grade_band, estimated_minutes, difficulty, prerequisites,
-   status) + Learning objective + Content stub + Assessment stub.
-   See `library/_schemas/atom.md`.
-4. Target ~100–150 atoms for the full Health Science pathway.
-
-**Generator:** `gen_atoms.py` (repo root).
+1. AI drafts rows in `crosswalks/texas/crosswalk.csv` with header:
+   `lesson_id, state, standard_code, alignment_strength, rationale, source, reviewer, review_date, framework_version`.
+   `lesson_id` references a lesson within a course folder (e.g., `127.403-c1A`).
+2. `alignment_strength`: `primary` / `supporting` / `tangential`.
+3. Expect 40–60% first-pass coverage; gaps closed in Phase 6.
 
 ---
 
 ## Phase 5 — Course templates
 
-**Goal:** Sequence atoms into units that map to each TEKS course code.
+**Goal:** Sequence lessons into units that map to each TEKS course code.
 
-1. Read `library/_schemas/template.md` for the YAML shape.
-2. For each TEKS course code, create one template at
+1. For each TEKS course code, create one template at
    `library/health-science/templates/texas/<slug>.md`.
-3. Frontmatter: `template_id, state, course_name, course_code,
+2. Frontmatter: `template_id, state, course_name, course_code,
    grade_band, credit_hours, credential_targets, framework_version, status: draft`.
-4. Body `units:` block:
-   - Group atoms into 8–12 units per 1-credit course (~18–20 instructional weeks).
-   - Each slot: `{slot, atom_id}`. Default generators from `skill_type`.
-   - 130.204 (2 credits): 16–20 units with simulation-heavy slots.
-5. Pacing convention: **45-minute atoms** (standard Texas period length).
+3. Body `units:` block — group lessons into 8–12 units per 1-credit course
+   (~18–20 instructional weeks). Each slot: `{slot, lesson_id}`.
+4. 130.204 (2 credits): 16–20 units.
+5. Pacing convention: **45-minute periods** (standard Texas period length).
 
 ---
 
 ## Phase 6 — Close coverage gaps (iterative)
 
-**Goal:** 100% TEKS coverage via slot → atom → credential → TEKS chain.
+**Goal:** 100% TEKS coverage via lesson → crosswalk → standard chain.
 
-1. Update the three report scripts to point at `library/health-science/`:
-   - `scripts/coverage_report.py`
-   - `scripts/sme_review.py`
-   - `scripts/standards_quality.py`
-2. Run `python3 scripts/coverage_report.py`. Read
+1. Run `python3 scripts/coverage_report.py`. Read
    `crosswalks/texas/coverage-report.md` for uncovered TEKS.
-3. Fix gaps:
-   - **Crosswalk gap:** add direct atom→TEKS row to `crosswalk.csv`.
-   - **Template gap:** add missing atom to the appropriate unit/slot.
-4. Loop until 100% on all course codes.
+2. Fix gaps:
+   - **Crosswalk gap:** add `lesson_id → standard_code` row to `crosswalk.csv`.
+   - **Template gap:** add missing lesson to the appropriate unit/slot.
+3. Loop until 100% on all course codes.
 
 ---
 
@@ -141,22 +133,22 @@ gets at least one atom.
 | Per-credential objectives | `library/health-science/credentials/<cred>.csv` |
 | Texas TEKS source | `library/health-science/crosswalks/texas/state-framework.csv` |
 | Crosswalk | `library/health-science/crosswalks/texas/crosswalk.csv` |
+| Lessons (textbook) | `library/health-science/courses/<course-slug>/textbook/<standard-slug>.md` |
+| Lessons (workbook) | `library/health-science/courses/<course-slug>/workbook/<standard-slug>.md` |
 | Course templates | `library/health-science/templates/texas/<slug>.md` |
-| Atoms | `library/health-science/atoms/<atom-id>.md` |
-| Schemas | `library/_schemas/{atom,template,crosswalk}.md` |
+| Schemas | `library/_schemas/crosswalk.md` |
 | Reports | `library/health-science/crosswalks/texas/{coverage-report,sme-review}.md` |
-| Generator | `gen_atoms.py` (repo root) |
 | Report scripts | `scripts/{coverage_report,sme_review,standards_quality}.py` |
 
 ---
 
 ## Variants
 
-- **Adding a second state:** skip Phase 4. Do Phases 2, 3, 5, 6, 7 only.
+- **Adding a second state:** Do Phases 2, 4, 5, 6, 7 only. Reuse lessons from
+  `courses/<course-slug>/` where they already cover the new state's standards.
 - **Adding a specialty course** (e.g., Dental Assisting 130.xxx): add the
-  course folder, run all 7 phases. Reuse atoms from the shared `atoms/` folder
-  where they overlap.
-- **Authoring before state is chosen:** do Phases 1 and 4 only.
+  course folder, run all 7 phases.
+- **Authoring before state is chosen:** do Phases 1 and 3 only.
 
 ---
 

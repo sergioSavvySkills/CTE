@@ -300,12 +300,12 @@ deliver, assess, or report on a unit.
 - **Analytics & reporting beyond the gradebook** — e.g., Perkins V
   accountability reports, credential-readiness dashboards, district-
   level standards coverage.
-- **State-standards crosswalk and atom library** as described in
+- **State-standards crosswalk and lesson library** as described in
   `../foundations/content-platform.md`. The Course Builder and the
   standards-surfacing + LO-unpacking flow are the v0 shapes of the
-  architecture's Course Template and atom tiers, but the durable
-  shared atom library, cross-state crosswalk layer, and full
-  atom-based template model are the next architectural build-out.
+  architecture's Course Template tier, but the durable shared lesson
+  library, cross-state crosswalk layer, and full standards-aligned
+  template model are the next architectural build-out.
 - **Additional source LMSs beyond Canvas and Schoology.** Edlink
   supports many more (Google Classroom, ClassLink, Blackboard, D2L
   Brightspace, PowerSchool, etc.) — these are reachable via our
@@ -332,10 +332,8 @@ the product should take as it scales across states and pathways.
 
 The two are compatible but not yet aligned: today's generators
 produce artifacts directly; the architecture calls for artifacts to
-be composed from *atoms* that live in a shared, state-neutral
-library and are tagged to industry credentials and state standards.
-Bridging the two — i.e., making the generators produce (or wrap)
-atoms rather than one-off artifacts — is future work and is the most
+be composed from shared lessons keyed to state standards via a
+crosswalk layer. Bridging the two is future work and is the most
 important architectural decision the Founding Engineer will face.
 
 Two existing capabilities map cleanly to architecture concepts and
@@ -343,10 +341,10 @@ will be the natural anchor points for that migration:
 
 - The **Course Builder** is the v0 precursor to the architecture's
   **Course Templates**. Today it emits units + lessons directly;
-  architecturally it should emit a template that composes atoms per
-  slot and tags them to the target state's standards via the
+  architecturally it should emit a template that sequences lessons
+  per slot and tags them to the target state's standards via the
   crosswalk.
 - The **standards-surfacing + LO-unpacking** step in the Generation
-  Flow already treats learning objectives as the atomic unit of
-  instruction. An LO in the current product is the same competency
-  statement that would anchor an atom in the architecture.
+  Flow already treats learning objectives as the instructional unit.
+  An LO in the current product is the same competency statement that
+  anchors a lesson in the architecture.
